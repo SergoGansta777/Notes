@@ -4,5 +4,6 @@
   "attachmentFolderPath": "./Attachments",
   "newFileLocation": "folder",
   "newFileFolderPath": "Base",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "legacyEditor": false
 }
