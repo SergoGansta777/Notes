@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "345e0caf29bd5f30",
+        "id": "6b5269ef4cf389ba",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Base/Привет, Obsidian.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -125,10 +125,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "345e0caf29bd5f30",
+  "active": "6b5269ef4cf389ba",
   "lastOpenFiles": [
     "Base/Привет, Obsidian.md",
-    "Base/Работай гребанный git.md",
-    "Base/Новая заметка, новый синапсис.md"
+    "Base/Новая заметка, новый синапсис.md",
+    "Base/Работай гребанный git.md"
   ]
 }

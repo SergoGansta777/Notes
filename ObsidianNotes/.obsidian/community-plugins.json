@@ -6,5 +6,6 @@
   "obsidian-mind-map",
   "obsidian-outliner",
   "templater-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "url-into-selection"
 ]
