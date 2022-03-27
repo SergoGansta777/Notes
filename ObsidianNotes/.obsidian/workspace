@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/Привет, Obsidian.md",
+            "file": "Base/Новая заметка, новый синапсис.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/Привет, Obsidian.md",
+                "file": "Base/Новая заметка, новый синапсис.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/Привет, Obsidian.md"
+                "file": "Base/Новая заметка, новый синапсис.md"
               }
             }
           },
@@ -127,7 +127,7 @@
   },
   "active": "345e0caf29bd5f30",
   "lastOpenFiles": [
-    "Base/Привет, Obsidian.md",
-    "Base/Новая заметка, новый синапсис.md"
+    "Base/Новая заметка, новый синапсис.md",
+    "Base/Привет, Obsidian.md"
   ]
 }
