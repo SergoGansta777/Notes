@@ -1,0 +1,15 @@
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/bin/Debug/net6.0/TaskPracticeCsharp
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/bin/Debug/net6.0/TaskPracticeCsharp.deps.json
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/bin/Debug/net6.0/TaskPracticeCsharp.runtimeconfig.json
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/bin/Debug/net6.0/TaskPracticeCsharp.dll
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/bin/Debug/net6.0/ref/TaskPracticeCsharp.dll
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/bin/Debug/net6.0/TaskPracticeCsharp.pdb
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/obj/Debug/net6.0/TaskPracticeCsharp.csproj.AssemblyReference.cache
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/obj/Debug/net6.0/TaskPracticeCsharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/obj/Debug/net6.0/TaskPracticeCsharp.AssemblyInfoInputs.cache
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/obj/Debug/net6.0/TaskPracticeCsharp.AssemblyInfo.cs
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/obj/Debug/net6.0/TaskPracticeCsharp.csproj.CoreCompileInputs.cache
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/obj/Debug/net6.0/TaskPracticeCsharp.dll
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/obj/Debug/net6.0/ref/TaskPracticeCsharp.dll
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/obj/Debug/net6.0/TaskPracticeCsharp.pdb
+/home/SergoGansta777/RiderProjects/TaskPracticeCsharp/TaskPracticeCsharp/obj/Debug/net6.0/TaskPracticeCsharp.genruntimeconfig.cache

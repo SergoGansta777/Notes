@@ -1,0 +1,15 @@
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/obj/Debug/net6.0/PractiseTask3Var19.csproj.AssemblyReference.cache
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/obj/Debug/net6.0/PractiseTask3Var19.GeneratedMSBuildEditorConfig.editorconfig
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/obj/Debug/net6.0/PractiseTask3Var19.AssemblyInfoInputs.cache
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/obj/Debug/net6.0/PractiseTask3Var19.AssemblyInfo.cs
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/obj/Debug/net6.0/PractiseTask3Var19.csproj.CoreCompileInputs.cache
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/bin/Debug/net6.0/PractiseTask3Var19
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/bin/Debug/net6.0/PractiseTask3Var19.deps.json
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/bin/Debug/net6.0/PractiseTask3Var19.runtimeconfig.json
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/bin/Debug/net6.0/PractiseTask3Var19.dll
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/bin/Debug/net6.0/ref/PractiseTask3Var19.dll
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/bin/Debug/net6.0/PractiseTask3Var19.pdb
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/obj/Debug/net6.0/PractiseTask3Var19.dll
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/obj/Debug/net6.0/ref/PractiseTask3Var19.dll
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/obj/Debug/net6.0/PractiseTask3Var19.pdb
+/home/SergoGansta777/RiderProjects/PractiseTask3Var19/PractiseTask3Var19/obj/Debug/net6.0/PractiseTask3Var19.genruntimeconfig.cache
