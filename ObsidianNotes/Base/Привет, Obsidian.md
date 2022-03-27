@@ -32,3 +32,18 @@
 
 
 ![[Новая заметка, новый синапсис]]
+
+
+
+А так будет работать подсветка для С#
+
+```cs
+using System;
+class Program
+{
+	static void Main()
+	{
+		Console.WriteLine("Hello, World");
+	}
+}
+```
