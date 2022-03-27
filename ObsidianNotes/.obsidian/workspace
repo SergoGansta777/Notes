@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/Новая заметка, новый синапсис.md",
+            "file": "Base/Работай гребанный git.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/Новая заметка, новый синапсис.md",
+                "file": "Base/Работай гребанный git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/Новая заметка, новый синапсис.md"
+                "file": "Base/Работай гребанный git.md"
               }
             }
           },
@@ -127,6 +127,7 @@
   },
   "active": "345e0caf29bd5f30",
   "lastOpenFiles": [
+    "Base/Работай гребанный git.md",
     "Base/Новая заметка, новый синапсис.md",
     "Base/Привет, Obsidian.md"
   ]
