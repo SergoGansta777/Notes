@@ -6,5 +6,6 @@
   "newFileFolderPath": "Base",
   "alwaysUpdateLinks": true,
   "legacyEditor": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "promptDelete": false
 }
