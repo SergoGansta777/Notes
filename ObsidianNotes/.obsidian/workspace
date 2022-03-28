@@ -7,8 +7,10 @@
         "id": "6b5269ef4cf389ba",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "audio",
+          "state": {
+            "file": "Base/Attachments/56 Malenia, Blade of Miquella.mp3"
+          }
         }
       }
     ],
@@ -73,6 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Base/Attachments/56 Malenia, Blade of Miquella.mp3",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Base/Attachments/56 Malenia, Blade of Miquella.mp3"
+              }
             }
           },
           {
@@ -120,6 +125,7 @@
   },
   "active": "6b5269ef4cf389ba",
   "lastOpenFiles": [
+    "Base/Attachments/56 Malenia, Blade of Miquella.mp3",
     "Templates/student_note_taking/Course Template.md",
     "Base/Новая заметка, новый синапсис.md",
     "Base/Привет, Obsidian.md",
@@ -128,7 +134,6 @@
     "Templates/periodic-reviews/Quarterly Review Template.md",
     "Templates/task-and-projects/Project Template.md",
     "Templates/periodic-reviews/README.md",
-    "Templates/Note Template.md",
-    "Templates/Daily Template.md"
+    "Templates/Note Template.md"
   ]
 }
