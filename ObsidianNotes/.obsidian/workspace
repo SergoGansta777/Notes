@@ -7,10 +7,20 @@
         "id": "6b5269ef4cf389ba",
         "type": "leaf",
         "state": {
-          "type": "audio",
+          "type": "markdown",
           "state": {
-            "file": "Base/Attachments/56 Malenia, Blade of Miquella.mp3"
+            "file": "Base/Привет, Obsidian.md",
+            "mode": "source",
+            "source": false
           }
+        }
+      },
+      {
+        "id": "1c32752c4e202f82",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -75,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/Attachments/56 Malenia, Blade of Miquella.mp3",
+                "file": "Base/Привет, Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/Attachments/56 Malenia, Blade of Miquella.mp3"
+                "file": "Base/Привет, Obsidian.md"
               }
             }
           },
@@ -125,15 +135,15 @@
   },
   "active": "6b5269ef4cf389ba",
   "lastOpenFiles": [
+    "Base/Привет, Obsidian.md",
+    "Base/Новая заметка, новый синапсис.md",
+    "Templates/periodic-reviews/Weekly Review Template.md",
     "Base/Attachments/56 Malenia, Blade of Miquella.mp3",
     "Templates/student_note_taking/Course Template.md",
-    "Base/Новая заметка, новый синапсис.md",
-    "Base/Привет, Obsidian.md",
     "Base/Работай гребанный git.md",
     "Base/Untitled.md",
     "Templates/periodic-reviews/Quarterly Review Template.md",
     "Templates/task-and-projects/Project Template.md",
-    "Templates/periodic-reviews/README.md",
-    "Templates/Note Template.md"
+    "Templates/periodic-reviews/README.md"
   ]
 }
