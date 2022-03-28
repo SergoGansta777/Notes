@@ -7,5 +7,8 @@
   "obsidian-outliner",
   "templater-obsidian",
   "obsidian-git",
-  "url-into-selection"
+  "url-into-selection",
+  "unique-attachments",
+  "consistent-attachments-and-links",
+  "obsidian-plugin-prettier"
 ]

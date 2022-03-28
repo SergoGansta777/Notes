@@ -2,10 +2,12 @@
   "foldHeading": true,
   "foldIndent": true,
   "attachmentFolderPath": "./Attachments",
-  "newFileLocation": "folder",
+  "newFileLocation": "current",
   "newFileFolderPath": "Base",
   "alwaysUpdateLinks": true,
   "legacyEditor": false,
   "readableLineLength": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "trashOption": "local",
+  "newLinkFormat": "relative"
 }

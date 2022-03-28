@@ -7,12 +7,8 @@
         "id": "6b5269ef4cf389ba",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/Привет, Obsidian.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/Привет, Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Base/Привет, Obsidian.md"
-              }
+              "state": {}
             }
           },
           {
@@ -127,15 +120,15 @@
   },
   "active": "6b5269ef4cf389ba",
   "lastOpenFiles": [
+    "Templates/student_note_taking/Course Template.md",
+    "Base/Новая заметка, новый синапсис.md",
     "Base/Привет, Obsidian.md",
+    "Base/Работай гребанный git.md",
+    "Base/Untitled.md",
     "Templates/periodic-reviews/Quarterly Review Template.md",
     "Templates/task-and-projects/Project Template.md",
-    "Templates/student_note_taking/Course Template.md",
     "Templates/periodic-reviews/README.md",
     "Templates/Note Template.md",
-    "Templates/Daily Template.md",
-    "Templates/Template.md",
-    "Base/Новая заметка, новый синапсис.md",
-    "Base/Работай гребанный git.md"
+    "Templates/Daily Template.md"
   ]
 }
