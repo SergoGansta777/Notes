@@ -4,3 +4,4 @@
 * **Простые времена**:
 	* [[Present Simple]]
 	* [[Past Simple]]
+	* [[Future Simple]]

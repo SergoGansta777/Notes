@@ -1,6 +1,6 @@
-# Past Simple
+# Past Simple Tense(V2, Ved)
 #EnglishTense 
-Простое прошедшее время. Оно используется, если событие произошло в определённое время в прошлом и не продолжается в настоящем
+	Простое прошедшее время. Оно используется, если событие произошло в определённое время в прошлом и не продолжается в настоящем
 *Основные случаи употребления Past Simple:*
 - Указание на простое дейсвие в прошлом;
 - Регулярные, повторяющиеся действия в прошом;
@@ -11,4 +11,7 @@
 - [ ] Доделать.
 - [ ] Правила произношения Ed
 ##  Слова-маркеры  Past Simple:
--
+- ==Yesterday==(вчера): I walked in the park yeasterday;
+- ==The day before yesterday==(позавчера): He listened to music the day bedore yesterday;
+- ==Last week/month/year/weekend==(на прошлой неделе...): I visited my relatives last month;
+- ==A day ago/ten days ago/ a week ago/ a month ago/ a year ago==(день назад...): She saw a bear five days ago;
