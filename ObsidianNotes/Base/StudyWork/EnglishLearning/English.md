@@ -1,8 +1,11 @@
 #      English language learing
 #EnglishTense 
-## English times:
-* **Простые времена**:
+## English tenses:
+* *Простые времена*:
 	* [[Present Simple]]
 	* [[Past Simple]]
 	* [[Future Simple]]
-* *
+* **Времена для продолжительных дейсвтий**:
+	* [[Present Continuous]]
+	* [[Past Continuous]]
+	* [[Future Continuous]]
