@@ -7,18 +7,6 @@
         "id": "6b5269ef4cf389ba",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/Привет, Obsidian.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "1c32752c4e202f82",
-        "type": "leaf",
-        "state": {
           "type": "graph",
           "state": {}
         }
@@ -69,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 184.5083885192871
   },
   "right": {
     "id": "c63a1f40835abdfc",
@@ -85,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/Привет, Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Base/Привет, Obsidian.md"
-              }
+              "state": {}
             }
           },
           {
@@ -135,15 +120,15 @@
   },
   "active": "6b5269ef4cf389ba",
   "lastOpenFiles": [
-    "Base/Привет, Obsidian.md",
+    "Base/StudyWork/Макроядра операционной системы.md",
+    "Base/StudyWork/Операционные среды.  Лекции..md",
+    "Templates/Daily Template.md",
+    "Templates/Note Template.md",
     "Base/Новая заметка, новый синапсис.md",
+    "Base/Attachments/Pasted image 20220327185856.png",
+    "Base/Привет, Obsidian.md",
     "Templates/periodic-reviews/Weekly Review Template.md",
     "Base/Attachments/56 Malenia, Blade of Miquella.mp3",
-    "Templates/student_note_taking/Course Template.md",
-    "Base/Работай гребанный git.md",
-    "Base/Untitled.md",
-    "Templates/periodic-reviews/Quarterly Review Template.md",
-    "Templates/task-and-projects/Project Template.md",
-    "Templates/periodic-reviews/README.md"
+    "Templates/student_note_taking/Course Template.md"
   ]
 }
