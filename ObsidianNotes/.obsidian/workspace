@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EnglishLearning/Future Simple.md",
+            "file": "Base/StudyWork/EnglishLearning/Past Simple.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 184.5083885192871
+    "width": 229.5083885192871
   },
   "right": {
     "id": "c63a1f40835abdfc",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/Future Simple.md",
+                "file": "Base/StudyWork/EnglishLearning/Past Simple.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/Future Simple.md"
+                "file": "Base/StudyWork/EnglishLearning/Past Simple.md"
               }
             }
           },
@@ -127,15 +127,15 @@
   },
   "active": "6b5269ef4cf389ba",
   "lastOpenFiles": [
-    "Base/StudyWork/EnglishLearning/Future Simple.md",
     "Base/StudyWork/EnglishLearning/Past Simple.md",
+    "Base/StudyWork/EnglishLearning/Future Simple.md",
+    "Base/Новая заметка, новый синапсис.md",
     "Base/StudyWork/EnglishLearning/Present Simple.md",
     "Base/StudyWork/EnglishLearning/English.md",
+    "Base/StudyWork/Алгоритмирование и программирование.md",
     "Base/StudyWork/Операционные среды.  Лекции..md",
     "Base/StudyWork/Макроядра операционной системы.md",
     "Templates/Daily Template.md",
-    "Templates/Note Template.md",
-    "Base/Новая заметка, новый синапсис.md",
-    "Base/Attachments/Pasted image 20220327185856.png"
+    "Templates/Note Template.md"
   ]
 }
