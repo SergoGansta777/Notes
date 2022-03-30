@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ad2234a48309ab2b",
+        "id": "d436ea6478a007d2",
         "type": "leaf",
         "state": {
           "type": "graph",
@@ -36,10 +36,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: perfect",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -53,8 +53,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,24 +111,23 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "ad2234a48309ab2b",
+  "active": "d436ea6478a007d2",
   "lastOpenFiles": [
-    "Base/StudyWork/EnglishLearning/Past Perfect.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Философия Лекции, институт.md",
+    "Base/StudyWork/PhilosophyLectures/Attachments/Postklassicheskaya_filosofia_vtoraya_polovina_19_-_nachalo_20_vekov.pdf",
     "Base/StudyWork/EnglishLearning/Present Perfect.md",
-    "Base/StudyWork/EnglishLearning/English.md",
     "Base/StudyWork/EnglishLearning/Present Continuous.md",
-    "Base/StudyWork/EnglishLearning/Present Simple.md",
-    "Base/StudyWork/EnglishLearning/Future Perfect.md",
-    "Base/StudyWork/EnglishLearning/Future Continuous.md",
-    "Base/StudyWork/EnglishLearning/Future Simple.md",
     "Base/StudyWork/EnglishLearning/Past Simple.md",
-    "Base/StudyWork/EnglishLearning/Past Continuous.md"
+    "Base/StudyWork/EnglishLearning/Future Continuous.md",
+    "Base/StudyWork/EnglishLearning/Future Perfect.md",
+    "Base/StudyWork/EnglishLearning/English.md",
+    "Base/StudyWork/EnglishLearning/Past Perfect.md"
   ]
 }
