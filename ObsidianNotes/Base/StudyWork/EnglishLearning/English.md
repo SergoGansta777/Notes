@@ -1,5 +1,5 @@
 #      English language learing
-#EnglishTense 
+#EnglishTense
 ## English tenses:
 * *Простые времена*:
 	* [[Present Simple]]

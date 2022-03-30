@@ -7,8 +7,12 @@
         "id": "d436ea6478a007d2",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#PhilosophyLectures",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
+              }
             }
           },
           {
@@ -120,6 +127,7 @@
   "active": "d436ea6478a007d2",
   "lastOpenFiles": [
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+    "Base/StudyWork/EnglishLearning/English.md",
     "Base/StudyWork/PhilosophyLectures/Философия Лекции, институт.md",
     "Base/StudyWork/PhilosophyLectures/Attachments/Postklassicheskaya_filosofia_vtoraya_polovina_19_-_nachalo_20_vekov.pdf",
     "Base/StudyWork/EnglishLearning/Present Perfect.md",
@@ -127,7 +135,6 @@
     "Base/StudyWork/EnglishLearning/Past Simple.md",
     "Base/StudyWork/EnglishLearning/Future Continuous.md",
     "Base/StudyWork/EnglishLearning/Future Perfect.md",
-    "Base/StudyWork/EnglishLearning/English.md",
     "Base/StudyWork/EnglishLearning/Past Perfect.md"
   ]
 }
