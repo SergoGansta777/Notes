@@ -9,3 +9,7 @@
 	* [[Present Continuous]]
 	* [[Past Continuous]]
 	* [[Future Continuous]]
+* **Совершенные времена**:
+	* [[Present Perfect]]
+	* [[Past Perfect]]
+	* [[Future Perfect]]

@@ -9,5 +9,11 @@
   "readableLineLength": false,
   "promptDelete": false,
   "trashOption": "local",
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": true,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

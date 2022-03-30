@@ -23,7 +23,7 @@
 * ==Every week/day/month/year==(каждую неделю...): Every year my family goes to the sea in summer;
 * ==At the weekend/at weekends==(на выходных/по выходным): At the weekend we go to the cinema.
 
-### Замечания:
-Указатель времени «always» употребляется в двух временах. В Present Simple (простом настоящем) он выступает в значении «всегда» для описания действий, которые происходят постоянно, часто. В Present Perfect (Настоящем Совершенном) – для действий, которые в настоящем больше не совершаются, но в прошлом совершались постоянно.
+## Замечания:
+Указатель времени «always» употребляется в двух временах. В Present Simple (простом настоящем) он выступает в значении «всегда» для описания действий, которые происходят постоянно, часто. В  ([[Present Perfect]] (Настоящем Совершенном) – для действий, которые в настоящем больше не совершаются, но в прошлом совершались постоянно.
 
 Подробнее: [https://obrazovaka.ru/english/present-simple-slova-markery.html](https://obrazovaka.ru/english/present-simple-slova-markery.html)
