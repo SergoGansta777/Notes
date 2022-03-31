@@ -7,8 +7,10 @@
         "id": "62649841ed4148b0",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "audio",
+          "state": {
+            "file": "Base/Attachments/56 Malenia, Blade of Miquella.mp3"
+          }
         }
       }
     ],
@@ -52,6 +54,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "3809f5ccff2e0d6a",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
@@ -73,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Base/Attachments/56 Malenia, Blade of Miquella.mp3",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Base/Attachments/56 Malenia, Blade of Miquella.mp3"
+              }
             }
           },
           {
@@ -111,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -119,15 +132,15 @@
   },
   "active": "62649841ed4148b0",
   "lastOpenFiles": [
+    "Base/Attachments/56 Malenia, Blade of Miquella.mp3",
+    "Base/Attachments/Pasted image 20220327185856.png",
+    "Base/Attachments/Pasted image 20220327184104.png",
+    "Base/StudyWork/Attachments/Pasted image 20220328145158.png",
+    "Base/StudyWork/Attachments/Pasted image 20220328145105.png",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Attachments/Postklassicheskaya_filosofia_vtoraya_polovina_19_-_nachalo_20_vekov.pdf",
-    "Base/StudyWork/PhilosophyLectures/Философия Лекции, институт.md",
-    "Base/StudyWork/EnglishLearning/English.md",
-    "Base/StudyWork/EnglishLearning/Present Perfect.md",
-    "Base/StudyWork/EnglishLearning/Present Continuous.md",
-    "Base/StudyWork/EnglishLearning/Past Simple.md",
-    "Base/StudyWork/EnglishLearning/Future Continuous.md",
-    "Base/StudyWork/EnglishLearning/Future Perfect.md",
-    "Base/StudyWork/EnglishLearning/Past Perfect.md"
+    "Base/StudyWork/Операционные среды.  Лекции..md",
+    "Base/StudyWork/Алгоритмирование и программирование.md",
+    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
+    "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf"
   ]
 }
