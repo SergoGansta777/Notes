@@ -11,5 +11,6 @@
   "unique-attachments",
   "consistent-attachments-and-links",
   "obsidian-plugin-prettier",
-  "recent-files-obsidian"
+  "recent-files-obsidian",
+  "dataview"
 ]

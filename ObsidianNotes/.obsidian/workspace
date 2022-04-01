@@ -7,9 +7,11 @@
         "id": "62649841ed4148b0",
         "type": "leaf",
         "state": {
-          "type": "audio",
+          "type": "markdown",
           "state": {
-            "file": "Base/Attachments/56 Malenia, Blade of Miquella.mp3"
+            "file": "Base/StudyWork/PhilosophyLectures/Философия институт.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/Attachments/56 Malenia, Blade of Miquella.mp3",
+                "file": "Base/StudyWork/PhilosophyLectures/Философия институт.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/Attachments/56 Malenia, Blade of Miquella.mp3"
+                "file": "Base/StudyWork/PhilosophyLectures/Философия институт.md"
               }
             }
           },
@@ -132,15 +134,15 @@
   },
   "active": "62649841ed4148b0",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/Attachments/56 Malenia, Blade of Miquella.mp3",
     "Base/Attachments/Pasted image 20220327185856.png",
     "Base/Attachments/Pasted image 20220327184104.png",
     "Base/StudyWork/Attachments/Pasted image 20220328145158.png",
     "Base/StudyWork/Attachments/Pasted image 20220328145105.png",
-    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/StudyWork/Операционные среды.  Лекции..md",
     "Base/StudyWork/Алгоритмирование и программирование.md",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf"
   ]
 }
