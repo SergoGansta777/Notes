@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "62649841ed4148b0",
+        "id": "215d37e07a8df943",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Философия институт.md",
+            "file": "Base/StudyWork/EnglishLearning/Present Simple.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Философия институт.md",
+                "file": "Base/StudyWork/EnglishLearning/Present Simple.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Философия институт.md"
+                "file": "Base/StudyWork/EnglishLearning/Present Simple.md"
               }
             }
           },
@@ -132,17 +132,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "62649841ed4148b0",
+  "active": "215d37e07a8df943",
   "lastOpenFiles": [
+    "Base/StudyWork/EnglishLearning/Present Simple.md",
+    "Base/StudyWork/EnglishLearning/Present Continuous.md",
+    "Base/StudyWork/EnglishLearning/Past Simple.md",
+    "Base/StudyWork/EnglishLearning/Past Perfect.md",
+    "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf",
     "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/Attachments/56 Malenia, Blade of Miquella.mp3",
     "Base/Attachments/Pasted image 20220327185856.png",
-    "Base/Attachments/Pasted image 20220327184104.png",
-    "Base/StudyWork/Attachments/Pasted image 20220328145158.png",
-    "Base/StudyWork/Attachments/Pasted image 20220328145105.png",
-    "Base/StudyWork/Операционные среды.  Лекции..md",
-    "Base/StudyWork/Алгоритмирование и программирование.md",
-    "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf"
+    "Base/Attachments/Pasted image 20220327184104.png"
   ]
 }
