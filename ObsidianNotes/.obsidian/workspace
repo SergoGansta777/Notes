@@ -7,8 +7,12 @@
         "id": "215d37e07a8df943",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/EnglishLearning/Past Continuous.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Base/StudyWork/EnglishLearning/Past Continuous.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Base/StudyWork/EnglishLearning/Past Continuous.md"
+              }
             }
           },
           {
@@ -136,6 +143,7 @@
   },
   "active": "215d37e07a8df943",
   "lastOpenFiles": [
+    "Base/StudyWork/EnglishLearning/Past Continuous.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/StudyWork/EnglishLearning/Future Simple.md",
     "Base/StudyWork/EnglishLearning/Future Continuous.md",
@@ -144,7 +152,6 @@
     "Base/StudyWork/EnglishLearning/Present Continuous.md",
     "Base/StudyWork/EnglishLearning/Past Simple.md",
     "Base/StudyWork/EnglishLearning/Past Perfect.md",
-    "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md"
+    "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf"
   ]
 }
