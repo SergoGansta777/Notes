@@ -7,8 +7,12 @@
         "id": "215d37e07a8df943",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
+              }
             }
           },
           {
@@ -119,7 +126,7 @@
             }
           },
           {
-            "id": "d7e67ad619fc3cf1",
+            "id": "bfef6884e20006d5",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -131,10 +138,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "215d37e07a8df943",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+    "Base/StudyWork/EnglishLearning/Future Simple.md",
     "Base/StudyWork/EnglishLearning/Future Continuous.md",
     "Daily/2022-04-01.md",
     "Base/StudyWork/EnglishLearning/Present Simple.md",
@@ -142,8 +152,6 @@
     "Base/StudyWork/EnglishLearning/Past Simple.md",
     "Base/StudyWork/EnglishLearning/Past Perfect.md",
     "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
-    "Base/Attachments/56 Malenia, Blade of Miquella.mp3"
+    "Base/StudyWork/PhilosophyLectures/Философия институт.md"
   ]
 }
