@@ -7,12 +7,8 @@
         "id": "215d37e07a8df943",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/StudyWork/EnglishLearning/Present Simple.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/Present Simple.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Base/StudyWork/EnglishLearning/Present Simple.md"
-              }
+              "state": {}
             }
           },
           {
@@ -124,9 +117,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "d7e67ad619fc3cf1",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -134,6 +135,8 @@
   },
   "active": "215d37e07a8df943",
   "lastOpenFiles": [
+    "Base/StudyWork/EnglishLearning/Future Continuous.md",
+    "Daily/2022-04-01.md",
     "Base/StudyWork/EnglishLearning/Present Simple.md",
     "Base/StudyWork/EnglishLearning/Present Continuous.md",
     "Base/StudyWork/EnglishLearning/Past Simple.md",
@@ -141,8 +144,6 @@
     "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf",
     "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
-    "Base/Attachments/56 Malenia, Blade of Miquella.mp3",
-    "Base/Attachments/Pasted image 20220327185856.png",
-    "Base/Attachments/Pasted image 20220327184104.png"
+    "Base/Attachments/56 Malenia, Blade of Miquella.mp3"
   ]
 }
