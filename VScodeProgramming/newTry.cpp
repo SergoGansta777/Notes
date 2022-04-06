@@ -71,7 +71,7 @@ int main()
         i++;
     }
 
-
+    if(resultPath == "") resultPath = "Можно никуда дальше не идти";
     cout << "Итоговый вывод: " << resultIn << ", " << resultPath << ", " << resultSum << endl;
 
     cout << endl << "For debug: " << endl;
