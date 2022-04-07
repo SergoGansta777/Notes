@@ -79,11 +79,11 @@ int main()
         helparr[in]=array[i];
         in++;
         //Если условие допускает тот случай, когда один элемент = M.
-        if(sum==M) 
-        {
-            isExist = true;
-            break;
-        }
+        // if(sum==M) 
+        // {
+        //     isExist = true;
+        //     break;
+        // }
         
         for(int j = i+1;j < N ;j++)
         {
