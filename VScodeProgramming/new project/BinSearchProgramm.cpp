@@ -1,18 +1,13 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
-
-
 using namespace std;
 int BinSearch(int array[], int index)
 {
-
     int first = 0;
     int last = index;
     int middle = 0;
     int element = array[index];
-    
-
     while (first <= last)
     {
         middle = (first + last) / 2;
@@ -32,8 +27,6 @@ int BinSearch(int array[], int index)
 }
 int main()
 {
-	//Вариант 1
-	//Задание 1
     setlocale(LC_ALL, "Russian");
 	int arr[12]; 
     int index;
@@ -42,7 +35,6 @@ int main()
 	{
 		arr[i] = rand() % 42 - 21;
 		cout << arr[i] << " ";
-
 	}
     cout << endl << "Массив заполнен " << endl;
     for (int i = 1; i < 12; i++)
