@@ -40,7 +40,7 @@ int main()
     srand((unsigned) time(NULL));
 	for (int i = 0; i < 12; i++)
 	{
-		arr[i] = rand() % 40 - 20;
+		arr[i] = rand() % 42 - 21;
 		cout << arr[i] << " ";
 
 	}

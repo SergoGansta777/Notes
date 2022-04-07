@@ -2,44 +2,119 @@
 
 using namespace std;
 
+int BinSearch(int array[], int index)
+{
+
+    int first = 0;
+    int last = index;
+    int middle = 0;
+    int element = array[index];
+    
+
+    while (first <= last)
+    {
+        middle = (first + last) / 2;
+        if (array[middle] == element) {
+            return middle;
+        }
+        else if (array[middle] < element)
+        {
+            first = middle+1 ;
+        }
+        else if (array[middle] > element)
+        {
+            last = middle-1;
+        }     
+    }
+    return first;
+}
+
+void sortInsert(int arr[], int N){
+    int index;
+    int number;
+    for (int i = 1; i < N; i++)
+    {
+        if (arr[i - 1] > arr[i])
+        {
+            number = arr[i];
+            index = BinSearch(arr, (i));
+            for (int j = i; j > 0 && arr[j - 1] >= number; j--)
+            {
+                arr[j] = arr[j - 1];
+            }
+            arr[index] = number;
+        }
+    }
+}
+
 int main()
 {
-    int N, M, sum=0, lastIn=-1, firstIn;
-    bool isExict=true;
-    cout << "Введите длину последовательнсти: ";
+    int N,M, lastIn=-1, in, sum, isExist=false, count;
+    cout << "Введите длину последовательности: ";
     cin >> N;
-    cout << "Введите исходное число: ";
+    cout << "Введите искомое число: ";
     cin >> M;
-    int arr[N];
-    for(int i = 0; i< N; i++)
+    cout << "Заполнение последовательности: " << endl;
+    int array[N];
+    int helparr[N];
+    // for(int i = 0; i < N;i++)
+    // {
+    //     helparr[i]=-1;
+    // }
+    for(int i = 0; i < N;i++)
     {
-       cin >>  arr[i];
+        cin >> array[i];
     }
-    for(int i = 0; i < N && isExict==true; i++)
+    cout << "Сортировка..." << endl;
+    sortInsert(array, N);
+    for(int item : array){
+        cout << item << " ";
+    }
+    cout << endl << "Поиск множества..." << endl;
+    for(int i = 0 ; i < N && isExist == false; i++)
     {
-        for(int j = i; j < N; j++)
+        count = 1;
+        in=0;
+        sum=array[i];
+        helparr[in]=array[i];
+        in++;
+        //Если условие допускает тот случай, когда один элемент = M.
+        if(sum==M) 
         {
-            if(arr[j]>M) break;
-            sum+=arr[j];
-            if(sum==M && arr[j] !=M) //Если множество может состоять из одного элемента, то оставить только sum==M 
-            {
-                lastIn=j;
-                firstIn=i;
-                isExict=false;
+            isExist = true;
+            break;
+        }
+        
+        for(int j = i+1;j < N ;j++)
+        {
+            if(array[j]>M) break;
+            sum+=array[j];
+            if(sum>M) break;
+            helparr[in] = array[j];
+            count++;
+
+            if(sum==M){
+                
+                isExist = true;
                 break;
             }
+              in++;
+            
         }
-        sum=0;
     }
-    if(lastIn==-1)
+
+
+    // //
+    if(isExist==false)
     {
         cout << "Такого множества не существует";
     }else{
         cout << "Искомое множество: { ";
-        for(int i = firstIn; i<=lastIn;i++)
+        for(int i = 0; i<count;i++)
         {
-            cout << arr[i] << " ";
+           // if(helparr[i]==-1) break;
+            cout << helparr[i] << " ";
         }
-        cout << "}" << endl;
+        cout << "} - что в сумме равно " << M << endl;
     }
 }
