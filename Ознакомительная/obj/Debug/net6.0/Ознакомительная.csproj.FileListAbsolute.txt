@@ -1,0 +1,15 @@
+/home/SergoGansta777/Documents/Notes/Ознакомительная/obj/Debug/net6.0/Ознакомительная.csproj.AssemblyReference.cache
+/home/SergoGansta777/Documents/Notes/Ознакомительная/obj/Debug/net6.0/Ознакомительная.GeneratedMSBuildEditorConfig.editorconfig
+/home/SergoGansta777/Documents/Notes/Ознакомительная/obj/Debug/net6.0/Ознакомительная.AssemblyInfoInputs.cache
+/home/SergoGansta777/Documents/Notes/Ознакомительная/obj/Debug/net6.0/Ознакомительная.AssemblyInfo.cs
+/home/SergoGansta777/Documents/Notes/Ознакомительная/obj/Debug/net6.0/Ознакомительная.csproj.CoreCompileInputs.cache
+/home/SergoGansta777/Documents/Notes/Ознакомительная/bin/Debug/net6.0/Ознакомительная
+/home/SergoGansta777/Documents/Notes/Ознакомительная/bin/Debug/net6.0/Ознакомительная.deps.json
+/home/SergoGansta777/Documents/Notes/Ознакомительная/bin/Debug/net6.0/Ознакомительная.runtimeconfig.json
+/home/SergoGansta777/Documents/Notes/Ознакомительная/bin/Debug/net6.0/Ознакомительная.dll
+/home/SergoGansta777/Documents/Notes/Ознакомительная/bin/Debug/net6.0/ref/Ознакомительная.dll
+/home/SergoGansta777/Documents/Notes/Ознакомительная/bin/Debug/net6.0/Ознакомительная.pdb
+/home/SergoGansta777/Documents/Notes/Ознакомительная/obj/Debug/net6.0/Ознакомительная.dll
+/home/SergoGansta777/Documents/Notes/Ознакомительная/obj/Debug/net6.0/ref/Ознакомительная.dll
+/home/SergoGansta777/Documents/Notes/Ознакомительная/obj/Debug/net6.0/Ознакомительная.pdb
+/home/SergoGansta777/Documents/Notes/Ознакомительная/obj/Debug/net6.0/Ознакомительная.genruntimeconfig.cache
