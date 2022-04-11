@@ -7,8 +7,12 @@
         "id": "46a3939e95cf7146",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
+              }
             }
           },
           {
@@ -143,15 +150,15 @@
   },
   "active": "46a3939e95cf7146",
   "lastOpenFiles": [
-    "Base/StudyWork/OsLectures/Операционные среды, лекции.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+    "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
     "Base/StudyWork/PhilosophyLectures/Философия институт.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+    "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md",
+    "Base/StudyWork/Алгоритмирование и программирование.md",
+    "Base/Новая заметка, новый синапсис.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
     "Base/StudyWork/PhilosophyLectures/Attachments/Filosofia_Novogo_Vremeni_17-18_veka_002.pdf",
     "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf",
-    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
-    "Base/StudyWork/Алгоритмирование и программирование.md",
-    "Base/StudyWork/EnglishLearning/Past Continuous.md",
-    "Base/StudyWork/EnglishLearning/Future Simple.md"
+    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
   ]
 }
