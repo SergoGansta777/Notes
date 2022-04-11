@@ -34,7 +34,6 @@ int main()
                 {
                     cout << array[j] << " ";
                 }
-                //if(j!=N-1) cout << ", ";
                 i>>=1;
             }
             cout << "}" << endl;

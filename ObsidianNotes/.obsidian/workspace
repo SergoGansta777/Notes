@@ -7,12 +7,8 @@
         "id": "46a3939e95cf7146",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
-              }
+              "state": {}
             }
           },
           {
