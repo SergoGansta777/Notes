@@ -7,8 +7,12 @@
         "id": "46a3939e95cf7146",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
+              }
             }
           },
           {
