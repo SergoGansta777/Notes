@@ -7,14 +7,14 @@ int main()
 {
     int N,M, Sum=0;
     cin >> N;
-    int array[N];
     cin >> M;
+    int array[N];
     for(int i = 0; i<N;i++)
     {
         cin >> array[i];
     }
     int maxvariants = pow(2,N);
-    for(int i = 1; i<maxvariants;i++)
+    for(int i = 1; i<=maxvariants;i++)
     {
         int temp = i, Sum=0;
         for(int j = 1;j<=N;j++)
@@ -36,7 +36,7 @@ int main()
                 }
                 i>>=1;
             }
-            cout << "}" << endl;
+            cout << "} - что в сумме равно "<< M << endl;
             return 0;
         }
     }
