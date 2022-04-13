@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+            "file": "Base/StudyWork/EnglishLearning/The Passive Voice.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5083885192871
+    "width": 145.5
   },
   "right": {
     "id": "c63a1f40835abdfc",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+                "file": "Base/StudyWork/EnglishLearning/The Passive Voice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
+                "file": "Base/StudyWork/EnglishLearning/The Passive Voice.md"
               }
             }
           },
@@ -146,10 +146,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "ad5b5e6c747a587d",
   "lastOpenFiles": [
+    "Base/StudyWork/EnglishLearning/The Passive Voice.md",
+    "Base/StudyWork/EnglishLearning/English.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
     "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
@@ -157,8 +160,6 @@
     "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/StudyWork/Алгоритмирование и программирование.md",
-    "Base/StudyWork/EconomicsLectures/Attachments/Pasted image 20220412140659.png",
-    "Attachments/Pasted image20220412140659.png.md",
-    "Base/StudyWork/EconomicsLectures/Закон убывающей отдачи.md"
+    "Base/StudyWork/EconomicsLectures/Attachments/Pasted image 20220412140659.png"
   ]
 }

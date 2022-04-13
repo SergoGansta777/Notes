@@ -13,3 +13,6 @@
 	* [[Present Perfect]]
 	* [[Past Perfect]]
 	* [[Future Perfect]]
+
+Страдательный залог.
+- [[The Passive Voice]]
