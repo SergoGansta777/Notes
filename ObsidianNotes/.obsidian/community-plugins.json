@@ -13,5 +13,10 @@
   "obsidian-plugin-prettier",
   "recent-files-obsidian",
   "dataview",
-  "graph-analysis"
+  "graph-analysis",
+  "nldates-obsidian",
+  "markdown-prettifier",
+  "obsidian-extract-pdf-highlights",
+  "obsidian-advanced-uri",
+  "obsidian-languagetool-plugin"
 ]

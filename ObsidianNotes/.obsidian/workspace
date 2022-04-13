@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EnglishLearning/The Passive Voice.md",
-            "mode": "preview",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 145.5
+    "width": 233.5,
+    "collapsed": true
   },
   "right": {
     "id": "c63a1f40835abdfc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/The Passive Voice.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/The Passive Voice.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
               }
             }
           },
@@ -151,15 +152,15 @@
   },
   "active": "ad5b5e6c747a587d",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
     "Base/StudyWork/EnglishLearning/The Passive Voice.md",
     "Base/StudyWork/EnglishLearning/English.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
     "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
     "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md",
     "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
-    "Base/StudyWork/Алгоритмирование и программирование.md",
-    "Base/StudyWork/EconomicsLectures/Attachments/Pasted image 20220412140659.png"
+    "Base/StudyWork/Алгоритмирование и программирование.md"
   ]
 }
