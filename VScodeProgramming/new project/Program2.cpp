@@ -1,4 +1,6 @@
 #include <iostream>
+#include <math.h>
+
 using namespace std;
 int BinSearch(int array[], int index)
 {
@@ -42,64 +44,44 @@ void sortInsert(int arr[], int N){
     }
 }
 
+bool prostoNumer(int n){
+    for (int i = 2; i<=sqrt(n); i++) 
+        if (n % i == 0) 
+            return false;   
+    return true; 
+}
+
+int* MergeArr(int arr1[], int arr2[], int n)
+{
+    int* newArr;
+    newArr = new int[n*2];
+    int i=0,j=0,k=0;
+    while(i<n || j < n)
+    {
+        if(arr1[i]<((j<n)?arr2[j]:100000))
+        {
+            *(newArr+k)=arr1[i];
+            i++;
+            k++;
+        }else{
+            *(newArr+k)=arr2[j];
+            j++;
+            k++;
+        }
+    }
+    return newArr;
+}
+
 int main()
 {
-    int N,M, in, sum, isExist=false, count;
-    cout << "Введите длину последовательности: ";
-    cin >> N;
-    cout << "Введите искомое число: ";
-    cin >> M;
-    cout << "Заполнение последовательности: " << endl;
-    int array[N];
-    int helparr[N];
-    for(int i = 0; i < N;i++)
+    int n;
+    cin >> n;
+    int arr[n] = {1,4,7,9,10,13,15};
+    int arr2[n] = { 3,4 ,5 ,8 , 9, 10, 11};
+    int* here = MergeArr(arr,arr2,n);
+    for(int i = 0; i < n*2; i++)
     {
-         cin >> array[i];
+        cout << *(here+i) << " ";
     }
-    cout << "Сортировка..." << endl;
-    sortInsert(array, N);
-     for(int item:array)
-        {
-            cout<<item << " ";
-        }
-    cout << "Поиск множества..." << endl;
-    for(int i = 0 ; i < N && isExist == false; i++)
-    {
-        count = 1;
-        in=0;
-        sum=array[i];
-        helparr[in]=array[i];
-        in++;
-        //Если условие допускает тот случай, когда один элемент = M.
-        if(sum==M) 
-        {
-            isExist = true;
-            break;
-        }
-       
-        for(int j = i+1;j < N ;j++)
-        {
-            if(array[j]>M) break;
-            sum+=array[j];
-            if(sum>M) break;
-            helparr[in] = array[j];
-            count++;
-            if(sum==M){ 
-                isExist = true;
-                break;
-            }
-            in++;
-        }
-    }
-    if(isExist==false)
-    {
-        cout << "Такого множества не существует";
-    }else{
-        cout << "Искомое множество: { ";
-        for(int i = 0; i<count;i++)
-        {
-            cout << helparr[i] << " ";
-        }
-        cout << "} - что в сумме равно " << M << endl;
-    }
+
 }

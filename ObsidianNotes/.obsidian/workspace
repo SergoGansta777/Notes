@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ad5b5e6c747a587d",
+        "id": "3e86b49ccb52e119",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "c63a1f40835abdfc",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,17 +142,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ad5b5e6c747a587d",
+  "active": "3e86b49ccb52e119",
   "lastOpenFiles": [
-    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Attachments/Troegubov_Andrei_774_Gennadyevich_002.pdf",
+    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf",
+    "Attachments/Pasted image20220412140659.png.md",
+    "Base/StudyWork/PhilosophyLectures/Attachments/Postklassicheskaya_filosofia_vtoraya_polovina_19_-_nachalo_20_vekov.pdf",
     "Base/StudyWork/EnglishLearning/The Passive Voice.md",
     "Base/StudyWork/EnglishLearning/English.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
-    "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
-    "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
-    "Base/StudyWork/Алгоритмирование и программирование.md"
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
   ]
 }
