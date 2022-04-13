@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
-            "mode": "source",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
               }
             }
           },
@@ -150,12 +150,12 @@
   },
   "active": "ad5b5e6c747a587d",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
     "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
     "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md",
     "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
     "Base/StudyWork/Алгоритмирование и программирование.md",
     "Base/StudyWork/EconomicsLectures/Attachments/Pasted image 20220412140659.png",
     "Attachments/Pasted image20220412140659.png.md",
