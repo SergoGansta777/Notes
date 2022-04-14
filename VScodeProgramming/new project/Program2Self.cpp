@@ -3,7 +3,23 @@
 
 using namespace std;
 
+double Sq(double arg)
+{
+    return arg*arg;
+}
+int Sq(int arg)
+{
+    return arg*arg;
+}
 int main()
+{
+    int x = 11;
+    double y = 3.1416;
+    printf("%d v kvdrate = %d, %f v kvadrate = %f\n",x,Sq(x),y,Sq(y));
+}
+
+
+int main1()
 {
     int N,M, Sum=0;
     cin >> N;
