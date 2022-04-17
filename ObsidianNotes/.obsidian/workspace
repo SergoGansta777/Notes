@@ -7,9 +7,11 @@
         "id": "3e86b49ccb52e119",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf"
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
               }
             }
           },
@@ -148,9 +150,9 @@
   },
   "active": "3e86b49ccb52e119",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf",
     "Base/StudyWork/PhilosophyLectures/Философия институт.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
     "Base/Привет, Obsidian.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
