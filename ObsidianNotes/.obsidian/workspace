@@ -7,11 +7,9 @@
         "id": "3e86b49ccb52e119",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
-            "mode": "source",
-            "source": false
+            "file": "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf"
           }
         }
       }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf"
               }
             }
           },
@@ -142,24 +140,23 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "3e86b49ccb52e119",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf",
+    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
+    "Base/Привет, Obsidian.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
     "Templates/Note Template.md",
     "Base/StudyWork/EnglishLearning/Future Continuous.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
-    "Base/Привет, Obsidian.md",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
-    "Base/StudyWork/PhilosophyLectures/Attachments/Troegubov_Andrei_774_Gennadyevich_002.pdf",
-    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf"
+    "Base/StudyWork/PhilosophyLectures/Attachments/Troegubov_Andrei_774_Gennadyevich_002.pdf"
   ]
 }

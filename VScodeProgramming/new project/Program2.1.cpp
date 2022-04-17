@@ -2,6 +2,7 @@
 #include <ctime>
 #include <random>
 #include <algorithm>
+#include <string.h>
 
 using namespace std;
 
@@ -37,41 +38,57 @@ void csort(int* start, int* end, int d)
 	}
 	delete[] temp;
 }
+int Pow(int num, int y) {
+	int result=1;
+	for(int i = 0; i < y; i++)
+	{
+		result*=num;
+	}
+	return result;
+}
+float Pow(float num, int y) {
+	float result=1;
+	for(int i = 0; i < y; i++)
+	{
+		result*=num;
+	}
+	return result;
+}
+char* Pow(char* str, int y)
+{
+	setlocale(LC_ALL, "Russian");
+	int size = strlen(str)*y;
+	char* result = new char[size];
+	int index = 0;
+	for(int i = 0; i<strlen(str);i++)
+	{
+		for(int j = 0; j < y; j++)
+		{
+			*(result+index) = *(str+i);
+			index++; 
+		}
+	}
+	return result;
+}
+
 
 int main(void)
 {
-	cout << "n: " << endl;
-	int n; cin >> n;
-	cout << "d: " << endl;
-	int d; cin >> d;
-	int* arr = new int[n];
-	
-	for (long long i = 0; i < n; i++)
-	{
-		arr[i] = rand() % d;
-
-		//output
-		/*cout << arr[i] << " ";*/
-	}
-	cout << endl;
-
-	clock_t start = clock();
-
-	//type function here
-	sort(arr,arr+n);
-
-	
-	clock_t end = clock();
-
-	//output
-	/*for (long long i = 0; i < n; i++)
-	{
-		cout << arr[i] << " ";
-	}
-	cout << endl;*/
-
-	cout << "time: " << (double)(end - start) / CLOCKS_PER_SEC << endl;
-
-	delete[] arr;
+	setlocale(LC_ALL, "Russian");
+	unsigned int y;
+	cout << "Введите положительную степень y" << endl;
+	cin >> y;
+	int number;
+	float num;
+	char* str = new char[1000];
+	cin >> number;
+	cin >> num;
+	cout << "Введите строку: " << endl;
+	cin.ignore();
+	cin.getline(str, '.');
+	cout << Pow(number, y) << endl;
+	cout << Pow(num,y) << endl;
+	char* result = Pow(str, y);
+	cout << result << endl;
 	return 0;
 }

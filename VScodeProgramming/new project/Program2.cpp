@@ -2,63 +2,30 @@
 #include <math.h>
 
 using namespace std;
-int BinSearch(int array[], int index)
-{
-    int first = 0;
-    int last = index;
-    int middle = 0;
-    int element = array[index];
-    while (first <= last)
-    {
-        middle = (first + last) / 2;
-        if (array[middle] == element) {
-            return middle;
-        }
-        else if (array[middle] < element)
-        {
-            first = middle+1 ;
-        }
-        else if (array[middle] > element)
-        {
-            last = middle-1;
-        }     
-    }
-    return first;
-}
 
-void sortInsert(int arr[], int N){
-    int index;
-    int number;
-    for (int i = 1; i < N; i++)
-    {
-        if (arr[i - 1] > arr[i])
-        {
-            number = arr[i];
-            index = BinSearch(arr, (i));
-            for (int j = i; j > 0 && arr[j - 1] >= number; j--)
-            {
-                arr[j] = arr[j - 1];
-            }
-            arr[index] = number;
-        }
-    }
-}
 
-bool prostoNumer(int n){
-    for (int i = 2; i<=sqrt(n); i++) 
-        if (n % i == 0) 
-            return false;   
-    return true; 
-}
-
-int* MergeArr(int arr1[], int arr2[], int n)
+int* MergeArr(int arr1[], int arr2[], int n1 = 0, int n2 = 0)
 {
     int* newArr;
-    newArr = new int[n*2];
+    newArr = new int[n1+n2];
     int i=0,j=0,k=0;
-    while(i<n || j < n)
+    if(n1==0 && n2 ==0)
     {
-        if(arr1[i]<((j<n)?arr2[j]:100000))
+        cout << "Ошибка ввода!" << endl;
+    }
+    while(i<n1 || j < n2)
+    {
+        if(!(i<n1) && j<n2)
+        {
+            *(newArr+k)=arr2[j];
+            j++;
+            k++;
+        }else if(i<n1 && !(j<n2))
+        {
+            *(newArr+k) = arr1[i];
+            i++;
+            k++;
+        }else if(arr1[i]<arr2[j])
         {
             *(newArr+k)=arr1[i];
             i++;
@@ -74,14 +41,25 @@ int* MergeArr(int arr1[], int arr2[], int n)
 
 int main()
 {
-    int n;
-    cin >> n;
-    int arr[n] = {1,4,7,9,10,13,15};
-    int arr2[n] = { 3,4 ,5 ,8 , 9, 10, 11};
-    int* here = MergeArr(arr,arr2,n);
-    for(int i = 0; i < n*2; i++)
+    int n1,n2;
+    cin >> n1;
+    int arr[n1];
+    for(int i = 0;i<n1;i++)
+    {
+        cin >> arr[i];
+    }
+    cin >> n2;
+    int arr2[n2];
+    for(int i = 0; i<n2;i++)
+    {
+        cin >> arr2[i];
+    }
+    int* here = MergeArr(arr,arr2,n1,n2);
+    if(n1!=0 && n2!=0) cout << "Итоговый массив " << endl;
+    for(int i = 0; i < n1+n2; i++)
     {
         cout << *(here+i) << " ";
     }
-
+    cout << endl;
+    return 0;
 }

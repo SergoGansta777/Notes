@@ -2,6 +2,54 @@
 #include <math.h>
 
 using namespace std;
+int BinSearch(int array[], int index)
+{
+    int first = 0;
+    int last = index;
+    int middle = 0;
+    int element = array[index];
+    while (first <= last)
+    {
+        middle = (first + last) / 2;
+        if (array[middle] == element) {
+            return middle;
+        }
+        else if (array[middle] < element)
+        {
+            first = middle+1 ;
+        }
+        else if (array[middle] > element)
+        {
+            last = middle-1;
+        }     
+    }
+    return first;
+}
+
+void sortInsert(int arr[], int N){
+    int index;
+    int number;
+    for (int i = 1; i < N; i++)
+    {
+        if (arr[i - 1] > arr[i])
+        {
+            number = arr[i];
+            index = BinSearch(arr, (i));
+            for (int j = i; j > 0 && arr[j - 1] >= number; j--)
+            {
+                arr[j] = arr[j - 1];
+            }
+            arr[index] = number;
+        }
+    }
+}
+
+bool prostoNumer(int n){
+    for (int i = 2; i<=sqrt(n); i++) 
+        if (n % i == 0) 
+            return false;   
+    return true; 
+}
 
 double Sq(double arg)
 {
@@ -18,7 +66,7 @@ int main()
     printf("%d v kvdrate = %d, %f v kvadrate = %f\n",x,Sq(x),y,Sq(y));
 }
 
-
+//14 Вариант
 int main1()
 {
     int N,M, Sum=0;
