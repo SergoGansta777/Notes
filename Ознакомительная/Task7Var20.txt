@@ -1,0 +1,113 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+namespace PratiseSinglyLinkedList
+{
+    class program
+    {
+        static void Main()
+        {
+            SinglyLinkedList<string> l = new SinglyLinkedList<string>();
+            Console.WriteLine("Заполнение первого односвязного списка:");
+            FillNodeListFromKeyboard(l);
+            Console.WriteLine("Заполнение завершено."+ "\n" + "Введите искомое число: ");
+            string e = Console.ReadLine().Trim();
+            
+            SinglyLinkedList<string> l1 = new SinglyLinkedList<string>();
+            Console.WriteLine("Заполнение второго односвязного списка: ");
+            FillNodeListFromKeyboard(l1);
+            Console.WriteLine("Заполнение завершено.");
+            Console.WriteLine("Вставка второго списка в первый...");
+            InsertListInAnother( l,l1,e);
+            
+            Console.WriteLine("Вывод содержимого первого списка: ");
+            l.Loop(x => Console.Write(x + " "));
+            
+            
+        }
+
+        static void FillNodeListFromKeyboard(SinglyLinkedList<string> list)
+        {
+            string input = string.Empty;
+            while ( (input =Console.ReadLine().Trim()) != ".")
+            {
+                list.AddLast(input);
+            }
+        }
+
+        static void InsertListInAnother( SinglyLinkedList<string> list, SinglyLinkedList<string> list2, string element)
+        {
+            bool isExist = false;
+            Node<string> current = list.Head;
+            while (current != null)
+            {
+                if (current.Data.Equals(element))
+                {
+                    isExist = true;
+                    break;
+                }
+                current = current.Next;
+            }
+
+            if (!isExist)
+            {
+                Console.WriteLine("Ошибка - Такого элемента в списке 1 не найдено: ");
+                return;
+            }
+            Node<string> currentNext = current.Next;
+            current.Next = list2.Head;
+            
+            while (current.Next != null)
+            {
+                
+                current = current.Next;
+               
+            }
+            current.Next = currentNext;
+            Console.WriteLine("Вставка завершена успешно");
+        }
+    }
+
+    class Node<T>
+    {
+        public Node(T data)
+        {
+            Data = data;
+        }
+        public object Data { get; }
+        public Node<T> Next { get; set; }
+    }
+
+    class SinglyLinkedList<T>
+    {
+        public Node<T> Head { get; set; }
+        public void AddLast(T data)
+        {
+            if (Head == null)
+            {
+                Head = new Node<T>(data);
+            }
+            else
+            {
+                Node<T> current = Head;
+                while (current.Next != null)
+                {
+                    current = current.Next;
+                }
+
+                current.Next = new Node<T> (data);
+            }
+        }
+
+        public void Loop(Action<object> action)
+        {
+            Node<T> current = Head;
+            while (current != null)
+            {
+                action(current.Data);
+                current = current.Next;
+            }
+        }
+    }
+}

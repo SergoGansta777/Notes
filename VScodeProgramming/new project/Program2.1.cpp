@@ -38,6 +38,38 @@ void csort(int* start, int* end, int d)
 	}
 	delete[] temp;
 }
+void PrintBiggestWord (char* str)
+{
+	int begIn = 0, finIn=0, maxLenght = 0, lengthOfWord = 0;
+	for(int i = 0; i<strlen(str);i++)
+	{
+		if(*(str+i)!=' ' && *(str+i)!=',')
+		{
+			lengthOfWord++;
+		}else{
+			//if(*(str+i-1)==' ' && *(str+i)==' ') continue;
+			if(maxLenght<lengthOfWord)
+			{
+				
+				maxLenght = lengthOfWord;
+				begIn = finIn;
+				finIn=i;
+				
+			}else{
+				begIn = i+1;
+				
+			}
+			lengthOfWord = 0;
+		}
+	}
+	if(finIn<=begIn) finIn=strlen(str);
+	for(int i = begIn; i < finIn && *(str+i)!=' '; i++)
+	{
+		cout << *(str+i);
+	}
+	cout << endl;
+
+}
 int Pow(int num, int y) {
 	int result=1;
 	for(int i = 0; i < y; i++)
@@ -72,6 +104,15 @@ char* Pow(char* str, int y)
 }
 
 
+	int main1()
+	{
+		setlocale(LC_ALL, "Russian");
+		char* str = new char[1000];
+		//cin.ignore();
+		cin.getline(str,'.');
+		PrintBiggestWord(str);
+		return 0;
+	}
 int main(void)
 {
 	setlocale(LC_ALL, "Russian");
@@ -85,7 +126,7 @@ int main(void)
 	cin >> num;
 	cout << "Введите строку: " << endl;
 	cin.ignore();
-	cin.getline(str, '.');
+	cin.getline(str, 1000);
 	cout << Pow(number, y) << endl;
 	cout << Pow(num,y) << endl;
 	char* result = Pow(str, y);
