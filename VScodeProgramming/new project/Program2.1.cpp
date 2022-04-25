@@ -3,6 +3,8 @@
 #include <random>
 #include <algorithm>
 #include <string.h>
+#include <cstdio>
+#include <cstring> 
 
 using namespace std;
 
@@ -104,16 +106,19 @@ char* Pow(char* str, int y)
 }
 
 
-	int main1()
-	{
+int main()
+{
 		setlocale(LC_ALL, "Russian");
-		char* str = new char[1000];
-		//cin.ignore();
-		cin.getline(str,'.');
-		PrintBiggestWord(str);
-		return 0;
-	}
-int main(void)
+		char str[80];
+		int i =0;
+		fgets(str,80,stdin);
+		while(str[i])
+		{
+			str[i++] = '*';
+			cout << str << endl;
+		}
+}
+int main1(void)
 {
 	setlocale(LC_ALL, "Russian");
 	unsigned int y;
