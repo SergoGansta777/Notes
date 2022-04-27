@@ -7,12 +7,8 @@
         "id": "54bbd420ebb3960f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
-              }
+              "state": {}
             }
           },
           {
@@ -151,15 +144,15 @@
   },
   "active": "54bbd420ebb3960f",
   "lastOpenFiles": [
+    "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
+    "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
+    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
     "Base/StudyWork/Алгоритмирование и программирование.md",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/PhilosophyLectures/Attachments/Postklassicheskaya_filosofia_vtoraya_polovina_19_-_nachalo_20_vekov.pdf",
-    "Base/StudyWork/PhilosophyLectures/Attachments/Troegubov_Andrei_774_Gennadyevich_002.pdf",
-    "Base/StudyWork/PhilosophyLectures/Attachments/Filosofia_srednikh_vekov_002.pdf",
-    "Base/StudyWork/PhilosophyLectures/Attachments/Filosofia_Novogo_Vremeni_17-18_veka_002.pdf",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
-    "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
+    "Base/StudyWork/PhilosophyLectures/Attachments/Troegubov_Andrei_774_Gennadyevich_002.pdf"
   ]
 }
