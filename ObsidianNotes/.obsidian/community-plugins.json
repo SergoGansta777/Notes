@@ -13,7 +13,6 @@
   "obsidian-plugin-prettier",
   "recent-files-obsidian",
   "dataview",
-  "graph-analysis",
   "nldates-obsidian",
   "markdown-prettifier",
   "obsidian-extract-pdf-highlights",
@@ -23,5 +22,8 @@
   "tag-wrangler",
   "obsidian-admonition",
   "sliding-panes-obsidian",
-  "obsidian-style-settings"
+  "calendar",
+  "obsidian-markdown-formatting-assistant-plugin",
+  "remember-cursor-position",
+  "drawio-obsidian"
 ]
