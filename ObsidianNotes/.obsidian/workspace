@@ -4,16 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "64cd15b9d0512dd4",
+        "id": "11dee797a0900a55",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
             "mode": "source",
             "source": false
           }
         }
+      },
+      {
+        "id": "3d1d63c5a35b1145",
+        "type": "split",
+        "children": [
+          {
+            "id": "61946b526df36d6e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "292ccd96667b1841",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -85,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
               }
             }
           },
@@ -148,17 +175,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "64cd15b9d0512dd4",
+  "active": "11dee797a0900a55",
   "lastOpenFiles": [
-    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
+    "Base/StudyWork/PhilosophyLectures/Attachments/Postklassicheskaya_filosofia_vtoraya_polovina_19_-_nachalo_20_vekov.pdf",
+    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
-    "Untitled Diagram.svg",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
+    "Untitled Diagram.svg"
   ]
 }
