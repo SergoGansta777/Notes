@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
             "mode": "preview",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
               }
             }
           },
@@ -150,15 +150,15 @@
   },
   "active": "54bbd420ebb3960f",
   "lastOpenFiles": [
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Attachments/Troegubov_Andrei_774_Gennadyevich_002.pdf",
     "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
     "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
-    "Base/StudyWork/Алгоритмирование и программирование.md"
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
   ]
 }
