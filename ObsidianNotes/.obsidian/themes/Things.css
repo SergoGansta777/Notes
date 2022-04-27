@@ -1,6 +1,6 @@
 /*───────────────────────────────────────────────────────
 THINGS
-Version 1.7.0
+Version 1.7.2
 Created by @colineckert
 
 Readme:
@@ -141,7 +141,7 @@ For help and/or CSS snippets, thanks to:
   --line-height: 1.5;
   --border-width: 1px;
   --border-width-alt: 1px;
-  --max-width: 85%; /* Amount of padding around the text, use 90% for narrower padding */
+  --max-width: 90%; /* Amount of padding around the text, use 90% for narrower padding */
   --nested-padding: 3.5%; /* Amount of padding for quotes and transclusions */
   --input-height: 36px;
 
@@ -469,9 +469,13 @@ body:not(.is-mobile) .markdown-source-view.mod-cm6 .list-bullet:after {
 }
 
 .is-live-preview .HyperMD-header-2 {
-  border-bottom: 1px solid var(--background-modifier-border);
+  border-bottom: 2px solid var(--background-modifier-border);
   width: 100%;
   padding-bottom: 2px;
+}
+
+.is-live-preview .HyperMD-header {
+  padding-top: 0.25em;
 }
 
 /* Temp fix to match Live Preview checkbox color */
@@ -1925,10 +1929,11 @@ input[type='checkbox']:checked {
 .markdown-preview-section > .contains-task-list {
   padding-bottom: 0.5em;
 }
-.markdown-preview-view ul > li.task-list-item.is-checked {
+/* ! Remove strikethrough and muted text */
+/* .markdown-preview-view ul > li.task-list-item.is-checked {
   text-decoration: none;
   color: var(--text-normal);
-}
+} */
 .markdown-preview-view .task-list-item-checkbox {
   width: 16px;
   height: 16px;
@@ -2346,7 +2351,7 @@ span[title='Unfold line']:hover,
 /* --------------- */
 
 .outline {
-  padding: 15px 10px 20px 0;
+  padding: 15px 10px 20px 5px;
   font-size: var(--font-adaptive-small);
 }
 .outline .pane-empty {
@@ -2583,6 +2588,12 @@ input.search-input:focus {
   width: 15px;
   margin-left: -15px;
 }
+.outline .tree-item-self .collapse-icon {
+  margin-left: -20px;
+}
+.tag-container .collapse-icon {
+  margin-left: -20px;
+}
 .tree-item-self:hover .collapse-icon {
   color: var(--text-normal);
 }
@@ -2677,7 +2688,7 @@ input.search-input:focus {
 /* --------------- */
 
 .tag-container {
-  padding: 10px;
+  padding: 10px 15px;
 }
 .tag-pane-tag-count {
   margin-right: 10px;
@@ -2889,15 +2900,18 @@ iframe {
   border: solid var(--quote-opening-modifier);
   border-width: 0px 0px 0px 2px;
   background-color: transparent;
-  color: var(--green);
   font-style: italic;
   padding: 0 0 0 calc(var(--nested-padding) / 2);
   margin-inline-start: var(--nested-padding);
 }
 
 .cm-s-obsidian span.cm-quote {
-  color: var(--green);
   font-style: italic;
+}
+
+body:not(.default-font-color) .cm-s-obsidian span.cm-quote,
+body:not(.default-font-color) .markdown-preview-view blockquote {
+  color: var(--green);
 }
 
 /* ---------------
@@ -2912,45 +2926,45 @@ span.cm-formatting {
 
 /* Italics */
 
-em,
-.cm-s-obsidian .cm-em.cm-header,
-.cm-s-obsidian .cm-em.cm-header.cm-header-1,
-.cm-s-obsidian .cm-em.cm-header.cm-header-2,
-.cm-s-obsidian .cm-em.cm-header.cm-header-3,
-.cm-s-obsidian .cm-em.cm-header.cm-header-4,
-.cm-s-obsidian .cm-em.cm-header.cm-header-5,
-.cm-s-obsidian .cm-em.cm-header.cm-header-6,
-.cm-s-obsidian .cm-em.cm-header.cm-header-1,
-.cm-s-obsidian .cm-em.cm-header.cm-header-2,
-.cm-s-obsidian .cm-em.cm-header.cm-header-3,
-.cm-s-obsidian .cm-em.cm-header.cm-header-4,
-.cm-s-obsidian .cm-em.cm-header.cm-header-5,
-.cm-s-obsidian .cm-em.cm-header.cm-header-6,
-.markdown-preview-section em,
-.cm-s-obsidian .cm-em {
+body:not(.default-font-color) em,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-1,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-2,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-3,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-4,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-5,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-6,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-1,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-2,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-3,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-4,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-5,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-6,
+body:not(.default-font-color) .markdown-preview-section em,
+body:not(.default-font-color) .cm-s-obsidian .cm-em {
   font-style: italic;
   color: var(--em-color);
 }
 
 /* Bold */
 
-strong,
-.cm-s-obsidian .cm-strong.cm-header,
-.cm-s-obsidian .cm-strong.cm-header.cm-header-1,
-.cm-s-obsidian .cm-strong.cm-header.cm-header-2,
-.cm-s-obsidian .cm-strong.cm-header.cm-header-3,
-.cm-s-obsidian .cm-strong.cm-header.cm-header-4,
-.cm-s-obsidian .cm-strong.cm-header.cm-header-5,
-.cm-s-obsidian .cm-strong.cm-header.cm-header-6,
-.cm-s-obsidian .cm-strong.cm-header.cm-header-1,
-.cm-s-obsidian .cm-strong.cm-header.cm-header-2,
-.cm-s-obsidian .cm-strong.cm-header.cm-header-3,
-.cm-s-obsidian .cm-strong.cm-header.cm-header-4,
-.cm-s-obsidian .cm-strong.cm-header.cm-header-5,
-.cm-s-obsidian .cm-strong.cm-header.cm-header-6,
-.cm-header.cm-header-3.cm-hmd-internal-link,
-.markdown-preview-section strong,
-.cm-s-obsidian .cm-strong {
+body:not(.default-font-color) strong,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-1,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-2,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-3,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-4,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-5,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-6,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-1,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-2,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-3,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-4,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-5,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-6,
+body:not(.default-font-color) .cm-header.cm-header-3.cm-hmd-internal-link,
+body:not(.default-font-color) .markdown-preview-section strong,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong {
   color: var(--strong-color);
 }
 
@@ -3039,6 +3053,27 @@ ol > li {
 .theme-light pre[class*='language-'] {
   text-shadow: none;
 }
+/* Horizontal scroll */
+code[class*='language-'],
+pre[class*='language-'] {
+  text-align: left !important;
+  white-space: pre !important;
+  word-spacing: normal !important;
+  word-break: normal !important;
+  word-wrap: normal !important;
+  line-height: 1.5 !important;
+  -moz-tab-size: 4 !important;
+  -o-tab-size: 4 !important;
+  tab-size: 4 !important;
+  -webkit-hyphens: none !important;
+  -moz-hyphens: none !important;
+  -ms-hyphens: none !important;
+  hyphens: none !important;
+}
+pre[class*='language-'] {
+  overflow: auto !important;
+}
+/* ------------------ */
 pre .copy-code-button {
   border-radius: 5px;
   background-color: var(--background-secondary-alt);
@@ -6452,6 +6487,21 @@ settings:
         level: 2
         collapsed: true
     - 
+        id: default-font-color
+        title: Default font colors
+        description: Use the default font color styling for bold, italics, and quotes
+        type: class-toggle
+        default:  false
+    - 
+        id: accent-h
+        title: Link hue color
+        description: Hue of both internal and external links
+        type: variable-number-slider
+        default: 215
+        min: 0
+        max: 360
+        step: 1
+    - 
         id: strong-color
         title: Bold font color
         type: variable-color
@@ -6494,11 +6544,25 @@ settings:
         format: hex
         default: '#' 
     - 
+        id: editor-font-size
+        title: Editor font size
+        description: Font size in em for editor and preview overall font size
+        type: variable-number
+        default: 1
+        format: em
+    - 
         id: font-small
         title: Sidebar and tag font size
         description: Font size in px of sidebar, tags, and small text
         type: variable-number
         default: 13
+        format: px
+    - 
+        id: font-smaller
+        title: Smaller font size
+        description: Font size in px of smaller text
+        type: variable-number
+        default: 11
         format: px
     - 
         id: line-height
@@ -6518,7 +6582,7 @@ settings:
         title: Maximum line width
         description: Percentage of space inside a pane that a line can fill. Recommended values between 80 to 100
         type: variable-number
-        default: 85
+        default: 90
         format: '%'
     -
         id: headings
