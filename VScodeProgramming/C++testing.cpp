@@ -1,45 +1,34 @@
 #include <iostream>
 #include <math.h>
+#include <fstream>
 
 using namespace std;
 
 int main()
 {
-    int N,M, Sum=0;
-    cin >> N;
-    int array[N];
-    cin >> M;
-    for(int i = 1; i<=N;i++)
+    int a,b;
+    ofstream out1("testingC++FilereadingFutures.txt");
+    if(!out1)
     {
-        cin >> array[i];
+        cout << "Файл не удается открыть\n";
+        return 1;
     }
-    int maxvariants = pow(N,2);
-    for(int i = 1; i<maxvariants;i++)
+    string str;
+    char* test = new char[256];
+    cin.getline(test,256);
+    out1 << test;
+    out1.close();
+
+    ifstream in("testingC++FilereadingFutures.txt");
+    if(!in)
     {
-        int temp = i, Sum=0;
-        for(int j = 1;j<=N;j++)
-        {
-            if(temp & 1)
-            {
-                Sum+=array[j];
-            }
-            temp>>1;
-        }
-        if(Sum==M)
-        {
-            cout << "{ ";
-           for(int j = 1;j<=N;j++)
-            {
-                if(temp & 1)
-                {
-                    cout << array[j] << ", ";
-                }
-                temp>>1;
-            }
-            cout << "}" ;
-            return 0;
-        }
+        cout << "Файл не удается открыть\n";
+        return 1;
     }
-    cout << "None" << endl;
-    return 0;
+    in >> a >> b;
+    cout << a+b;
+    // getline(in,str);
+    // cout << str << endl;
+    in.close();
+        return 0;
 }

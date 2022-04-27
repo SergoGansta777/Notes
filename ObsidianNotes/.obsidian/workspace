@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
               }
             }
           },
@@ -146,10 +146,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "54bbd420ebb3960f",
   "lastOpenFiles": [
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
     "Base/StudyWork/Алгоритмирование и программирование.md",
     "Base/StudyWork/PhilosophyLectures/Философия институт.md",
@@ -158,7 +160,6 @@
     "Base/StudyWork/PhilosophyLectures/Attachments/Filosofia_srednikh_vekov_002.pdf",
     "Base/StudyWork/PhilosophyLectures/Attachments/Filosofia_Novogo_Vremeni_17-18_veka_002.pdf",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
-    "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
-    "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
+    "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
   ]
 }
