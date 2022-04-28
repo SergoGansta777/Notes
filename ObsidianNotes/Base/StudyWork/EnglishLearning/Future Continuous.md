@@ -22,6 +22,6 @@
 - ==the whole morning==(все утро): I will be reading the whole morning.
 - ==at noon==(в полдень): She will be meeting Jane tomorrow at noon.
 - ==at midnight==(в полночь): We will be waiting for the plane at midnight.
-- ==during that time==(в течение этого времени): I will playing football during that time.
+- ==during that time==(в течение этого времени): I will playing football during that time. 
 
 ## Замечания:

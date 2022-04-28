@@ -4,43 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "11dee797a0900a55",
+        "id": "a5d8bbc7c6f10f77",
         "type": "leaf",
+        "dimension": 55.017605633802816,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
             "mode": "source",
             "source": false
           }
         }
       },
       {
-        "id": "3d1d63c5a35b1145",
-        "type": "split",
-        "children": [
-          {
-            "id": "61946b526df36d6e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "292ccd96667b1841",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+        "id": "acbaaa03e3227c0d",
+        "type": "leaf",
+        "dimension": 44.982394366197184,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -103,6 +90,47 @@
     "type": "split",
     "children": [
       {
+        "id": "dfcfa533cb6c4818",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2658b122652e5c42",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": true,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7631428283688911,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "347690fde5347fc2",
         "type": "tabs",
         "children": [
@@ -112,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
               }
             }
           },
@@ -161,7 +189,7 @@
             }
           },
           {
-            "id": "eb14dfab2cbc9625",
+            "id": "4733b646ba152637",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -169,23 +197,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "11dee797a0900a55",
+  "active": "acbaaa03e3227c0d",
   "lastOpenFiles": [
-    "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
-    "Base/StudyWork/PhilosophyLectures/Attachments/Postklassicheskaya_filosofia_vtoraya_polovina_19_-_nachalo_20_vekov.pdf",
-    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+    "Base/StudyWork/EnglishLearning/Present Perfect.md",
+    "Base/StudyWork/PhilosophyLectures/Attachments/Pasted image 20220420165348.png",
+    "Base/StudyWork/PhilosophyLectures/Attachments/Postklassicheskaya_filosofia_vtoraya_polovina_19_-_nachalo_20_vekov.pdf",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
-    "Untitled Diagram.svg"
+    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
+    "Base/StudyWork/EnglishLearning/Future Continuous.md",
+    "Base/StudyWork/PhilosophyLectures/Философия институт.md"
   ]
 }

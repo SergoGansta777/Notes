@@ -3,9 +3,9 @@
   "leafWidth": 700,
   "leafAutoWidth": false,
   "disabled": true,
-  "rotateHeaders": true,
-  "headerAlt": false,
+  "rotateHeaders": false,
+  "headerAlt": true,
   "orienation": "mixed",
   "stackingEnabled": true,
-  "smoothAnimation": false
+  "smoothAnimation": true
 }
