@@ -9,8 +9,20 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
             "mode": "preview",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "bc42249a9e5656e2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -85,7 +97,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -126,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
               }
             }
           },
@@ -189,13 +201,13 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "388082b8c448e2f2",
+  "active": "bc42249a9e5656e2",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
     "Base/StudyWork/Алгоритмирование и программирование.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
     "2022-04-27.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
