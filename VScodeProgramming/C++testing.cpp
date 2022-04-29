@@ -1,4 +1,5 @@
 #include <iostream>
+#include<string.h>
 #include <math.h>
 #include <fstream>
 
@@ -113,6 +114,29 @@ static void Number20()
     return;
     
     
+}
+static void Number48()
+{
+    ifstream in("listOfMembers");
+    if(!in)
+    {
+        cout << "Файл не удается открыть\n";
+        return ;
+    }
+    char* str = new char[1000];
+    in.getline(str,1000,'\0');
+    for(int i =0;str[i])
+    return;
+}
+void sort(char** strlist, int strcnt)
+{
+	for(int i = 0; i < strcnt - 1; i++)
+		for(int j = i + 1; j < strcnt; j++)
+			if(strcmp(strlist[i], strlist[j]) > 0) {
+				char* tmp = strlist[i];
+				strlist[i] = strlist[j];
+				strlist[j] = tmp;
+			}
 }
 int main()
 {
