@@ -97,7 +97,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -125,8 +125,17 @@
                 }
               }
             }
+          },
+          {
+            "id": "ef9d91efdce566ca",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "347690fde5347fc2",
@@ -138,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
               }
             }
           },
@@ -201,13 +210,13 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "bc42249a9e5656e2",
+  "active": "388082b8c448e2f2",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/Алгоритмирование и программирование.md",
     "2022-04-27.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
