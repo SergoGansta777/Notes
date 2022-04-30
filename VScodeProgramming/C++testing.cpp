@@ -115,32 +115,61 @@ static void Number20()
     
     
 }
-static void Number48()
-{
-    ifstream in("listOfMembers");
-    if(!in)
-    {
-        cout << "Файл не удается открыть\n";
-        return ;
-    }
-    char* str = new char[1000];
-    in.getline(str,1000,'\0');
-    for(int i =0;str[i])
-    return;
-}
-void sort(char** strlist, int strcnt)
+void Sort(char** strlist, int strcnt)
 {
 	for(int i = 0; i < strcnt - 1; i++)
-		for(int j = i + 1; j < strcnt; j++)
-			if(strcmp(strlist[i], strlist[j]) > 0) {
+    {
+        if(strlen(strlist[i])==1) break;
+        for(int j = i + 1; j < strcnt; j++)
+        {
+            if(strlen(strlist[j])==1) break;
+            if(strcmp(strlist[i], strlist[j]) > 0) {
 				char* tmp = strlist[i];
 				strlist[i] = strlist[j];
 				strlist[j] = tmp;
 			}
+        }
+			
+    }
+	return;
 }
+static void Number48()
+{
+    int n;
+    cin >> n;
+    ifstream inf("listOfMembers.txt");
+    if(!inf)
+    {
+        cout << "Файл не удается открыть\n";
+        return ;
+    }
+    char list [n][100];
+    char** list1 = new char*[50];
+    for(int i=0;i<50;i++)
+    {
+        //inf.getline(list[i],999, '\n');
+        list1[i] = new char[100];
+        inf.getline(list1[i],100, '\n');
+    }
+    inf.close();
+    Sort(list1,n);
+    ofstream out1("resultText.txt");
+    if(!out1)
+    {
+        cout << "Файл не удается открыть\n";
+        return ;
+    }
+    for(int i = 0;i<n;i++)
+    {
+        out1 << list1[i] << endl;
+    }
+    out1.close();
+    return;
+}
+
 int main()
 {
-    Number20();
+    Number48();
     return 0;
 }
 //20,48
