@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Операционные среды, лекция 6",
+      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
+    },
+    {
+      "basename": "Экономика, Лекция 6.",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
+    },
+    {
+      "basename": "Экономика, Лекция 7",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
+    },
+    {
+      "basename": "Экономика, Лекция 5.",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
+    },
+    {
+      "basename": "Лекция 10, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
+    },
+    {
+      "basename": "Future Perfect",
+      "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
+    },
+    {
+      "basename": "Past Perfect",
+      "path": "Base/StudyWork/EnglishLearning/Past Perfect.md"
+    },
+    {
       "basename": "2022-04-29",
       "path": "Daily/2022-04-29.md"
+    },
+    {
+      "basename": "Present Perfect",
+      "path": "Base/StudyWork/EnglishLearning/Present Perfect.md"
     },
     {
       "basename": "Daily Template",
@@ -13,28 +45,12 @@
       "path": "Untitled Diagram.svg"
     },
     {
-      "basename": "Экономика, Лекция 7",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
-    },
-    {
-      "basename": "Экономика, Лекция 6.",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
-    },
-    {
-      "basename": "Present Perfect",
-      "path": "Base/StudyWork/EnglishLearning/Present Perfect.md"
-    },
-    {
       "basename": "Past Continuous",
       "path": "Base/StudyWork/EnglishLearning/Past Continuous.md"
     },
     {
       "basename": "English",
       "path": "Base/StudyWork/EnglishLearning/English.md"
-    },
-    {
-      "basename": "Экономика, Лекция 5.",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
     },
     {
       "basename": "Лекция 6, Философия",
@@ -47,10 +63,6 @@
     {
       "basename": "Философия институт",
       "path": "Base/StudyWork/PhilosophyLectures/Философия институт.md"
-    },
-    {
-      "basename": "Лекция 10, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
     },
     {
       "basename": "Лекция 9, Философия",
@@ -71,10 +83,6 @@
     {
       "basename": "Операционные среды, лекция 5",
       "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
-    },
-    {
-      "basename": "Операционные среды, лекция 6",
-      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
     },
     {
       "basename": "Pasted image 20220420165348",
@@ -127,10 +135,6 @@
     {
       "basename": "Past Simple",
       "path": "Base/StudyWork/EnglishLearning/Past Simple.md"
-    },
-    {
-      "basename": "Past Perfect",
-      "path": "Base/StudyWork/EnglishLearning/Past Perfect.md"
     }
   ],
   "omittedPaths": [],

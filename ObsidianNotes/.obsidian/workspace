@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily/2022-04-29.md",
-            "mode": "source",
+            "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily/2022-04-29.md",
+                "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -122,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "347690fde5347fc2",
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2022-04-29.md",
+                "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2022-04-29.md"
+                "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
               }
             }
           },
@@ -191,23 +192,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 472.66668701171875
   },
   "active": "388082b8c448e2f2",
   "lastOpenFiles": [
-    "Daily/2022-04-29.md",
-    "Daily/2022-04-01.md",
-    "Templates/Daily Template.md",
-    "Untitled Diagram.svg",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
+    "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+    "Base/StudyWork/EnglishLearning/Future Perfect.md",
+    "Base/StudyWork/EnglishLearning/Past Perfect.md",
+    "Daily/2022-04-29.md",
     "Base/StudyWork/EnglishLearning/Present Perfect.md",
-    "Base/StudyWork/EnglishLearning/Past Continuous.md",
-    "Base/StudyWork/EnglishLearning/English.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
+    "Daily/2022-04-01.md"
   ]
 }
