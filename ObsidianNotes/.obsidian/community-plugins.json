@@ -30,6 +30,6 @@
   "obsidian-kanban",
   "obsidian-excalidraw-plugin",
   "obsidian-pandoc",
-  "obsidian-kindle-plugin",
-  "obsidian-livesync"
+  "remotely-save",
+  "graph-analysis"
 ]

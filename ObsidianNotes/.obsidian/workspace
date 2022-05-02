@@ -9,19 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+            "file": "Base/StudyWork/EnglishLearning/Past Simple.md",
             "mode": "preview",
             "source": false
-          }
-        }
-      },
-      {
-        "id": "e1039d682a8bf025",
-        "type": "leaf",
-        "state": {
-          "type": "excalidraw",
-          "state": {
-            "file": "Excalidraw/Drawing 2022-05-02 15.04.48.excalidraw.md"
           }
         }
       }
@@ -79,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "c63a1f40835abdfc",
@@ -96,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/Drawing 2022-05-02 15.04.48.excalidraw.md",
+                "file": "Base/StudyWork/EnglishLearning/Past Simple.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -132,6 +121,14 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "5b5fa1c32906ebf0",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
         ]
       },
@@ -145,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2022-05-02 15.04.48.excalidraw.md",
+                "file": "Base/StudyWork/EnglishLearning/Past Simple.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2022-05-02 15.04.48.excalidraw.md"
+                "file": "Base/StudyWork/EnglishLearning/Past Simple.md"
               }
             }
           },
@@ -207,17 +204,17 @@
     "direction": "horizontal",
     "width": 349.66668701171875
   },
-  "active": "e1039d682a8bf025",
+  "active": "388082b8c448e2f2",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2022-05-02 15.04.48.excalidraw.md",
+    "Base/StudyWork/EnglishLearning/Past Simple.md",
+    "Base/StudyWork/EnglishLearning/Present Continuous.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+    "Excalidraw/Drawing 2022-05-02 15.04.48.excalidraw.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
     "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/EnglishLearning/Past Perfect.md",
     "Base/StudyWork/EnglishLearning/Attachments/Pasted image 20220330093542.png",
-    "Base/StudyWork/EnglishLearning/English.md",
-    "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
-    "Base/StudyWork/EnglishLearning/Future Perfect.md"
+    "Base/StudyWork/EnglishLearning/English.md"
   ]
 }
