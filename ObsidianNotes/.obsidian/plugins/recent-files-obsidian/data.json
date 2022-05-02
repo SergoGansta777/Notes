@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Экономика, Лекция 7",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
+    },
+    {
+      "basename": "Future Simple",
+      "path": "Base/StudyWork/EnglishLearning/Future Simple.md"
+    },
+    {
       "basename": "Past Simple",
       "path": "Base/StudyWork/EnglishLearning/Past Simple.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "Экономика, Лекция 5.",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
-    },
-    {
-      "basename": "Экономика, Лекция 7",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
     },
     {
       "basename": "Present Continuous",
@@ -139,10 +143,6 @@
     {
       "basename": "Note Template",
       "path": "Templates/Note Template.md"
-    },
-    {
-      "basename": "Future Simple",
-      "path": "Base/StudyWork/EnglishLearning/Future Simple.md"
     }
   ],
   "omittedPaths": [],
