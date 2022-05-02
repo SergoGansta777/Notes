@@ -14,5 +14,5 @@
 	* [[Past Perfect]]
 	* [[Future Perfect]]
 
-Страдательный залог.
+##### Страдательный залог:
 - [[The Passive Voice]]

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
             "mode": "preview",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -94,11 +94,11 @@
                   "localForelinks": true,
                   "localInterlinks": true,
                   "showTags": false,
-                  "showAttachments": false,
+                  "showAttachments": true,
                   "hideUnresolved": true,
-                  "collapse-color-groups": true,
+                  "collapse-color-groups": false,
                   "colorGroups": [],
-                  "collapse-display": false,
+                  "collapse-display": true,
                   "showArrow": false,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
@@ -108,7 +108,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.740910653740375,
+                  "scale": 0.9708676098338883,
                   "close": true
                 }
               }
@@ -122,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "347690fde5347fc2",
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
               }
             }
           },
@@ -200,15 +199,15 @@
   },
   "active": "388082b8c448e2f2",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+    "Base/StudyWork/EnglishLearning/Past Perfect.md",
+    "Base/StudyWork/EnglishLearning/Attachments/Pasted image 20220330093542.png",
+    "Base/StudyWork/EnglishLearning/English.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
     "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/EnglishLearning/Future Perfect.md",
-    "Base/StudyWork/EnglishLearning/Past Perfect.md",
-    "Daily/2022-04-29.md",
-    "Base/StudyWork/EnglishLearning/Present Perfect.md",
-    "Daily/2022-04-01.md"
+    "Daily/2022-04-29.md"
   ]
 }
