@@ -5,6 +5,7 @@
 #include <string.h>
 #include <cstdio>
 #include <cstring> 
+#include <vector>
 
 using namespace std;
 
@@ -104,20 +105,34 @@ char* Pow(char* str, int y)
 	}
 	return result;
 }
-
+vector<int> adj;
+bool visited[5];
+void dfs(int s)
+{
+	if(visited[s]) return;
+	visited[s] = true;
+	cout << s;
+	for(auto u: adj[s])
+	{
+		dfs(u);
+	}
+}
 
 int main()
 {
-		setlocale(LC_ALL, "Russian");
-		char str[80];
-		int i =0;
-		fgets(str,80,stdin);
-		while(str[i])
+	
+		for(int i =0;i<5;i++)
 		{
-			str[i++] = '*';
-			cout << str << endl;
+			int n;
+			cin >> n;
+			for(j=0;j<n;j++)
+			{
+				d
+			}
 		}
+		dfs(5);
 }
+
 int main1(void)
 {
 	setlocale(LC_ALL, "Russian");
