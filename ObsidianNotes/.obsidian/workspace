@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+            "file": "Base/StudyWork/Алгоритмирование и программирование.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+                "file": "Base/StudyWork/Алгоритмирование и программирование.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -130,7 +130,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "347690fde5347fc2",
@@ -142,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+                "file": "Base/StudyWork/Алгоритмирование и программирование.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+                "file": "Base/StudyWork/Алгоритмирование и программирование.md"
               }
             }
           },
@@ -207,6 +208,7 @@
   },
   "active": "b9087f89e385cbc3",
   "lastOpenFiles": [
+    "Base/StudyWork/Алгоритмирование и программирование.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
@@ -215,7 +217,6 @@
     "Base/StudyWork/EnglishLearning/Past Simple.md",
     "Base/StudyWork/EnglishLearning/Past Perfect.md",
     "Base/StudyWork/EnglishLearning/English.md",
-    "Base/StudyWork/EnglishLearning/Present Perfect.md",
-    "Base/StudyWork/EnglishLearning/Present Simple.md"
+    "Base/StudyWork/EnglishLearning/Present Perfect.md"
   ]
 }
