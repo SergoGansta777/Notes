@@ -10,30 +10,30 @@
 
 using namespace std;
 
-vector<vector<int> > adj;
-bool visited[4];
+vector<int> adj[];
 
-void dfs(int s)
+
+void dfs(int s, bool visited[])
 {
 	if(visited[s]) return;
 	visited[s] = true;
-	cout << s;
 	for(auto u: adj[s])
 	{
-		dfs(u);
+		dfs(u,visited);
 	}
-}
+}f
 
 int main()
 {
-	queue<int> q;
+	int N,M;
+	cin >> N >> M;
+	bool visited[N];
+	adj[N];
 	for(int i =0;i<4;i++)
 	{
 		visited[i]=false;
 	}
-	int N,M;
-	cin >> N >> M;
-	adj = vector<vector<int> > (N, vector<int>(N,0));
+
 		for(int i =0;i<M;i++)
 		{
 			
@@ -41,10 +41,18 @@ int main()
 			cin >> j >> num;
 			j--;
 			num--;
-			adj[j][i] = num;
-			adj[num][i]=j;
-			// adj[j].push_back(num);
-			// adj[num].push_back(j);
+			// adj[j][i] = num;
+			// adj[num][i]=j;
+			adj[j].push_back(num);
+			adj[num].push_back(j);
 		}
-		dfs(1);
+		int count = 0;
+		for(int i = 0;i<N;i++)
+		{
+			if(!visited[i]){
+				count++;
+				dfs(i,visited);
+			}
+		}
+		cout << count << endl;
 }
