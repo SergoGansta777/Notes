@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-            "mode": "preview",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
               }
             }
           },
@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -207,15 +207,15 @@
   },
   "active": "b9087f89e385cbc3",
   "lastOpenFiles": [
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
     "Base/StudyWork/Алгоритмирование и программирование.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
     "Untitled Diagram.svg",
-    "Base/StudyWork/EnglishLearning/Future Simple.md",
-    "Base/StudyWork/EnglishLearning/Past Simple.md",
-    "Base/StudyWork/EnglishLearning/Past Perfect.md",
-    "Base/StudyWork/EnglishLearning/English.md"
+    "Base/StudyWork/EnglishLearning/Future Simple.md"
   ]
 }
