@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
+            "file": "Base/StudyWork/EnglishLearning/Present Perfect.md",
             "mode": "source",
             "source": false
           }
@@ -41,7 +41,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
+                "file": "Base/StudyWork/EnglishLearning/Present Perfect.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -108,7 +108,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.9708676098338883,
+                  "scale": 0.753534212852784,
                   "close": true
                 }
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
+                "file": "Base/StudyWork/EnglishLearning/Present Perfect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
+                "file": "Base/StudyWork/EnglishLearning/Present Perfect.md"
               }
             }
           },
@@ -207,15 +207,15 @@
   },
   "active": "b9087f89e385cbc3",
   "lastOpenFiles": [
+    "Base/StudyWork/EnglishLearning/Present Perfect.md",
+    "Base/StudyWork/EnglishLearning/English.md",
+    "Base/StudyWork/EnglishLearning/Past Perfect.md",
+    "Base/StudyWork/EnglishLearning/Past Continuous.md",
+    "Base/StudyWork/EnglishLearning/Present Continuous.md",
+    "Base/StudyWork/EnglishLearning/Past Simple.md",
+    "Base/StudyWork/EnglishLearning/Present Simple.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
-    "Base/StudyWork/Алгоритмирование и программирование.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
-    "Untitled Diagram.svg",
-    "Base/StudyWork/EnglishLearning/Future Simple.md"
+    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
   ]
 }

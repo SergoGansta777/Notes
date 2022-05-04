@@ -5,7 +5,7 @@
 	* [[Present Simple]]
 	* [[Past Simple]]
 	* [[Future Simple]]
-* **Времена для продолжительных дейсвтий**:
+* **Времена для продолжительных действий**:
 	* [[Present Continuous]]
 	* [[Past Continuous]]
 	* [[Future Continuous]]
