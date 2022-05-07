@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EnglishLearning/Present Perfect.md",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/Present Perfect.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/Present Perfect.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/Present Perfect.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
               }
             }
           },
@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -207,6 +207,8 @@
   },
   "active": "b9087f89e385cbc3",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/EnglishLearning/Present Perfect.md",
     "Base/StudyWork/EnglishLearning/English.md",
     "Base/StudyWork/EnglishLearning/Past Perfect.md",
@@ -214,8 +216,6 @@
     "Base/StudyWork/EnglishLearning/Present Continuous.md",
     "Base/StudyWork/EnglishLearning/Past Simple.md",
     "Base/StudyWork/EnglishLearning/Present Simple.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
   ]
 }

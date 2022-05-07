@@ -1,109 +1,69 @@
 #include <iostream>
 #include <math.h>
+#include <fstream>
 
 using namespace std;
-int BinSearch(int array[], int index)
-{
-    int first = 0;
-    int last = index;
-    int middle = 0;
-    int element = array[index];
-    while (first <= last)
-    {
-        middle = (first + last) / 2;
-        if (array[middle] == element) {
-            return middle;
-        }
-        else if (array[middle] < element)
-        {
-            first = middle+1 ;
-        }
-        else if (array[middle] > element)
-        {
-            last = middle-1;
-        }     
-    }
-    return first;
-}
 
-void sortInsert(int arr[], int N){
-    int index;
-    int number;
-    for (int i = 1; i < N; i++)
-    {
-        if (arr[i - 1] > arr[i])
-        {
-            number = arr[i];
-            index = BinSearch(arr, (i));
-            for (int j = i; j > 0 && arr[j - 1] >= number; j--)
-            {
-                arr[j] = arr[j - 1];
-            }
-            arr[index] = number;
-        }
-    }
-}
-
-bool prostoNumer(int n){
-    for (int i = 2; i<=sqrt(n); i++) 
-        if (n % i == 0) 
-            return false;   
-    return true; 
-}
-
-double Sq(double arg)
-{
-    return arg*arg;
-}
-int Sq(int arg)
-{
-    return arg*arg;
-}
 int main()
 {
-    int x = 11;
-    double y = 3.1416;
-    printf("%d v kvdrate = %d, %f v kvadrate = %f\n",x,Sq(x),y,Sq(y));
-}
+    ifstream inf("input.txt");
+    if(!inf)
+    {
+        cout << "Входной файл не удается открыть\n";
+        return 1;
+    }
+    char* n2 = new char[10];
+    inf.getline(n2,10,'\n');
+    int n = atoi(n2);
+    int count =0;
+    double min = 1000000;
+    char** list1 = new char*[n];
+    double* value = new double[n];
+    for(int i=0;i<n;i++)
+    {
+        list1[i] = new char[100];
+        inf.getline(list1[i],100, '\n');
+        cout << list1[i] << endl;
+    }
+        inf.close();
+    for(int i = 0;i<n;i++)
+    {
+        int countofSpace = 0;
+        double process = 0;
+        for(int j = 0;list1[i][j]!='\0';j++)
+        {
+            if(list1[i][j]==' ') countofSpace++;
+            if(countofSpace>=2 && list1[i][j]!=' '){
+                process += int(list1[i][j]-'0');
+            }
+        }
+        value[i] = process/3;
+        if(min>value[i]) min = value[i];
+    }
+    for(int i =0;i<n;i++)
+    {
+        if(value[i]==min) count++;
+    }
 
-//14 Вариант
-int main1()
-{
-    int N,M, Sum=0;
-    cin >> N;
-    cin >> M;
-    int array[N];
-    for(int i = 0; i<N;i++)
+    ofstream out1("output.txt");
+    if(!out1)
     {
-        cin >> array[i];
+        cout << "Выходной файл не удается открыть\n";
+        return 1;
     }
-    int maxvariants = pow(2,N);
-    for(int i = 1; i<=maxvariants;i++)
+    if(count > 1) out1 << count << endl;
+    for (int i = 0;i<n;i++)
     {
-        int temp = i, Sum=0;
-        for(int j = 1;j<=N;j++)
-        {
-            if(temp & 1)
+        if(value[i]==min){
+            for(int j = 0;char(list1[i][j])!=' ';j++)
             {
-                Sum+=array[j-1];
+                out1 << char(list1[i][j]);
             }
-            temp>>=1;
-        }
-        if(Sum==M)
-        {
-            cout << "{ ";
-            for(int j = 0;j<N;j++)
-            {
-                if(i & 1)
-                {
-                    cout << array[j] << " ";
-                }
-                i>>=1;
-            }
-            cout << "} - что в сумме равно "<< M << endl;
-            return 0;
+            out1 << endl;
         }
     }
-    cout << "None" << endl;
+    
+    out1.close();
     return 0;
 }
+

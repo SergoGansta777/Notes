@@ -6,6 +6,7 @@
 using namespace std;
 
 static void Number20()
+
 {
     ifstream in("testingC++FilereadingFutures.txt");
     if(!in)
@@ -65,6 +66,7 @@ static void Number20()
     
     
 }
+
 void Sort(char** strlist, int strcnt)
 {
 	for(int i = 0; i < strcnt - 1; i++)
@@ -83,7 +85,6 @@ void Sort(char** strlist, int strcnt)
     }
 	return;
 }
-
 static string GetName(char** member, int n, int index)
 {
     setlocale(LC_ALL, "Russian");

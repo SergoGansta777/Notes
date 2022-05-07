@@ -1,0 +1,8 @@
+6
+Petrova Masha 3 4 5
+Ivavov Ivan 2 2 2
+Cesar Gay 5 5 5
+Romanov Alexandr 2 2 2
+Januarius Jr 3 2 4
+Smith John 4 5 5
+
