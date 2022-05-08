@@ -62,9 +62,7 @@ static void Number20()
        
     }
      out1.close();
-    return;
-    
-    
+    return;  
 }
 
 void Sort(char** strlist, int strcnt)
@@ -185,7 +183,7 @@ static void Number48()
             if(valueOfmembers[i]==Place3stValue) out1 << GetName(list1,n,i) << endl;
         }
     }else{
-        bool isExist = false;
+         bool isExist = false;
          out1 << "Winners:" << endl;
          for(int i = 0;i<n;i++)
          {
