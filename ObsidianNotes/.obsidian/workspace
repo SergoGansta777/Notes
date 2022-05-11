@@ -97,7 +97,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
+                "file": "conflict-files-obsidian-git.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -217,10 +217,10 @@
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "b9087f89e385cbc3",
+  "active": "2984bb548e08d734",
   "lastOpenFiles": [
-    "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
     "conflict-files-obsidian-git.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
