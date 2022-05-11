@@ -1,0 +1,203 @@
+"UserLocalConfigStore"
+{
+	"streaming_v2"
+	{
+		"EnableStreaming"		"1"
+		"P2PScopeV2"		"0"
+	}
+	"Broadcast"
+	{
+		"Permissions"		"1"
+		"MaxKbps"		"2500"
+		"OutputWidth"		"1280"
+		"OutputHeight"		"720"
+		"EncoderSetting"		"0"
+		"IncludeDesktop"		"0"
+		"RecordSystemAudio"		"0"
+		"RecordMic"		"0"
+		"ShowDebugInfo"		"0"
+		"ShowReminder"		"1"
+		"ShowChat"		"1"
+	}
+	"friends"
+	{
+		"1315931826"
+		{
+			"NameHistory"
+			{
+				"0"		"warhammer40cce01"
+			}
+			"name"		"warhammer40cce01"
+		}
+		"PersonaName"		"warhammer40cce01"
+		"communitypreferences"		"0801100118002000280130013800"
+	}
+	"Software"
+	{
+		"Valve"
+		{
+			"Steam"
+			{
+				"apps"
+				{
+					"7"
+					{
+						"cloud"
+						{
+							"last_sync_state"		"synchronized"
+						}
+					}
+					"1611910"
+					{
+						"LastPlayed"		"1652188767"
+						"Playtime2wks"		"408"
+						"Playtime"		"398"
+						"1611910_eula_0"		"1"
+						"ViewedSteamPlay"		"1"
+						"BadgeData"		"020000000801"
+					}
+					"760"
+					{
+						"cloud"
+						{
+							"quota_bytes"		"20000000000"
+							"quota_files"		"50000"
+							"used_bytes"		"0"
+							"used_files"		"0"
+						}
+					}
+					"1887720"
+					{
+						"LastPlayed"		"1652187437"
+					}
+				}
+				"LastPlayedTimesSyncTime"		"1652188767"
+				"PlayerLevel"		"1"
+				"ShaderCacheManager"
+				{
+					"LastSeenBackendHitCacheGeneration"		"4"
+				}
+			}
+		}
+	}
+	"Offline"
+	{
+		"Ticket"		"08b28dbef30415885a7a62"
+		"Signature"		"3236c2670ea180191504ef14fd8771dc3611eefcdaaba51a386635f61fa2edb24e34989cf31f8f5a500b2e80cd381a0043a470fde38461f4135cde8097e252dd02c3bc73a429456bb4ce5e8b2ef3c36dd752d133016b29ab35bd86d76c3512f9fc112f172b02be8b3b62ef505fbf4aad8d7edbbe060bb66ee653223c2e13065870f7f19f135a01a40ecf1d2645c1421c8c1433e0cdddce813fead7b23711d7a783a8da4cbdac1ce88a840d1109ed48b7aebe34e9b624b2b39ce9995706aeca2b8ccf2bd85660c7ebe4daf6e9a8a2036aff35b74a44b1983b4fc05b1868ecc82979bfc216db7c1d9776f76336bb21ce63c53cd452b96cedc5bd5c8e50acfd0ed6"
+	}
+	"ParentalSettings"
+	{
+		"settings"		"09b2866f4e000000004800"
+		"Signature"		"6d0bba961604ab44a4bf42a1cd1c6643a151385290a8ba015928be2e0f4586c8e3aaae9b11cdcb806a23dcf986f2414a36ba0360dadb94a7b254d34d17a72acfb8a2ae91d3f4f6026deed3fd508ff33a4098a97baebb6984069ef54672f58281231f718653e58a037a08cd93ffddb5ad450ae62cadbba97a19ea812dd8861ec0b0a0c49f04862e6bb7c20d724df87418da6a5bf8b3a816f6b8b68db0b63c4547a39b2dab76c9e847f0372109ba70e4b177936ab6ce58518272d68b652b7678494c56da5c2947284a7e28c71daec736512e9a2a9c7f600a446414f33cba06a652dd8d5da8af20c87694c316ae3e07ec678893e44427b8032cfce2374ca8368069"
+	}
+	"SharedAuth"
+	{
+		"id"		"655624890"
+		"AuthData"		"f7b900a52b728ea055c60c50e2b1ad1c09cc3a654a7b792bb121f1af6ce2475f"
+	}
+	"apptickets"
+	{
+		"7"		"3200000004000000b2866f4e01001001070000006caa23d41e00a8c0000000008c667a620c169662010000000000000000009c02289af496f919af6315c762787594bebea9b7bcc97a75ee0096f2fb9c08bfee1f309c4bb380befe13e38751d2c412676bef3a6314b6adcca224a30eb9d4aee293c00ef6538db1f13d286dafbf22ee569caf3178767f13ae62332a2e7e0caa46fc87df0ed6cf197d39d28b046fb3841879936710e0ab4c01f75b6063dabfed"
+		"1391110"		"3200000004000000b2866f4e01001001063a15006caa23d41e00a8c0000000008b5a7a620b0a966201000000000000000000679d9b0b2a898fdc0c1f2c429771f2df7b0aefad140906e90e83d24659f35840e147dea7b066678974e52fcb1aa5dcdd5282bfdd9e10dc910ab187b4d5cd35327a219c830f28c7a858ef1ce1a847d6d942868d7026a3a86c731d120deab64c1eaef234b3841ff98ec390dbfb3c2e9771e951d0cba2a001987417ea12b6ff16bd"
+		"228980"		"3200000004000000b2866f4e01001001747e03006caa23d41e00a8c0000000008b5a7a620b0a966201000000000000000000429a89bd7d6e8ee4c5a0b365565efa853162918e2c2fd2de8e405eca3600c7b8c81f8ccceef4015fbe2f05cdc5d09040aafc71597752b4ce31a799b6df5de09869c0b6566825371c81c369ea24e629d451ab32c7325ebb2c4dbc88bf1258ed523eed1849e4335dc6831776443d5b875943e0a037fce3bc70fbf6ad7dbd7a5b13"
+		"1493710"		"3200000004000000b2866f4e01001001ceca16006caa23d41e00a8c0000000008b5a7a620b0a966201000000000000000000587bf79af5ca945b5565964c603ab4a938fd1488c0410130a641aadf1e388c5e8d91b0a6e12ad53fa37d56ff0afdc0633d56041f49ee72824669e2935b7c5af44de8380b7078f87723f5cb72ace371581ff9e77304ed8716bbaf98e6b0720959ce5b1c9ad1089929385b1b008381a026cd035284dbb64b5bd64b331d9ccb0424"
+		"1611910"		"3e00000004000000b2866f4e01001001869818006caa23d41e00a8c000000000ae5a7a622e0a96620100015a0a0002006cbd1c00000076bd1c00000000000626e96bee0b477f8931b7d0acd47844c1f0f4541351fd9975eb98b3f518413a736f03b18d7b3032bb92ac6efaa5e041082ed09ea84fd1cf5c4a5457e2f695ac38da78745e80e103aa9b19257aa6ad35d4f6c89aeb443590a10f5342386461d2a367922c6be23da1cd4acf1f31314fd5ae56d39c544c0692cc0acd2c880a603b"
+		"1883510"		"3200000004000000b2866f4e0100100176bd1c006caa23d41e00a8c000000000295d7a62a90c96620100015a0a000000000037b0b4357bf3c13a47794f9ac4f69f000ed9ed18791f8d51922e8179ed3c33d82170746454f10e467e8902234837e34e8402081ce2ce1bc11c627afb44467eacbcf24949a5e08d4cf6e2bd8536f117aff19138ac355b57d47a1dc161bd978f43c69d7c9cfaceb30b3981df98276ef24d2013854640330a362290bf8514cb5181"
+		"1887720"		"3200000004000000b2866f4e01001001e8cd1c006caa23d41e00a8c0000000002e617a62ae10966201000000000000000000a2daf415a1ad1ede1f31a39ff02fe3287eaf93d5f00b9aef0b694690ae6a0ab92d1ccf2ca1d449dcc3bf945c32ef55104b2d01ff6f726575dc1bf94fcb045fbdd360d6df954696f9060b84fbacc0a3dd2088962a427f66dd524fd7a4e7b603a675bfa2b9d28e7bee84675dec10474b760465c9287b914602c3c672daad7425e7"
+	}
+	"CloudKey"		"01000000171067a214c92d8418c21237b0e6820811e8a7170a8a42ebd129b9140837a84f9176d2c2"
+	"CloudKeyCRC"		"507145558"
+	"AppInfoChangeNumber"		"14766462"
+	"News"
+	{
+		"Messages"
+		{
+			"193243187184562111"		"1"
+			"1797259507507790945"		"1"
+		}
+		"NotifyAvailableGames"		"1"
+	}
+	"WebStorage"
+	{
+		"SteamVoiceSettings_1315931826"		"{\"inputGain\":1,\"outputGain\":1,\"noiseGateLevel\":2,\"noiseCancellation\":true,\"echoCancellation\":true,\"autoGainControl\":true,\"selectedMic\":\"default\",\"selectedOutput\":\"default\",\"pttSoundsEnabled\":true,\"hasResetOpenMicHotKey\":true}"
+		"CachedStorePreferences"		"{\"eReviewScorePreference\":0,\"content_descriptor_preferences\":{\"content_descriptors_to_exclude\":[{\"content_descriptorid\":3,\"timestamp_added\":0},{\"content_descriptorid\":4,\"timestamp_added\":0}]}}"
+		"CachedCommunityPreferences"		"{\"bBlurAdultContentViolence\":true,\"bBlurAdultContentSex\":true,\"bParenthesizeNicknames\":false}"
+		"UIStoreLocalState"		"{\"nVersion\":1,\"eGameListView\":1,\"bGroupedByCollection\":true,\"bSortedByRecent\":false,\"mapCollapsedState\":[[\"hidden\",true]],\"currentSelection\":{\"strCollectionId\":\"favorite\",\"nAppId\":1611910},\"bGroupBySharedLibraries\":false,\"collectionFilter\":{\"nFormatVersion\":2,\"strSearchText\":\"\",\"filterGroups\":[{\"rgOptions\":[1],\"bAcceptUnion\":true},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false}]}}"
+		"CTextFilterStore_TextFilterPreferences"		"{\"eTextFilterSetting\":1,\"bIgnoreFriends\":true}"
+		"CTextFilterStore_TextFilterWords"		"{\"text_filter_custom_banned_words\":[],\"text_filter_custom_clean_words\":[]}"
+		"wishlistonsalestore_storage"		"{\"version\":1,\"data\":{\"rgAppIDs\":[],\"bExhausted\":true,\"nSkipped\":0},\"lastFetchTimeMS\":1652185741866}"
+		"trendingstore_storage"		"{\"version\":2,\"data\":[],\"lastFetchTimeMS\":1652185741867}"
+		"playnextstore_storage"		"{\"nVersion\":3,\"cachedPlayNext\":{\"last_update_time\":1652107349,\"appids\":[]},\"rgIgnoredApps\":[]}"
+		"CTextFilterStore_strBannedPattern"		"\"\\\\b((ape|bat|bull?|butt|dip|dog|dumb|ebo|holy|horse|jack|pedo|pig|ubi)\\\\W*sh(it|ti)s?|d[il]+(ck|kc)\\\\W*(ass|bag|breath|eat|face|flip|head|hole|less|suck|weed)\\\\w*|f[chj]?(a|au|aw|e|o+|u|uy)[ch]*k(e?d|e?rs?|[ei]?n+g?|t)|m[aou](d+|t+|th|ht|z)(a|e|er|ir|ur)(c|f)c?[aou]c?k\\\\w*|m[ou]th(a|er)(f|ph)[vue]+c?[gkqx]+(e?d|e?r|[ei]?n+g?)|\\\\w*f[vu]+h*c+[hjvk]*(e?d|e?r|[ei]?n+g?|t)|b+i+a*t+c+h+(e+d|e*r?[sz]+|[ei]?n+g?|y)|\\\\w*f[vu]+c?[xkq]+(e?d|e?r|[ei]?n+g?|t)|p(oo+|u+)s+(a+y+|e+|eh|ey|i+|ie|y+)s*|m[ou]th(a|er)(f|ph)[vue]+c?[gkqx]+|\\\\w*f[vu]+h*q(e?d|e?r|[ei]?n+g?|t)|f[chj]?(a|au|aw|e|o+|u|uy)[ch]*k|f[ck]+(e?d|e?r|[ei]?n+g?|t)|fu󠀡󠀡cki󠀡󠀡ng|dumb(f|ph)[vu]+c?[xkq]|c(oc?|aw)k\\\\W*suc?k\\\\w*|d[il]+(ck|kc)(ed|ing)|ph[vu]+h*c+[hjvk]*\\\\w*|son\\\\W*of\\\\W*a\\\\W*bitch|долбоебизм|\\\\w*who+re(ed|ing|s)|c(o|ah|aw)c?k(s|ed)|s+h+[ily]+t+[ersy]*|a+ss+\\\\W*w?hole?\\\\w*|ph[vu]+c?[xkq]+\\\\w*|говноедов|долбаебов|ебланская|ебланский|заебёшься|захуячили|пидарасов|пидарский|съебаться|уебанский|уебищьное|f[vu]+c?[xkq]+\\\\w*|bull+sh+[ily]+t+|god\\\\W*damn?\\\\W*it|ахуенная|ахуенную|ахуенный|выебаное|ебанному|ебанутые|ебланами|пидарасы|уёбищная|уёбищный|god\\\\W*damn?\\\\w*|въебали|въебать|ебанная|ебанное|ебанных|ебаного|ебаньки|ебонное|заебала|заебало|поебень|хуёвого|a+ss+\\\\W*fu\\\\w*|c(o|ah|aw)c?k|d[il]+(ck|kc)|b+i+a*t+c+h+|butt\\\\W*fu\\\\w*|cumm(er|ing)|f[vu]+h*c\\\\w*|f[vu]+h*q\\\\w*|sh+i+[ae]+t+|ахуели|ебаная|ебаное|ебаной|ебаную|ебаные|ебаный|ебаным|ебаных|ебучий|пиздеж|пиздец|сраная|уёбища|уёбище|хуесос|хуетой|хуйнёй|хуёвая|хуёвый|c+u+n+t+\\\\w*|d+i+c+k+s*|fu‎cking|блядь|блять|дохуя|дрочи|ебало|ебать|н4еб4л|нахуй|нахуя|нехуй|нихуя|пизде|пизду|похуй|уебёт|хуета|хуету|хуйни|хуйню|хуйня|ёбаны|a+sholes?|sh+e+i+t+|ахуе|ебал|ебут|сука|хуям|шлюх|F\\\\.U\\\\.C\\\\.K|chodes?|cumshot|fucking|fu‎ck|shit\\\\w*|shtpost|who+re?|cumbag|jebane|sluts?|slutty|twats?|бля|ебу|хуи|хуй|хуя|cums?|dafuq|diсk|sh it|coq+|hore|kock|shat|dik|fck|\\\\w*f+u+c+k+\\\\w*|\\\\w*fцск\\\\w*|\\\\w*shіtty\\\\w*|\\\\w*f_uc_k\\\\w*|\\\\w*pussy\\\\w*|n+([ehiy]+|ay|ey|io|[il]+)[bgq$]+h?(a+|aer|a+h+|a+r+|e+|ea|eoa|e+r+|ie|ier|let|lit|o|or|r+|u|uh|uhr|u+r+|ward|y+)s*|f[ae]y?g+[oeiu]+t+s?|даунская|пидорасы|ching\\\\W*chongs?|n󠀡󠀡iggers|re+t+a?r[dt]+s?|towel\\\\W*heads?|москаль|пидорка|pac?k(i|ie|y)|ting\\\\W*tongs?|trann(ie|y)s?|white\\\\W*trash|ni:gg\\\\w*:\\\\w*|chin(c|k)s?|n+i+[gq]+s?|yam\\\\W*yams?|\\\\w*niggas?|chinamans?|polacke?s?|хохол|neekeris?|nigfhers?|redskins?|beaners?|coolies?|f+a+g+s*|fenians?|gringos?|newfags?|ni gg er|nigga\\\\w*|niggles?|nignogs?|rus+kis?|wiggers?|Ϝaggоt|gypsies|injuns?|jiggas?|nikkas?|wiggas?|\\\\w*fag|coons?|dykes?|fa66ot|fagts?|gooks?|gypos?|homos?|kikes?|kokhol|moskal|spics?|abos?|fgts?|fаgs|gypsy|japs?|wops?|fagz|fаg|f@g|\\\\w*N󠀡󠀡IGGE󠀡󠀡R\\\\w*|\\\\w*ɴɪɢɢᴇʀ\\\\w*|\\\\w*nіggеr\\\\w*|\\\\w*NÍGGER\\\\w*|\\\\w*n\\\\\\\\\\\\|gger\\\\w*|\\\\w*niggеr\\\\w*|\\\\w*F4GG0T\\\\w*|\\\\w*N1GG3R\\\\w*|\\\\w*nigger\\\\w*|\\\\w*nigg4\\\\w*|\\\\w*niggz\\\\w*)\\\\b\""
+		"CTextFilterStore_strCleanPattern"		"\"^(\\\\b(fak(ed|ers?|ing)|kompetenzteam|派送员|pinegrove|n\\\\.e\\\\.ig\\\\.e\\\\.|fukushima|snigger|nie gee|fuchsia|fuchian|cock\\\\.li|fuxius|fucuro|niego|niebo|neige|neggy|nebby|fuxis|cwfag|pubg|niby|nebo|fuku|fuki|fakt|g24|\\\\w*fvchvo\\\\w*)\\\\b)$\""
+		"spotlight_dlc_store"		"{\"1611910\":{\"rtShowStart\":1651768594,\"rtFirstShow\":1652185749}}"
+		"ChatStorePopupState_1315931826"		"{\"bFriendsListVisible\":false,\"always_restore\":false,\"bFriendsListCollapsed\":false}"
+	}
+	"system"
+	{
+		"PushToTalkKey"		"0"
+		"EnableGameOverlay"		"1"
+		"EnableSCTenFootOverlayCheckNew"		"0"
+		"InGameOverlayShortcutKey"		"Shift	KEY_TAB"
+		"InGameOverlayScreenshotNotification"		"1"
+		"InGameOverlayScreenshotPlaySound"		"1"
+		"InGameOverlayScreenshotSaveUncompressed"		"0"
+		"InGameOverlayShowFPSContrast"		"0"
+		"InGameOverlayShowFPSCorner"		"0"
+		"InGameOverlayScreenshotHotKey"		"KEY_F12"
+		"NetworkingAllowShareIP"		"0"
+		"NavUrlBar"		"0"
+		"displayratesasbits"		"0"
+		"GameOverlayHomePage"		"http://www.google.com"
+	}
+	"LastInstallFolderIndex"		"0"
+	"UserAppConfig"
+	{
+		"1611910"		"00696e7465726e616c00016c616e677561676500656e676c6973680001706c6174666f726d5f6f766572726964655f64657374006c696e75780001706c6174666f726d5f6f766572726964655f736f757263650077696e646f7773000808"
+	}
+	"CloudManager"
+	{
+		"HintAppsToPreload"		""
+	}
+	"depots"
+	{
+		"1611911"
+		{
+			"CDN"
+			{
+				"steampipe.akamaized.net"
+				{
+					"token"		""
+					"Expires"		"1652790575"
+				}
+			}
+		}
+		"1611910"
+		{
+			"CDN"
+			{
+				"steampipe.akamaized.net"
+				{
+					"token"		""
+					"Expires"		"1652790582"
+				}
+			}
+		}
+	}
+	"SkipLastInstallPage"		"1"
+	"RecentLocalPlayed"		"8698180029667a62"
+	"HideSharingNotifications"		"0"
+	"LibraryDisplaySize"		"0"
+	"LibraryLowBandwidthMode"		"0"
+	"LibraryLowPerfMode"		"0"
+	"LibraryDisableCommunityContent"		"0"
+	"LibraryDisplayIconInGameList"		"1"
+	"SteamController_DisableTwoFootNotifications"		"0"
+	"StartupState.Friends"		"0"
+	"Licenses"
+	{
+		"0"		"0100000013790957a5880b0e4c0dc933d5ef70b2e3610a54066c03f8c75a8d21081ca803b06cad01591301b7f9c67e1b90340db72fa6abac0bb7b85f880659623997652d56e49cc1a25a18c452ff14bddd27d1a4c77c573a20e400a8f85b3f7e6f6dd3c21d3f81cd6adced9cbbe129dc45e90ec059413d5bc8edf957b4f0b7d425f57ae6bea478f8b0edc53d48323554d5ae567563c4fd3d275e4a84b1bb521f6c3222f4f968b544a9bd8126fbfe82764db94556d99a465cdb7b4cd13c0a98dd3b17986891dd0a0ff7e640abf2ce98d78fc257c2682157ad33e5984b8133210e4e993584d60a416e9f8e8eda3691add765ed99f0fcdd0eb79bbf63d4788d747bb35add34ce4ab19d75dd4aa14af200f48220bf3a3aeb5652fb170043c7f2d6a93b7667edac0d4e3840e07789db10240c24a92dac9ff6dd091b65617b39567a5ae7b74ae927455321000808f5b401d4"
+		"303386"		"0100000013790957a5880b0e4c0dc933d5ef70b2e3610a54066c03f8c75a97800c1ca803b06cad01591301b7f9c67ee24a3d0db72fa6abac0bb7b85f880659623997652d56e49cc1a25a18c452ff14bddd27d1a4c77c573a20e400a8f85b3f7e6f6dd3c21d3f81cd6adced9cbbe129dc45e90ec059413d5bc8edf957b4f0b7d425f57ae6bea478f8b0edc53d48323554d5ae042225aada3635393984b1bb504b0b1435efff6eb35298aba62c9f9b82764dbb293dd6964b4ad07c50d5207afcdd3a179a27e4fc1813dbd0095d741350ba88ae77d86834529c3ac794568c5c450e4e9937cdba2a5b6e8a8bbbdf0f9d95dc59f7f084fcdd0eb5c9d85fd461896f4aba78d129c325d59d75dd48f32dce00ed863b8a3f03e76e59c70d6937c7f2d6ae7a1245ebbc1b69247fea72ec01c05858e9f8350b28d4be370e73674e2a657058ebb364c86e0153211968541b08910bd593"
+		"678401"		"0100000013790957a5880b0e4c0dc933d5ef70b2e3610a54066c03f8c75a8c7b021ca803b06cad01591301b7f9c67e31a1370db72fa6abac0bb7b85f880659623997652d56e49cc1a25a18c452ff14bddd27d1a4c77c573a20e400a8f85b3f7e6f6dd3c21d3f81cd6adced9cbbe129dc45e90ec059413d5bc86dfd57b4f0b7d425f57ae6bea478f8b0edc53d48323554d5ae172525aada3635393984b1bb504b0b1435efff6eb35298aba62c9f9b82764dbb293dd6964b4ad07c50d5207afcdd3a179a27e4fc1813dbd0095d741350ba88ae77d86834529c3ac794568c5c450e4e9937cdba2a5b6e8a8bbbdf0f9d95dc59f7f084fcdd0eb5c9d85fd461896f4aba78d129c325d59d75dd48f32dce00ed863b8a3f03e76e59c70d6937c7f2d6ae7a1245ebbc1b69247fea72ec01c06cc5ac210de2427dbe370e73674e2a657058ebb364c86e0153211968541b08e3f0854c"
+	}
+}
