@@ -1,0 +1,17 @@
+"7"
+{
+	"ChangeNumber"		"-2338574902978920031"
+	"ostype"		"0"
+	"sharedconfig.vdf"
+	{
+		"root"		"0"
+		"size"		"652"
+		"localtime"		"1652185774"
+		"time"		"1652185774"
+		"remotetime"		"1652185774"
+		"sha"		"8e08f4a8ab41df732d26b274cab5891161e7076c"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+}

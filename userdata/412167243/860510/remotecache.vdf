@@ -1,0 +1,41 @@
+"860510"
+{
+	"ChangeNumber"		"-2615960987495065793"
+	"ostype"		"0"
+	"Helios/Saved/SaveGames/MetaData_76561198372432971.sav"
+	{
+		"root"		"3"
+		"size"		"51420"
+		"localtime"		"1651423164"
+		"time"		"1651423163"
+		"remotetime"		"1651423163"
+		"sha"		"9f8b0154089c6cbd4bb822735217a44b9de1feb9"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"1"
+	}
+	"Helios/Saved/SaveGames/ProgressionMetaData_0_76561198372432971.sav"
+	{
+		"root"		"3"
+		"size"		"2403"
+		"localtime"		"1651423346"
+		"time"		"1651423345"
+		"remotetime"		"1651423345"
+		"sha"		"eec68fa48d0a5816e88e5b956e5475a17efc9e23"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"1"
+	}
+	"Helios/Saved/SaveGames/Data_0_76561198372432971.sav"
+	{
+		"root"		"3"
+		"size"		"825332"
+		"localtime"		"1651423294"
+		"time"		"1651423293"
+		"remotetime"		"1651423293"
+		"sha"		"5b3941f9b3be1f33037c1879dbc95810f03e6d4c"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"1"
+	}
+}
