@@ -1,58 +1,51 @@
 #include <iostream>
-#include <ctime>
-#include <random>
-#include <algorithm>
-#include <string.h>
-#include <cstdio>
-#include <cstring> 
+#include <map>
 #include <vector>
-#include <queue>
+#include <algorithm>
+#include <set>
 
 using namespace std;
-
-vector<int> adj[];
-
-
-void dfs(int s, bool visited[])
-{
-	if(visited[s]) return;
-	visited[s] = true;
-	for(auto u: adj[s])
-	{
-		dfs(u,visited);
-	}
-}f
-
-int main()
-{
-	int N,M;
+int main() {
+    int N,M;
 	cin >> N >> M;
-	bool visited[N];
-	adj[N];
-	for(int i =0;i<4;i++)
+	multiset<int> hours;
+	set<int> defaultHours;
+	vector<int> result;
+	for(int i = 0; i<M;i++)
 	{
-		visited[i]=false;
+		int num;
+		cin >> num;
+		vector<int> str;
+		for(int j = 0; j<num;j++)
+		{
+			int num2;
+			cin >> num2;
+			if(find(str.begin(),str.end(),num2)!=str.end()) continue;
+			str.push_back(num2);
+			hours.insert(num2);
+			defaultHours.insert(num2);
+		}
 	}
-
-		for(int i =0;i<M;i++)
-		{
-			
-			int num,j;
-			cin >> j >> num;
-			j--;
-			num--;
-			// adj[j][i] = num;
-			// adj[num][i]=j;
-			adj[j].push_back(num);
-			adj[num].push_back(j);
+	bool isExist = false;
+	for(auto item : defaultHours)
+	{
+		if(hours.count(item) == M){
+			result.push_back(item);
+			isExist =  true;
 		}
-		int count = 0;
-		for(int i = 0;i<N;i++)
+	}
+	if(isExist){
+		sort(result.begin(),result.end());
+		for(auto item : result)
 		{
-			if(!visited[i]){
-				count++;
-				dfs(i,visited);
-			}
+			cout << item << " ";
 		}
-		cout << count << endl;
+		cout << endl;
+	}else{
+		cout << -1 << endl;
+	}
+    return 0;
 }
+//cin.tie(0)
+//cout.tie(0)
+//ios_base::sync_with_stdio(false)
