@@ -8,7 +8,6 @@
 
 //Задание 23
 using namespace std;
-int countOfStudent=0;
 class ExamensOfStudents{
 	public:
 	int numberInGroup;
@@ -21,22 +20,86 @@ vector<ExamensOfStudents> listOfStudents;
 static void EnterNewGroup();
 static void EnterNewStudent();
 static void PrintAllListInFile();
-static void GetPercentOfStudentWithGrade(int grade);
+static void GetPercentOfStudentWithGrade();
 static void SortByNumberInGroup();
 static void SortByLastName();
+static void FindStudentByFirsLetters();
 int main() {
-    
-	EnterNewGroup();
-	//EnterNewStudent();
-	SortByLastName();
-	PrintAllListInFile();
-	//GetPercentOfStudentWithGrade();
-	string str;
-
+    char opt, waitEnter;
+	do{
+		cout << "\n--------------------------------------------------------------\n";
+		cout << "Выберите действие и введите соответствующую цифру:\n";
+		cout << " 1 - Считать данные о группе студентов из файла\n";
+		cout << " 2 - Добавить данные одного студента с клавиатуры\n";
+		cout << " 3 - Получить процент студентов с определённой оценкой\n";
+		cout << " 4 - Отсортировать список студентов по номеру в группе\n";
+		cout << " 5 - Отсортировать список студентов по фамилиям\n";
+		cout << " 6 - Сохранить список студентов и их данные в файл\n";
+		cout << " 7 - Найти данные студента по фамилии\n";
+		cout << "\nВведите '-' для завершения работы программы(без кавычек)\n";
+		cin >> opt;
+		cout << "\n--------------------------------------------------------------\n";
+		switch(opt){
+			case '1':
+			EnterNewGroup();
+			cin >> waitEnter;
+			break;
+			case '2':
+			EnterNewStudent();
+			cin >> waitEnter;
+			break;
+			case '3':
+			GetPercentOfStudentWithGrade();
+			cin >> waitEnter;
+			break;
+			case '4':
+			SortByNumberInGroup();
+			cin >> waitEnter;
+			break;
+			case '5':
+			SortByLastName();
+			cin >> waitEnter;
+			break;
+			case '6':
+			PrintAllListInFile();
+			cin >> waitEnter;
+			break;
+			case '7':
+			FindStudentByFirsLetters();
+			cin >> waitEnter;
+			break;
+		}
+	}while(opt!='-');
     return 0;
 
 }
 
+static void FindStudentByFirsLetters()
+{
+	cout << "Введите фамилию студента или ее часть: " << endl;
+	string tmp;
+	cin >> tmp;
+	cout << "\nРезультаты поиска:\n";
+	bool isNotFound = true;
+	for(auto student : listOfStudents)
+	{
+		bool isFound = true;
+		for(int i = 0; i<tmp.size();i++)
+		{
+			if(tmp[i]!=student.LastName[i] && (tmp[i]!=char(int(student.LastName[i]) + 32) && char(int(tmp[i])+32)!=student.LastName[i])){
+				isFound=false;
+				break;
+			}
+		}
+		if(isFound) {
+			cout <<"- " << student.LastName << " - студент группы " << student.numberOfStudentBook << " с оценкой за экзамен " << student.grade << endl;
+			isNotFound = false;
+		}
+	}
+	if(isNotFound) cout << "...\nСоответствий запросу не найдено.\n";
+
+	return;
+}
 static void SortByLastName(){
 	sort(listOfStudents.begin(), listOfStudents.end(), [](ExamensOfStudents a, ExamensOfStudents b) {
   	return a.LastName < b.LastName;
@@ -52,7 +115,7 @@ static void GetPercentOfStudentWithGrade()
 	cout << "Введите искомую оценку: ";
 	int grade; cin >> grade;
 	cout << "Студенты, получившие за экзмен оценку " << grade << ", занимают около ";
-	int count;
+	int count=0;
 	for(auto student : listOfStudents)
 	{
 		if(student.grade==grade)
