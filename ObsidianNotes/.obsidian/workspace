@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
-            "mode": "preview",
+            "file": "Base/StudyWork/Психология лидерства.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
+                "file": "Base/StudyWork/Психология лидерства.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
+                "file": "Base/StudyWork/Психология лидерства.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
+                "file": "Base/StudyWork/Психология лидерства.md"
               }
             }
           },
@@ -208,6 +208,8 @@
   },
   "active": "b9087f89e385cbc3",
   "lastOpenFiles": [
+    "Base/StudyWork/Психология лидерства.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
     "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
     "conflict-files-obsidian-git.md",
@@ -215,8 +217,6 @@
     "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
     "Base/StudyWork/EnglishLearning/Future Continuous.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-    "Base/StudyWork/EnglishLearning/Present Perfect.md",
-    "Base/StudyWork/EnglishLearning/English.md"
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
   ]
 }
