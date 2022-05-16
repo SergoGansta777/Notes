@@ -42,30 +42,37 @@ int main() {
 		switch(opt){
 			case '1':
 			EnterNewGroup();
+			cout << "Введите любой символ: ";
 			cin >> waitEnter;
 			break;
 			case '2':
 			EnterNewStudent();
+			cout << "Введите любой символ: ";
 			cin >> waitEnter;
 			break;
 			case '3':
 			GetPercentOfStudentWithGrade();
+			cout << "Введите любой символ: ";
 			cin >> waitEnter;
 			break;
 			case '4':
 			SortByNumberInGroup();
+			cout << "Введите любой символ: ";
 			cin >> waitEnter;
 			break;
 			case '5':
 			SortByLastName();
+			cout << "Введите любой символ: ";
 			cin >> waitEnter;
 			break;
 			case '6':
 			PrintAllListInFile();
+			cout << "Введите любой символ: ";
 			cin >> waitEnter;
 			break;
 			case '7':
 			FindStudentByFirsLetters();
+			cout << "Введите любой символ: ";
 			cin >> waitEnter;
 			break;
 		}
