@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
-            "mode": "preview",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -208,15 +208,15 @@
   },
   "active": "b9087f89e385cbc3",
   "lastOpenFiles": [
-    "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-    "Base/StudyWork/Психология лидерства.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
-    "conflict-files-obsidian-git.md",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
-    "Base/StudyWork/EnglishLearning/Future Continuous.md"
+    "Base/StudyWork/Алгоритмирование и программирование.md",
+    "Base/StudyWork/Психология лидерства.md",
+    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
   ]
 }
