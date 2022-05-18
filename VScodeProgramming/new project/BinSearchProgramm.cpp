@@ -1,60 +1,84 @@
 #include <iostream>
-#include <stdlib.h>
-#include <time.h>
+#include <fstream>
+#include <cstring> 
+#include <string>
 using namespace std;
-int BinSearch(int array[], int index)
+char* rus(const char* text)
 {
-    int first = 0;
-    int last = index;
-    int middle = 0;
-    int element = array[index];
-    while (first <= last)
-    {
-        middle = (first + last) / 2;
-        if (array[middle] == element) {
-            return middle;
-        }
-        else if (array[middle] < element)
-        {
-            first = middle+1 ;
-        }
-        else if (array[middle] > element)
-        {
-            last = middle-1;
-        }     
-    }
-    return first;
+	char* bufRus = new char[20];
+	//OemToCharA(text, bufRus);
+	return bufRus;
+}
+struct BD1
+{
+	int day;
+	int month;
+	int year;
+};
+struct contact
+{
+	char fio[40];
+	char number[13];
+	BD1 BD;
+	char address[150];
+};
+struct contact Notebook[30];  int k = -1;
+ifstream Note; ofstream ToNote;
+void NewContact()
+{
+	ToNote.open("Test.txt", ios::app);
+	cout << "--------- Ââîä íîâîãî êîíòàêòà ---------" << endl; k++;
+	cout << "ÔÈÎ (÷åðåç ïðîáåë): "; cin.getline(Notebook[k].fio, 40, '\n'); ToNote << Notebook[k].fio << '\n';
+	cout << "Íîìåð òåëåôîíà: "; cin >> Notebook[k].number; ToNote << rus(Notebook[k].number) << '\n';
+	cout << "Äàòà ðîæäåíèÿ (÷åðåç ïðîáåë äåíü, ìåñÿö, ãîä): "; cin >> Notebook[k].BD.day >> Notebook[k].BD.month >> Notebook[k].BD.year;
+	ToNote << Notebook[k].BD.day << '.' << Notebook[k].BD.month << '.' << Notebook[k].BD.year << '\n';
+	cout << "Àäðåññ: "; cin.getline(Notebook[k].address, 150); ToNote << rus(Notebook[k].address) << '\n';
+	ToNote.close();
+}
+void ReadingFromNotebook()
+{
+	char* temp = new char[1000]; Note.open("Test.txt");
+    // Note.getline(temp,1000,'\0');
+    // cout << temp;
+	while (!Note.eof())
+	{
+		
+        string help;
+		Note.getline(temp,1000);
+        if(temp[0] == '\0') break;
+		k++;
+       // Notebook[k].fio = help;
+		Note.getline(Notebook[k].number, 13);
+		//Note.getline(temp, 3, '.'); 
+		getline(Note, help,'.');
+		Notebook[k].BD.day = stoi(help); //Note.ignore();
+		//Note.getline(temp, 3, '.'); 
+		getline(Note, help,'.');
+		Notebook[k].BD.month = stoi(help); //Note.ignore();
+		getline(Note, help);
+		int t = stoi(help); //Note.ignore();
+		Notebook[k].BD.year = t;
+		Note.getline(Notebook[k].address,1000);
+        //Note.ignore();
+	}
+	Note.close();
+	return;
+}
+void ShowNote()
+{
+	for (int i = 0; i < k; i++)
+	{
+		cout << Notebook[i].fio << endl;
+		cout << Notebook[i].number << endl;
+		cout << Notebook[i].BD.day << '.' << Notebook[i].BD.month << '.' << Notebook[i].BD.year << endl;
+		cout << Notebook[i].address << endl << endl;
+	}
 }
 int main()
 {
-    setlocale(LC_ALL, "Russian");
-	int arr[12]; 
-    int index;
-    srand((unsigned) time(NULL));
-	for (int i = 0; i < 12; i++)
-	{
-		arr[i] = rand() % 42 - 21;
-		cout << arr[i] << " ";
-	}
-    cout << endl << "Массив заполнен " << endl;
-    for (int i = 1; i < 12; i++)
-    {
-        if (arr[i - 1] > arr[i])
-        {
-            int number = arr[i];
-            index = BinSearch(arr, (i));
-            for (int j = i; j > 0 && arr[j - 1] >= number; j--)
-            {
-                arr[j] = arr[j - 1];
-            }
-            arr[index] = number;
-        }
-    }
-    cout << "Отсортированный массив: " << endl;
-    for (int item : arr)
-    {
-        cout << item << " ";
-    }
-    cout << endl;
-    return 0;
+	setlocale(LC_ALL, "ru");
+	ReadingFromNotebook(); ShowNote();
+	cout << endl << k;
+	//NewContact(); //ShowNote(); 
+	cout << endl << k;
 }

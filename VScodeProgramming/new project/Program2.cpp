@@ -8,6 +8,7 @@
 //Задание 23
 using namespace std;
 
+
 class test{
     class ExamensOfStudents{
 	public:
@@ -17,8 +18,13 @@ class test{
 	int grade;
 	
 };
+    test()
+    {}
+    ~test()
+    {}
+    
 private:
-vector<test::ExamensOfStudents> listOfStudents;
+vector<ExamensOfStudents> listOfStudents;
 public:
 static void FindStudentByFirsLetters()
 {
@@ -102,7 +108,7 @@ static void EnterNewGroup(){
 		getline(inf,tmp,';');
 
 		if(tmp=="") break;
-		ExamensOfStudents infoAboutStudent;
+		test::ExamensOfStudents infoAboutStudent;
 		listOfStudents.push_back(infoAboutStudent);
 		
 		listOfStudents[i].numberInGroup = stoi(tmp);
@@ -125,7 +131,7 @@ static void EnterNewGroup(){
 	}
 	return;
 }
-}
+};
 int main() {
     char opt, waitEnter;
 	do{
