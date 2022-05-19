@@ -4,52 +4,82 @@
     "type": "split",
     "children": [
       {
-        "id": "b9087f89e385cbc3",
+        "id": "d21c4aeab8a4231e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/EnglishLearning/Past Perfect.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "db3f92aaf19de7be",
+        "type": "split",
+        "children": [
+          {
+            "id": "f909064197fc0643",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "307810bfd599784f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "79746d6c7c6dcd2c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
       },
       {
-        "id": "917704d353584525",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
-            "mode": "source",
-            "source": false
+        "id": "829e89b84380928c",
+        "type": "split",
+        "children": [
+          {
+            "id": "5037fd9baaa5c82f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "dca842cd1f741875",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "90c84389572aa48b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "e156abd5c2e93556",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-            "mode": "source",
-            "source": false
-          }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -121,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+                "file": "Base/StudyWork/EnglishLearning/Past Perfect.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -165,6 +195,42 @@
               "type": "graph-analysis",
               "state": {}
             }
+          },
+          {
+            "id": "d3bcd74ad908a24d",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "ad6db14b9ba17aae",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "a1ffdd8a05b902b6",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "30f54a64136c0221",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Base/StudyWork/EnglishLearning/Past Perfect.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -179,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+                "file": "Base/StudyWork/EnglishLearning/Past Perfect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
+                "file": "Base/StudyWork/EnglishLearning/Past Perfect.md"
               }
             }
           },
@@ -226,33 +292,25 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "4733b646ba152637",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "90c84389572aa48b",
+  "active": "d21c4aeab8a4231e",
   "lastOpenFiles": [
-    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+    "Base/StudyWork/EnglishLearning/Past Perfect.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
+    "Base/StudyWork/EnglishLearning/Present Continuous.md",
+    "Base/StudyWork/EnglishLearning/English.md",
+    "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md",
+    "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
     "Base/StudyWork/Алгоритмирование и программирование.md",
-    "Base/StudyWork/Психология лидерства.md",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
   ]
 }

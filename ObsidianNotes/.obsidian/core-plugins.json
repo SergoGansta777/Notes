@@ -4,6 +4,7 @@
   "switcher",
   "graph",
   "backlink",
+  "outgoing-link",
   "tag-pane",
   "page-preview",
   "daily-notes",
@@ -16,6 +17,8 @@
   "random-note",
   "outline",
   "word-count",
+  "slides",
+  "audio-recorder",
   "open-with-default-app",
   "file-recovery"
 ]
