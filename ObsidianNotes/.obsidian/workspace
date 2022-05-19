@@ -10,7 +10,43 @@
           "type": "markdown",
           "state": {
             "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
-            "mode": "preview",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "917704d353584525",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "90c84389572aa48b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "e156abd5c2e93556",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -85,7 +121,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -143,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
               }
             }
           },
@@ -206,8 +242,10 @@
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "b9087f89e385cbc3",
+  "active": "90c84389572aa48b",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
     "Base/StudyWork/Алгоритмирование и программирование.md",
@@ -215,8 +253,6 @@
     "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
   ]
 }

@@ -4,7 +4,7 @@
   "things-style@@default-font-color": false,
   "things-style@@accent-h": 172,
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-topaz-nord",
-  "blue-topaz-theme@@translucent-setting-panel": true,
+  "blue-topaz-theme@@translucent-setting-panel": false,
   "blue-topaz-theme@@background-settings-workplace-background-image": false,
   "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-white-and-black",
   "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-custom-option",
@@ -26,5 +26,5 @@
   "blue-topaz-theme@@background-settings-workplace-theme-light-custom": "url(\"app://local/home/SergoGansta777/Pictures/Wallpapers/samurai-warrior-scenery-4k-wallpaper-1154a.jpg\")",
   "sanctum@@dark-mode-palette": "sanctum-coldgrey-d",
   "blue-topaz-theme@@style-options-for-buttons-plugin": true,
-  "blue-topaz-theme@@full-width-backlinks": true
+  "blue-topaz-theme@@full-width-backlinks": false
 }
