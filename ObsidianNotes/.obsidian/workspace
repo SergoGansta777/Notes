@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -108,7 +108,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.753534212852784,
+                  "scale": 0.7072756658312953,
                   "close": true
                 }
               }
