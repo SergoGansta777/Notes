@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EnglishLearning/Past Perfect.md",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
             "mode": "preview",
             "source": false
           }
@@ -151,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/Past Perfect.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/Past Perfect.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -245,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/Past Perfect.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/Past Perfect.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
               }
             }
           },
@@ -302,8 +302,8 @@
   },
   "active": "d21c4aeab8a4231e",
   "lastOpenFiles": [
-    "Base/StudyWork/EnglishLearning/Past Perfect.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+    "Base/StudyWork/EnglishLearning/Past Perfect.md",
     "Base/StudyWork/EnglishLearning/Present Continuous.md",
     "Base/StudyWork/EnglishLearning/English.md",
     "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md",

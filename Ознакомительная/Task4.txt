@@ -1,0 +1,136 @@
+using System;
+//using System.IO;
+using System.Text.RegularExpressions;
+namespace Practise
+{
+    class Program
+    {
+        //Задание 4
+        static void Main()
+        {
+            string opt = "-";
+            do
+            {
+                Console.WriteLine("Выберите действие:");
+                Console.WriteLine("Добавить в конец одного файла содержимое другого файла - 1");
+                Console.WriteLine("Найти в файле введенную строку или её часть - 2");
+                Console.WriteLine("Вывести содержимое файла - 3");
+                Console.WriteLine("Для прекращения работы с программой введите '-'(без кавычек).");
+                opt = Console.ReadLine().Trim();
+                switch (opt)
+                {
+                    case "1":
+                        MergeTwoText();
+                        break;
+                    case "2":
+                        FindAndDelete();
+                        break;
+                    case "3":
+                        PrintFile();
+                        break;
+                }
+                Console.WriteLine();
+
+            } while (opt != "-");
+        }
+
+        static void PrintFile()
+        {
+            Console.WriteLine("Введите путь к файлу");
+            string path = Console.ReadLine();
+            if (File.Exists(@path))
+            {
+                Console.WriteLine(File.ReadAllText(@path));
+            }
+            else
+            {
+                Console.WriteLine("Указанный файл не найден");
+            }
+        }
+        static void FindAndDelete()
+        {
+            Console.WriteLine("Введите путь к файлу:");
+            string path = Console.ReadLine();
+            if (File.Exists(@path))
+            {
+                string resultText = "";
+                string textForFind = "";
+                string opt;
+                do
+                {
+                    Console.WriteLine("Введите слово или строку, которую хотите найти: ");
+                    textForFind = Console.ReadLine();
+                    Console.WriteLine("Пожалуйста, убедитесь в правильности введённых данных.\nХотите изменить? (y/n)");
+                    opt = Console.ReadLine();
+                } while (opt.Trim() != "n");
+                Console.WriteLine("Поиск ...");
+                int count = 0;
+                StreamReader f = new StreamReader(@path);
+                bool isFound = false;
+                while (!f.EndOfStream)
+                {
+                    string s = f.ReadLine();
+                    count++;
+                    if (s.Contains(textForFind))
+                    {
+                        isFound = true;
+                        Console.WriteLine("Искомые данные найдены в строке " + count + ": \"" + s + "\"");
+                        Console.WriteLine("Желаете удалить всю строку? - 1\nЖелаете удалить только совпадение - 2\nЕсли хотите ничего не делать, введите любой другой символ.");
+                        opt = Console.ReadLine();
+                        if (opt.Trim() == "1")
+                        {
+                            Console.WriteLine("Строчка удалена.");
+                            continue;
+                        }
+                        if (opt.Trim() == "2")
+                        {
+                            s =s.Replace(textForFind, "");
+                            Console.WriteLine("Совпадение удалено");
+                        }
+                    }
+                    resultText += s;
+                }
+                f.Close();
+                if(!isFound)
+                {
+                    Console.WriteLine("Совпадений не найдено");
+                }
+                using (var target = new StreamWriter(@path))
+                {
+                    target.Write(resultText);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Указанного файла не существует.");
+            }
+        }
+        static void MergeTwoText()
+        {
+            Console.WriteLine("Введите путь к первому файлу(к этому файлу дополнится содержимое второго файла):");
+            string path1 = Console.ReadLine().Trim();
+            Console.WriteLine("Введите путь ко второму файлу:");
+            string path2 = Console.ReadLine().Trim();
+            if (File.Exists(@path1))
+            {
+                if (File.Exists(@path2))
+                {
+                    string resultText = File.ReadAllText(@path1);
+                    resultText += File.ReadAllText(@path2);
+                    using (var target = new StreamWriter(@path1))
+                    {
+                        target.Write(resultText);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("файл с путем " + path2 + " не найден.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("файл с путем " + path1 + " не найден.");
+            }
+        }
+    }
+}
