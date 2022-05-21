@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
             "mode": "preview",
             "source": false
           }
@@ -151,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,14 +226,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "347690fde5347fc2",
@@ -245,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
               }
             }
           },
@@ -302,6 +301,8 @@
   },
   "active": "d21c4aeab8a4231e",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
     "Base/StudyWork/EnglishLearning/Past Perfect.md",
     "Base/StudyWork/EnglishLearning/Present Continuous.md",
@@ -309,8 +310,6 @@
     "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md",
     "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-    "Base/StudyWork/Алгоритмирование и программирование.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
+    "Base/StudyWork/Алгоритмирование и программирование.md"
   ]
 }
