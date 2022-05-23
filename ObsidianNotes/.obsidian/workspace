@@ -40,7 +40,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+            "file": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
             "mode": "preview",
             "source": false
           }
@@ -53,7 +53,7 @@
           "type": "markdown",
           "state": {
             "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -135,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 233.5,
+    "collapsed": true
   },
   "right": {
     "id": "c63a1f40835abdfc",
@@ -232,7 +233,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "347690fde5347fc2",
@@ -297,19 +299,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.66668701171875
+    "width": 315.66668701171875,
+    "collapsed": true
   },
-  "active": "79746d6c7c6dcd2c",
+  "active": "6cd518624147b0ac",
   "lastOpenFiles": [
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+    "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
+    "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
     "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Философия институт.md",
     "Base/StudyWork/EnglishLearning/Past Perfect.md",
-    "Base/StudyWork/EnglishLearning/Present Continuous.md",
-    "Base/StudyWork/EnglishLearning/English.md",
-    "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md",
-    "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
+    "Base/StudyWork/EnglishLearning/Present Continuous.md"
   ]
 }
