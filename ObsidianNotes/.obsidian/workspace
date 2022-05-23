@@ -40,7 +40,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
+            "file": "Base/StudyWork/Психология лидерства.md",
             "mode": "source",
             "source": false
           }
@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "c63a1f40835abdfc",
@@ -152,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
+                "file": "Base/StudyWork/Психология лидерства.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -227,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
+                "file": "Base/StudyWork/Психология лидерства.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -246,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
+                "file": "Base/StudyWork/Психология лидерства.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md"
+                "file": "Base/StudyWork/Психология лидерства.md"
               }
             }
           },
@@ -299,20 +298,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.66668701171875,
-    "collapsed": true
+    "width": 315.66668701171875
   },
   "active": "79746d6c7c6dcd2c",
   "lastOpenFiles": [
-    "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
+    "Base/StudyWork/Психология лидерства.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+    "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
     "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
     "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
-    "Base/StudyWork/EnglishLearning/Past Perfect.md",
-    "Base/StudyWork/EnglishLearning/Present Continuous.md"
+    "Base/StudyWork/PhilosophyLectures/Философия институт.md"
   ]
 }
