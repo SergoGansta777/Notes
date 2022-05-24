@@ -2,8 +2,12 @@
 #include <math.h>
 using namespace std;
 
-int main()
+int main(int argc, char* argv[])
 {
+    if(argc>1){
+        cout << argv[1] << endl;
+        cout << "Получилось" << endl;
+    }
 	int A, B, count;
 	cin >> A >> B;
 	int lastDecent = A/10, help;
