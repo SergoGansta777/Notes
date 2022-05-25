@@ -3,7 +3,7 @@
   "things-style@@floating-button-off": true,
   "things-style@@default-font-color": false,
   "things-style@@accent-h": 172,
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-topaz-nord",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-monochrome-topaz",
   "blue-topaz-theme@@translucent-setting-panel": false,
   "blue-topaz-theme@@background-settings-workplace-background-image": false,
   "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-white-and-black",
@@ -27,5 +27,7 @@
   "sanctum@@dark-mode-palette": "sanctum-coldgrey-d",
   "blue-topaz-theme@@style-options-for-buttons-plugin": true,
   "blue-topaz-theme@@full-width-backlinks": false,
-  "obsidian-california-coast-theme@@cc-header-spacing": false
+  "obsidian-california-coast-theme@@cc-header-spacing": false,
+  "blue-topaz-theme@@fancy-hr": "fancy-hr-icon",
+  "blue-topaz-theme@@list-style-change-options": "list-bracket-left"
 }
