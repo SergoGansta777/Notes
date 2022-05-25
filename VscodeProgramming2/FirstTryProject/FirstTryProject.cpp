@@ -1,30 +1,24 @@
 #include <iostream>
-#include <math.h>
+#include <string.h>
+#include <stack>
 using namespace std;
-
-int main(int argc, char* argv[])
+int main()
 {
-    if(argc>1){
-        cout << argv[1] << endl;
-        cout << "Получилось" << endl;
-    }
-	int A, B, count;
-	cin >> A >> B;
-	int lastDecent = A/10, help;
-	for(int i = A; i<=B;i++)
-    {
-        if(i==-100 || i==0){
-                cout << i << " ";
-                lastDecent = (i+1)/10;
-                continue;
-            }
-        if((lastDecent != i/10 && i%10!=0 ) || i==1){
-            lastDecent = i/10;
-            if(i!=A+1) cout << endl;
-        }
-        cout << i ;
-        if(i%10!=0) cout << " ";
-    }
-    cout << endl;
-	return 0;
+int a=0;
+stack <int> steck;
+char str[80];
+cin.getline(str,80);
+for (int i = 0; i < strlen(str); i++) {
+/*if ((str[i] == '(') || (steck.empty()))
+cout « "Parentheses aren't balanced";*/
+if (str[i] == '(')
+steck.push(a);
+if (str[i] == ')')
+steck.pop();
+}
+if (steck.empty())
+cout<< "Parentheses are balanced";
+else
+cout<< "Parentheses aren't balanced";
+return 0;
 }
