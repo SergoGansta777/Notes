@@ -40,7 +40,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
             "mode": "source",
             "source": false
           }
@@ -151,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -245,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
               }
             }
           },
@@ -300,16 +300,16 @@
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "6cd518624147b0ac",
+  "active": "79746d6c7c6dcd2c",
   "lastOpenFiles": [
-    "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+    "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
     "Base/StudyWork/Психология лидерства.md",
     "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Философия институт.md"
   ]
