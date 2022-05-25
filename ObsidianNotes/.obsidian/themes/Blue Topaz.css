@@ -1,5 +1,5 @@
-/*蓝色托帕石，适合Obsidian v0.14.12。uid [20220519] flying fly flies制作，欢迎使用及分享，借鉴（copy）了许多主题，在此一一感谢。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
-/*Blue Topaz for Obsidian v0.14.12, uid [20220519] created by flying fly flies. Feel free to use, share and modify. Thanks for all shared css themes which inspire me a lot. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
+/*蓝色托帕石，适合Obsidian v0.14.12。uid [20220520] flying fly flies制作，欢迎使用及分享，借鉴（copy）了许多主题，在此一一感谢。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
+/*Blue Topaz for Obsidian v0.14.12, uid [20220520] created by flying fly flies. Feel free to use, share and modify. Thanks for all shared css themes which inspire me a lot. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
 
 /* 致谢 Credits：
 Many thanks to @Cuman
@@ -418,6 +418,19 @@ settings:
     min: 0
     max: 1
     step: 0.05
+  - 
+    id: background-settings-markdown-page
+    title: 1.2.4 File Explorer Background
+    title.zh: 1.2.4 文件栏背景
+    type: heading
+    level: 3
+    collapsed: true
+  - 
+    id: toggle-bg-file-page
+    title: Toggle Background Image
+    title.zh: 激活文件栏背景
+    type: class-toggle
+    default: false
   - 
     id: layout-settings
     title: 1.3 Layout
@@ -2534,6 +2547,9 @@ settings:
       - 
         label: Adding Image or Animation (GIF)
         value: loading-animation-custom
+      - 
+        label: Animation with Position Changing
+        value: loading-shape-with-custom-gif
   -
     id: loading-custom-text-folder
     title: 2.3.16.1 Custom Text
@@ -2545,13 +2561,13 @@ settings:
     title: Custom Text
     title.zh: 自定义文字
     type: variable-text
-    default: "'快乐摸鱼又一天，人生还剩多少天？'"
+    default: "快乐摸鱼又一天，人生还剩多少天？"
   -
     id: font-loading-text
     title: Font Family of Custom Text 
     title.zh: 字体
     type: variable-text
-    default: "Arial"
+    default: var(--font-monospace-theme)
   -
     id: font-size-loading-diy-text
     title: Font Size
@@ -2642,6 +2658,28 @@ settings:
     title: Image Caption
     type: variable-text
     default: " "
+  -
+    id: loading-shape-with-custom-gif-folder
+    title: 2.3.16.4 Custom Image/Animation with Position Changing
+    type: heading
+    level: 4
+    collapsed: false
+  -
+    id: loading-page-custom-gif-url-alt
+    title: Custom Loading Page Image/Animation
+    type: variable-text
+    default: url(https://cdn.dribbble.com/users/53712/screenshots/9948351/media/2397850c7727f8e70b0ec50b5a83fe76.gif)
+  -
+    id: loading-page-custom-gif-caption-alt
+    title: Image Caption
+    type: variable-text
+    default: " "
+  -
+    id: loading-shape-with-custom-high-contrast-bg
+    title: High Contrast Background
+    title.zh: 高对比度背景
+    type: class-toggle
+    default: false
   -
     id: style-options-for-other-plugins
     title: 3. For Plugins
@@ -3298,10 +3336,12 @@ body {
 
   --checkbox-size: 1rem;
 
-  --loading-diy-text: '快乐摸鱼又一天，人生还剩多少天？';
+  --loading-diy-text: "快乐摸鱼又一天，人生还剩多少天？";
   --loading-diy-text-color: var(--text-normal);
   --loading-page-custom-gif-caption: " ";
+  --loading-page-custom-gif-caption-alt: " ";
   --loading-page-custom-gif-url: url(https://);
+  --loading-page-custom-gif-url-alt: url(https://cdn.dribbble.com/users/53712/screenshots/9948351/media/2397850c7727f8e70b0ec50b5a83fe76.gif);
   --loading-text-before: "❀✿";
   --loading-text-after: "✿❀";
   --loading-add-text-color: #d47e86;
@@ -11723,7 +11763,7 @@ body.full-width-dvtable .markdown-source-view.mod-cm6 .cm-contentContainer.cm-co
 :is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks)	div.markdown-preview-view:not(.fullwidth) .markdown-preview-sizer.markdown-preview-sizer > div:not(.obsidian-banner-wrapper) { 
   max-width: var(--line-width-readable); 
   margin-inline: auto; 
-} /* important is for Atom theme */
+} 
 
 
 body.full-width-dvtable .markdown-preview-view .markdown-preview-sizer.markdown-preview-sizer > div:is(.el-lang-dataview),
@@ -11775,7 +11815,7 @@ div[class*="-dataview"].markdown-source-view.mod-cm6 .cm-contentContainer.cm-con
 div.markdown-preview-view:is(.wide-dataview,.wide-table,.wide-backlinks,.wide-callout) .markdown-preview-sizer.markdown-preview-sizer > div {
   max-width: var(--line-width-readable); 
   margin-inline: auto; 
-} /* important is for Atom theme */
+} 
 div[class*="-dataview"].markdown-preview-view .markdown-preview-sizer.markdown-preview-sizer > div:is(.el-lang-dataview),
 div[class*="-table"].markdown-preview-view .markdown-preview-sizer.markdown-preview-sizer > div:is(.el-table),
 div[class*="-callout"].markdown-preview-view .markdown-preview-sizer.markdown-preview-sizer > div[data-callout],
@@ -11978,10 +12018,6 @@ body.file-bg-pill .nav-folder-title.is-active,
 body:not(.is-grabbing).file-bg-pill .nav-file-title:hover, 
 body:not(.is-grabbing).file-bg-pill .nav-folder-title:hover {
   border-radius: 15px;
-}
-
-body.file-bg-pill .nav-files-container {
-  padding: 0 3px 0 2px;
 }
 
 body.file-bg-pill .nav-folder.mod-root>.nav-folder-title {
@@ -16871,7 +16907,6 @@ body.translucent-setting-panel .vertical-tab-nav-item {
 .setting-item-info {
   word-wrap: break-word;
   word-break: break-word;
-  white-space: pre-wrap;
 }
 
 .style-settings-heading {
@@ -18299,7 +18334,7 @@ body.asymmetric-split-left .workspace-split.mod-left-split .workspace-tab-header
   padding: 4px 0;
 }
 
-.workspace-split.mod-left-split .workspace-tab-header-container {
+body.asymmetric-split-left .workspace-split.mod-left-split .workspace-tab-header-container {
   border-bottom: 1px solid var(--background-modifier-border-asymm);
 }
 
@@ -18680,6 +18715,35 @@ body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-action svg.brok
 .menu {
   border: none;
 }
+
+body.toggle-bg-file-page.theme-dark .nav-files-container::before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+  background: no-repeat center/cover url(https://images.unsplash.com/photo-1612434995720-89c1537a3009?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170);
+  z-index: -1;
+}
+
+/*
+body.toggle-bg-file-page.theme-light .nav-files-container::before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.25;
+  background: no-repeat center/cover url(https://images.unsplash.com/photo-1628882860274-0b9a99911691?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1199);
+  z-index: -1;
+  filter: blur(3px) hue-rotate(70deg);
+}
+*/
 
 /* Sea and sky for Blue Topaz */
 .workspace-split.mod-root .workspace-leaf:nth-child(n) .workspace-leaf-content[data-type="markdown"]::before {
@@ -20646,13 +20710,13 @@ body:not(.default-loading-page).theme-light .progress-bar {
 }
 
 @keyframes shape {
-  0% {background-color: transparent; left: -40px; top: -50px; border-radius: 50%;}
-  10% {background-color: #53c7ff; left: -40px; top: -50px; border-radius: 50%;}
-  30% {background-color: #8fff7b; left: 120px; top: -50px; border-radius: 0;}
-  50% {background-color: #ffe468; left: 120px; top: 110px; border-radius: 50%;}
-  70% {background-color: #fe9289; left: -40px; top: 110px; border-radius: 0;}
-  90% {background-color: #53c7ff; left: -40px; top: -50px; border-radius: 50%;}
-  100% {background-color: transparent; left: -40px; top: -50px; border-radius: 50%;}
+  0% {background-color: transparent; left: -50px; top: -50px; border-radius: 50%;}
+  10% {background-color: #53c7ff; left: -50px; top: -50px; border-radius: 50%;}
+  30% {background-color: #8fff7b; left: 110px; top: -50px; border-radius: 0;}
+  50% {background-color: #ffe468; left: 110px; top: 110px; border-radius: 50%;}
+  70% {background-color: #fe9289; left: -50px; top: 110px; border-radius: 0;}
+  90% {background-color: #53c7ff; left: -50px; top: -50px; border-radius: 50%;}
+  100% {background-color: transparent; left: -50px; top: -50px; border-radius: 50%;}
 }
 
 /* the gif animation was created by @Jake Fleming https://dribbble.com/shots/9948351-kitty-wiggle */
@@ -20697,6 +20761,43 @@ body:not(.default-loading-page).loading-animation-custom .progress-bar-message::
   width: 800px; 
   height: 600px;
   margin-top: -20px; 
+}
+
+body:not(.default-loading-page).loading-shape-with-custom-gif .progress-bar-message:before {
+  display: block;
+  width: 250px; 
+  height: 250px;
+  content: var(--loading-page-custom-gif-caption-alt); 
+  background: no-repeat center/cover var(--loading-page-custom-gif-url-alt);
+  animation: shape-gif 2.5s infinite alternate;
+}
+
+body:not(.default-loading-page).loading-shape-with-custom-gif.loading-shape-with-custom-high-contrast-bg.theme-light .progress-bar {
+  background-color: black;
+}
+
+body:not(.default-loading-page).loading-shape-with-custom-gif.loading-shape-with-custom-high-contrast-bg.theme-dark .progress-bar {
+  background-color: white;
+}
+
+body:not(.default-loading-page).loading-shape-with-custom-gif.loading-shape-with-custom-high-contrast-bg.theme-dark .progress-bar-message::before {
+  animation: shape-gif-dark 2.5s infinite alternate;
+}
+
+@keyframes shape-gif {
+  0% {filter: hue-rotate(0deg); left: -80px; top: -80px; border-radius: 50%;}
+  25% {filter: hue-rotate(90deg); left: 80px; top: -80px; border-radius: 0;}
+  50% {filter: hue-rotate(180deg); left: 80px; top: 80px; border-radius: 50%;}
+  75% {filter: hue-rotate(270deg); left: -80px; top: 80px; border-radius: 0;}
+  100% {filter: hue-rotate(360deg); left: -80px; top: -80px; border-radius: 50%;}
+}
+
+@keyframes shape-gif-dark {
+  0% {filter: hue-rotate(0deg) invert(100%); left: -80px; top: -80px; border-radius: 50%;}
+  25% {filter: hue-rotate(90deg) invert(100%); left: 80px; top: -80px; border-radius: 0;}
+  50% {filter: hue-rotate(180deg) invert(100%); left: 80px; top: 80px; border-radius: 50%;}
+  75% {filter: hue-rotate(270deg) invert(100%); left: -80px; top: 80px; border-radius: 0;}
+  100% {filter: hue-rotate(360deg) invert(100%); left: -80px; top: -80px; border-radius: 50%;}
 }
 
 body:not(.default-loading-page).loading-add-icons .progress-bar-message {
@@ -21103,7 +21204,7 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
   max-width: 290px;
 }
 .community-theme-container .theme-list .community-theme.is-selected .community-theme-title::before {
-  content: "uid:20220519";
+  content: "uid:20220520";
   font-family: var(--font-family-inline-code);
   font-size: 12px;
   font-weight: normal;
