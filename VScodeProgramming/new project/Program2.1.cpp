@@ -84,6 +84,7 @@ static void FindStudentByFirsLetters()
 	cout << "Введите фамилию студента или ее часть: " << endl;
 	string tmp;
 	cin >> tmp;
+	transform(tmp.begin(), tmp.end(), tmp.begin(), tolower);
 	cout << "\nРезультаты поиска:\n";
 	bool isNotFound = true;
 	for(auto student : listOfStudents)
@@ -91,7 +92,8 @@ static void FindStudentByFirsLetters()
 		bool isFound = true;
 		for(int i = 0; i<tmp.size();i++)
 		{
-			if(tmp[i]!=student.LastName[i] && (tmp[i]!=char(int(student.LastName[i]) + 32) && char(int(tmp[i])+32)!=student.LastName[i])){
+			char test= char(tolower(tmp[i]));
+			if(tolower(tmp[i])!=tolower(student.LastName[i])){
 				isFound=false;
 				break;
 			}
@@ -137,6 +139,7 @@ static void PrintAllListInFile()
 	for(auto student : listOfStudents){
 		file << student.numberInGroup << "; " << student.LastName << "; " << student.numberOfStudentBook << "; " << student.grade << ";\n";
 	}
+	file.close();
 	return;
 }
 static void EnterNewStudent(){
@@ -182,6 +185,7 @@ static void EnterNewGroup(){
 		inf.ignore();
 		i++;
 	}
+	inf.close();
 	return;
 }
 //23

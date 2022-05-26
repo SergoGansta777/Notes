@@ -43,5 +43,10 @@
   "blue-topaz-theme@@list-style-change-options-edit": "rainbow-lines",
   "blue-topaz-theme@@folder-icons": false,
   "blue-topaz-theme@@remove-arrow": false,
-  "blue-topaz-theme@@folder-style-change-options-colorful": false
+  "blue-topaz-theme@@folder-style-change-options-colorful": false,
+  "blue-topaz-theme@@remove-custom-svg-icons": false,
+  "blue-topaz-theme@@default-icons": false,
+  "blue-topaz-theme@@fancy-cursor": true,
+  "blue-topaz-theme@@right-ribbon-style": "hide-right-ribbon-button-top",
+  "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style"
 }

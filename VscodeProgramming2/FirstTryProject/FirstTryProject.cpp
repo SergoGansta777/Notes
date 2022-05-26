@@ -1,24 +1,26 @@
 #include <iostream>
-#include <string.h>
-#include <stack>
+#include <iomanip>
+#include <fstream>
 using namespace std;
-int main()
-{
-int a=0;
-stack <int> steck;
-char str[80];
-cin.getline(str,80);
-for (int i = 0; i < strlen(str); i++) {
-/*if ((str[i] == '(') || (steck.empty()))
-cout « "Parentheses aren't balanced";*/
-if (str[i] == '(')
-steck.push(a);
-if (str[i] == ')')
-steck.pop();
+int main() {
+int i, j, count = 0;
+int test[5] = {9,1,5,7,10};
+for (i = 0; i < 5; i++) {
+cout << test[i]<< " ";
 }
-if (steck.empty())
-cout<< "Parentheses are balanced";
-else
-cout<< "Parentheses aren't balanced";
+cout << endl;
+int size = 5; //здесь у тебя будет кол-во элементов, который будет подсчитан при чтении из файла
+for(int i = 0; i<size;i++)
+{
+    for(int j = i+1;j<size;j++)
+    {
+        if(test[j]<test[j-1]){
+            count++;
+        }else{
+            break;
+        }
+    }
+}
+cout << count;
 return 0;
 }
