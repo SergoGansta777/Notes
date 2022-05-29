@@ -40,7 +40,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
+            "file": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md",
             "mode": "preview",
             "source": false
           }
@@ -52,7 +52,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
             "mode": "preview",
             "source": false
           }
@@ -182,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
+                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
               }
             }
           },
@@ -331,17 +331,17 @@
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "1cd7b7150d00b1ca",
+  "active": "f84cc9c6ac509073",
   "lastOpenFiles": [
-    "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
+    "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
-    "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
-    "Base/StudyWork/PhilosophyLectures/Философия институт.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+    "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
   ]
 }

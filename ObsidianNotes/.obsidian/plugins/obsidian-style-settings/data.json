@@ -3,7 +3,7 @@
   "things-style@@floating-button-off": true,
   "things-style@@default-font-color": false,
   "things-style@@accent-h": 172,
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-monochrome-topaz",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-topaz-nord",
   "blue-topaz-theme@@translucent-setting-panel": false,
   "blue-topaz-theme@@background-settings-workplace-background-image": false,
   "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-white-and-black",
@@ -20,7 +20,7 @@
   "blue-topaz-theme@@bt-status-off": true,
   "blue-topaz-theme@@layout-style-options": "asymmetric-split-left",
   "blue-topaz-theme@@simple-titlebar": false,
-  "blue-topaz-theme@@circular-checkbox": true,
+  "blue-topaz-theme@@circular-checkbox": false,
   "blue-topaz-theme@@muted-activeline-bg": false,
   "blue-topaz-theme@@background-settings-workplace-theme-dark-custom": "url(\"app://local/home/SergoGansta777/Pictures/Wallpapers/samurai-warrior-scenery-4k-wallpaper-1154a.jpg\")",
   "blue-topaz-theme@@background-settings-workplace-theme-light-custom": "url(\"app://local/home/SergoGansta777/Pictures/Wallpapers/samurai-warrior-scenery-4k-wallpaper-1154a.jpg\")",
@@ -37,7 +37,7 @@
   "blue-topaz-theme@@h2-toggle-underline": true,
   "blue-topaz-theme@@h3-toggle-underline": false,
   "blue-topaz-theme@@text-indentation-two-em": true,
-  "blue-topaz-theme@@toggle-bg-file-page": true,
+  "blue-topaz-theme@@toggle-bg-file-page": false,
   "blue-topaz-theme@@rainbow-ordered-list": false,
   "blue-topaz-theme@@rainbow-checkbox": true,
   "blue-topaz-theme@@list-style-change-options-edit": "rainbow-lines",
@@ -48,5 +48,6 @@
   "blue-topaz-theme@@default-icons": false,
   "blue-topaz-theme@@fancy-cursor": true,
   "blue-topaz-theme@@right-ribbon-style": "hide-right-ribbon-button-top",
-  "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style"
+  "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
+  "blue-topaz-theme@@whole-code-wrap": true
 }
