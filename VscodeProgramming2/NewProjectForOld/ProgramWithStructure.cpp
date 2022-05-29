@@ -2,6 +2,7 @@
 #include <vector>
 #include <algorithm>
 #include <fstream>
+#include <ctype.h>
 #include <cstring>
 
 //Задание 23
