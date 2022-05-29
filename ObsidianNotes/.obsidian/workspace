@@ -53,7 +53,7 @@
           "type": "markdown",
           "state": {
             "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -182,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
               }
             }
           },
@@ -331,10 +331,10 @@
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "f84cc9c6ac509073",
+  "active": "1cd7b7150d00b1ca",
   "lastOpenFiles": [
-    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
