@@ -1,1 +1,10 @@
-{}
+{
+  "folder-note-core:link-to-parent-folder": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad1"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6334aeb6e0edc971",
+        "id": "d6e4e27eaef92ac7",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -144,7 +144,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "347690fde5347fc2",
@@ -202,17 +202,17 @@
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "6334aeb6e0edc971",
+  "active": "d6e4e27eaef92ac7",
   "lastOpenFiles": [
     "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
+    "Base/StudyWork/EnglishLearning/EnglishLearning.md",
+    "Base/StudyWork/EnglishLearning/Past Perfect.md",
+    "Base/StudyWork/EnglishLearning/Future Perfect.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md",
-    "Base/StudyWork/Codding/Codding.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md",
-    "Base/GitHub/GitHub.md"
+    "Base/NoteForLinux/NoteForLinux.md",
+    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+    "Base/StudyWork/OsLectures/OsLectures.md"
   ]
 }

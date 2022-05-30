@@ -50,5 +50,6 @@
   "blue-topaz-theme@@right-ribbon-style": "hide-right-ribbon-button-top",
   "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
   "blue-topaz-theme@@whole-code-wrap": true,
-  "blue-topaz-theme@@full-width-callout": false
+  "blue-topaz-theme@@full-width-callout": false,
+  "blue-topaz-theme@@style-options-for-kanban-plugin-dynamic": "style-options-for-kanban-plugin-dynamic-neon-two"
 }
