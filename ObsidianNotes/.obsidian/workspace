@@ -7,9 +7,19 @@
         "id": "b5d6f4df58bbd982",
         "type": "leaf",
         "state": {
+          "type": "kanban",
+          "state": {
+            "file": "Base/NoteForLinux/Untitled Kanban.md"
+          }
+        }
+      },
+      {
+        "id": "a3b8eae2d5bcd734",
+        "type": "leaf",
+        "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/NoteForLinux/Расширения.md",
+            "file": "Base/NoteForLinux/Смена раскладки.md",
             "mode": "source",
             "source": false
           }
@@ -121,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/NoteForLinux/Расширения.md",
+                "file": "Base/NoteForLinux/Untitled Kanban.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -196,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/NoteForLinux/Расширения.md",
+                "file": "Base/NoteForLinux/Untitled Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -215,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/NoteForLinux/Расширения.md",
+                "file": "Base/NoteForLinux/Untitled Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/NoteForLinux/Расширения.md"
+                "file": "Base/NoteForLinux/Untitled Kanban.md"
               }
             }
           },
@@ -272,15 +282,15 @@
   },
   "active": "b5d6f4df58bbd982",
   "lastOpenFiles": [
+    "Base/NoteForLinux/Untitled Kanban.md",
     "Base/NoteForLinux/Расширения.md",
     "Base/NoteForLinux/Смена раскладки.md",
+    "Base/NoteForLinux/jdrjajs.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
     "Base/GitHub.md",
     "Base/StudyWork/Codding/Csharp/Шифрование текста на основе двусвязного списка.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
     "Base/StudyWork/EnglishLearning/Future Perfect.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
+    "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
   ]
 }

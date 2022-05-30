@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled Kanban",
+      "path": "Base/NoteForLinux/Untitled Kanban.md"
+    },
+    {
       "basename": "Расширения",
       "path": "Base/NoteForLinux/Расширения.md"
     },
     {
       "basename": "Смена раскладки",
       "path": "Base/NoteForLinux/Смена раскладки.md"
+    },
+    {
+      "basename": "jdrjajs",
+      "path": "Base/NoteForLinux/jdrjajs.md"
+    },
+    {
+      "basename": "Экономика, Лекция 8",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
     },
     {
       "basename": "GitHub",
@@ -19,10 +31,6 @@
     {
       "basename": "Экономика, Лекция 6.",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
-    },
-    {
-      "basename": "Экономика, Лекция 8",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
     },
     {
       "basename": "Future Perfect",
@@ -191,14 +199,6 @@
     {
       "basename": "Troegubov_Andrei_774_Gennadyevich_002",
       "path": "Base/StudyWork/PhilosophyLectures/Attachments/Troegubov_Andrei_774_Gennadyevich_002.pdf"
-    },
-    {
-      "basename": "Filosofia_srednikh_vekov_002",
-      "path": "Base/StudyWork/PhilosophyLectures/Attachments/Filosofia_srednikh_vekov_002.pdf"
-    },
-    {
-      "basename": "Filosofia_Novogo_Vremeni_17-18_veka_002",
-      "path": "Base/StudyWork/PhilosophyLectures/Attachments/Filosofia_Novogo_Vremeni_17-18_veka_002.pdf"
     }
   ],
   "omittedPaths": [],
