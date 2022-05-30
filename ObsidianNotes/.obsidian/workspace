@@ -4,25 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "a3b8eae2d5bcd734",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/NoteForLinux/Смена раскладки.md",
-            "mode": "preview",
-            "source": false
-          }
-        }
-      },
-      {
         "id": "b21034f68c0dcd63",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/NoteForLinux/Расширения.md",
-            "mode": "source",
+            "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -109,7 +97,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/NoteForLinux/Смена раскладки.md",
+                "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -179,40 +167,31 @@
             }
           },
           {
-            "id": "fb2913f5576d2f79",
+            "id": "7a090b41621f3122",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/NoteForLinux/Смена раскладки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "ef330790979f06a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "347690fde5347fc2",
         "type": "tabs",
         "children": [
-          {
-            "id": "38bb9b706b9ef13f",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Base/NoteForLinux/Смена раскладки.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "c9fcc1d609c951e8",
             "type": "leaf",
@@ -221,16 +200,6 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "772db62c7d00f76f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Base/NoteForLinux/Смена раскладки.md"
               }
             }
           },
@@ -251,23 +220,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "a3b8eae2d5bcd734",
+  "active": "b21034f68c0dcd63",
   "lastOpenFiles": [
-    "Base/NoteForLinux/Смена раскладки.md",
-    "Base/NoteForLinux/Расширения.md",
+    "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
+    "Base/StudyWork/OsLectures/OsLectures.md",
+    "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
     "Base/StudyWork/Психология лидерства.md",
-    "Base/GitHub/GitHub.md",
-    "Base/StudyWork/Алгоритмирование и программирование.md",
-    "Base/NoteForLinux/Untitled Kanban.md",
-    "Base/NoteForLinux/jdrjajs.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-    "Base/StudyWork/Codding/Csharp/Шифрование текста на основе двусвязного списка.md"
+    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
+    "Base/NoteForLinux/Расширения.md",
+    "Base/StudyWork/1PhilosophyLectures/Untitled.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
+    "Base/NoteForLinux/NoteForLinux.md"
   ]
 }

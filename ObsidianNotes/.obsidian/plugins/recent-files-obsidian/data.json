@@ -1,28 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Смена раскладки",
-      "path": "Base/NoteForLinux/Смена раскладки.md"
+      "basename": "EconomicsLectures",
+      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
     },
     {
-      "basename": "Расширения",
-      "path": "Base/NoteForLinux/Расширения.md"
+      "basename": "OsLectures",
+      "path": "Base/StudyWork/OsLectures/OsLectures.md"
+    },
+    {
+      "basename": "Операционные среды, лекция 5",
+      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
     },
     {
       "basename": "Психология лидерства",
       "path": "Base/StudyWork/Психология лидерства.md"
     },
     {
+      "basename": "PhilosophyLectures",
+      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+    },
+    {
+      "basename": "Расширения",
+      "path": "Base/NoteForLinux/Расширения.md"
+    },
+    {
+      "basename": "Лекция 8, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
+    },
+    {
+      "basename": "Экономика, Лекция 7",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
+    },
+    {
+      "basename": "NoteForLinux",
+      "path": "Base/NoteForLinux/NoteForLinux.md"
+    },
+    {
       "basename": "GitHub",
       "path": "Base/GitHub/GitHub.md"
     },
     {
-      "basename": "Алгоритмирование и программирование",
-      "path": "Base/StudyWork/Алгоритмирование и программирование.md"
+      "basename": "Pasted image 20220327185856",
+      "path": "Base/Attachments/Pasted image 20220327185856.png"
     },
     {
       "basename": "Untitled Kanban",
       "path": "Base/NoteForLinux/Untitled Kanban.md"
+    },
+    {
+      "basename": "Смена раскладки",
+      "path": "Base/NoteForLinux/Смена раскладки.md"
+    },
+    {
+      "basename": "Алгоритмирование и программирование",
+      "path": "Base/StudyWork/Алгоритмирование и программирование.md"
     },
     {
       "basename": "Экономика, Лекция 6.",
@@ -51,10 +83,6 @@
     {
       "basename": "Лекция 12, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
-    },
-    {
-      "basename": "Экономика, Лекция 7",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
     },
     {
       "basename": "Реализация стека с проверкой баланса скобок в выражении",
@@ -97,20 +125,12 @@
       "path": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md"
     },
     {
-      "basename": "Философия институт",
-      "path": "Base/StudyWork/PhilosophyLectures/Философия институт.md"
-    },
-    {
       "basename": "Экономика, Лекция 5.",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
     },
     {
       "basename": "Операционные среды, лекция 6",
       "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
-    },
-    {
-      "basename": "Лекция 8, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
     },
     {
       "basename": "Past Perfect",
@@ -127,10 +147,6 @@
     {
       "basename": "Операционные среды, лекция 4.",
       "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md"
-    },
-    {
-      "basename": "Операционные среды, лекция 5",
-      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
     },
     {
       "basename": "Лекция 7, Философия",
@@ -179,22 +195,6 @@
     {
       "basename": "2022-04-29",
       "path": "Daily/2022-04-29.md"
-    },
-    {
-      "basename": "Лекция 6, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
-    },
-    {
-      "basename": "Pasted image 20220420165348",
-      "path": "Base/StudyWork/PhilosophyLectures/Attachments/Pasted image 20220420165348.png"
-    },
-    {
-      "basename": "Postklassicheskaya_filosofia_vtoraya_polovina_19_-_nachalo_20_vekov",
-      "path": "Base/StudyWork/PhilosophyLectures/Attachments/Postklassicheskaya_filosofia_vtoraya_polovina_19_-_nachalo_20_vekov.pdf"
-    },
-    {
-      "basename": "Troegubov_Andrei_774_Gennadyevich_002",
-      "path": "Base/StudyWork/PhilosophyLectures/Attachments/Troegubov_Andrei_774_Gennadyevich_002.pdf"
     }
   ],
   "omittedPaths": [],
