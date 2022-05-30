@@ -1,8 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Экономика, Лекция 5.",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5./Экономика, Лекция 5..md"
+    },
+    {
       "basename": "EconomicsLectures",
       "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
+    },
+    {
+      "basename": "NoteForLinux",
+      "path": "Base/NoteForLinux/NoteForLinux.md"
+    },
+    {
+      "basename": "Untitled Kanban",
+      "path": "Base/NoteForLinux/Untitled Kanban.md"
+    },
+    {
+      "basename": "Расширения",
+      "path": "Base/NoteForLinux/Расширения.md"
+    },
+    {
+      "basename": "Экономика, Лекция 7",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
+    },
+    {
+      "basename": "Экономика, Лекция 6.",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
+    },
+    {
+      "basename": "Лекция 12, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
+    },
+    {
+      "basename": "PhilosophyLectures",
+      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+    },
+    {
+      "basename": "GitHub",
+      "path": "Base/GitHub/GitHub.md"
+    },
+    {
+      "basename": "Экономика, Лекция 8",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+    },
+    {
+      "basename": "EnglishLearning",
+      "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
     },
     {
       "basename": "OsLectures",
@@ -17,32 +61,12 @@
       "path": "Base/StudyWork/Алгоритмирование и программирование.md"
     },
     {
-      "basename": "PhilosophyLectures",
-      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
-    },
-    {
       "basename": "Лекция 7, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
     },
     {
       "basename": "Операционные среды, лекция 4.",
       "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md"
-    },
-    {
-      "basename": "Экономика, Лекция 5.",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
-    },
-    {
-      "basename": "Экономика, Лекция 6.",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
-    },
-    {
-      "basename": "Экономика, Лекция 8",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
-    },
-    {
-      "basename": "Экономика, Лекция 7",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
     },
     {
       "basename": "Вставка одновсвязного списка в другой",
@@ -81,28 +105,12 @@
       "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
     },
     {
-      "basename": "Расширения",
-      "path": "Base/NoteForLinux/Расширения.md"
-    },
-    {
       "basename": "Лекция 8, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
     },
     {
-      "basename": "NoteForLinux",
-      "path": "Base/NoteForLinux/NoteForLinux.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "Base/GitHub/GitHub.md"
-    },
-    {
       "basename": "Pasted image 20220327185856",
       "path": "Base/Attachments/Pasted image 20220327185856.png"
-    },
-    {
-      "basename": "Untitled Kanban",
-      "path": "Base/NoteForLinux/Untitled Kanban.md"
     },
     {
       "basename": "Смена раскладки",
@@ -123,10 +131,6 @@
     {
       "basename": "Лекция 13, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
-    },
-    {
-      "basename": "Лекция 12, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
     },
     {
       "basename": "Реализация стека с проверкой баланса скобок в выражении",
@@ -191,10 +195,6 @@
     {
       "basename": "Pasted image 20220330093542",
       "path": "Base/StudyWork/EnglishLearning/Attachments/Pasted image 20220330093542.png"
-    },
-    {
-      "basename": "2022-04-29",
-      "path": "Daily/2022-04-29.md"
     }
   ],
   "omittedPaths": [],
