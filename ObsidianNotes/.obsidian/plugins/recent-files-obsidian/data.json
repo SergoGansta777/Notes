@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "НОД(алгоритм Евлкида)",
+      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евлкида).md"
+    },
+    {
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
+      "basename": "Codding",
+      "path": "Base/StudyWork/Codding/Codding.md"
+    },
+    {
       "basename": "The Passive Voice",
       "path": "Base/StudyWork/EnglishLearning/The Passive Voice.md"
     },
@@ -79,10 +91,6 @@
     {
       "basename": "NoteForLinux",
       "path": "Base/NoteForLinux/NoteForLinux.md"
-    },
-    {
-      "basename": "Codding",
-      "path": "Base/StudyWork/Codding/Codding.md"
     },
     {
       "basename": "Future Continuous",
@@ -191,14 +199,6 @@
     {
       "basename": "Note Template",
       "path": "Templates/Note Template.md"
-    },
-    {
-      "basename": "Операционные среды, Лекция 7",
-      "path": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md"
-    },
-    {
-      "basename": "Операционные среды, лекция 6",
-      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
     }
   ],
   "omittedPaths": [],
