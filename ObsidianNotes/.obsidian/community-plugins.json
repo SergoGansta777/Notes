@@ -34,7 +34,6 @@
   "graph-analysis",
   "obsidian-auto-link-title",
   "obsidian-hider",
-  "breadcrumbs",
   "readwise-official",
   "obsidian-contextual-typography",
   "obsidian-tracker",
@@ -43,5 +42,6 @@
   "wikilinks-to-mdlinks-obsidian",
   "obsidian-import-json",
   "obsidian-better-codeblock",
-  "folder-note-plugin"
+  "folder-note-plugin",
+  "alx-folder-note"
 ]

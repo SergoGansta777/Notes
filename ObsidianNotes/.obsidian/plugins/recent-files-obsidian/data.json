@@ -9,16 +9,76 @@
       "path": "Base/StudyWork/OsLectures/OsLectures.md"
     },
     {
-      "basename": "Операционные среды, лекция 5",
-      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
-    },
-    {
       "basename": "Психология лидерства",
       "path": "Base/StudyWork/Психология лидерства.md"
     },
     {
+      "basename": "Алгоритмирование и программирование",
+      "path": "Base/StudyWork/Алгоритмирование и программирование.md"
+    },
+    {
       "basename": "PhilosophyLectures",
       "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+    },
+    {
+      "basename": "Лекция 7, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
+    },
+    {
+      "basename": "Операционные среды, лекция 4.",
+      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md"
+    },
+    {
+      "basename": "Экономика, Лекция 5.",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
+    },
+    {
+      "basename": "Экономика, Лекция 6.",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
+    },
+    {
+      "basename": "Экономика, Лекция 8",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+    },
+    {
+      "basename": "Экономика, Лекция 7",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
+    },
+    {
+      "basename": "Вставка одновсвязного списка в другой",
+      "path": "Base/StudyWork/Codding/Csharp/Вставка одновсвязного списка в другой.md"
+    },
+    {
+      "basename": "Future Continuous",
+      "path": "Base/StudyWork/EnglishLearning/Future Continuous.md"
+    },
+    {
+      "basename": "Past Simple",
+      "path": "Base/StudyWork/EnglishLearning/Past Simple.md"
+    },
+    {
+      "basename": "Present Simple",
+      "path": "Base/StudyWork/EnglishLearning/Present Simple.md"
+    },
+    {
+      "basename": "English",
+      "path": "Base/StudyWork/EnglishLearning/English.md"
+    },
+    {
+      "basename": "Present Perfect",
+      "path": "Base/StudyWork/EnglishLearning/Present Perfect.md"
+    },
+    {
+      "basename": "Past Perfect",
+      "path": "Base/StudyWork/EnglishLearning/Past Perfect.md"
+    },
+    {
+      "basename": "Future Simple",
+      "path": "Base/StudyWork/EnglishLearning/Future Simple.md"
+    },
+    {
+      "basename": "Операционные среды, лекция 5",
+      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
     },
     {
       "basename": "Расширения",
@@ -27,10 +87,6 @@
     {
       "basename": "Лекция 8, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
-    },
-    {
-      "basename": "Экономика, Лекция 7",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
     },
     {
       "basename": "NoteForLinux",
@@ -51,18 +107,6 @@
     {
       "basename": "Смена раскладки",
       "path": "Base/NoteForLinux/Смена раскладки.md"
-    },
-    {
-      "basename": "Алгоритмирование и программирование",
-      "path": "Base/StudyWork/Алгоритмирование и программирование.md"
-    },
-    {
-      "basename": "Экономика, Лекция 6.",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
-    },
-    {
-      "basename": "Экономика, Лекция 8",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
     },
     {
       "basename": "Шифрование текста на основе двусвязного списка",
@@ -87,10 +131,6 @@
     {
       "basename": "Реализация стека с проверкой баланса скобок в выражении",
       "path": "Base/StudyWork/Codding/Csharp/Реализация стека с проверкой баланса скобок в выражении.md"
-    },
-    {
-      "basename": "Вставка одновсвязного списка в другой",
-      "path": "Base/StudyWork/Codding/Csharp/Вставка одновсвязного списка в другой.md"
     },
     {
       "basename": "Алгоритмирование,лабороторная 7",
@@ -125,60 +165,20 @@
       "path": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md"
     },
     {
-      "basename": "Экономика, Лекция 5.",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
-    },
-    {
       "basename": "Операционные среды, лекция 6",
       "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
-    },
-    {
-      "basename": "Past Perfect",
-      "path": "Base/StudyWork/EnglishLearning/Past Perfect.md"
     },
     {
       "basename": "Present Continuous",
       "path": "Base/StudyWork/EnglishLearning/Present Continuous.md"
     },
     {
-      "basename": "English",
-      "path": "Base/StudyWork/EnglishLearning/English.md"
-    },
-    {
-      "basename": "Операционные среды, лекция 4.",
-      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md"
-    },
-    {
-      "basename": "Лекция 7, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
-    },
-    {
-      "basename": "Future Continuous",
-      "path": "Base/StudyWork/EnglishLearning/Future Continuous.md"
-    },
-    {
-      "basename": "Present Perfect",
-      "path": "Base/StudyWork/EnglishLearning/Present Perfect.md"
-    },
-    {
       "basename": "Past Continuous",
       "path": "Base/StudyWork/EnglishLearning/Past Continuous.md"
     },
     {
-      "basename": "Past Simple",
-      "path": "Base/StudyWork/EnglishLearning/Past Simple.md"
-    },
-    {
-      "basename": "Present Simple",
-      "path": "Base/StudyWork/EnglishLearning/Present Simple.md"
-    },
-    {
       "basename": "Untitled Diagram",
       "path": "Untitled Diagram.svg"
-    },
-    {
-      "basename": "Future Simple",
-      "path": "Base/StudyWork/EnglishLearning/Future Simple.md"
     },
     {
       "basename": "The Passive Voice",
