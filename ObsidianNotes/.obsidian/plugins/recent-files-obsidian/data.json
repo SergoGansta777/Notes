@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
       "basename": "НОД(алгоритм Евлкида)",
       "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евлкида).md"
     },
     {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+      "basename": "GitHub",
+      "path": "Base/GitHub/GitHub.md"
     },
     {
       "basename": "Codding",
@@ -83,10 +87,6 @@
     {
       "basename": "Расширения",
       "path": "Base/NoteForLinux/Расширения.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "Base/GitHub/GitHub.md"
     },
     {
       "basename": "NoteForLinux",

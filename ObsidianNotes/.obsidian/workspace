@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евлкида).md",
+            "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евлкида).md",
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евлкида).md",
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евлкида).md"
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
               }
             }
           },
@@ -233,15 +233,15 @@
   },
   "active": "6a97c2a3cb12bfc2",
   "lastOpenFiles": [
-    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евлкида).md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евлкида).md",
+    "Base/GitHub/GitHub.md",
     "Base/StudyWork/Codding/Codding.md",
     "Base/StudyWork/EnglishLearning/The Passive Voice.md",
     "Base/NoteForLinux/Untitled Kanban.md",
     "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
     "Base/StudyWork/EnglishLearning/EnglishLearning.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md",
-    "Base/StudyWork/EnglishLearning/Present Perfect.md"
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md"
   ]
 }
