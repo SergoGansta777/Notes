@@ -4,23 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "b5d6f4df58bbd982",
-        "type": "leaf",
-        "state": {
-          "type": "kanban",
-          "state": {
-            "file": "Base/NoteForLinux/Untitled Kanban.md"
-          }
-        }
-      },
-      {
         "id": "a3b8eae2d5bcd734",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Base/NoteForLinux/Смена раскладки.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -31,31 +21,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+            "file": "Base/NoteForLinux/Расширения.md",
             "mode": "source",
             "source": false
           }
         }
       },
       {
-        "id": "b0779b601ecd7885",
+        "id": "20a4010520e9e07f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "2077503049d28465",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/StudyWork/EnglishLearning/Future Perfect.md",
+            "file": "Base/StudyWork/Психология лидерства.md",
             "mode": "source",
             "source": false
           }
@@ -115,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 246
   },
   "right": {
     "id": "c63a1f40835abdfc",
@@ -131,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/NoteForLinux/Untitled Kanban.md",
+                "file": "Base/NoteForLinux/Смена раскладки.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -201,19 +179,18 @@
             }
           },
           {
-            "id": "30f54a64136c0221",
+            "id": "fb2913f5576d2f79",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/NoteForLinux/Untitled Kanban.md",
+                "file": "Base/NoteForLinux/Смена раскладки.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "347690fde5347fc2",
@@ -225,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/NoteForLinux/Untitled Kanban.md",
+                "file": "Base/NoteForLinux/Смена раскладки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/NoteForLinux/Untitled Kanban.md"
+                "file": "Base/NoteForLinux/Смена раскладки.md"
               }
             }
           },
@@ -274,23 +251,23 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "b5d6f4df58bbd982",
+  "active": "a3b8eae2d5bcd734",
   "lastOpenFiles": [
-    "Base/NoteForLinux/Untitled Kanban.md",
-    "Base/NoteForLinux/Расширения.md",
     "Base/NoteForLinux/Смена раскладки.md",
+    "Base/NoteForLinux/Расширения.md",
+    "Base/StudyWork/Психология лидерства.md",
+    "Base/GitHub/GitHub.md",
+    "Base/StudyWork/Алгоритмирование и программирование.md",
+    "Base/NoteForLinux/Untitled Kanban.md",
     "Base/NoteForLinux/jdrjajs.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-    "Base/GitHub.md",
-    "Base/StudyWork/Codding/Csharp/Шифрование текста на основе двусвязного списка.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
-    "Base/StudyWork/EnglishLearning/Future Perfect.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+    "Base/StudyWork/Codding/Csharp/Шифрование текста на основе двусвязного списка.md"
   ]
 }

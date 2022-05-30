@@ -1,36 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled Kanban",
-      "path": "Base/NoteForLinux/Untitled Kanban.md"
+      "basename": "Смена раскладки",
+      "path": "Base/NoteForLinux/Смена раскладки.md"
     },
     {
       "basename": "Расширения",
       "path": "Base/NoteForLinux/Расширения.md"
     },
     {
-      "basename": "Смена раскладки",
-      "path": "Base/NoteForLinux/Смена раскладки.md"
+      "basename": "Психология лидерства",
+      "path": "Base/StudyWork/Психология лидерства.md"
     },
     {
-      "basename": "jdrjajs",
-      "path": "Base/NoteForLinux/jdrjajs.md"
+      "basename": "GitHub",
+      "path": "Base/GitHub/GitHub.md"
+    },
+    {
+      "basename": "Алгоритмирование и программирование",
+      "path": "Base/StudyWork/Алгоритмирование и программирование.md"
+    },
+    {
+      "basename": "Untitled Kanban",
+      "path": "Base/NoteForLinux/Untitled Kanban.md"
+    },
+    {
+      "basename": "Экономика, Лекция 6.",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
     },
     {
       "basename": "Экономика, Лекция 8",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
     },
     {
-      "basename": "GitHub",
-      "path": "Base/GitHub.md"
-    },
-    {
       "basename": "Шифрование текста на основе двусвязного списка",
       "path": "Base/StudyWork/Codding/Csharp/Шифрование текста на основе двусвязного списка.md"
-    },
-    {
-      "basename": "Экономика, Лекция 6.",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
     },
     {
       "basename": "Future Perfect",
@@ -101,10 +105,6 @@
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5..md"
     },
     {
-      "basename": "Психология лидерства",
-      "path": "Base/StudyWork/Психология лидерства.md"
-    },
-    {
       "basename": "Операционные среды, лекция 6",
       "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
     },
@@ -131,10 +131,6 @@
     {
       "basename": "Операционные среды, лекция 5",
       "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
-    },
-    {
-      "basename": "Алгоритмирование и программирование",
-      "path": "Base/StudyWork/Алгоритмирование и программирование.md"
     },
     {
       "basename": "Лекция 7, Философия",
