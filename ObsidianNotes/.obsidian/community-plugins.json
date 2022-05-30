@@ -43,5 +43,7 @@
   "obsidian-import-json",
   "obsidian-better-codeblock",
   "folder-note-core",
-  "alx-folder-note"
+  "alx-folder-note",
+  "breadcrumbs",
+  "alx-folder-note-folderv"
 ]

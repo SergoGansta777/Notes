@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "EnglishLearning",
+      "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
+    },
+    {
       "basename": "EconomicsLectures",
       "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
     },
     {
+      "basename": "Экономика, Лекция 8",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+    },
+    {
+      "basename": "Экономика, Лекция 7",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
+    },
+    {
       "basename": "Экономика, Лекция 6",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md"
+    },
+    {
+      "basename": "Экономика, Лекция 5",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md"
+    },
+    {
+      "basename": "Future Continuous",
+      "path": "Base/StudyWork/EnglishLearning/Future Continuous.md"
     },
     {
       "basename": "EconomicsLectures",
@@ -25,20 +45,12 @@
       "path": "Base/StudyWork/EnglishLearning/The Passive Voice.md"
     },
     {
-      "basename": "Экономика, Лекция 7",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
-    },
-    {
       "basename": "PhilosophyLectures",
       "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
     },
     {
       "basename": "Present Continuous",
       "path": "Base/StudyWork/EnglishLearning/Present Continuous.md"
-    },
-    {
-      "basename": "Экономика, Лекция 8",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
     },
     {
       "basename": "NoteForLinux",
@@ -51,10 +63,6 @@
     {
       "basename": "Future Perfect",
       "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
-    },
-    {
-      "basename": "Экономика, Лекция 5",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md"
     },
     {
       "basename": "OsLectures",
@@ -89,10 +97,6 @@
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
     },
     {
-      "basename": "Codding",
-      "path": "Base/StudyWork/Codding/Codding.md"
-    },
-    {
       "basename": "GitHub",
       "path": "Base/GitHub/GitHub.md"
     },
@@ -123,10 +127,6 @@
     {
       "basename": "Вставка одновсвязного списка в другой",
       "path": "Base/StudyWork/Codding/Csharp/Вставка одновсвязного списка в другой.md"
-    },
-    {
-      "basename": "Future Continuous",
-      "path": "Base/StudyWork/EnglishLearning/Future Continuous.md"
     },
     {
       "basename": "Past Simple",

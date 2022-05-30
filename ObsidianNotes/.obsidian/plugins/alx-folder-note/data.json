@@ -11,5 +11,5 @@
   "folderNoteTemplate": null,
   "mobileClickToOpen": true,
   "longPressDelay": 800,
-  "expandFolderOnClick": false
+  "expandFolderOnClick": true
 }
