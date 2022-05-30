@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": false,
-  "collapse-color-groups": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "#Eng",
@@ -18,7 +18,7 @@
       "query": "#Philosophy",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 12669664
       }
     },
     {
@@ -27,6 +27,20 @@
         "a": 1,
         "rgb": 11657298
       }
+    },
+    {
+      "query": "#Cpp",
+      "color": {
+        "a": 1,
+        "rgb": 1446887
+      }
+    },
+    {
+      "query": "#Csharp",
+      "color": {
+        "a": 1,
+        "rgb": 1480163
+      }
     }
   ],
   "collapse-display": true,
@@ -34,11 +48,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.600390662628682,
+  "scale": 0.2725353433023651,
   "close": true
 }

@@ -4,113 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "d0e5c606b7a36efa",
-        "type": "split",
-        "children": [
-          {
-            "id": "e6572cb464519b73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f909064197fc0643",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "1cd7b7150d00b1ca",
+        "id": "b5d6f4df58bbd982",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md",
-            "mode": "preview",
+            "file": "Base/NoteForLinux/Расширения.md",
+            "mode": "source",
             "source": false
           }
         }
       },
       {
-        "id": "f84cc9c6ac509073",
+        "id": "b21034f68c0dcd63",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "b0779b601ecd7885",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
       },
       {
-        "id": "d34c210367e6198c",
-        "type": "split",
-        "children": [
-          {
-            "id": "6cd518624147b0ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19d48cc982b9e292",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+        "id": "2077503049d28465",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Base/StudyWork/EnglishLearning/Future Perfect.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "829e89b84380928c",
-        "type": "split",
-        "children": [
-          {
-            "id": "5037fd9baaa5c82f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "dca842cd1f741875",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -182,7 +121,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+                "file": "Base/NoteForLinux/Расширения.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -257,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+                "file": "Base/NoteForLinux/Расширения.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -276,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+                "file": "Base/NoteForLinux/Расширения.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+                "file": "Base/NoteForLinux/Расширения.md"
               }
             }
           },
@@ -331,17 +270,17 @@
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "f84cc9c6ac509073",
+  "active": "b5d6f4df58bbd982",
   "lastOpenFiles": [
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
-    "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+    "Base/NoteForLinux/Расширения.md",
+    "Base/NoteForLinux/Смена раскладки.md",
+    "Base/GitHub.md",
+    "Base/StudyWork/Codding/Csharp/Шифрование текста на основе двусвязного списка.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+    "Base/StudyWork/EnglishLearning/Future Perfect.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
+    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
   ]
 }

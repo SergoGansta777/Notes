@@ -1,44 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Экономика, Лекция 8",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+      "basename": "Расширения",
+      "path": "Base/NoteForLinux/Расширения.md"
     },
     {
-      "basename": "Экономика, Лекция 7",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
+      "basename": "Смена раскладки",
+      "path": "Base/NoteForLinux/Смена раскладки.md"
     },
     {
-      "basename": "Алгоритмирование,лабороторная 7",
-      "path": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
+      "basename": "GitHub",
+      "path": "Base/GitHub.md"
     },
     {
-      "basename": "Лекция 13, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
+      "basename": "Шифрование текста на основе двусвязного списка",
+      "path": "Base/StudyWork/Codding/Csharp/Шифрование текста на основе двусвязного списка.md"
     },
     {
       "basename": "Экономика, Лекция 6.",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6..md"
     },
     {
+      "basename": "Экономика, Лекция 8",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+    },
+    {
+      "basename": "Future Perfect",
+      "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
+    },
+    {
       "basename": "Лекция 14, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
     },
     {
-      "basename": "Лекция 9, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
+      "basename": "Лекция 13, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
     },
     {
       "basename": "Лекция 12, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
     },
     {
-      "basename": "Лекция 10, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
+      "basename": "Экономика, Лекция 7",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
+    },
+    {
+      "basename": "Реализация стека с проверкой баланса скобок в выражении",
+      "path": "Base/StudyWork/Codding/Csharp/Реализация стека с проверкой баланса скобок в выражении.md"
+    },
+    {
+      "basename": "Вставка одновсвязного списка в другой",
+      "path": "Base/StudyWork/Codding/Csharp/Вставка одновсвязного списка в другой.md"
+    },
+    {
+      "basename": "Алгоритмирование,лабороторная 7",
+      "path": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
+    },
+    {
+      "basename": "Course Template",
+      "path": "Templates/student_note_taking/Course Template.md"
+    },
+    {
+      "basename": "Daily Template",
+      "path": "Templates/Daily Template.md"
+    },
+    {
+      "basename": "Note Template",
+      "path": "Templates/Note Template.md"
     },
     {
       "basename": "Лекция 11, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
+    },
+    {
+      "basename": "Лекция 9, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
+    },
+    {
+      "basename": "Лекция 10, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
     },
     {
       "basename": "Операционные среды, Лекция 7",
@@ -125,10 +165,6 @@
       "path": "Base/StudyWork/EnglishLearning/The Passive Voice.md"
     },
     {
-      "basename": "Future Perfect",
-      "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
-    },
-    {
       "basename": "Drawing 2022-05-02 15.04.48.excalidraw",
       "path": "Excalidraw/Drawing 2022-05-02 15.04.48.excalidraw.md"
     },
@@ -139,10 +175,6 @@
     {
       "basename": "2022-04-29",
       "path": "Daily/2022-04-29.md"
-    },
-    {
-      "basename": "Daily Template",
-      "path": "Templates/Daily Template.md"
     },
     {
       "basename": "Лекция 6, Философия",
@@ -167,14 +199,6 @@
     {
       "basename": "Filosofia_Novogo_Vremeni_17-18_veka_002",
       "path": "Base/StudyWork/PhilosophyLectures/Attachments/Filosofia_Novogo_Vremeni_17-18_veka_002.pdf"
-    },
-    {
-      "basename": "Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv",
-      "path": "Base/StudyWork/PhilosophyLectures/Attachments/Nemetskaya_klassicheskaya_filosofia_konets_18_-_pervaya_polovina_19_vv.pdf"
-    },
-    {
-      "basename": "Note Template",
-      "path": "Templates/Note Template.md"
     }
   ],
   "omittedPaths": [],
