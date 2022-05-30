@@ -30,7 +30,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md",
+            "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md",
+                "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md",
+                "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
+                "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
               }
             }
           },
@@ -240,15 +240,15 @@
   },
   "active": "0e0e3cdbdaf190e1",
   "lastOpenFiles": [
-    "Base/StudyWork/EnglishLearning/EnglishLearning.md",
     "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
+    "Base/StudyWork/EnglishLearning/Past Perfect.md",
+    "Base/StudyWork/EnglishLearning/EnglishLearning.md",
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md",
     "Base/StudyWork/EnglishLearning/Future Continuous.md",
     "Base/StudyWork/Codding/Codding.md",
-    "Base/StudyWork/EconomicsLectures.md",
-    "Base/StudyWork/EnglishLearning/Past Perfect.md"
+    "Base/StudyWork/EconomicsLectures.md"
   ]
 }
