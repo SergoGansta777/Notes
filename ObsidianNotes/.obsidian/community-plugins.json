@@ -43,5 +43,6 @@
   "wikilinks-to-mdlinks-obsidian",
   "obsidian-import-json",
   "obsidian-better-codeblock",
-  "folder-note-plugin"
+  "alx-folder-note",
+  "folder-note-core"
 ]

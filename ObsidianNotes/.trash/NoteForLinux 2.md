@@ -1,0 +1,4 @@
+# NoteForLinux
+```folderv
+target: NoteForLinux
+```
