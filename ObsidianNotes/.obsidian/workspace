@@ -4,20 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bf7a56d6ff293650",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
-      },
-      {
         "id": "6334aeb6e0edc971",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md",
+            "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -49,10 +41,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "tag:#EconomicsLectures",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -94,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md",
+                "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -140,52 +132,19 @@
             }
           },
           {
-            "id": "92a6eeec4620475c",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "16ad7d99f82e6fab",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md",
+                "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "c4183ac8fc7d8930",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "c79a7bd71a21e966",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "347690fde5347fc2",
@@ -224,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md"
+                "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
               }
             }
           },
@@ -245,15 +204,15 @@
   },
   "active": "6334aeb6e0edc971",
   "lastOpenFiles": [
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md",
     "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md",
-    "Base/GitHub/GitHub.md",
-    "Base/NoteForLinux/NoteForLinux.md",
     "Base/StudyWork/Codding/Codding.md",
-    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
-    "Attachments/Pasted image 20220412144011.png.md"
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md",
+    "Base/GitHub/GitHub.md"
   ]
 }

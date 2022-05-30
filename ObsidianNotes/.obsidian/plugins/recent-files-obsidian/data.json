@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Экономика, Лекция 5",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md"
-    },
-    {
       "basename": "EconomicsLectures",
       "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
     },
@@ -17,8 +13,28 @@
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
     },
     {
+      "basename": "Лекция 13, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
+    },
+    {
+      "basename": "Лекция 14, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
+    },
+    {
+      "basename": "Лекция 9, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
+    },
+    {
       "basename": "Экономика, Лекция 6",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md"
+    },
+    {
+      "basename": "Codding",
+      "path": "Base/StudyWork/Codding/Codding.md"
+    },
+    {
+      "basename": "Экономика, Лекция 5",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md"
     },
     {
       "basename": "GitHub",
@@ -27,10 +43,6 @@
     {
       "basename": "NoteForLinux",
       "path": "Base/NoteForLinux/NoteForLinux.md"
-    },
-    {
-      "basename": "Codding",
-      "path": "Base/StudyWork/Codding/Codding.md"
     },
     {
       "basename": "PhilosophyLectures",
@@ -133,14 +145,6 @@
       "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
     },
     {
-      "basename": "Лекция 14, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
-    },
-    {
-      "basename": "Лекция 13, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
-    },
-    {
       "basename": "Реализация стека с проверкой баланса скобок в выражении",
       "path": "Base/StudyWork/Codding/Csharp/Реализация стека с проверкой баланса скобок в выражении.md"
     },
@@ -163,10 +167,6 @@
     {
       "basename": "Лекция 11, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
-    },
-    {
-      "basename": "Лекция 9, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
     },
     {
       "basename": "Лекция 10, Философия",
