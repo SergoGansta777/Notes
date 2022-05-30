@@ -1,44 +1,43 @@
 #include <iostream>
 #include <cstring>
 #include <string.h>
+#include <math.h>
 #include <fstream>
 
 using namespace std;
  
+ int NOD(int num1, int num2){
+     while(num1!=0 && num2!=0){
+         if(num1>num2){
+             num1%=num2;
+         }else{
+             num2%=num1;
+         }
+     }
+     return num1+num2;
+ }
+ bool IsPrime(int N)
+{
+    for (int i = 2; i <= sqrt(N); i++)
+        if (N % i == 0)
+            return false;
+    if (N < 2)
+        return false;
+    return true;
+}
 int main()
 {
-    ifstream fileRead("test.txt");
-    string line = ""; 
-    getline(fileRead,line);
-    int countOfSpace = 0;
-    string resultLine="", word1="", word2="";
-    for(int i = 0; i< line.size();i++)
+    int m,n;
+    cin >> m >> n;
+    bool isExist = false;
+    for(int i = m;i<=n;i++)
     {
-        if(line[i]==' ' || line[i]=='\n' || line[i]=='\0')
-        {
-            countOfSpace++;
-            if(countOfSpace%2==0){
-                resultLine+=word2;
-                resultLine+=" ";
-                resultLine+=word1;
-                resultLine+=line[i];
-                word1="";
-                word2="";
-                
-            }
-            continue;
+        if(i!=2&&i&2==0) continue;
+        if(IsPrime(i)){
+            cout << i << endl;
+            if(!isExist)isExist=true;
         }
-        if((countOfSpace+1)%2!=0)
-        {
-            word1+=line[i];
-        }
-        if((countOfSpace+1)%2==0){
-            word2+=line[i];
-        }  
     }
-    resultLine+=(word2=="")?"":(word2+" ");
-    resultLine+=(word1=="")?"":word1;
-    ofstream answer("output.txt");
-    answer << resultLine;
+    if(!isExist) cout << "Absent" << endl;
     return 0;
 }

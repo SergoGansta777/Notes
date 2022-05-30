@@ -1,64 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "The Passive Voice",
+      "path": "Base/StudyWork/EnglishLearning/The Passive Voice.md"
+    },
+    {
+      "basename": "Untitled Kanban",
+      "path": "Base/NoteForLinux/Untitled Kanban.md"
+    },
+    {
       "basename": "EconomicsLectures",
       "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
-    },
-    {
-      "basename": "Экономика, Лекция 7",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
-    },
-    {
-      "basename": "Past Perfect",
-      "path": "Base/StudyWork/EnglishLearning/Past Perfect.md"
     },
     {
       "basename": "EnglishLearning",
       "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
     },
     {
-      "basename": "Экономика, Лекция 8",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+      "basename": "Экономика, Лекция 5",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md"
     },
     {
       "basename": "Экономика, Лекция 6",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md"
     },
     {
-      "basename": "Экономика, Лекция 5",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md"
+      "basename": "Present Perfect",
+      "path": "Base/StudyWork/EnglishLearning/Present Perfect.md"
     },
     {
-      "basename": "Future Continuous",
-      "path": "Base/StudyWork/EnglishLearning/Future Continuous.md"
-    },
-    {
-      "basename": "EconomicsLectures",
-      "path": "Base/StudyWork/EconomicsLectures.md"
+      "basename": "Past Continuous",
+      "path": "Base/StudyWork/EnglishLearning/Past Continuous.md"
     },
     {
       "basename": "English",
       "path": "Base/StudyWork/EnglishLearning/English.md"
     },
     {
-      "basename": "The Passive Voice",
-      "path": "Base/StudyWork/EnglishLearning/The Passive Voice.md"
+      "basename": "2022-05-11",
+      "path": "2022-05-11.md"
     },
     {
-      "basename": "PhilosophyLectures",
-      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+      "basename": "Экономика, Лекция 8",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
     },
     {
       "basename": "Present Continuous",
       "path": "Base/StudyWork/EnglishLearning/Present Continuous.md"
-    },
-    {
-      "basename": "NoteForLinux",
-      "path": "Base/NoteForLinux/NoteForLinux.md"
-    },
-    {
-      "basename": "Untitled Kanban",
-      "path": "Base/NoteForLinux/Untitled Kanban.md"
     },
     {
       "basename": "Future Perfect",
@@ -69,16 +57,12 @@
       "path": "Base/StudyWork/OsLectures/OsLectures.md"
     },
     {
-      "basename": "Лекция 11, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
-    },
-    {
       "basename": "Лекция 14, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
     },
     {
-      "basename": "Лекция 13, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
+      "basename": "PhilosophyLectures",
+      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
     },
     {
       "basename": "Смена раскладки",
@@ -89,16 +73,48 @@
       "path": "Base/NoteForLinux/Расширения.md"
     },
     {
+      "basename": "GitHub",
+      "path": "Base/GitHub/GitHub.md"
+    },
+    {
+      "basename": "NoteForLinux",
+      "path": "Base/NoteForLinux/NoteForLinux.md"
+    },
+    {
+      "basename": "Codding",
+      "path": "Base/StudyWork/Codding/Codding.md"
+    },
+    {
+      "basename": "Future Continuous",
+      "path": "Base/StudyWork/EnglishLearning/Future Continuous.md"
+    },
+    {
+      "basename": "Экономика, Лекция 7",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
+    },
+    {
+      "basename": "Past Perfect",
+      "path": "Base/StudyWork/EnglishLearning/Past Perfect.md"
+    },
+    {
+      "basename": "EconomicsLectures",
+      "path": "Base/StudyWork/EconomicsLectures.md"
+    },
+    {
+      "basename": "Лекция 11, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
+    },
+    {
+      "basename": "Лекция 13, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
+    },
+    {
       "basename": "Лекция 10, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
     },
     {
       "basename": "Лекция 9, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "Base/GitHub/GitHub.md"
     },
     {
       "basename": "conflict-files-obsidian-git",
@@ -135,10 +151,6 @@
     {
       "basename": "Present Simple",
       "path": "Base/StudyWork/EnglishLearning/Present Simple.md"
-    },
-    {
-      "basename": "Present Perfect",
-      "path": "Base/StudyWork/EnglishLearning/Present Perfect.md"
     },
     {
       "basename": "Future Simple",
@@ -187,14 +199,6 @@
     {
       "basename": "Операционные среды, лекция 6",
       "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
-    },
-    {
-      "basename": "Past Continuous",
-      "path": "Base/StudyWork/EnglishLearning/Past Continuous.md"
-    },
-    {
-      "basename": "Untitled Diagram",
-      "path": "Untitled Diagram.svg"
     }
   ],
   "omittedPaths": [],

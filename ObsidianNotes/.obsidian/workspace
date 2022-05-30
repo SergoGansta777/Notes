@@ -4,20 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "fa07cd2288e6b46a",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
-      },
-      {
-        "id": "1e1bffde124b9993",
+        "id": "4348f248d9e8afcf",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
+            "file": "Base/StudyWork/EnglishLearning/The Passive Voice.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -25,12 +17,12 @@
         }
       },
       {
-        "id": "0e0e3cdbdaf190e1",
+        "id": "0cf6d3292917a352",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
+            "file": "Base/GitHub/GitHub.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -107,7 +99,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
+                "file": "Base/StudyWork/EnglishLearning/The Passive Voice.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -158,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
+                "file": "Base/StudyWork/EnglishLearning/The Passive Voice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +172,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "347690fde5347fc2",
@@ -219,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
+                "file": "Base/StudyWork/EnglishLearning/The Passive Voice.md"
               }
             }
           },
@@ -238,17 +231,17 @@
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "0e0e3cdbdaf190e1",
+  "active": "4348f248d9e8afcf",
   "lastOpenFiles": [
+    "Base/StudyWork/EnglishLearning/The Passive Voice.md",
+    "Base/NoteForLinux/Untitled Kanban.md",
     "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md",
-    "Base/StudyWork/EnglishLearning/Past Perfect.md",
     "Base/StudyWork/EnglishLearning/EnglishLearning.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md",
-    "Base/StudyWork/EnglishLearning/Future Continuous.md",
-    "Base/StudyWork/Codding/Codding.md",
-    "Base/StudyWork/EconomicsLectures.md"
+    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md",
+    "Base/StudyWork/EnglishLearning/Present Perfect.md",
+    "Base/StudyWork/EnglishLearning/Past Continuous.md",
+    "Base/StudyWork/EnglishLearning/English.md",
+    "2022-05-11.md"
   ]
 }
