@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Проверка числа на простоту",
+      "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
+    },
+    {
       "basename": "AlgorithmsAndProgramming",
       "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
       "basename": "НОД(алгоритм_Евклида)",
       "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм_Евклида).md"
+    },
+    {
+      "basename": "NoteForLinux",
+      "path": "Base/NoteForLinux/NoteForLinux.md"
+    },
+    {
+      "basename": "Расширения",
+      "path": "Base/NoteForLinux/Расширения.md"
+    },
+    {
+      "basename": "EnglishLearning",
+      "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
+    },
+    {
+      "basename": "Future Perfect",
+      "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
+    },
+    {
+      "basename": "EconomicsLectures",
+      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
+    },
+    {
+      "basename": "Экономика, Лекция 6",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md"
     },
     {
       "basename": "GitHub",
@@ -25,20 +53,8 @@
       "path": "Base/NoteForLinux/Untitled Kanban.md"
     },
     {
-      "basename": "EconomicsLectures",
-      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
-    },
-    {
-      "basename": "EnglishLearning",
-      "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
-    },
-    {
       "basename": "Экономика, Лекция 5",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md"
-    },
-    {
-      "basename": "Экономика, Лекция 6",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md"
     },
     {
       "basename": "Present Perfect",
@@ -65,10 +81,6 @@
       "path": "Base/StudyWork/EnglishLearning/Present Continuous.md"
     },
     {
-      "basename": "Future Perfect",
-      "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
-    },
-    {
       "basename": "OsLectures",
       "path": "Base/StudyWork/OsLectures/OsLectures.md"
     },
@@ -83,14 +95,6 @@
     {
       "basename": "Смена раскладки",
       "path": "Base/NoteForLinux/Смена раскладки.md"
-    },
-    {
-      "basename": "Расширения",
-      "path": "Base/NoteForLinux/Расширения.md"
-    },
-    {
-      "basename": "NoteForLinux",
-      "path": "Base/NoteForLinux/NoteForLinux.md"
     },
     {
       "basename": "Future Continuous",
@@ -195,10 +199,6 @@
     {
       "basename": "Daily Template",
       "path": "Templates/Daily Template.md"
-    },
-    {
-      "basename": "Note Template",
-      "path": "Templates/Note Template.md"
     }
   ],
   "omittedPaths": [],
