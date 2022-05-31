@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "НОД(алгоритм Евклида)",
-      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
-    },
-    {
       "basename": "AlgorithmsAndProgramming",
       "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
+      "basename": "PhilosophyLectures",
+      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+    },
+    {
+      "basename": "НОД(алгоритм Евклида)",
+      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
     },
     {
       "basename": "Проверка числа на простоту",
@@ -99,10 +103,6 @@
     {
       "basename": "Лекция 14, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
-    },
-    {
-      "basename": "PhilosophyLectures",
-      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
     },
     {
       "basename": "Смена раскладки",
