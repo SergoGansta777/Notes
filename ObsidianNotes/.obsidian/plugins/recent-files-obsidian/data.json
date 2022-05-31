@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "НОД(алгоритм Евклида)",
+      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
+    },
+    {
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
       "basename": "Проверка числа на простоту",
       "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
     },
@@ -9,12 +17,20 @@
       "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
     },
     {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+      "basename": "Past Simple",
+      "path": "Base/StudyWork/EnglishLearning/Past Simple.md"
     },
     {
-      "basename": "НОД(алгоритм Евклида)",
-      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
+      "basename": "English",
+      "path": "Base/StudyWork/EnglishLearning/English.md"
+    },
+    {
+      "basename": "EconomicsLectures",
+      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
+    },
+    {
+      "basename": "EnglishLearning",
+      "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
     },
     {
       "basename": "Алгоритмирование,лабороторная 7",
@@ -29,16 +45,8 @@
       "path": "Base/NoteForLinux/Расширения.md"
     },
     {
-      "basename": "EnglishLearning",
-      "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
-    },
-    {
       "basename": "Future Perfect",
       "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
-    },
-    {
-      "basename": "EconomicsLectures",
-      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
     },
     {
       "basename": "Экономика, Лекция 6",
@@ -71,10 +79,6 @@
     {
       "basename": "Past Continuous",
       "path": "Base/StudyWork/EnglishLearning/Past Continuous.md"
-    },
-    {
-      "basename": "English",
-      "path": "Base/StudyWork/EnglishLearning/English.md"
     },
     {
       "basename": "2022-05-11",
@@ -163,10 +167,6 @@
     {
       "basename": "Вставка одновсвязного списка в другой",
       "path": "Base/StudyWork/Codding/Csharp/Вставка одновсвязного списка в другой.md"
-    },
-    {
-      "basename": "Past Simple",
-      "path": "Base/StudyWork/EnglishLearning/Past Simple.md"
     },
     {
       "basename": "Present Simple",
