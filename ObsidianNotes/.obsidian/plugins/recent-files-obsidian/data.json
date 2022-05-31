@@ -5,8 +5,20 @@
       "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
-      "basename": "PhilosophyLectures",
-      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+      "basename": "Future Continuous",
+      "path": "Base/StudyWork/EnglishLearning/Future Continuous.md"
+    },
+    {
+      "basename": "English",
+      "path": "Base/StudyWork/EnglishLearning/English.md"
+    },
+    {
+      "basename": "Pasted image 20220330093542",
+      "path": "Base/StudyWork/EnglishLearning/Attachments/Pasted image 20220330093542.png"
+    },
+    {
+      "basename": "Лекция 8, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
     },
     {
       "basename": "НОД(алгоритм Евклида)",
@@ -17,16 +29,16 @@
       "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
     },
     {
+      "basename": "PhilosophyLectures",
+      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+    },
+    {
       "basename": "Алгоритмы",
       "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
     },
     {
       "basename": "Past Simple",
       "path": "Base/StudyWork/EnglishLearning/Past Simple.md"
-    },
-    {
-      "basename": "English",
-      "path": "Base/StudyWork/EnglishLearning/English.md"
     },
     {
       "basename": "EconomicsLectures",
@@ -109,10 +121,6 @@
       "path": "Base/NoteForLinux/Смена раскладки.md"
     },
     {
-      "basename": "Future Continuous",
-      "path": "Base/StudyWork/EnglishLearning/Future Continuous.md"
-    },
-    {
       "basename": "Экономика, Лекция 7",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 7.md"
     },
@@ -179,10 +187,6 @@
     {
       "basename": "Операционные среды, лекция 5",
       "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
-    },
-    {
-      "basename": "Лекция 8, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
     },
     {
       "basename": "Pasted image 20220327185856",

@@ -7,8 +7,13 @@
         "id": "253308fc30de189b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -131,8 +137,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -150,6 +157,23 @@
             "state": {
               "type": "BC-tree",
               "state": {}
+            }
+          },
+          {
+            "id": "cc2deb8b33c35e16",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
             }
           }
         ],
@@ -191,7 +215,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+              }
             }
           },
           {
@@ -211,15 +237,15 @@
   },
   "active": "253308fc30de189b",
   "lastOpenFiles": [
-    "consistant-report.md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
-    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
+    "Base/StudyWork/EnglishLearning/Future Continuous.md",
+    "Base/StudyWork/EnglishLearning/English.md",
+    "Base/StudyWork/EnglishLearning/Attachments/Pasted image 20220330093542.png",
+    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
     "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
     "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
-    "Base/AlgorithmsAndProgramming/Алгоритмы.md",
-    "Base/StudyWork/EnglishLearning/Past Simple.md",
-    "Base/StudyWork/EnglishLearning/English.md",
-    "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
-    "Base/StudyWork/EnglishLearning/EnglishLearning.md"
+    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
+    "consistant-report.md",
+    "Base/AlgorithmsAndProgramming/Алгоритмы.md"
   ]
 }
