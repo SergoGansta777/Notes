@@ -5,12 +5,20 @@
       "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
     },
     {
+      "basename": "Алгоритмы",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
+    },
+    {
       "basename": "AlgorithmsAndProgramming",
       "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
-      "basename": "НОД(алгоритм_Евклида)",
-      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм_Евклида).md"
+      "basename": "НОД(алгоритм Евклида)",
+      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
+    },
+    {
+      "basename": "Алгоритмирование,лабороторная 7",
+      "path": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
     },
     {
       "basename": "NoteForLinux",
@@ -187,18 +195,6 @@
     {
       "basename": "Реализация стека с проверкой баланса скобок в выражении",
       "path": "Base/StudyWork/Codding/Csharp/Реализация стека с проверкой баланса скобок в выражении.md"
-    },
-    {
-      "basename": "Алгоритмирование,лабороторная 7",
-      "path": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
-    },
-    {
-      "basename": "Course Template",
-      "path": "Templates/student_note_taking/Course Template.md"
-    },
-    {
-      "basename": "Daily Template",
-      "path": "Templates/Daily Template.md"
     }
   ],
   "omittedPaths": [],
