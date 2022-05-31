@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": false,
             "source": false
           }
@@ -234,7 +234,7 @@
   "active": "6a97c2a3cb12bfc2",
   "lastOpenFiles": [
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
-    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евлкида).md",
+    "Base/AlgorithmsAndProgramming/НОД(алгоритм_Евклида).md",
     "Base/GitHub/GitHub.md",
     "Base/StudyWork/Codding/Codding.md",
     "Base/StudyWork/EnglishLearning/The Passive Voice.md",
