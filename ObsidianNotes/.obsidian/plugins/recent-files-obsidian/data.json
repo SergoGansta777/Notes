@@ -1,8 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "NoteForLinux",
+      "path": "Base/NoteForLinux/NoteForLinux.md"
+    },
+    {
+      "basename": "PhilosophyLectures",
+      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+    },
+    {
+      "basename": "_Index_of_PhilosophyLectures",
+      "path": "Base/StudyWork/PhilosophyLectures/_Index_of_PhilosophyLectures.md"
+    },
+    {
+      "basename": "OsLectures",
+      "path": "Base/StudyWork/OsLectures/OsLectures.md"
+    },
+    {
+      "basename": "Расширения",
+      "path": "Base/NoteForLinux/Расширения.md"
+    },
+    {
+      "basename": "Алгоритмы",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
+    },
+    {
+      "basename": "Base",
+      "path": "Base/Base.md"
+    },
+    {
+      "basename": "GitHub",
+      "path": "Base/GitHub/GitHub.md"
+    },
+    {
+      "basename": "EnglishLearning",
+      "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
+    },
+    {
+      "basename": "EconomicsLectures",
+      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
+    },
+    {
+      "basename": "Codding",
+      "path": "Base/StudyWork/Codding/Codding.md"
+    },
+    {
+      "basename": "StudyWork",
+      "path": "Base/StudyWork/StudyWork.md"
+    },
+    {
       "basename": "AlgorithmsAndProgramming",
       "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
+      "basename": "ObsidianNotes",
+      "path": "ObsidianNotes.md"
+    },
+    {
+      "basename": "Future Perfect",
+      "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
+    },
+    {
+      "basename": "Алгоритмирование и программирование",
+      "path": "Base/StudyWork/Алгоритмирование и программирование.md"
     },
     {
       "basename": "Future Continuous",
@@ -29,52 +89,16 @@
       "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
     },
     {
-      "basename": "PhilosophyLectures",
-      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
-    },
-    {
-      "basename": "Алгоритмы",
-      "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
-    },
-    {
       "basename": "Past Simple",
       "path": "Base/StudyWork/EnglishLearning/Past Simple.md"
-    },
-    {
-      "basename": "EconomicsLectures",
-      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
-    },
-    {
-      "basename": "EnglishLearning",
-      "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
     },
     {
       "basename": "Алгоритмирование,лабороторная 7",
       "path": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
     },
     {
-      "basename": "NoteForLinux",
-      "path": "Base/NoteForLinux/NoteForLinux.md"
-    },
-    {
-      "basename": "Расширения",
-      "path": "Base/NoteForLinux/Расширения.md"
-    },
-    {
-      "basename": "Future Perfect",
-      "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
-    },
-    {
       "basename": "Экономика, Лекция 6",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "Base/GitHub/GitHub.md"
-    },
-    {
-      "basename": "Codding",
-      "path": "Base/StudyWork/Codding/Codding.md"
     },
     {
       "basename": "The Passive Voice",
@@ -109,10 +133,6 @@
       "path": "Base/StudyWork/EnglishLearning/Present Continuous.md"
     },
     {
-      "basename": "OsLectures",
-      "path": "Base/StudyWork/OsLectures/OsLectures.md"
-    },
-    {
       "basename": "Лекция 14, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
     },
@@ -127,10 +147,6 @@
     {
       "basename": "Past Perfect",
       "path": "Base/StudyWork/EnglishLearning/Past Perfect.md"
-    },
-    {
-      "basename": "EconomicsLectures",
-      "path": "Base/StudyWork/EconomicsLectures.md"
     },
     {
       "basename": "Лекция 11, Философия",
@@ -161,10 +177,6 @@
       "path": "Base/StudyWork/Психология лидерства.md"
     },
     {
-      "basename": "Алгоритмирование и программирование",
-      "path": "Base/StudyWork/Алгоритмирование и программирование.md"
-    },
-    {
       "basename": "Лекция 7, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
     },
@@ -183,22 +195,6 @@
     {
       "basename": "Future Simple",
       "path": "Base/StudyWork/EnglishLearning/Future Simple.md"
-    },
-    {
-      "basename": "Операционные среды, лекция 5",
-      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
-    },
-    {
-      "basename": "Pasted image 20220327185856",
-      "path": "Base/Attachments/Pasted image 20220327185856.png"
-    },
-    {
-      "basename": "Шифрование текста на основе двусвязного списка",
-      "path": "Base/StudyWork/Codding/Csharp/Шифрование текста на основе двусвязного списка.md"
-    },
-    {
-      "basename": "Реализация стека с проверкой баланса скобок в выражении",
-      "path": "Base/StudyWork/Codding/Csharp/Реализация стека с проверкой баланса скобок в выражении.md"
     }
   ],
   "omittedPaths": [],

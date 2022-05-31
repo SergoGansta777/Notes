@@ -50,5 +50,6 @@
   "simple-embeds",
   "obsidian-copy-block-link",
   "obsidian-file-link",
-  "zoottelkeeper-obsidian-plugin"
+  "zoottelkeeper-obsidian-plugin",
+  "folder-note-plugin"
 ]
