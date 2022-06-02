@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
+      "basename": "GitHub",
+      "path": "Base/GitHub/GitHub.md"
+    },
+    {
       "basename": "NoteForLinux",
       "path": "Base/NoteForLinux/NoteForLinux.md"
     },
     {
-      "basename": "PhilosophyLectures",
-      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+      "basename": "EconomicsLectures",
+      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
     },
     {
-      "basename": "_Index_of_PhilosophyLectures",
-      "path": "Base/StudyWork/PhilosophyLectures/_Index_of_PhilosophyLectures.md"
+      "basename": "EnglishLearning",
+      "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
     },
     {
       "basename": "OsLectures",
       "path": "Base/StudyWork/OsLectures/OsLectures.md"
+    },
+    {
+      "basename": "PhilosophyLectures",
+      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
     },
     {
       "basename": "Расширения",
@@ -29,28 +41,12 @@
       "path": "Base/Base.md"
     },
     {
-      "basename": "GitHub",
-      "path": "Base/GitHub/GitHub.md"
-    },
-    {
-      "basename": "EnglishLearning",
-      "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
-    },
-    {
-      "basename": "EconomicsLectures",
-      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
-    },
-    {
       "basename": "Codding",
       "path": "Base/StudyWork/Codding/Codding.md"
     },
     {
       "basename": "StudyWork",
       "path": "Base/StudyWork/StudyWork.md"
-    },
-    {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
       "basename": "ObsidianNotes",

@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c7a0e25cde1ec680",
+        "id": "b99f55d7b5a661f8",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -131,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,6 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +214,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+              }
             }
           },
           {
@@ -225,17 +234,17 @@
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "c7a0e25cde1ec680",
+  "active": "b99f55d7b5a661f8",
   "lastOpenFiles": [
-    "Base/NoteForLinux/NoteForLinux.md",
-    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
-    "Base/StudyWork/PhilosophyLectures/_Index_of_PhilosophyLectures.md",
-    "Base/StudyWork/OsLectures/OsLectures.md",
-    "Base/NoteForLinux/Расширения.md",
-    "Base/AlgorithmsAndProgramming/Алгоритмы.md",
-    "Base/Base.md",
+    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/GitHub/GitHub.md",
+    "Base/NoteForLinux/NoteForLinux.md",
+    "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
     "Base/StudyWork/EnglishLearning/EnglishLearning.md",
-    "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
+    "Base/StudyWork/OsLectures/OsLectures.md",
+    "Base/StudyWork/PhilosophyLectures/_Index_of_PhilosophyLectures.md",
+    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
+    "Base/NoteForLinux/Расширения.md",
+    "Base/AlgorithmsAndProgramming/Алгоритмы.md"
   ]
 }
