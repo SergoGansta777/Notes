@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "Base/GitHub/GitHub.md"
+      "basename": "Лекция 6, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
     },
     {
       "basename": "NoteForLinux",
       "path": "Base/NoteForLinux/NoteForLinux.md"
+    },
+    {
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
+      "basename": "Операционные среды, Лекция 7",
+      "path": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md"
+    },
+    {
+      "basename": "Операционные среды, лекция 6",
+      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
+    },
+    {
+      "basename": "GitHub",
+      "path": "Base/GitHub/GitHub.md"
     },
     {
       "basename": "EconomicsLectures",
@@ -187,10 +199,6 @@
     {
       "basename": "Present Simple",
       "path": "Base/StudyWork/EnglishLearning/Present Simple.md"
-    },
-    {
-      "basename": "Future Simple",
-      "path": "Base/StudyWork/EnglishLearning/Future Simple.md"
     }
   ],
   "omittedPaths": [],

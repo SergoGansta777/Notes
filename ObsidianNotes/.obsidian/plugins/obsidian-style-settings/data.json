@@ -36,7 +36,7 @@
   "blue-topaz-theme@@h1-toggle-underline": true,
   "blue-topaz-theme@@h2-toggle-underline": true,
   "blue-topaz-theme@@h3-toggle-underline": false,
-  "blue-topaz-theme@@text-indentation-two-em": true,
+  "blue-topaz-theme@@text-indentation-two-em": false,
   "blue-topaz-theme@@toggle-bg-file-page": false,
   "blue-topaz-theme@@rainbow-ordered-list": false,
   "blue-topaz-theme@@rainbow-checkbox": true,

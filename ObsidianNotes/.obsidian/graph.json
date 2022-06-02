@@ -4,8 +4,8 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": false,
-  "collapse-color-groups": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "#Eng",
@@ -43,14 +43,35 @@
       }
     },
     {
-      "query": "Algorithm",
+      "query": "#Algorithm",
       "color": {
         "a": 1,
         "rgb": 15998815
       }
+    },
+    {
+      "query": "#LinuxNote",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "#GitHub",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
+    },
+    {
+      "query": "#OsLectures",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -60,6 +81,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.20277898955624976,
+  "scale": 0.3935550908067404,
   "close": true
 }

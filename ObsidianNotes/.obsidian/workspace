@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
-            "mode": "source",
+            "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Algorithm",
+                "query": "#",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -108,7 +108,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7761451769739454,
+                  "scale": 0.6418006984797232,
                   "close": true
                 }
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,8 +175,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "347690fde5347fc2",
@@ -215,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
               }
             }
           },
@@ -228,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -236,15 +235,15 @@
   },
   "active": "b99f55d7b5a661f8",
   "lastOpenFiles": [
-    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
-    "Base/GitHub/GitHub.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/NoteForLinux/NoteForLinux.md",
+    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+    "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
+    "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
+    "Base/GitHub/GitHub.md",
     "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
     "Base/StudyWork/EnglishLearning/EnglishLearning.md",
     "Base/StudyWork/OsLectures/OsLectures.md",
-    "Base/StudyWork/PhilosophyLectures/_Index_of_PhilosophyLectures.md",
-    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
-    "Base/NoteForLinux/Расширения.md",
-    "Base/AlgorithmsAndProgramming/Алгоритмы.md"
+    "Base/StudyWork/PhilosophyLectures/_Index_of_PhilosophyLectures.md"
   ]
 }
