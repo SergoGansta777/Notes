@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+            "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
             "mode": "preview",
             "source": false
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "347690fde5347fc2",
@@ -226,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
+                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
               }
             }
           },
@@ -247,15 +248,15 @@
   },
   "active": "b99f55d7b5a661f8",
   "lastOpenFiles": [
+    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+    "Base/AlgorithmsAndProgramming/Untitled.md",
+    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+    "Base/StudyWork/Codding/Codding.md",
+    "Base/StudyWork/Codding/Csharp/Csharp.md",
+    "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md",
+    "Base/StudyWork/Codding/C++/C++.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
-    "Base/NoteForLinux/NoteForLinux.md",
-    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
-    "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md",
-    "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md",
-    "Base/GitHub/GitHub.md"
+    "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
   ]
 }

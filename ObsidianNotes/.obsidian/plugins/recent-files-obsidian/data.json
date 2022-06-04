@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "НОД(алгоритм Евклида)",
+      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Base/AlgorithmsAndProgramming/Untitled.md"
+    },
+    {
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
+      "basename": "Codding",
+      "path": "Base/StudyWork/Codding/Codding.md"
+    },
+    {
+      "basename": "Csharp",
+      "path": "Base/StudyWork/Codding/Csharp/Csharp.md"
+    },
+    {
+      "basename": "Алгоритмирование,лабороторная 7",
+      "path": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
+    },
+    {
+      "basename": "C++",
+      "path": "Base/StudyWork/Codding/C++/C++.md"
+    },
+    {
       "basename": "Лекция 6, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
     },
@@ -23,10 +51,6 @@
     {
       "basename": "NoteForLinux",
       "path": "Base/NoteForLinux/NoteForLinux.md"
-    },
-    {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
       "basename": "Операционные среды, Лекция 7",
@@ -69,10 +93,6 @@
       "path": "Base/Base.md"
     },
     {
-      "basename": "Codding",
-      "path": "Base/StudyWork/Codding/Codding.md"
-    },
-    {
       "basename": "StudyWork",
       "path": "Base/StudyWork/StudyWork.md"
     },
@@ -101,20 +121,12 @@
       "path": "Base/StudyWork/EnglishLearning/Attachments/Pasted image 20220330093542.png"
     },
     {
-      "basename": "НОД(алгоритм Евклида)",
-      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
-    },
-    {
       "basename": "Проверка числа на простоту",
       "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
     },
     {
       "basename": "Past Simple",
       "path": "Base/StudyWork/EnglishLearning/Past Simple.md"
-    },
-    {
-      "basename": "Алгоритмирование,лабороторная 7",
-      "path": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
     },
     {
       "basename": "Экономика, Лекция 6",
@@ -187,18 +199,6 @@
     {
       "basename": "Психология лидерства",
       "path": "Base/StudyWork/Психология лидерства.md"
-    },
-    {
-      "basename": "Операционные среды, лекция 4.",
-      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md"
-    },
-    {
-      "basename": "Вставка одновсвязного списка в другой",
-      "path": "Base/StudyWork/Codding/Csharp/Вставка одновсвязного списка в другой.md"
-    },
-    {
-      "basename": "Present Simple",
-      "path": "Base/StudyWork/EnglishLearning/Present Simple.md"
     }
   ],
   "omittedPaths": [],
