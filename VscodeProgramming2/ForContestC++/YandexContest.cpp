@@ -27,15 +27,16 @@ using namespace std;
 }
 int main()
 {
-    int TomX,TomY, JerryX, JerryY, N , x , y;
+    double TomX,TomY, JerryX, JerryY , x , y;
     cin >> JerryX >> JerryY;
     cin >> TomX >> TomY;
+    int N;
     cin >> N;
     int count = 0;
     for(int i = 0; i<N;i++)
     {
         cin >> x >> y;
-        if(pow(JerryX-x,2)+pow(JerryY-y,2) < 2*(pow(TomX-x,2)+pow(TomY-y,2)) && count==0){
+        if(pow(JerryX-x,2)+pow(JerryY-y,2)*4 < (pow(TomX-x,2)+pow(TomY-y,2)) && count==0){
          count = i+1;   
         }
     }
