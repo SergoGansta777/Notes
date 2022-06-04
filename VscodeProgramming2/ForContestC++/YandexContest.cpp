@@ -27,17 +27,23 @@ using namespace std;
 }
 int main()
 {
-    int m,n;
-    cin >> m >> n;
-    bool isExist = false;
-    for(int i = m;i<=n;i++)
+    int TomX,TomY, JerryX, JerryY, N , x , y;
+    cin >> JerryX >> JerryY;
+    cin >> TomX >> TomY;
+    cin >> N;
+    int count = 0;
+    for(int i = 0; i<N;i++)
     {
-        if(i!=2&&i&2==0) continue;
-        if(IsPrime(i)){
-            cout << i << endl;
-            if(!isExist)isExist=true;
+        cin >> x >> y;
+        if(pow(JerryX-x,2)+pow(JerryY-y,2) < 2*(pow(TomX-x,2)+pow(TomY-y,2)) && count==0){
+         count = i+1;   
         }
     }
-    if(!isExist) cout << "Absent" << endl;
+    if(count!=0){
+        cout << count << endl;
+    }else{
+        cout << "NO" << endl;
+    }
     return 0;
+
 }

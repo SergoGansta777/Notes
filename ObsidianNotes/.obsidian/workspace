@@ -97,7 +97,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
               }
             }
           },
@@ -245,12 +245,12 @@
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "0e8661dcc0c8e182",
+  "active": "b99f55d7b5a661f8",
   "lastOpenFiles": [
+    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
     "Base/NoteForLinux/NoteForLinux.md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
