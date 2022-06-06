@@ -4,18 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "b99f55d7b5a661f8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
-            "mode": "preview",
-            "source": false
-          }
-        }
-      },
-      {
         "id": "0e8661dcc0c8e182",
         "type": "leaf",
         "state": {
@@ -97,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -176,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
+                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
               }
             }
           },
@@ -246,17 +234,17 @@
     "direction": "horizontal",
     "width": 315.66668701171875
   },
-  "active": "b99f55d7b5a661f8",
+  "active": "0e8661dcc0c8e182",
   "lastOpenFiles": [
-    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/AlgorithmsAndProgramming/Untitled.md",
+    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/StudyWork/Codding/Codding.md",
     "Base/StudyWork/Codding/Csharp/Csharp.md",
     "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md",
     "Base/StudyWork/Codding/C++/C++.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
   ]
 }
