@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-            "mode": "preview",
+            "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+                "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+                "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+                "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
+                "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
               }
             }
           },
@@ -236,15 +236,15 @@
   },
   "active": "0e8661dcc0c8e182",
   "lastOpenFiles": [
+    "Base/StudyWork/EnglishLearning/EnglishLearning.md",
+    "Base/StudyWork/EnglishLearning/English.md",
+    "Base/StudyWork/StudyWork.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/AlgorithmsAndProgramming/Untitled.md",
     "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/StudyWork/Codding/Codding.md",
     "Base/StudyWork/Codding/Csharp/Csharp.md",
-    "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md",
-    "Base/StudyWork/Codding/C++/C++.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
+    "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
   ]
 }
