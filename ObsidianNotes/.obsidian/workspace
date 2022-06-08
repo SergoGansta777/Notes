@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
-            "mode": "source",
+            "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
+                "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
+                "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
+                "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,22 +157,6 @@
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "97c2cd3cb1f8fc8c",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "7c8b7270e2755e07",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {}
             }
           }
         ],
@@ -215,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/Python/Notes_for_Python/Заметки со степика.md"
+                "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
               }
             }
           },
@@ -228,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -236,6 +220,8 @@
   },
   "active": "0e8661dcc0c8e182",
   "lastOpenFiles": [
+    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
+    "Base/Python/PEP8.md",
     "Base/Python/Notes_for_Python/Заметки со степика.md",
     "Base/Python/Notes_for_Python/Notes_for_Python.md",
     "Base/Python/Python.md",
@@ -243,8 +229,6 @@
     "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/StudyWork/EnglishLearning/EnglishLearning.md",
-    "Base/StudyWork/EnglishLearning/English.md",
-    "Base/StudyWork/StudyWork.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
+    "Base/StudyWork/EnglishLearning/English.md"
   ]
 }

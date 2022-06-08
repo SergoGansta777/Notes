@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Проверка числа на простоту",
+      "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
+    },
+    {
+      "basename": "PEP8",
+      "path": "Base/Python/PEP8.md"
+    },
+    {
       "basename": "Заметки со степика",
       "path": "Base/Python/Notes_for_Python/Заметки со степика.md"
     },
@@ -125,10 +133,6 @@
       "path": "Base/StudyWork/EnglishLearning/Attachments/Pasted image 20220330093542.png"
     },
     {
-      "basename": "Проверка числа на простоту",
-      "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
-    },
-    {
       "basename": "Past Simple",
       "path": "Base/StudyWork/EnglishLearning/Past Simple.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "conflict-files-obsidian-git",
       "path": "conflict-files-obsidian-git.md"
-    },
-    {
-      "basename": "Лекция 12, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
     }
   ],
   "omittedPaths": [],
