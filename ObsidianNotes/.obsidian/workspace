@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md",
-            "mode": "source",
+            "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md",
+                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -136,26 +136,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md",
+                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
-            }
-          },
-          {
-            "id": "5c7b49c02319e4fc",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "d4b7ce2dedd2796d",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {}
             }
           },
           {
@@ -164,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md",
+                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,6 +157,22 @@
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "97c2cd3cb1f8fc8c",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c8b7270e2755e07",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
             }
           }
         ],
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
+                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
               }
             }
           },
@@ -236,13 +236,13 @@
   },
   "active": "0e8661dcc0c8e182",
   "lastOpenFiles": [
+    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/StudyWork/EnglishLearning/EnglishLearning.md",
     "Base/StudyWork/EnglishLearning/English.md",
     "Base/StudyWork/StudyWork.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
     "Base/AlgorithmsAndProgramming/Untitled.md",
-    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
-    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/StudyWork/Codding/Codding.md",
     "Base/StudyWork/Codding/Csharp/Csharp.md",
     "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
