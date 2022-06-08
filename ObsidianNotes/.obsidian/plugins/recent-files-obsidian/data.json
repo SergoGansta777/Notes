@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Заметки со степика",
+      "path": "Base/Python/Notes_for_Python/Заметки со степика.md"
+    },
+    {
+      "basename": "Notes_for_Python",
+      "path": "Base/Python/Notes_for_Python/Notes_for_Python.md"
+    },
+    {
+      "basename": "Python",
+      "path": "Base/Python/Python.md"
+    },
+    {
+      "basename": "Future Perfect",
+      "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
+    },
+    {
       "basename": "НОД(алгоритм Евклида)",
       "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
     },
@@ -97,10 +113,6 @@
       "path": "ObsidianNotes.md"
     },
     {
-      "basename": "Future Perfect",
-      "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
-    },
-    {
       "basename": "Алгоритмирование и программирование",
       "path": "Base/StudyWork/Алгоритмирование и программирование.md"
     },
@@ -187,10 +199,6 @@
     {
       "basename": "Лекция 12, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
-    },
-    {
-      "basename": "Психология лидерства",
-      "path": "Base/StudyWork/Психология лидерства.md"
     }
   ],
   "omittedPaths": [],

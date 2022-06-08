@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
-            "mode": "preview",
+            "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+                "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+                "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+                "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
+                "file": "Base/Python/Notes_for_Python/Заметки со степика.md"
               }
             }
           },
@@ -236,15 +236,15 @@
   },
   "active": "0e8661dcc0c8e182",
   "lastOpenFiles": [
+    "Base/Python/Notes_for_Python/Заметки со степика.md",
+    "Base/Python/Notes_for_Python/Notes_for_Python.md",
+    "Base/Python/Python.md",
+    "Base/StudyWork/EnglishLearning/Future Perfect.md",
     "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/StudyWork/EnglishLearning/EnglishLearning.md",
     "Base/StudyWork/EnglishLearning/English.md",
     "Base/StudyWork/StudyWork.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-    "Base/AlgorithmsAndProgramming/Untitled.md",
-    "Base/StudyWork/Codding/Codding.md",
-    "Base/StudyWork/Codding/Csharp/Csharp.md",
-    "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
   ]
 }
