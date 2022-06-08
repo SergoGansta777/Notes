@@ -25,26 +25,12 @@ using namespace std;
         return false;
     return true;
 }
+
+
 int main()
 {
-    double TomX,TomY, JerryX, JerryY , x , y;
-    cin >> JerryX >> JerryY;
-    cin >> TomX >> TomY;
-    int N;
-    cin >> N;
-    int count = 0;
-    for(int i = 0; i<N;i++)
-    {
-        cin >> x >> y;
-        if(pow(JerryX-x,2)+pow(JerryY-y,2)*4 < (pow(TomX-x,2)+pow(TomY-y,2)) && count==0){
-         count = i+1;   
-        }
-    }
-    if(count!=0){
-        cout << count << endl;
-    }else{
-        cout << "NO" << endl;
-    }
-    return 0;
+	double cats, hours;
+    cin >> cats >> hours;
+    cout << 2.0/9 * cats * hours << endl;
 
 }
