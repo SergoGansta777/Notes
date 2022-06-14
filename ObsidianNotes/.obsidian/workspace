@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246,
-    "collapsed": true
+    "width": 246
   },
   "right": {
     "id": "c63a1f40835abdfc",
@@ -98,7 +97,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
+                "file": "Base/Python/PEP8.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -149,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
+                "file": "Base/Python/PEP8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -161,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
+                "file": "Base/Python/PEP8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
+                "file": "Base/Python/PEP8.md"
               }
             }
           },
@@ -229,13 +228,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.66668701171875,
-    "collapsed": true
+    "width": 315.66668701171875
   },
-  "active": "3c13809c069dacd2",
+  "active": "0e8661dcc0c8e182",
   "lastOpenFiles": [
-    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
     "Base/Python/PEP8.md",
+    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
     "Base/Python/Notes_for_Python/Заметки со степика.md",
     "Base/Python/Notes_for_Python/Notes_for_Python.md",
     "Base/Python/Python.md",
