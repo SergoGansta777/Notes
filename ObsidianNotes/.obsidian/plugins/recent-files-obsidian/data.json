@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "PEP8",
-      "path": "Base/Python/PEP8.md"
+      "basename": "Наибольшая возрастающая подпоследовательность",
+      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
+    },
+    {
+      "basename": "НОД(алгоритм Евклида)",
+      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
     },
     {
       "basename": "Проверка числа на простоту",
       "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
+    },
+    {
+      "basename": "Алгоритмы",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
+    },
+    {
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
+      "basename": "PEP8",
+      "path": "Base/Python/PEP8.md"
     },
     {
       "basename": "Заметки со степика",
@@ -23,14 +39,6 @@
     {
       "basename": "Future Perfect",
       "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
-    },
-    {
-      "basename": "НОД(алгоритм Евклида)",
-      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
-    },
-    {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
       "basename": "EnglishLearning",
@@ -107,10 +115,6 @@
     {
       "basename": "Расширения",
       "path": "Base/NoteForLinux/Расширения.md"
-    },
-    {
-      "basename": "Алгоритмы",
-      "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
     },
     {
       "basename": "Base",
@@ -195,10 +199,6 @@
     {
       "basename": "Лекция 13, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
-    },
-    {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
     }
   ],
   "omittedPaths": [],
