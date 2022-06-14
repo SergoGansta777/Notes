@@ -40,7 +40,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+            "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
             "mode": "preview",
             "source": false
           }
@@ -116,7 +116,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
               }
             }
           },
@@ -251,11 +251,11 @@
   },
   "active": "3c13809c069dacd2",
   "lastOpenFiles": [
+    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
     "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
     "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
     "Base/AlgorithmsAndProgramming/Алгоритмы.md",
-    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/Python/PEP8.md",
     "Base/Python/Notes_for_Python/Заметки со степика.md",
     "Base/Python/Notes_for_Python/Notes_for_Python.md",

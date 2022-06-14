@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
       "basename": "Наибольшая возрастающая подпоследовательность",
       "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Алгоритмы",
       "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
-    },
-    {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
       "basename": "PEP8",
