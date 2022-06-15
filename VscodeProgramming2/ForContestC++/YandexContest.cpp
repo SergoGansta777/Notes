@@ -116,21 +116,57 @@ int RtA(string s)
             current1->next = tmp;
         }
     }
+    return list1;
        }
+
+        ListNode* deleteDuplicates(ListNode* head) {
+        ListNode* current = head;
+        ListNode* tmp = head;
+        int last_value = head->val;
+        bool need_delete = false;
+        
+        while(current){
+            
+            if(current->val != last_value){
+                if(need_delete){
+                    tmp->next = current;
+                }
+                last_value = current->val;
+                tmp = current;
+                current= current->next;
+            }else{
+                if(current == head){
+                    current = current->next;
+                    continue;
+                }
+                need_delete = true;
+                ListNode* tmp2 = current;
+                current = current->next;
+                if(tmp2->next){
+                    tmp->next = nullptr;
+                    break;
+                }else{
+                    tmp2->next = nullptr;
+                }
+            }
+        }
+        return head;
+    }
 };
 int main()
 {
     int count;    cin >> count;
-    ListNode list1{5};
-    ListNode list2{1};    for(int i = 0;i < count;i++)
+    ListNode list1{1};
+    ListNode list2{1};    
+    for(int i = 0;i < count;i++)
     {
         FillListNode(&list1);
     }
-    for(int i = 0;i < count+2;i++)
-    {
-        FillListNode(&list2);
-    }
+    // for(int i = 0;i < count+2;i++)
+    // {
+    //     FillListNode(&list2);
+    // }
     Solution adf;
-    adf.mergeTwoLists(&list1, &list2);
+    adf.deleteDuplicates(&list1);
     return 0;
 }

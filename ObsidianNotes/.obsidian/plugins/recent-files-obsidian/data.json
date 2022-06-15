@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Наибольшая возрастающая подпоследовательность",
+      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
+    },
+    {
       "basename": "Алгоритмы",
       "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Python",
       "path": "Base/Python/Python.md"
-    },
-    {
-      "basename": "Наибольшая возрастающая подпоследовательность",
-      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
     },
     {
       "basename": "НОД(алгоритм Евклида)",
