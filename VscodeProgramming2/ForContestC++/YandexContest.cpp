@@ -5,6 +5,7 @@
 #include <map>
 #include <stack>
 #include <string.h>
+#include <algorithm>
 
 using namespace std;
 map<char, int> RomanToArab{
@@ -153,20 +154,32 @@ int RtA(string s)
         return head;
     }
 };
+void rotate(vector<int>& nums, int k) {
+        if(k>=nums.size()) k = k % nums.size();
+        reverse(nums.begin(), nums.end());
+        reverse(nums.begin(), nums.begin() + k);
+        reverse(nums.begin() + k, nums.end());
+
+        return;
+    }
 int main()
 {
-    int count;    cin >> count;
-    ListNode list1{1};
-    ListNode list2{1};    
-    for(int i = 0;i < count;i++)
-    {
-        FillListNode(&list1);
-    }
+    // ListNode list1{1};
+    // ListNode list2{1};    
+    // for(int i = 0;i < count;i++)
+    // {
+    //     FillListNode(&list1);
+    // }
     // for(int i = 0;i < count+2;i++)
     // {
     //     FillListNode(&list2);
     // }
     Solution adf;
-    adf.deleteDuplicates(&list1);
+    vector<int> test;
+    for(int i = 0; i < 7; i++)
+    {
+        test.push_back(i+1);
+    }
+    rotate(test, 3);
     return 0;
 }

@@ -140,7 +140,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 0.6418006984797232,
-                  "close": true
+                  "close": false
                 }
               }
             }
