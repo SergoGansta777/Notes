@@ -162,6 +162,28 @@ void rotate(vector<int>& nums, int k) {
 
         return;
     }
+    string reverseWords(string s) {
+        int first = 0;
+        int last;
+        char tmp;
+        for(int i = 0; i < s.length();i++)
+        {
+            if(s[i] == ' ' or i == s.length()-1){
+                last = i;
+                if(s[last] == ' ') last--;
+                if(s[first] == ' ') first++;
+                while(first <= last){
+                    tmp = s[first];
+                    s[first] = s[last];
+                    s[last] = tmp;
+                    first
+                    
+                }
+                first=i+1;
+            }
+        }
+        return s;
+    }
 int main()
 {
     // ListNode list1{1};
@@ -174,12 +196,7 @@ int main()
     // {
     //     FillListNode(&list2);
     // }
-    Solution adf;
-    vector<int> test;
-    for(int i = 0; i < 7; i++)
-    {
-        test.push_back(i+1);
-    }
-    rotate(test, 3);
+    vector<char> test = {'H', 'E', 'L', 'L', 'O'};
+    reverseWords("Test is need"s);
     return 0;
 }

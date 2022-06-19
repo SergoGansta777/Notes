@@ -39,10 +39,40 @@ void plusOne(vector<int>& digits) {
         }
         return;
     }
-}
 int main(){
-    vector<int> test = {1,2,3,0,0,0};
-    vector<int> test1 = {2,5,6};
-    merge(test, 0, test1, 2);
+    int n, t;
+    cin >> n >> t;
+    vector<pair<int,int>> math;
+    vector<pair<int,int>> physics;
+    for(int i = 0; i < n; i++){
+        int amount, time;
+        char object;
+        cin >> time >> amount >> object;
+        if(object == 'M') math.push_back({amount, time});
+        else physics.push_back({amount, time});
+    }
+    sort(physics.begin(), physics.end(), [] (pair<int, int> a, pair<int, int> b) { return a.second < b.second;});
+    sort(math.begin(), math.end(), [] (pair<int, int> a, pair<int, int> b) { return a.second < b.second;});
+    int tasks_Ph = 0, tasks_M = 0;
+    int tmp;
+    for(auto task : physics){
+        tmp = t / task.second;
+        t -= min(task.first, tmp) * task.second;
+        tasks_Ph += min(task.first, tmp);
+        if(t <= 0){
+            cout << tasks_Ph << " " << tasks_M << endl;
+            return 0;
+        }
+    }
+    for(auto task : math){
+        tmp = t / task.second;
+        t -= min(task.first, tmp) * task.second;
+        tasks_M += min(task.first, tmp);
+        if(t <= 0){
+            cout << tasks_Ph << " " << tasks_M << endl;
+            return 0;
+        }
+    }
+    cout << tasks_Ph << " " << tasks_M << endl;
     return 0;
 }
