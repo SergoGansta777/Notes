@@ -41,7 +41,7 @@
           "type": "markdown",
           "state": {
             "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -140,7 +140,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 0.6418006984797232,
-                  "close": false
+                  "close": true
                 }
               }
             }
@@ -190,8 +190,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "347690fde5347fc2",
@@ -252,14 +251,14 @@
   "active": "3c13809c069dacd2",
   "lastOpenFiles": [
     "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
-    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
     "Base/AlgorithmsAndProgramming/Алгоритмы.md",
+    "Base/NoteForLinux/NoteForLinux.md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
     "Base/Python/Notes_for_Python/Notes_for_Python.md",
     "Base/Python/Python.md",
     "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
     "Base/Python/PEP8.md",
-    "Base/Python/Notes_for_Python/Заметки со степика.md",
-    "Base/StudyWork/EnglishLearning/Future Perfect.md"
+    "Base/Python/Notes_for_Python/Заметки со степика.md"
   ]
 }

@@ -5,16 +5,20 @@
       "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
     },
     {
-      "basename": "НОД(алгоритм Евклида)",
-      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
-    },
-    {
       "basename": "Алгоритмы",
       "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
     },
     {
+      "basename": "NoteForLinux",
+      "path": "Base/NoteForLinux/NoteForLinux.md"
+    },
+    {
       "basename": "AlgorithmsAndProgramming",
       "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
+      "basename": "НОД(алгоритм Евклида)",
+      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
     },
     {
       "basename": "Notes_for_Python",
@@ -83,10 +87,6 @@
     {
       "basename": "Лекция 7, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
-    },
-    {
-      "basename": "NoteForLinux",
-      "path": "Base/NoteForLinux/NoteForLinux.md"
     },
     {
       "basename": "Операционные среды, Лекция 7",
