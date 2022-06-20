@@ -40,7 +40,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+            "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
             "mode": "preview",
             "source": false
           }
@@ -116,7 +116,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+                "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+                "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+                "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
+                "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
               }
             }
           },
@@ -251,8 +251,8 @@
   },
   "active": "3c13809c069dacd2",
   "lastOpenFiles": [
-    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
     "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
     "Base/AlgorithmsAndProgramming/Алгоритмы.md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/Python/Notes_for_Python/Notes_for_Python.md",

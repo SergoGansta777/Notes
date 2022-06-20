@@ -162,27 +162,41 @@ void rotate(vector<int>& nums, int k) {
 
         return;
     }
-    string reverseWords(string s) {
-        int first = 0;
-        int last;
-        char tmp;
-        for(int i = 0; i < s.length();i++)
+     int sumOddLengthSubarrays(vector<int>& arr) {
+        int sum = 0, sum_of_subarr, count = 0;
+        for(int i = 0;i < arr.size();i++)
         {
-            if(s[i] == ' ' or i == s.length()-1){
-                last = i;
-                if(s[last] == ' ') last--;
-                if(s[first] == ' ') first++;
-                while(first <= last){
-                    tmp = s[first];
-                    s[first] = s[last];
-                    s[last] = tmp;
-                    first
-                    
-                }
-                first=i+1;
+            sum_of_subarr = 0;
+            count = 0;
+            for(int j = i; j < arr.size();j++){
+                count++;
+                sum_of_subarr+= arr[j];
+               if(count % 2 != 0)
+               {
+                   sum+=sum_of_subarr;
+               }
+                
             }
         }
-        return s;
+        return sum;
+    }
+     int lengthOfLongestSubstring(string s) {
+        if(s.length() == 1) return 1;
+        string tmp;
+        int maxLength=0;
+        for(int i = 0; i < s.length();i++){
+            tmp = "";
+            for(int j = i; j < s.length();j++)
+            {
+                if(tmp.find(s[j]) == std::string::npos) tmp +=s[j];
+                else {
+                    if(j==tmp.length()-1) return tmp.length();
+                    break;
+                }
+                if(int(tmp.length()) > maxLength) maxLength = tmp.length();
+            }
+        }
+        return std::max(maxLength, int(tmp.length()));
     }
 int main()
 {
@@ -196,7 +210,8 @@ int main()
     // {
     //     FillListNode(&list2);
     // }
-    vector<char> test = {'H', 'E', 'L', 'L', 'O'};
-    reverseWords("Test is need"s);
+    vector<int> test1 = {4,1, 2};
+    vector<int> test2 = {1,4,2,5,3};
+    lengthOfLongestSubstring("au");
     return 0;
 }
