@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Алгоритм ообхода графа в глубину(DFS)",
-      "path": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md"
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
       "basename": "Алгоритм обхода графа в ширину(BFS)",
       "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
     },
     {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+      "basename": "Алгоритм ообхода графа в глубину(DFS)",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md"
+    },
+    {
+      "basename": "Алгоритмы",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
     },
     {
       "basename": "Untitled Kanban",
@@ -19,10 +23,6 @@
     {
       "basename": "Наибольшая возрастающая подпоследовательность",
       "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
-    },
-    {
-      "basename": "Алгоритмы",
-      "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
     },
     {
       "basename": "Расширения",

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
+            "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
             "mode": "preview",
             "source": false
           }
@@ -98,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md"
+                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
               }
             }
           },
@@ -225,7 +225,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -233,12 +233,12 @@
   },
   "active": "0e8661dcc0c8e182",
   "lastOpenFiles": [
-    "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
-    "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+    "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+    "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
+    "Base/AlgorithmsAndProgramming/Алгоритмы.md",
     "Base/NoteForLinux/Untitled Kanban.md",
     "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
-    "Base/AlgorithmsAndProgramming/Алгоритмы.md",
     "Base/NoteForLinux/Расширения.md",
     "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
     "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
