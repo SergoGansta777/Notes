@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Алгоритм обхода графа в ширину(BFS)",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
+    },
+    {
+      "basename": "Наибольшая возрастающая подпоследовательность",
+      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
+    },
+    {
       "basename": "AlgorithmsAndProgramming",
       "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
-      "basename": "Алгоритм обхода графа в ширину(BFS)",
-      "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
+      "basename": "PEP8",
+      "path": "Base/Python/PEP8.md"
     },
     {
       "basename": "Алгоритм ообхода графа в глубину(DFS)",
@@ -17,20 +25,16 @@
       "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
     },
     {
+      "basename": "Проверка числа на простоту",
+      "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
+    },
+    {
       "basename": "Untitled Kanban",
       "path": "Base/NoteForLinux/Untitled Kanban.md"
     },
     {
-      "basename": "Наибольшая возрастающая подпоследовательность",
-      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
-    },
-    {
       "basename": "Расширения",
       "path": "Base/NoteForLinux/Расширения.md"
-    },
-    {
-      "basename": "Проверка числа на простоту",
-      "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
     },
     {
       "basename": "НОД(алгоритм Евклида)",
@@ -71,10 +75,6 @@
     {
       "basename": "Python",
       "path": "Base/Python/Python.md"
-    },
-    {
-      "basename": "PEP8",
-      "path": "Base/Python/PEP8.md"
     },
     {
       "basename": "Заметки со степика",
