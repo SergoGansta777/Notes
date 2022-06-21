@@ -1,11 +1,4 @@
-#include <iostream>
-#include <math.h>
-#include <cmath>
-#include <vector>
-#include <map>
-#include <stack>
-#include <string.h>
-#include <algorithm>
+#include <bits/stdc++.h>
 
 using namespace std;
 map<char, int> RomanToArab{
@@ -182,21 +175,22 @@ void rotate(vector<int>& nums, int k) {
     }
      int lengthOfLongestSubstring(string s) {
         if(s.length() == 1) return 1;
-        string tmp;
-        int maxLength=0;
-        for(int i = 0; i < s.length();i++){
-            tmp = "";
-            for(int j = i; j < s.length();j++)
-            {
-                if(tmp.find(s[j]) == std::string::npos) tmp +=s[j];
-                else {
-                    if(j==tmp.length()-1) return tmp.length();
-                    break;
+        unordered_map<char,int> hashmap;
+        int first =0, result = 0, dublicate_in;
+        for(int end = 0; end < s.length(); end++)
+        {
+            if(hashmap.find(s[end]) != hashmap.end()){
+                result = max(result, end - first);
+                dublicate_in = hashmap[s[end]];
+                for(int i = first; i <= dublicate_in;i++)
+                {
+                    hashmap.erase(s[i]);
                 }
-                if(int(tmp.length()) > maxLength) maxLength = tmp.length();
+                first = dublicate_in+1;
             }
+            hashmap.insert({s[end], end});
         }
-        return std::max(maxLength, int(tmp.length()));
+        return result;
     }
 int main()
 {
