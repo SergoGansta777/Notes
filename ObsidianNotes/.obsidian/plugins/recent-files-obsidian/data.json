@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Алгоритм ообхода графа в глубину(DFS)",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md"
+    },
+    {
       "basename": "Алгоритм обхода графа в ширину(BFS)",
       "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
     },
     {
       "basename": "Наибольшая возрастающая подпоследовательность",
       "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
+    },
+    {
+      "basename": "НОД(алгоритм Евклида)",
+      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
+    },
+    {
+      "basename": "Проверка числа на простоту",
+      "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
     },
     {
       "basename": "AlgorithmsAndProgramming",
@@ -17,16 +29,8 @@
       "path": "Base/Python/PEP8.md"
     },
     {
-      "basename": "Алгоритм ообхода графа в глубину(DFS)",
-      "path": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md"
-    },
-    {
       "basename": "Алгоритмы",
       "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
-    },
-    {
-      "basename": "Проверка числа на простоту",
-      "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
     },
     {
       "basename": "Untitled Kanban",
@@ -35,10 +39,6 @@
     {
       "basename": "Расширения",
       "path": "Base/NoteForLinux/Расширения.md"
-    },
-    {
-      "basename": "НОД(алгоритм Евклида)",
-      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
     },
     {
       "basename": "Лекция 10, Философия",

@@ -5,5 +5,6 @@
   "externalStyle": "None",
   "supportAllMatchers": false,
   "allow_inconsistent_headings": false,
-  "varied_style": true
+  "varied_style": true,
+  "title": "###### Список рассматриваемых вопросов"
 }

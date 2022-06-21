@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+            "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
             "mode": "source",
             "source": false
           }
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#algor",
+                "query": "tag:#Algorithm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -102,7 +103,7 @@
       {
         "id": "e0868fce32b966ef",
         "type": "tabs",
-        "dimension": 27.75073028237585,
+        "dimension": 27.750730282375855,
         "children": [
           {
             "id": "15083b7695660697",
@@ -122,13 +123,23 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "ef330790979f06a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md"
+              }
+            }
           }
         ]
       },
       {
         "id": "dfcfa533cb6c4818",
         "type": "tabs",
-        "dimension": 43.42745861733203,
+        "dimension": 43.427458617332036,
         "children": [
           {
             "id": "2658b122652e5c42",
@@ -136,7 +147,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -187,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -199,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +226,7 @@
       {
         "id": "347690fde5347fc2",
         "type": "tabs",
-        "dimension": 28.821811100292106,
+        "dimension": 28.821811100292113,
         "children": [
           {
             "id": "4ce816f5cc5f8ed0",
@@ -223,16 +234,6 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
-            }
-          },
-          {
-            "id": "ef330790979f06a4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
-              }
             }
           },
           {
@@ -244,7 +245,7 @@
             }
           },
           {
-            "id": "0e0612167b4db6dd",
+            "id": "2076ef12ebdb11a9",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -252,23 +253,23 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 305.66668701171875
   },
-  "active": "93952fba5981c56f",
+  "active": "0e8661dcc0c8e182",
   "lastOpenFiles": [
+    "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
     "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
     "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/Python/PEP8.md",
-    "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
     "Base/AlgorithmsAndProgramming/Алгоритмы.md",
-    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
     "Base/NoteForLinux/Untitled Kanban.md",
-    "Base/NoteForLinux/Расширения.md",
-    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
+    "Base/NoteForLinux/Расширения.md"
   ]
 }

@@ -6,7 +6,7 @@ tags:
 ---
 # Алгорит обхода/поиска в ширину(breadth-first search)
 
-`go wide, bird eye's view`
+>go wide, bird eye's view
 ```toc
 ```
 ## Description

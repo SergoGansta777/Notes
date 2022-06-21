@@ -57,5 +57,6 @@
   "blue-topaz-theme@@folder-style-change-options-colorful-subfolder": "folder-colorful-one",
   "blue-topaz-theme@@clutter-free-headings": false,
   "blue-topaz-theme@@reduce-bottom-padding": false,
-  "blue-topaz-theme@@toggle-paragraph-spacing": false
+  "blue-topaz-theme@@toggle-paragraph-spacing": false,
+  "blue-topaz-theme@@transparent-setting-panel": false
 }
