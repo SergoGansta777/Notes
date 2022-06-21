@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
-            "mode": "source",
+            "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
+            "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
             "mode": "preview",
             "source": false
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,8 +171,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "347690fde5347fc2",
@@ -211,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md"
               }
             }
           },
@@ -224,7 +223,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -232,15 +231,15 @@
   },
   "active": "0e8661dcc0c8e182",
   "lastOpenFiles": [
-    "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
     "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
-    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+    "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+    "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
     "Base/AlgorithmsAndProgramming/Алгоритмы.md",
+    "Base/NoteForLinux/Расширения.md",
+    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/NoteForLinux/NoteForLinux.md",
     "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
     "Base/Python/Notes_for_Python/Notes_for_Python.md",
-    "Base/Python/Python.md",
-    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
-    "Base/Python/PEP8.md"
+    "Base/Python/Python.md"
   ]
 }

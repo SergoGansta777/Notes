@@ -51,5 +51,11 @@
   "blue-topaz-theme@@style-options-for-kanban-plugin-dynamic": "style-options-for-kanban-plugin-dynamic-neon-two",
   "obsidian-california-coast-theme@@cc-transparent-popover": false,
   "primary-ceciliamay@@scrollbar-style": "scrollbar__mac",
-  "blue-topaz-theme@@setting-etc-pane-style": "setting-style-traditional"
+  "blue-topaz-theme@@setting-etc-pane-style": "setting-style-traditional",
+  "blue-topaz-theme@@toggle-calendar-shadow": true,
+  "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-quotation-mark",
+  "blue-topaz-theme@@folder-style-change-options-colorful-subfolder": "folder-colorful-one",
+  "blue-topaz-theme@@clutter-free-headings": false,
+  "blue-topaz-theme@@reduce-bottom-padding": false,
+  "blue-topaz-theme@@toggle-paragraph-spacing": false
 }

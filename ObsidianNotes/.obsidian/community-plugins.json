@@ -35,7 +35,6 @@
   "obsidian-auto-link-title",
   "obsidian-hider",
   "readwise-official",
-  "obsidian-contextual-typography",
   "obsidian-tracker",
   "obsidian-image-toolkit",
   "obsidian-excel-to-markdown-table",
@@ -52,5 +51,6 @@
   "zoottelkeeper-obsidian-plugin",
   "folder-note-plugin",
   "obsidian-icons-plugin",
-  "typing-speed"
+  "typing-speed",
+  "obsidian-contextual-typography"
 ]

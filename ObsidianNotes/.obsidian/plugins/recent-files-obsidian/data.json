@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Наибольшая возрастающая подпоследовательность",
-      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
-    },
-    {
       "basename": "Алгоритм ообхода графа в глубину(DFS)",
       "path": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md"
     },
     {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+      "basename": "Алгоритм обхода графа в ширину(BFS)",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
+    },
+    {
+      "basename": "Наибольшая возрастающая подпоследовательность",
+      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
     },
     {
       "basename": "Алгоритмы",
       "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
+    },
+    {
+      "basename": "Расширения",
+      "path": "Base/NoteForLinux/Расширения.md"
+    },
+    {
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
       "basename": "NoteForLinux",
@@ -117,10 +125,6 @@
       "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
     },
     {
-      "basename": "Расширения",
-      "path": "Base/NoteForLinux/Расширения.md"
-    },
-    {
       "basename": "Base",
       "path": "Base/Base.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Past Perfect",
       "path": "Base/StudyWork/EnglishLearning/Past Perfect.md"
-    },
-    {
-      "basename": "Лекция 11, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
     }
   ],
   "omittedPaths": [],
