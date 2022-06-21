@@ -9,8 +9,20 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+            "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
             "mode": "preview",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "93952fba5981c56f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#",
+                "query": "#algor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,6 +90,7 @@
       {
         "id": "dfcfa533cb6c4818",
         "type": "tabs",
+        "dimension": 46.93281402142161,
         "children": [
           {
             "id": "2658b122652e5c42",
@@ -85,7 +98,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -108,7 +121,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6418006984797232,
+                  "scale": 0.6337198833027746,
                   "close": true
                 }
               }
@@ -136,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,6 +177,7 @@
       {
         "id": "347690fde5347fc2",
         "type": "tabs",
+        "dimension": 53.06718597857838,
         "children": [
           {
             "id": "c9fcc1d609c951e8",
@@ -198,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md"
               }
             }
           },
@@ -219,15 +233,15 @@
   },
   "active": "0e8661dcc0c8e182",
   "lastOpenFiles": [
-    "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
     "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
-    "Base/StudyWork/EnglishLearning/Past Continuous.md",
+    "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+    "Base/NoteForLinux/Untitled Kanban.md",
+    "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
     "Base/AlgorithmsAndProgramming/Алгоритмы.md",
-    "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
+    "Base/NoteForLinux/Расширения.md",
+    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
+    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
   ]
 }
