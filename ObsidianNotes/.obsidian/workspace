@@ -34,7 +34,7 @@
           "type": "markdown",
           "state": {
             "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -128,7 +128,7 @@
       {
         "id": "dfcfa533cb6c4818",
         "type": "tabs",
-        "dimension": 43.427458617332036,
+        "dimension": 43.42745861733203,
         "children": [
           {
             "id": "2658b122652e5c42",
@@ -215,7 +215,7 @@
       {
         "id": "347690fde5347fc2",
         "type": "tabs",
-        "dimension": 28.82181110029211,
+        "dimension": 28.821811100292106,
         "children": [
           {
             "id": "4ce816f5cc5f8ed0",

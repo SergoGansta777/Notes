@@ -54,5 +54,7 @@
   "typing-speed",
   "obsidian-contextual-typography",
   "obsidian-dynamic-toc",
-  "obsidian-checklist-plugin"
+  "obsidian-checklist-plugin",
+  "obsidian-banners",
+  "convert-url-to-iframe"
 ]
