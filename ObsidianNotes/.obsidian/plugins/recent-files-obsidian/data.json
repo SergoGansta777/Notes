@@ -5,16 +5,20 @@
       "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
     },
     {
+      "basename": "Алгоритм ообхода графа в глубину(DFS)",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md"
+    },
+    {
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
       "basename": "Алгоритмы",
       "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
     },
     {
       "basename": "NoteForLinux",
       "path": "Base/NoteForLinux/NoteForLinux.md"
-    },
-    {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
       "basename": "НОД(алгоритм Евклида)",
@@ -195,10 +199,6 @@
     {
       "basename": "Лекция 11, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
-    },
-    {
-      "basename": "Лекция 13, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
     }
   ],
   "omittedPaths": [],

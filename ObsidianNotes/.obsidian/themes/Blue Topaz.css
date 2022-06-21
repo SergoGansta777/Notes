@@ -1,5 +1,5 @@
-/*蓝色托帕石，适合Obsidian v0.14.15。uid [20220608] flying fly flies制作，欢迎使用及分享，借鉴（copy）了许多主题，在此一一感谢。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
-/*Blue Topaz for Obsidian v0.14.15, uid [20220608] created by flying fly flies. Feel free to use, share and modify. Thanks for all shared css themes which inspire me a lot. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
+/*蓝色托帕石，适合Obsidian v0.14.15。uid [20220620] flying fly flies制作，欢迎使用及分享，借鉴（copy）了许多主题，在此一一感谢。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
+/*Blue Topaz for Obsidian v0.14.15, uid [20220620] created by flying fly flies. Feel free to use, share and modify. Thanks for all shared css themes which inspire me a lot. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
 
 /* 致谢 Credits：
 Many thanks to @Cuman
@@ -10,11 +10,11 @@ name: Blue Topaz Theme
 id: blue-topaz-theme
 settings:
   - 
-    id: translucent-setting-panel
+    id: transparent-setting-panel
     title: Translucent Setting Panel
-    title.zh: 半透明窗口
-    description: Make this panel translucent
-    description.zh: 使本窗口半透明，便于设置
+    title.zh: 透明窗口
+    description: Make this panel transparent
+    description.zh: 使本窗口透明，便于设置
     type: class-toggle
     default: false
   - 
@@ -90,7 +90,7 @@ settings:
     description.zh: 主题色主要作用于标题，字体，列表等主色调，建议用对比度强，不易疲劳的色系。如果想单独调整个别类目请在2.1中继续细调。
     type: variable-themed-color
     opacity: true
-    format: rgb
+    format: hex
     default-light: '#95a503'
     default-dark: '#95a503'
   -
@@ -100,7 +100,7 @@ settings:
     description.zh: 浅色主要作用于各类触发背景底色，建议用不影响阅读的背景色系。
     type: variable-themed-color
     opacity: true
-    format: rgb
+    format: hex
     default-light: '#e0e79a'
     default-dark: '#e0e79a'
   -
@@ -110,7 +110,7 @@ settings:
     description.zh: 深色主要作用于主题强调色系，用在各种控件，提示等使用，建议用浅色相关的醒目色系。
     type: variable-themed-color
     opacity: true
-    format: rgb
+    format: hex
     default-light: '#746909'
     default-dark: '#746909'
   - 
@@ -143,9 +143,9 @@ settings:
     default: false
   - 
     id: blur-depth
-    title: Blur Depth
+    title: Blur Radius
     title.zh: 模糊程度
-    description: To adjust the degree of blur
+    description: To adjust the radius of blur
     description.zh: 调整背景壁纸模糊程度
     type: variable-number-slider
     default: 10
@@ -376,9 +376,9 @@ settings:
     default: url("https://")
   - 
     id: blur-depth-cp
-    title: Blur Depth
+    title: Blur Radius
     title.zh: 模糊程度
-    description: To adjust the degree of blur
+    description: To adjust the radius of blur
     description.zh: 调整背景壁纸模糊程度
     type: variable-number-slider
     default: 10
@@ -432,8 +432,41 @@ settings:
     default: false
   -
     id: bg-file-page-option
+    title: Image Picking (Light mode)
+    title.zh: 图片选择 (Light mode)
+    type: class-select
+    allowEmpty: false
+    default: file-page-bg-theme-ligt-curve
+    options:
+      - 
+        label: Curve
+        value: file-page-bg-theme-light-curve
+      - 
+        label: Wall
+        value: file-page-bg-theme-light-wall
+      - 
+        label: Brick
+        value: file-page-bg-theme-light-brick
+      - 
+        label: Cloud
+        value: file-page-bg-theme-light-cloud
+      - 
+        label: Random
+        value: file-page-bg-theme-light-random
+      - 
+        label: Custom
+        value: file-page-bg-theme-light-custom
+  -
+    id: background-file-page-theme-light-custom
+    title: Custom Image (Light mode)
+    description: Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
+    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片 url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
+    type: variable-text
+    default: url("https://") 
+  -
+    id: bg-file-page-option
     title: Image Picking (Dark mode)
-    title.zh: 图片选择
+    title.zh: 图片选择 (Dark mode)
     type: class-select
     allowEmpty: false
     default: file-page-bg-theme-dark-sea
@@ -448,6 +481,9 @@ settings:
         label: Curves
         value: file-page-bg-theme-dark-curves
       - 
+        label: Bulb
+        value: file-page-bg-theme-dark-bulb
+      - 
         label: Random
         value: file-page-bg-theme-dark-random
       - 
@@ -457,7 +493,7 @@ settings:
     id: background-file-page-theme-dark-custom
     title: Custom Image (Dark mode)
     description: Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
-    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片  url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
+    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片 url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
     type: variable-text
     default: url("https://") 
   - 
@@ -528,6 +564,20 @@ settings:
         label: Asymmetric Style of Split Panes
         value: asymmetric-split-left
   -
+    id: titlebar-close-button
+    title: Titlebar close button
+    title.zh: Ob标题栏关闭按钮
+    type: class-select
+    allowEmpty: false
+    default: default-titlebar
+    options:
+      - 
+        label: Default
+        value: default-titlebar
+      - 
+        label: Reversal
+        value: reversal-titlebar
+  -
     id: hide-titlebar-text
     title: Hide text in Title Bar
     title.zh: 隐藏Obsidian标题栏中的文字
@@ -539,6 +589,20 @@ settings:
     title.zh: 隐藏侧边栏中的库名称
     type: class-toggle
     default: false
+  -
+    id: search-bar-style-option
+    title: Search Bar Style
+    title.zh: 文件内搜索栏位置
+    type: class-select
+    allowEmpty: false
+    default: default-search-bar
+    options:
+      - 
+        label: Default
+        value: default-search-bar
+      - 
+        label: Top
+        value: bt-search-bar-top
   -
     id: bt-status-off
     title: Reduced Status Bar
@@ -833,33 +897,6 @@ settings:
     type: heading
     level: 3
     collapsed: true
-  - 
-    id: text-color-code
-    title: Inline Code Color
-    title.zh: 行内代码颜色
-    type: variable-themed-color
-    opacity: true
-    format: hex
-    default-light: '#e95d00'
-    default-dark: '#d58000'
-  -
-    id: list-format-ul
-    title: Bullet Color of Unordered List
-    title.zh: 无序列表点颜色
-    type: variable-themed-color
-    opacity: true
-    format: hex
-    default-light: '#0e0e0e'
-    default-dark: '#bdbdbd'
-  -
-    id: list-ol-number-color
-    title: Number Color of Ordered List
-    title.zh: 有序列表数字颜色
-    type: variable-themed-color
-    opacity: true
-    format: hex
-    default-light: '#6196d6'
-    default-dark: '#2c7bd6'
   -
     id: accent-strong
     title: Bold Type Color
@@ -1069,12 +1106,6 @@ settings:
     title.zh: 文件抬头标题 (非Sliding Pane plugin)
     type: variable-text
     default: 0.9375em
-  -
-    id: font-size-file-header-title-andy-plugin
-    title: File Header (for Sliding Pane plugin)
-    title.zh: 文件抬头标题 (Sliding Pane plugin)
-    type: variable-text
-    default: 1em
   -
     id: font-size-folder-and-file
     title: Folder and File
@@ -1400,6 +1431,13 @@ settings:
     type: variable-number
     default: 1.5
   -
+    id: toggle-paragraph-spacing
+    title: Toggle  paragraph spacing in Reading Mode
+    title.zh: 开启阅读模式段间距
+    description.zh: 开启后对多个<br>标记不再生效
+    type: class-toggle
+    default: false
+  -
     id: paragraph-spacing
     title: Paragraph Spacing
     title.zh: 段间距
@@ -1418,18 +1456,11 @@ settings:
     max: 2
     step: 0.1
   -
-    id: letter-space-code
-    title: Letter Spacing for Code
-    title.zh: 代码字间距
-    type: variable-number-slider
-    default: 0
-    min: 0
-    max: 2
-    step: 0.1
-  -
     id: text-indentation-two-em
-    title: Slight Indentation of the First Line in Preview Mode
-    title.zh: 段落首行缩进（预览模式）
+    title: Slight Indentation of the First Line 
+    title.zh: 段落首行缩进
+    description.zh: 需要安装Contextual Typography插件
+    description: Contextual Typography plugin needs to be installed
     type: class-toggle
     default: false
   -
@@ -1713,6 +1744,24 @@ settings:
     max: 2
     step: 0.1
   -
+    id: list-format-ul
+    title: Bullet Color of Unordered List
+    title.zh: 无序列表点颜色
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#0e0e0e'
+    default-dark: '#bdbdbd'
+  -
+    id: list-ol-number-color
+    title: Number Color of Ordered List
+    title.zh: 有序列表数字颜色
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#6196d6'
+    default-dark: '#2c7bd6'
+  -
     id: list-style-change-options
     title: List Style
     title.zh: 列表样式
@@ -1738,9 +1787,6 @@ settings:
       - 
         label: Using Ob Settings
         value: list-no-border
-      - 
-        label: Rainbow Outline
-        value: rainbow-lines-reading
   -
     id: list-style-change-options-edit
     title: List Style in Edit Mode
@@ -1750,105 +1796,8 @@ settings:
     default:  list-no-line-in-edit
     options:
       - 
-        label: Rainbow Line
-        value: rainbow-lines
-      - 
         label: Using Ob Settings
         value: list-no-line-in-edit
-  -
-    id: rainbow-lines-head
-    title:  2.3.2.1 Rainbow Outline Style Settings
-    title.zh: 2.3.2.1 彩虹大纲线设置
-    description: Settings for "Rainbow Outlines" option
-    type: heading
-    level: 4
-    collapsed: true
-  -
-    id: rainbow-ordered-list
-    title:  Enable rainbow outline list order
-    title.zh: 开启彩虹列表序号
-    type: class-toggle
-    default: false
-  -
-    id: rainbow-checkbox
-    title:  Enable rainbow outline checkbox
-    title.zh: 开启彩虹任务选择框
-    type: class-toggle
-    default: false
-  -
-    id: rainbow-lines-color-settings
-    title: 2.3.2.2 Rainbow Lines Colors Settings
-    title.zh: 2.3.2.2 彩虹线颜色设置
-    description: Settings for "Rainbow Outlines" option
-    type: heading
-    level: 4
-    collapsed: true
-  - 
-    id: accent-1
-    title: Outline level 1
-    type: variable-color
-    opacity: false
-    format: hex
-    alt-format:
-      -
-        id: accent-1-rgb
-        format: rgb-values
-    default: '#38558b'
-  -
-    id: accent-2
-    title: Outline level 2
-    type: variable-color
-    opacity: false
-    format: hex
-    alt-format:
-      -
-        id: accent-2-rgb
-        format: rgb-values
-    default: '#5f388b'
-  -
-    id: accent-3
-    title: Outline level 3
-    type: variable-color
-    opacity: false
-    format: hex
-    alt-format:
-      -
-        id: accent-3-rgb
-        format: rgb-values
-    default: '#8b3884'
-  -
-    id: accent-4
-    title: Outline level 4
-    type: variable-color
-    opacity: false
-    format: hex
-    alt-format:
-      -
-        id: accent-4-rgb
-        format: rgb-values
-    default: '#388b38'
-  -
-    id: accent-5
-    title: Outline level 5
-    type: variable-color
-    opacity: false
-    format: hex
-    alt-format:
-      -
-        id: accent-5-rgb
-        format: rgb-values
-    default: '#e08e13'
-  -
-    id: accent-6
-    title: Outline level 6
-    type: variable-color
-    opacity: false
-    format: hex
-    alt-format:
-      -
-        id: accent-6-rgb
-        format: rgb-values
-    default: '#cccecc'
   -
     id: indentation-guides-lines-settings
     title: 2.3.2.3 Color Settings of Default Relationship Lines
@@ -2141,6 +2090,12 @@ settings:
     type: heading
     level: 3
     collapsed: true
+  - 
+    id: remove-table-transition
+    title: Remove Table Zoom Effect
+    title.zh: 移除表格悬浮放大效果
+    type: class-toggle
+    default: false
   -
     id: table-format-options
     title: Table Format
@@ -2337,15 +2292,9 @@ settings:
     default-light: '#'
     default-dark: '#'
   -
-    id: rainbow-cursor
-    title: Toggle Rainbow Cursor (for Obsidian v0.14.9 and above)
-    title.zh: 切换彩虹光标 (适合软件v0.14.9及以上版本)
-    type: class-toggle
-    default: false
-  -
     id: cursor-color-temp
-    title: Cursor color (for Obsidian v0.14.6)
-    title.zh: 光标颜色 (适合软件v0.14.6版本)
+    title: Cursor color (Only for Obsidian version below 0.14.6)
+    title.zh: 光标颜色 (只适合软件v0.14.6以下版本)
     type: variable-themed-color
     opacity: true
     format: hex
@@ -2353,8 +2302,8 @@ settings:
     default-dark: '#'
   -
     id: fancy-cursor
-    title: Toggle fancy cursor (for Obsidian v0.14.6)
-    title.zh: 切换装饰性光标 (适合软件v0.14.6版本)
+    title: Toggle fancy cursor (Only for Obsidian version below 0.14.6)
+    title.zh: 切换装饰性光标 (只适合软件v0.14.6以下版本)
     type: class-toggle
     default: false
   -
@@ -2515,6 +2464,10 @@ settings:
       - 
         label: Animation with Position Changing
         value: loading-shape-with-custom-gif
+      - 
+        label: Jumping Mario
+        value: loading-page-style-mario
+
   -
     id: loading-custom-text-folder
     title: 2.3.16.1 Custom Text
@@ -2751,7 +2704,7 @@ settings:
     default-dark: '#2244d8'
   -
     id: style-options-for-other-plugins
-    title: 2.3.16.1 Default
+    title: 2.3.17.1 Default
     type: heading
     level: 4
     collapsed: false
@@ -2765,7 +2718,7 @@ settings:
     default-dark: '#e4e4e4'
   -
     id: style-options-for-other-plugins
-    title: 2.3.16.2 Outlined
+    title: 2.3.17.2 Outlined
     type: heading
     level: 4
     collapsed: false
@@ -2775,6 +2728,112 @@ settings:
     title.zh: 标签边框宽度
     type: variable-text
     default: 1px
+  -
+    id: tag-color-settings
+    title: 2.3.18 Setting, Menu, Option panes
+    title.zh: 2.3.18 设置、菜单、选项面板
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: setting-etc-pane-style
+    title: Pane Style
+    type: class-select
+    allowEmpty: false
+    default: setting-default-frosted-glass
+    options:
+      - 
+        label: Frosted Glass
+        value: setting-default-frosted-glass
+      - 
+        label: Traditional
+        value: setting-style-traditional
+      - 
+        label: Translucent (only for setting panel)
+        value: translucent-setting-panel
+  -
+    id: code-box-option-folder
+    title: 2.3.19 Codebox and Inline Code
+    title.zh: 2.3.19 代码框和行内代码
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: code-box-option-folder
+    title: 2.3.19.1 Codebox
+    title.zh: 2.3.19.1 代码框
+    type: heading
+    level: 4
+    collapsed: false
+  -
+    id: letter-space-code
+    title: Letter Spacing for Code
+    title.zh: 代码字间距
+    type: variable-number-slider
+    default: 0
+    min: 0
+    max: 2
+    step: 0.1
+  -
+    id: background-code
+    title: Codebox Background Color
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#'
+    default-dark: '#'
+  -
+    id: code-box-style-option
+    title: Codebox Style
+    type: class-select
+    allowEmpty: false
+    default: codebox-default-style
+    options:
+      - 
+        label: Default
+        value: codebox-default-style
+      - 
+        label: Frosted Glass
+        value: codebox-frosted-glass
+  - 
+    id: blur-codebox-frosted-glass
+    title: Blur Radius (For Frosted Glass Style)
+    title.zh: 模糊程度 (毛玻璃效果)
+    type: variable-number-slider
+    default: 2
+    min: 0
+    max: 8
+    step: 1
+  -
+    id: style-options-for-other-plugins
+    title: 2.3.19.2 Inline Code
+    title.zh: 2.3.19.2 行内代码
+    type: heading
+    level: 4
+    collapsed: false
+  -
+    id: background-code-2
+    title: Inline Code Background Color
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#'
+    default-dark: '#'
+  - 
+    id: text-color-code
+    title: Inline Code Color
+    title.zh: 行内代码颜色
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#e95d00'
+    default-dark: '#d58000'
+  -
+    id: font-weight-inline-code
+    title: Font Weight of Inline Code
+    title.zh: 行内代码字重
+    type: variable-text
+    default: bold
   -
     id: style-options-for-other-plugins
     title: 3. For Plugins
@@ -2817,6 +2876,12 @@ settings:
     type: heading
     level: 2
     collapsed: true
+  -
+    id: toggle-calendar-shadow
+    title: Toggle Shadow of Current Date
+    title.zh: 开启日历中当前日期的阴影
+    type: class-toggle
+    default: false
   -
     id: style-options-for-calendar-plugin
     title: Calendar
@@ -3006,11 +3071,41 @@ settings:
     level: 2
     collapsed: true
   -
+    id: toggle-acitive-border-right 
+    title: Toggle the Border of an Active File to Right
+    title.zh: 切换激活文件的线至右侧
+    type: class-toggle
+    default: false
+  -
     id: transparent-panes
     title: Transparent Panes for Sliding Panes Plugin
     title.zh: 使用Sliding Panes插件时，透明化部分页面
     type: class-toggle
     default: false
+  -
+    id: bg-sliding-pane-leaf
+    title: Page Background Color
+    title.zh: 笔记页面背景颜色
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#'
+    default-dark: '#'
+  -
+    id: bg-sliding-pane-header
+    title: File Header Background Color
+    title.zh: 文件标题背景颜色
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#'
+    default-dark: '#'
+  -
+    id: font-size-file-header-title-andy-plugin
+    title: Font Size of File Header
+    title.zh: 文件抬头标题字体大小
+    type: variable-text
+    default: 1em
   -
     id: style-options-for-dialogue-plugin-heading
     title: 3.9 Obsidian Memos
@@ -3121,6 +3216,15 @@ settings:
     title.zh: 多彩伪看板
     type: class-toggle
     default: false
+  - 
+    id: blur-p-kanban-frosted-glass
+    title: Blur Radius (For Frosted Glass Style)
+    title.zh: 模糊程度 (毛玻璃效果)
+    type: variable-number-slider
+    default: 2
+    min: 0
+    max: 8
+    step: 1
   - 
     id: p-kanban-color-1
     title: pseudo-kanban color 1
@@ -3430,6 +3534,7 @@ body {
   --font-weight-highlight-1: normal;
   --font-weight-highlight-2: normal;
   --font-weight-highlight-3: normal;
+  --font-weight-inline-code: bold;
 
   --checkbox-size: 1rem;
 
@@ -3443,7 +3548,11 @@ body {
   --loading-text-after: "✿❀";
   --loading-add-text-color: #d47e86;
   --loading-add-text-color-alt: #a4e39c;
-  
+  --pixel: 20px;
+  --c-1: #da2400;
+  --c-2: #ffb623;
+  --c-3: #8c6e22;
+
   --nord0: #2E3440;
   --nord1: #3B4252;
   --nord1-1: #3B425251;
@@ -3529,35 +3638,9 @@ body {
   --print-em-color: var(--accent-em);
 
   --tag-border-width: 1px;
-
   --paragraph-spacing: 1;
-}
-
-body.font-family-change-to-default .markdown-source-view,
-body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered),
-body.font-family-change-to-default .markdown-source-view.mod-cm6 .cm-scroller,
-body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered) h5,
-body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered) h6,
-body.font-family-change-to-default .nav-file-title,
-body.font-family-change-to-default .nav-folder-title,
-body.font-family-change-to-default a.tag,
-body.font-family-change-to-default .cm-s-obsidian span.cm-hashtag,
-body.font-family-change-to-default .nav-folder.mod-root>.nav-folder-title,
-body.font-family-change-to-default pre.frontmatter.language-yaml::before,
-body.font-family-change-to-default span.cm-strong,
-body.font-family-change-to-default :not(font)>strong,
-body.font-family-change-to-default a,
-body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered) .internal-link,
-body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered) th,
-body.font-family-change-to-default *:not(font)>em>strong,
-body.font-family-change-to-default *:not(font)>strong>em,
-body.font-family-change-to-default .cm-strong.cm-em {
-  font-family: unset !important;
-}
-
-body.font-family-change-to-default .markdown-rendered code,
-body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered) code{
-  font-family: 'Source Code Pro', monospace !important;
+  --blur-codebox-frosted-glass: 2;
+  --blur-p-kanban-frosted-glass: 5;
 }
 
 body.all-dark .print.theme-light,
@@ -3566,22 +3649,18 @@ body.all-dark .print.theme-light,
   --background-primary-alt: #444444;
   --background-secondary: #2c2c2c;
   --background-secondary-alt: #000000;
-  --background-accent: #000;
   --background-modifier-border: #565656;
-  --background-modifier-form-field: rgba(0, 0, 0, 0.3);
-  --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
-  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
   --background-modifier-success: #539126;
+  --background-modifier-success-rgb: 83, 145, 38;
   --background-modifier-error: #9b4343;
   --background-modifier-error-rgb: 155, 67, 67;
-  --background-modifier-error-hover: #470000;
-  --background-modifier-cover: rgba(0, 0, 0, 0.6);
   --text-accent: #4695da;
   --text-accent-hover: #3e8de7;
   --text-normal: #bdbdbd;
   --text-highlight: #f3f3f3;
   --text-highlight-2: #e4e4e4;
   --text-muted: #8a8a8a;
+  --text-muted-rgb: 138, 138, 138;
   --text-faint: #797979;
   --text-folder-file: #b3b3b3;
   --accent-strong: #e7e7e7;
@@ -3589,7 +3668,7 @@ body.all-dark .print.theme-light,
   --text-error: #e16d76;
   --text-error-hover: #c9626a;
   --text-selection: #47a5914d;
-  --text-on-accent: #dcddde;
+  --text-on-accent: #e4e4e4;
   --interactive-normal: #2b2b2b;
   --interactive-hover: #373737;
   --interactive-accent: #2d82cc;
@@ -3608,13 +3687,11 @@ body.all-dark .print.theme-light,
 
   --background-search-result: #313131;
   --search-result-file-matched-bg: #005fac;
-
   --background-primary-bg-4-bt: #1e1e1e;
   --background-primary-alt-bg-4-bt: #000000;
   --background-secondary-bg-4-bt: #1e1e1e;
   --background-secondary-alt-bg-4-bt: #000000;
   --background-asymm-split-left: var(--background-secondary-alt-bg-4-bt);
-
   --background-mobile-drawer-1: #1b1b1b;
   --background-mobile-drawer-2: #1b1b1b69;
   --background-modifier-border-hr: #3f3f3f;
@@ -3625,28 +3702,24 @@ body.all-dark .print.theme-light,
   --background-transparent-black-or-white-3: #2f2f2f6c;
   --background-transparent-black-or-white-4: #7e7e7e65;
   --background-transparent-black-or-white-5: #0f0f0f6c;
-
   --background-black-or-white-1: #353535;
   --background-modifier-border-1: #000000;
-
   --background-transparent-blue: #003e759a;
-
   --scrollbar-thumb: #8282827e;
-
   --gray-1: #5C6370;
   --gray-2: #abb2bf;
-  --red: #e06c75;
+  --red: #db7c84;
   --red-1: #d05a63;
-  --orange: #d19a66;
+  --orange: #d1945b;
   --orange-1: #da904b;
-  --green: #b6e296;
-  --darkgreen: #399a58;
-  --aqua: #19b3c7;
-  --purple: #c678dd;
-  --blue: #9dcffc;
-  --darkblue: #4889df;
-  --yellow: #e4ba6c;
-  --light-yellow: #dfda91;
+  --green: #abd58e;
+  --darkgreen: #568060;
+  --aqua: #35bed0;
+  --purple: #c594d4;
+  --blue: #a0c7e9;
+  --darkblue: #478fee;
+  --yellow: #d6b87f;
+  --light-yellow: #cac685;
   --white: #ffffff;
 
   --embed-color: #1156a534;
@@ -3661,10 +3734,8 @@ body.all-dark .print.theme-light,
   --background-code: #1111118c;
   --background-code-2: #4c4c4cb0;
   --text-color-code: #d58000;
-  --text-color-code-normal: #e7e7e7;
-
+  --text-color-code-normal: #d0d0d0;
   --internal-link-color-in-highlight: #39adfb;
-
   --list-ul-block-color: #e19742a9;
   --list-ul-disc-color: #eb9563;
   --green-1: #79c142;
@@ -3794,6 +3865,8 @@ body.all-dark .print.theme-light,
   /*Sliding panes*/
   --sliding-panes-header-color: #f1a634d0;
   --background-4-sliding-pane: #252525ed;
+  --bg-sliding-pane-header: #00000043;
+  --bg-sliding-pane-leaf: #0f0f0f36;
 
   /*admonition*/
   --admonition-bg-color: #1111118f;
@@ -3834,6 +3907,7 @@ body.all-dark .print.theme-light,
 
   /*style settings*/
   --background-secondary-translucent: #2c2c2c26;
+  --background-secondary-translucent-1: #2c2c2c26;
 
   /*rainbow-checklist*/
   --checklist-color-1: #005aa486;
@@ -3866,6 +3940,15 @@ body.all-dark .print.theme-light,
   --cursor-green: #7dff7d;
   --cursor-blue: #8ac7ff;
   --cursor-violet: #bf76ff;
+  
+  --bg-color-settings-0: #07070747;
+  --bg-color-settings-0-1: #ffffff00;
+  --bg-color-settings-1: #7c7c7c6d;
+  --bg-color-settings-2: #1f1f1f52;
+  --bg-color-settings-3: #141414be;
+  --bg-color-settings-4: #2e2e2e9d;
+  --bg-color-settings-5: #424242aa;
+  --bg-color-settings-6: #191919c7;
 }
 
 .theme-light {
@@ -3873,7 +3956,6 @@ body.all-dark .print.theme-light,
   --background-primary-alt: #e9e9e9;
   --background-secondary: #fcfcfc;
   --background-secondary-alt: #eeeeee;
-  --background-accent: #fff;
   --background-modifier-border: #dddddd;
   --background-modifier-form-field: #fff;
   --background-modifier-form-field-highlighted: #fff;
@@ -3938,6 +4020,14 @@ body.all-dark .print.theme-light,
   --background-black-or-white-1: #e4e4e4;
   --background-modifier-border-1: #e1dfdf;
   --background-transparent-blue: #c6e5ffde;
+  --bg-color-settings-0: #7d7d7d6b;
+  --bg-color-settings-0-1: #ffffff77;
+  --bg-color-settings-1: #ffffff17;
+  --bg-color-settings-2: #ffffff5a;
+  --bg-color-settings-3: #ffffffda;
+  --bg-color-settings-4: #ffffffd2;
+  --bg-color-settings-5: #d4d4d464;
+  --bg-color-settings-6: #ffffff85;
 
   --scrollbar-thumb: #c6c6c6a8;
 
@@ -3967,7 +4057,7 @@ body.all-dark .print.theme-light,
   --color-specification: #0084ff;
   --allow-1: #ec9a3c;
   --background-blockquote: #b6b6b62c;
-  --background-code: #ebebeb71;
+  --background-code: #f1f1f171;
   --background-code-2: #cccccc62;
   --text-color-code: #e95d00;
   --text-color-code-normal: #000000;
@@ -4072,7 +4162,6 @@ body.all-dark .print.theme-light,
   --text-purple: #5d1fb9;
   --text-pink: #c40075;
   --text-red: #ff4343;
-
   --background-gray: #ebeced;
   --background-brown: #e9e5e3;
   --background-orange: #faebdd;
@@ -4094,16 +4183,18 @@ body.all-dark .print.theme-light,
   /*Sliding panes*/
   --sliding-panes-header-color: #0e64bb;
   --background-4-sliding-pane: #ffffffef;
+  --bg-sliding-pane-header: #ffffff97;
+  --bg-sliding-pane-leaf: #ffffff88;
 
   /*admonition*/
-  --admonition-bg-color: #ffffffa6;
+  --admonition-bg-color: #ffffff96;
 
   /*checklist*/
   --checklist-bg: #dfdfdf8e;
   --checklist-bg-hover: #ffffffcc;
 
-  --color-view-header-gradient-1: #d7e8f7ef;
-  --color-view-header-gradient-2: #f5fffdef;
+  --color-view-header-gradient-1: #ffffffce;
+  --color-view-header-gradient-2: #ffffffce;
 
   /*checkbox*/
   --checkbox-color-0: #2f92e4;
@@ -4115,7 +4206,7 @@ body.all-dark .print.theme-light,
   --checkbox-color-6: #5f5f5f;
   --text-checked-checkbox: #9b9b9b;
 
-  --activeline-background: #79b3ff15;
+  --activeline-background: #aed8ff15;
 
   /*pseudo-kanban*/
   --p-kanban-bg-color: #d3d3d32d;
@@ -4134,7 +4225,7 @@ body.all-dark .print.theme-light,
   --p-kanban-color-shadow: #cfcfcf4d;
 
   /*style settings*/
-  --background-secondary-translucent: #ffffff3d;
+  --background-secondary-translucent: #ffffff3d;  --background-secondary-translucent-1: #ffffff5d;
 
   /*rainbow-checklist*/
   --checklist-color-1: #bbdefbab;
@@ -4175,29 +4266,12 @@ body.color-scheme-options-avocado-topaz.theme-light {
   --background-primary-alt: #e9e9e9;
   --background-secondary: #fcfcfc;
   --background-secondary-alt: #e8f0e8;
-  --background-accent: #fff;
   --background-modifier-border: #e1dfdf;
-  --background-modifier-form-field: #fff;
-  --background-modifier-form-field-highlighted: #fff;
-  --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
-  --background-modifier-success: #A4E7C3;
-  --background-modifier-error: #e68787;
-  --background-modifier-error-rgb: 230, 135, 135;
-  --background-modifier-error-hover: #FF9494;
-  --background-modifier-cover: rgba(0, 0, 0, 0.8);
   --text-accent: #4cb385;
   --text-accent-hover: #249562;
-  --text-normal: #0e0e0e;
-  --text-muted: #7f7f7f;
-  --text-highlight: #000000;
-  --text-highlight-2: #000000;
-  --text-faint: #7f7f7f;
-  --text-folder-file: #272727;
   --accent-em: #620ac6;
-  --text-error: #e75545;
-  --text-error-hover: #f86959;
 
-  --text-selection: #66bbaa59;
+  --text-selection: #7fbffe59;
   --text-on-accent: #f2f2f2;
   --interactive-normal: #eaeaeb;
   --interactive-hover: #dbdbdc;
@@ -4241,7 +4315,6 @@ body.color-scheme-options-avocado-topaz.theme-light {
   --background-code: #ebebeb71;
   --background-code-2: #cccccc62;
   --text-color-code: #e95d00;
-  --text-color-code-normal: #000000;
 
   --internal-link-color-in-highlight: #03a240;
 
@@ -4330,46 +4403,8 @@ body.color-scheme-options-avocado-topaz.theme-light {
   --event-item-color9: #149f39;
   --event-item-color10: #149f44;
 
-  /*colourful notes*/
-  --text-gray: #37352f99;
-  --text-brown: #855a46;
-  --text-orange: #d9730d;
-  --text-yellow: #d4a300;
-  --text-yellow-2: #a78000;
-  --text-green: #00927f;
-  --text-blue: #0083bb;
-  --text-purple: #5d1fb9;
-  --text-pink: #c40075;
-  --text-red: #ff4343;
-
-  --background-gray: #ebeced;
-  --background-brown: #e9e5e3;
-  --background-orange: #faebdd;
-  --background-yellow: #fbf3db;
-  --background-green: #ddedea;
-  --background-blue: #ddebf1;
-  --background-purple: #eae4f2;
-  --background-pink: #f4dfeb;
-  --background-red: #ffe3e3;
-
-  --note-important: #fd4141;
-  --note-cloze: #000000;
-
-  /* stickies */
-  --stickies-color-1: #b3e2b3;
-  --stickies-color-2: #e9c6f1;
-  --tape-color: #acacac65;
-
   /*Sliding panes*/
   --sliding-panes-header-color: #02401f;
-  --background-4-sliding-pane: #ffffffef;
-
-  /*admonition*/
-  --admonition-bg-color: #ffffffa6;
-
-  /*checklist*/
-  --checklist-bg: #dfdfdf8e;
-  --checklist-bg-hover: #ffffffcc;
 
   --color-view-header-gradient-1: #d9f7d9ef;
   --color-view-header-gradient-2: #e9f3edef;
@@ -4382,12 +4417,8 @@ body.color-scheme-options-avocado-topaz.theme-light {
   --checkbox-color-4: #fffbd4;
   --checkbox-color-5: #ad7fbf;
   --checkbox-color-6: #5f5f5f;
-  --text-checked-checkbox: #9b9b9b;
 
   --activeline-background: #d1f0e521;
-
-  /*style settings*/
-  --background-secondary-translucent: #ffffff3d;
 
   --table-color-calendar-2: rgb(182, 221, 191);
   --table-color-rgb: 182, 221, 191;
@@ -4405,7 +4436,7 @@ body.color-scheme-options-avocado-topaz.theme-dark {
   --interactive-accent: #329f56;
   --interactive-accent-rgb: 50, 159, 86;
   --interactive-accent-hover: #0f892d;
-
+  --text-selection: #0080ff59;
   --text-highlight-bg: #47893b8a;
   --mark-highlight-strong-em: #47893b7a;
   --strong-em-highlight-color: #9c8ce6;
@@ -4419,12 +4450,9 @@ body.color-scheme-options-avocado-topaz.theme-dark {
   --background-primary-alt-bg-4-bt: #000000;
   --background-secondary-bg-4-bt: #181818;
   --background-secondary-alt-bg-4-bt: #000000;
-
   --background-mobile-drawer-1: #1b1b1b;
   --background-mobile-drawer-2: #1b1b1b69;
-
   --background-transparent-blue: #003e759a;
-
   --scrollbar-thumb: #8282827e;
 
   --embed-color: #4047424f;
@@ -4439,7 +4467,6 @@ body.color-scheme-options-avocado-topaz.theme-dark {
   --background-code: #1111118c;
   --background-code-2: #4c4c4cb0;
   --text-color-code: #d58000;
-  --text-color-code-normal: #e7e7e7;
 
   --internal-link-color-in-highlight: #60da74;
 
@@ -4509,10 +4536,8 @@ body.color-scheme-options-avocado-topaz.theme-dark {
   --checkbox-color-4: #625d4c;
   --checkbox-color-5: #9a67ae;
   --checkbox-color-6: #5f5f5f;
-  --text-checked-checkbox: #8e8e8e;
 
   --activeline-background: #004d132c;
-
   --table-color-calendar-2: rgb(5, 158, 5);
   --table-color-rgb: 5, 158, 5;
 }
@@ -4522,40 +4547,31 @@ body.color-scheme-options-monochrome-topaz.theme-dark {
   --text-accent: #e1e1e1;
   --text-accent-hover: #b8b8b8;
   --accent-em: #ffffff;
-
   --interactive-accent: #787878;
   --interactive-accent-rgb: 120, 120, 120;
   --interactive-accent-hover: #646464;
-
   --text-highlight-bg: #89853b8a;
   --mark-highlight-strong-em: #fff7603a;
   --strong-em-highlight-color: #ffffff;
   --text-search-highlight-bg: #bb4361;
-
   --background-search-result: #313131;
-
   --background-primary-bg-4-bt: #1e1e1e;
   --background-primary-alt-bg-4-bt: #000000;
   --background-secondary-bg-4-bt: #1e1e1e;
   --background-secondary-alt-bg-4-bt: #000000;
-
   --embed-color: #45454534;
   --search-result-file-title-color: var(--text-normal);
   --theme-color: var(--interactive-accent);
   --theme-color-translucent: #76767688;
   --theme-color-translucent-1: #8585852c;
   --color-specification: #3ce252;
-
   --allow-1: #d18828;
   --background-blockquote: #9191911c;
   --background-code: #1111118c;
   --background-code-2: #4c4c4cb0;
   --text-color-code: #d58000;
-  --text-color-code-normal: #e7e7e7;
-
   --internal-link-color-in-highlight: #3197eb;
   --internal-link-color: #3197eb;
-
   --list-ul-block-color: #d0d0d0a9;
   --list-ul-disc-color: #eb9563;
   --green-1: #79c142;
@@ -4563,7 +4579,6 @@ body.color-scheme-options-monochrome-topaz.theme-dark {
   --list-ol-block-color: #878787b4;
   --list-ol-number-color: #bdbdbd;
   --list-ol-hover: #2c7bd6;
-
   --tag-text: #e4e4e4;
   --stag1: #f08383;
   --stag1-bg: #bd1919;
@@ -4662,24 +4677,20 @@ body.color-scheme-options-monochrome-topaz.theme-light {
   --text-accent-hover: #363636;
   --accent-strong: #000000;
   --accent-em: #000000;
-
   --text-selection: #c6c6c659;
   --interactive-accent-rgb: 79, 79, 79;
   --interactive-accent: #4f4f4f;
   --interactive-accent-hover: #1d1d1d;
-
   --strong-em-highlight-color: #000000;
   --text-highlight-bg: #ecf56eb4;
   --mark-highlight-strong-em: #ecf56eb4;
   --text-search-highlight-bg: #ffd1dd;
   --strong-em-color-1: #08ae84;
   --strong-em-color-2: #01531d;
-
   --background-primary-bg-4-bt: #ffffff;
   --background-primary-alt-bg-4-bt: #e9e9e9;
   --background-secondary-bg-4-bt: #ffffff;
   --background-secondary-alt-bg-4-bt: #f5f5f5;
-
   --embed-color: #e7e7e74f;
   --search-result-file-title-color: var(--text-normal);
   --theme-color: var(--interactive-accent);
@@ -4691,8 +4702,6 @@ body.color-scheme-options-monochrome-topaz.theme-light {
   --background-code: #ebebeb71;
   --background-code-2: #cccccc62;
   --text-color-code: #e95d00;
-  --text-color-code-normal: #000000;
-
   --internal-link-color-in-highlight: #0040ff;
   --internal-link-color: #0040ff;
 
@@ -4753,7 +4762,6 @@ body.color-scheme-options-monochrome-topaz.theme-light {
   --mermaid-seq-dia-color: #76c8ff;
 
   /*table*/
-
   --table-border-color: #7d7d7d;
   --table-thead-background-color: #bdbdbdc7;
   --table-hover-raw-color: #f0f0f063;
@@ -4930,16 +4938,8 @@ body.color-scheme-options-pink-topaz.theme-light {
   --background-primary-alt: #e9e9e9;
   --background-secondary: #fffaf0;
   --background-secondary-alt: #ffebeb;
-  --background-accent: #fff;
+
   --background-modifier-border: #e1dfdf;
-  --background-modifier-form-field: #fff;
-  --background-modifier-form-field-highlighted: #fff;
-  --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
-  --background-modifier-success: #A4E7C3;
-  --background-modifier-error: #e68787;
-  --background-modifier-error-rgb: 230, 135, 135;
-  --background-modifier-error-hover: #FF9494;
-  --background-modifier-cover: rgba(0, 0, 0, 0.8);
   --text-accent: #f068bc;
   --text-accent-hover: #d551a2;
   --text-normal: #0e0e0e;
@@ -4950,8 +4950,6 @@ body.color-scheme-options-pink-topaz.theme-light {
   --text-folder-file: #272727;
 
   --accent-em: #000000;
-  --text-error: #e75545;
-  --text-error-hover: #f86959;
 
   --text-selection: #f7b2cf59;
   --text-on-accent: #f2f2f2;
@@ -4994,7 +4992,6 @@ body.color-scheme-options-pink-topaz.theme-light {
   --background-code: #fae4ee4d;
   --background-code-2: #d5d5d562;
   --text-color-code: #e95d00;
-  --text-color-code-normal: #000000;
 
   --internal-link-color-in-highlight: #f15ad1;
 
@@ -5157,7 +5154,6 @@ body.color-scheme-options-pink-topaz.theme-dark {
   --background-code: #1111118c;
   --background-code-2: #4c4c4cb0;
   --text-color-code: #d58000;
-  --text-color-code-normal: #e7e7e7;
 
   --internal-link-color-in-highlight: #c86aa9eb;
 
@@ -5582,7 +5578,7 @@ body.color-scheme-options-flamingo.theme-light {
   --background-secondary: #efe9d9;
   --background-secondary-alt: #efe9d9;
   --background-secondary-alt-bg-4-bt: #efe9d9;
-  --background-accent: #fefcf9;
+
   --background-modifier-border: rgba(0, 0, 0, 0.1);
   --background-modifier-form-field: #ffdece;
   --background-modifier-form-field-highlighted: #f5a7a2;
@@ -5709,8 +5705,8 @@ body.color-scheme-options-flamingo.theme-light {
   --tape-color: #acacac65;
   --header-color: #f5a7a2;
 
-  --color-view-header-gradient-1: #efe9d9;
-  --color-view-header-gradient-2: #efe9d9;
+  --color-view-header-gradient-1: #efe9d933;
+  --color-view-header-gradient-2: #efe9d933;
 
   --table-color-calendar-2: rgb(214, 118, 146);
   --table-color-rgb: 214, 118, 146;
@@ -5728,7 +5724,7 @@ body.color-scheme-options-flamingo.theme-dark {
   --background-primary-alt-bg-4-bt: #f937590d;
   --background-secondary-bg-4-bt: #242424;
   --background-secondary-alt-bg-4-bt: #191919;
-  --background-accent: #e4ba6c;
+
   --background-modifier-border: #191919;
   --background-modifier-form-field: #f39ba0;
   --background-modifier-form-field-highlighted: #e5c7a9;
@@ -5855,8 +5851,8 @@ body.color-scheme-options-flamingo.theme-dark {
   --tape-color: #ffccbc47;
   --header-color: #f39ba0;
 
-  --color-view-header-gradient-1: #212121;
-  --color-view-header-gradient-2: #212121;
+  --color-view-header-gradient-1: #21212122;
+  --color-view-header-gradient-2: #21212122;
 
   --table-color-calendar-2: rgb(215, 86, 125);
   --table-color-rgb: 215, 86, 125;
@@ -6047,30 +6043,13 @@ body.color-scheme-options-honey-milk-topaz.theme-light {
   /* --background-secondary: var(--bg-color); */
   --background-secondary-alt: var(--bg-color2);
   --background-secondary-alt-bg-4-bt: var(--bg-color);
-  --background-accent: #fff;
+
   --background-modifier-border: #e1dfdf;
-  --background-modifier-form-field: #fff;
-  --background-modifier-form-field-highlighted: #fff;
-  --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
-  --background-modifier-success: #A4E7C3;
-  --background-modifier-error: #e68787;
-  --background-modifier-error-rgb: 230, 135, 135;
-  --background-modifier-error-hover: #FF9494;
-  --background-modifier-cover: rgba(0, 0, 0, 0.8);
 
   --text-accent: var(--main-color);
   --text-accent-hover: var(--low-color);
 
-  --text-normal: #0e0e0e;
-  --text-muted: #7f7f7f;
-  --text-highlight: #000000;
-  --text-highlight-2: #000000;
-  --text-faint: #7f7f7f;
-  --text-folder-file: #272727;
-
   --accent-em: #099d4e;
-  --text-error: #e75545;
-  --text-error-hover: #f86959;
 
   --text-selection: #66bbaa59;
   --text-on-accent: #f2f2f2;
@@ -6112,12 +6091,6 @@ body.color-scheme-options-honey-milk-topaz.theme-light {
   --theme-color-translucent: var(--low-color);
   --theme-color-translucent-1: var(--color1);
   --color-specification: var(--high-color);
-  --allow-1: #ec9a3c;
-  --background-blockquote: #b6b6b62c;
-  --background-code: #ebebeb71;
-  --background-code-2: #cccccc62;
-  --text-color-code: #e95d00;
-  --text-color-code-normal: #000000;
 
   --internal-link-color-in-highlight: var(--main-color);
 
@@ -6128,31 +6101,6 @@ body.color-scheme-options-honey-milk-topaz.theme-light {
   --list-ol-block-color: var(--main-color);
   --list-ol-number-color: var(--main-color);
   --list-ol-hover: var(--low-color);
-
-  --tag-text: #f8f8f8;
-  --stag1: #fa8787;
-  --stag1-bg: #eb2727;
-  --stag2: #fdbd5c;
-  --stag2-bg: #ee9002;
-  --stag3: #50ce3a;
-  --stag3-bg: #22ac09;
-  --tag1: #1f75ff;
-  --tag2: #2193f0;
-  --tag3: #17a5e7;
-  --tag4: #14acc7;
-  --tag5: #10bdbd;
-  --tag6: #12c690;
-  --tag7: #0dc416;
-  --tag8: #61c108;
-  --tag9: #6ab607;
-  --tag-dailynote: #0077ff;
-  --tag-dailynote-bg: #277CDD;
-  --tag-weeklynote: #4b9fff;
-  --tag-weeklynote-bg: #6aafff;
-  --tag-questions: #b68fff;
-  --tag-questions-bg: #b085ff;
-  --tag-ideas: #ceb900;
-  --tag-ideas-bg: #444444d8;
 
   --h1-color: var(--print-h1-color,var(--color6));
   --h2-color: var(--print-h2-color,var(--color7));
@@ -6326,33 +6274,6 @@ body.color-scheme-options-honey-milk-topaz.theme-dark {
   --list-ol-number-color: var(--main-color);
   --list-ol-hover: var(--low-color);
 
-  --tag-text: #e4e4e4;
-  --stag1: #f08383;
-  --stag1-bg: #bd1919;
-  --stag2: #e7b263;
-  --stag2-bg: #ac6700;
-  --stag3: #77df89;
-  --stag3-bg: #058c1c;
-
-  --tag1: #006ec7;
-  --tag2: #007e78;
-  --tag3: #007b06;
-  --tag4: #827900;
-  --tag5: #96500e;
-  --tag6: #9a0c0c;
-  --tag7: #9a1e93;
-  --tag8: #6e2ec1;
-  --tag9: #2244d8;
-
-  --tag-dailynote: #98c8ff;
-  --tag-dailynote-bg: #0f60bd;
-  --tag-weeklynote: #d1e6ff;
-  --tag-weeklynote-bg: #3971b1;
-  --tag-questions: #d4bdff;
-  --tag-questions-bg: #6640ae;
-  --tag-ideas: #fcfcc0;
-  --tag-ideas-bg: #565656d8;
-
   --h1-color: var(--print-h1-color,var(--color6));
   --h2-color: var(--print-h2-color,var(--color7));
   --h3-color: var(--print-h3-color,var(--color8));
@@ -6473,31 +6394,13 @@ body.color-scheme-options-chocolate-topaz.theme-light {
   /* --background-secondary: var(--bg-color); */
   --background-secondary-alt: var(--bg-color2);
   --background-secondary-alt-bg-4-bt: var(--bg-color);
-  --background-accent: #fff;
+
   --background-modifier-border: #e1dfdf;
-  --background-modifier-form-field: #fff;
-  --background-modifier-form-field-highlighted: #fff;
-  --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
-  --background-modifier-success: #A4E7C3;
-  --background-modifier-error: #e68787;
-  --background-modifier-error-rgb: 230, 135, 135;
-  --background-modifier-error-hover: #FF9494;
-  --background-modifier-cover: rgba(0, 0, 0, 0.8);
 
   --text-accent: var(--main-color);
   --text-accent-hover: var(--low-color);
 
-  --text-normal: #0e0e0e;
-  --text-muted: #7f7f7f;
-  --text-highlight: #000000;
-  --text-highlight-2: #000000;
-  --text-faint: #7f7f7f;
-  --text-folder-file: #272727;
-
   --accent-em: #099d4e;
-  --text-error: #e75545;
-  --text-error-hover: #f86959;
-
   --text-selection: #66bbaa59;
   --text-on-accent: #f2f2f2;
   --interactive-normal: #eaeaeb;
@@ -6506,10 +6409,6 @@ body.color-scheme-options-chocolate-topaz.theme-light {
   --interactive-accent: var(--main-color); /*主题强调色*/
   --interactive-accent-rgb: 104, 56, 39;
   --interactive-accent-hover: var(--low-color);
-
-  --panel-border-color: #dbdbdc;
-  --search-text: #000000;
-  --folder-title: #000000;
 
   --strong-em-highlight-color: var(--color11);
 
@@ -6538,7 +6437,6 @@ body.color-scheme-options-chocolate-topaz.theme-light {
   --background-code: #ebebeb71;
   --background-code-2: #cccccc62;
   --text-color-code: #e95d00;
-  --text-color-code-normal: #000000;
 
   --internal-link-color-in-highlight: var(--main-color);
 
@@ -6632,13 +6530,6 @@ body.color-scheme-options-chocolate-topaz.theme-light {
   /*Sliding panes*/
   --sliding-panes-header-color: var(--deep-color);
   --background-4-sliding-pane: var(--bg-color);
-
-  /*admonition*/
-  --admonition-bg-color: #ffffffa6;
-
-  /*checklist*/
-  --checklist-bg: #dfdfdf8e;
-  --checklist-bg-hover: #ffffffcc;
 
   --color-view-header-gradient-1: var(--color1);
   --color-view-header-gradient-2: var(--bg-color);
@@ -7528,32 +7419,14 @@ body.color-scheme-options-lilac.theme-light {
   --background-secondary: #e1cefa;
   --background-secondary-alt: #d7c4f2;
   --background-secondary-alt-bg-4-bt: #d7c4f2; 
-  --background-accent: #000;
-
   --background-modifier-border: #af9dd1;
-  --background-modifier-form-field: #fff;
-  --background-modifier-form-field-highlighted: #fff;
-  --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
   --background-modifier-success: #d7a4e7;
-  --background-modifier-error: #eb7060;
-  --background-modifier-error-rgb: 111, 50, 126;
-  --background-modifier-error-hover: #FF9494;
-  --background-modifier-cover: rgba(0, 0, 0, 0.8);
-
   --text-accent: #c488cc;
   --text-accent-hover: #592495;
-
   --text-normal: #0e0e0e;
   --text-muted: #ab7ecf;
-  --text-highlight: #000000;
-  --text-highlight-2: #000000;
   --text-faint: #a23ac2;
-  --text-folder-file: #272727;
-
   --accent-em: #620ac6;
-  --text-error: #e75545;
-  --text-error-hover: #f86959;
-
   --text-selection: #8b66bb59;
   --text-on-accent: #f2f2f2;
   --interactive-normal: #eaeaeb;
@@ -7562,12 +7435,7 @@ body.color-scheme-options-lilac.theme-light {
   --interactive-accent-rgb: 195, 144, 230;/*工作区旁边的线*/
   --interactive-accent: #b28ce4;
   --interactive-accent-hover: #7b5e96;
-  --panel-border-color: #dbdbdc;
-  --search-text: #000000;
-  --folder-title: #000000;
-
   --strong-em-highlight-color: #7908ae;
-
   --text-highlight-bg-h: 273;
   --text-highlight-bg-s: 65%;
   --text-highlight-bg-l: 75%;
@@ -7591,24 +7459,6 @@ body.color-scheme-options-lilac.theme-light {
 
   --scrollbar-thumb: #aa7dd3a8; /*看板滚动条*/
 
-  --gray-1: #383a42;
-  --gray-2: #383a42;
-  --red: #f13d64;
-  --red-1: #f16464f5;
-  --green: #63c951;
-  --darkgreen: #acb5b2;
-  --blue: #107fe7;
-  --darkblue: #3b84e4;
-  --purple: #c74df7;
-  --aqua: #29bdcb;
-  --yellow: #e48100;
-  --light-yellow: #ab9a02;
-  --orange: #db9600;
-  --orange-1: #cc7523;
-  --light-purple: #b74ff3;
-  --blue-green: #3bd4da;
-  --white: #ffffff;
-
   --embed-color: #e3d6eb4f;
   --search-result-file-title-color: #5a10a0;
   --theme-color: var(--interactive-accent);
@@ -7618,10 +7468,6 @@ body.color-scheme-options-lilac.theme-light {
   --color-specification: #0084ff;
   --allow-1: #ec9a3c;
   --background-blockquote: #b6b6b62c;
-  --background-code: #ebebeb71;
-  --background-code-2: #cccccc62;
-  --text-color-code: #e95d00;
-  --text-color-code-normal: #000000;
 
   --internal-link-color: #6203a2;
 
@@ -7731,14 +7577,7 @@ body.color-scheme-options-lilac.theme-light {
   --sliding-panes-header-color: #2c0240;
   --background-4-sliding-pane: #ffffffef;
 
-  /*admonition*/
-  --admonition-bg-color: #ffffffa6;
-
-  /*checklist*/
-  --checklist-bg: #dfdfdf8e;
-  --checklist-bg-hover: #ffffffcc;
-
-  --color-view-header-gradient-1: #efe0f1; /*标题上的颜色*/
+  --color-view-header-gradient-1: #efe0f1ef; /*标题上的颜色*/
   --color-view-header-gradient-2: #e1c9f1ef;
 
   /*checkbox*/
@@ -7756,9 +7595,6 @@ body.color-scheme-options-lilac.theme-light {
 
   --interactive-hover: #dbdbdc;
 
-  /*style settings*/
-  --background-secondary-translucent: #ffffff3d;
-
   --table-color-calendar-2: rgb(211, 161, 247);
   --table-color-rgb: 211, 161, 247;
 }
@@ -7771,17 +7607,7 @@ body.color-scheme-options-lilac.theme-dark {
   --background-primary-alt: var(--bg-color2);
   --background-secondary: #44204b;
   --background-secondary-alt: var(--bg-color);
-  --background-accent: #000;
-
   --background-modifier-border: #947676;
-  --background-modifier-form-field: rgba(0, 0, 0, 0.3);
-  --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
-  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-  --background-modifier-success: #539126;
-  --background-modifier-error: #9b4343;
-  --background-modifier-error-rgb: 85, 30, 99;
-  --background-modifier-error-hover: #300047;
-  --background-modifier-cover: rgba(0, 0, 0, 0.6);
   --text-accent: #b793cc;
   --text-accent-hover: #efd6f7; 
   --text-normal: #c9b8e9;  
@@ -7792,19 +7618,12 @@ body.color-scheme-options-lilac.theme-dark {
   --text-folder-file: #b3b3b3;
 
   --accent-em: #ca91d8;
-  --text-error: #e16d76;
-  --text-error-hover: #c9626a;
-
-  --text-selection: #47a5914d;
   --text-on-accent: #dcddde;
   --interactive-normal: #20242b;
   --interactive-hover: #353b47;
   --interactive-accent: #be3abe; 
   --interactive-accent-rgb: 128, 50, 159;     
   --interactive-accent-hover: #660f89;
-  --panel-border-color: #18191e;
-  --search-text: #e0e0e0;
-  --folder-title: #ffffff;
 
   --strong-em-highlight-color: #9c8ce6;
 
@@ -7830,22 +7649,6 @@ body.color-scheme-options-lilac.theme-dark {
 
   --scrollbar-thumb: #603a81;
 
-  --gray-1: #5C6370;
-  --gray-2: #abb2bf;
-  --red: #e06c75;
-  --red-1: #d05a63;
-  --orange: #d19a66;
-  --orange-1: #da904b;
-  --green: #b6e296;
-  --darkgreen: #399a58;
-  --aqua: #56b6c2;
-  --purple: #c678dd;
-  --blue: #9dcffc;
-  --darkblue: #4889df;
-  --yellow: #e4ba6c;
-  --light-yellow: #dfda91;
-  --white: #ffffff;
-
   --embed-color: #4047424f;
   --search-result-file-title-color: #a75ac6; 
   --theme-color: var(--interactive-accent);
@@ -7858,7 +7661,6 @@ body.color-scheme-options-lilac.theme-dark {
   --background-code: #1111118c;
   --background-code-2: #4c4c4cb0;
   --text-color-code: #d58000;
-  --text-color-code-normal: #e7e7e7;
 
   --internal-link-color: #a360da;
   --internal-link-color-in-highlight: #a360da;
@@ -7888,14 +7690,6 @@ body.color-scheme-options-lilac.theme-dark {
   --tag7: #b925b2;
   --tag8: #8a54d1;
   --tag9: #7b6bda;
-  --tag-dailynote: #98c8ff;
-  --tag-dailynote-bg: #0f60bd;
-  --tag-weeklynote: #d1e6ff;
-  --tag-weeklynote-bg: #3971b1;
-  --tag-questions: #d4bdff;
-  --tag-questions-bg: #6640ae;
-  --tag-ideas: #fcfcc0;
-  --tag-ideas-bg: #565656d8;
 
   --h1-color: var(--print-h1-color, #bc7ad4);
   --h2-color: var(--print-h2-color, #8d26ac);
@@ -7905,15 +7699,11 @@ body.color-scheme-options-lilac.theme-dark {
   --h6-color: var(--print-h6-color, #c675f5);
 
   /*graph*/
-  --graph-text-color: #B5B5B5; 
   --graphtag: #b992ddbb;
   --graph-attach: #76c1f0bb;
   --graph-circle: #8f70a1bb;
   --graph-line: #8c8c8c;
   --graph-unresolved: #c3afdade;
-  --link-unresolved-highlight: #ffa6a6;
-  --graph-arrow: #c23917;
-  --graph-control-bg: #00000080;
 
   /*mermaid*/
   --mermaid-active-task-color: #187ef1;
@@ -7977,9 +7767,6 @@ body.color-scheme-options-lilac.theme-dark {
 
   --interactive-hover: #dbdbdc;
 
-  /*style settings*/
-  --background-secondary-translucent: #2c2c2c26;
-
   --table-color-calendar-2: rgb(98, 36, 143);
   --table-color-rgb: 98, 36, 143;
 }
@@ -8030,10 +7817,36 @@ body.color-scheme-options-lilac.theme-dark #calendar-container {
 body.color-scheme-options-lilac.theme-light #calendar-container {
   --theme-color-translucent-3: #dccaffb0;
 }
-
 /*======@awyugan--end========*/
 
-/*===========*/
+body.font-family-change-to-default .markdown-source-view,
+body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered),
+body.font-family-change-to-default .markdown-source-view.mod-cm6 .cm-scroller,
+body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered) h5,
+body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered) h6,
+body.font-family-change-to-default .nav-file-title,
+body.font-family-change-to-default .nav-folder-title,
+body.font-family-change-to-default a.tag,
+body.font-family-change-to-default .cm-s-obsidian span.cm-hashtag,
+body.font-family-change-to-default .nav-folder.mod-root>.nav-folder-title,
+body.font-family-change-to-default pre.frontmatter.language-yaml::before,
+body.font-family-change-to-default span.cm-strong,
+body.font-family-change-to-default :not(font)>strong,
+body.font-family-change-to-default a,
+body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered) .internal-link,
+body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered) th,
+body.font-family-change-to-default *:not(font)>em>strong,
+body.font-family-change-to-default *:not(font)>strong>em,
+body.font-family-change-to-default .cm-strong.cm-em {
+  font-family: unset !important;
+}
+
+body.font-family-change-to-default .cm-s-obsidian .cm-hmd-frontmatter,
+body.font-family-change-to-default .markdown-rendered code,
+body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered) code{
+  font-family: 'Source Code Pro', monospace !important;
+}
+
 /* page-size in edit mode*/
 :is(.markdown-preview-view,.markdown-rendered) .markdown-preview-sizer,
 .markdown-source-view .CodeMirror {
@@ -8058,7 +7871,7 @@ body.reduce-bottom-padding:not(.plugin-cm-typewriter-scroll) .cm-s-obsidian .cm-
 }
 
 .cm-s-obsidian .CodeMirror-code {
-  padding-right: 0px;
+  padding-right: 0;
 }
 
 /*===============================*/
@@ -8178,6 +7991,7 @@ body.colorful-p-kanban .kanban ul>li:nth-of-type(8n) {
 .kanban ul>li:nth-of-type(n) {
   background-color: var(--p-kanban-color-simple);
   padding-left: 1em;
+  backdrop-filter: blur(calc(var(--blur-p-kanban-frosted-glass)*2px));
 }
 .kanban ul:first-child>li:nth-of-type(8n+1) {
   border-top: 6px solid var(--p-kanban-color-1) !important;
@@ -8929,6 +8743,16 @@ body.tag-pill-outlined .cm-s-obsidian span.cm-hashtag-begin:nth-child(9n)+span.c
   background-color: transparent !important;
 }
 
+body.tag-pill-outlined .cm-s-obsidian span.cm-hashtag-begin:nth-child(n)+span.cm-hashtag:not([class*="-end"]),
+body.tag-pill-outlined .cm-s-obsidian span.cm-hashtag-begin:nth-child(n)+.cm-hashtag.cm-meta:not([class*="-end"]) {
+  border-left: none;
+  border-right: none;
+}
+
+body.tag-pill-outlined .cm-s-obsidian span.cm-hashtag-begin:nth-child(n)+span.cm-hashtag.cm-meta+span.cm-hashtag.cm-hashtag-end {
+  border-left: none;
+}
+
 body.tag-clear-style .tag:not(.token):nth-child(n) {
   background-color: transparent;
   border: none;
@@ -9214,13 +9038,42 @@ pre.CodeMirror-line {
 /*preview mode font size*/
 p {
   font-size: var(--font-size-preview-normal);
+}
+
+:is(.markdown-preview-view,.markdown-rendered) p {
   margin-block-start: calc(var(--paragraph-spacing)*1em);
   margin-block-end: calc(var(--paragraph-spacing)*1em);
 }
 
-body.text-indentation-two-em *:not(blockquote) > p {
+
+body.toggle-paragraph-spacing :is(.markdown-preview-view,.markdown-rendered) p>br {
+  content:" ";
+  margin-top: calc((var(--paragraph-spacing) - 1)*1em);
+  display: block;
+}
+
+
+.markdown-source-view.mod-cm6 div.cm-line {
+  padding-bottom: calc((var(--paragraph-spacing) - 1)*1em)!important;
+}
+body.text-indentation-two-em .markdown-source-view.mod-cm6 div.cm-line:not(.HyperMD-header) {
   text-indent: 2em;
 }
+
+body.text-indentation-two-em [data-type="markdown"] div[class="el-p"]:not(blockquote) > p {
+  text-indent: 2em;
+}
+body.text-indentation-two-em [data-type="markdown"] div[class="el-p"]:not(blockquote) > p>br {
+  content: ' ';
+  white-space: pre;
+  line-height: calc((var(--paragraph-spacing) + 0.3)*1em);
+  display:unset;
+}
+body.text-indentation-two-em [data-type="markdown"] div[class="el-p"]:not(blockquote) > p>br::after {
+  content: '\A         ';
+}
+
+
 
 /*edit mode blockquote font size*/
 .cm-s-obsidian span.cm-quote {
@@ -9500,6 +9353,7 @@ body.hide-titlebar-text .titlebar-text {
 
 .titlebar {
   background-color: var(--custom-titlebar-bg);
+  border: none;
 }
 
 .titlebar-inner {
@@ -9515,14 +9369,12 @@ body.hide-titlebar-text .titlebar-text {
 
 /*change color when hover*/
 .titlebar-button.mod-back:hover,
-.titlebar-button.mod-forward:hover {
-  color: var(--theme-color);
-}
-
+.titlebar-button.mod-forward:hover,
 .titlebar-button.mod-maximize:hover,
 .titlebar-button.mod-minimize:hover,
 .workspace-ribbon-collapse-btn:hover,
-.workspace-tab-header.is-active:hover {
+.workspace-tab-header.is-active:hover,
+.workspace-tab-header.is-active {
   color: var(--theme-color);
 }
 
@@ -9531,10 +9383,6 @@ body.hide-titlebar-text .titlebar-text {
   text-align: center;
   stroke-width: 2px;
   cursor: pointer;
-}
-
-.workspace-tab-header.is-active {
-  color: var(--theme-color);
 }
 
 .titlebar-button {
@@ -9585,7 +9433,6 @@ input.search-input {
   flex-grow: 1;
   margin-right: 20px;
   font-size: var(--font-size-obsidian-titlebar);
-  text-align: center;
   letter-spacing: 0.05em;
   opacity: 1;
   color: var(--text-accent);
@@ -9660,7 +9507,7 @@ input.search-input {
 
 .search-result-file-matches {
   border-bottom: none;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .tree-item-self.is-clickable:hover {
@@ -9741,13 +9588,19 @@ span.cm-formatting-task.cm-property {
   color: var(--text-accent);
 }
 
+.markdown-preview-view .task-list-item-checkbox {
+  top: 4px;
+  margin-left: 3px;
+  margin-right: 8px;
+}
+
 input[type=checkbox] {
   -webkit-appearance: none;
   appearance: none;
   border-radius: var(--radius-xs);
   border: 1px solid var(--background-modifier-border-checkbox);
   padding: 0;
-  margin:  0 7px 2px 3px;
+  margin: 0 4px 2px 2px;
   width: var(--checkbox-size);
   height: var(--checkbox-size);
 }
@@ -9865,7 +9718,7 @@ body.circular-checkbox input[type=checkbox] {
 /* headers */
 /*编辑状态是否显示H1 H2标记*/
 /*适配Live preview模式*/
-body.clutter-free-headings div:not(.cm-active).cm-line  span:not(.cm-formatting-header):not(.cm-hashtag):not(.cm-inline-code):not(.cm-highlight).cm-header::before {
+body.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header):not(.cm-hashtag):not(.cm-inline-code):not(.cm-highlight).cm-header::before {
   font-size: 0.6rem;
   width: auto;
   margin-right: 1px;
@@ -9911,7 +9764,7 @@ body.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-h
 }
 
 /*适配source mode 模式*/
-body.clutter-free-headings div.mod-cm6:not(.is-live-preview) div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header ~  span.cm-header::before
+body.clutter-free-headings div.mod-cm6:not(.is-live-preview) div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header ~ span.cm-header::before
 {
   display: none;
 }
@@ -9919,7 +9772,7 @@ body.clutter-free-headings div.mod-cm6:not(.is-live-preview) div:not(.cm-active)
   display:none;
 }
 /*适配传统模式*/
-body.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line.hmd-inactive-line  span.cm-formatting-header::before {
+body.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line.hmd-inactive-line span.cm-formatting-header::before {
   position: absolute;
   margin-top: 10px;
   font-size: 0.7rem;
@@ -9947,7 +9800,7 @@ body.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line:not(
 
 body.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header {
   color: transparent !important;
-  background:none;
+  background: none;
 }
 
 body.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-1::before {
@@ -9971,7 +9824,6 @@ body.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line span
 
 :is(.markdown-preview-view,.markdown-rendered) h1 {
   font-size: var(--h1);
-  font-weight: bold;
   line-height: 1.2;
   padding-bottom: 1px;
   font-family: var(--font-family-h1);
@@ -9980,7 +9832,6 @@ body.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line span
 
 :is(.markdown-preview-view,.markdown-rendered) h2 {
   font-size: var(--h2);
-  font-weight: bold;
   line-height: 1.2;
   padding-bottom: 1px;
   font-family: var(--font-family-h2);
@@ -10014,25 +9865,21 @@ body.h6-toggle-underline .markdown-source-view.is-live-preview .HyperMD-header.H
 
 :is(.markdown-preview-view,.markdown-rendered) h3 {
   font-size: var(--h3);
-  font-weight: bold;
   font-family: var(--font-family-h3);
   color: var(--h3-color);
 }
 :is(.markdown-preview-view,.markdown-rendered) h4 {
   font-size: var(--h4);
-  font-weight: bold;
   font-family: var(--font-family-h4);
   color: var(--h4-color);
 }
 :is(.markdown-preview-view,.markdown-rendered) h5 {
   font-size: var(--h5);
-  font-weight: bold;
   font-family: var(--font-family-h5);
   color: var(--h5-color);
 }
 :is(.markdown-preview-view,.markdown-rendered) h6 {
   font-size: var(--h6);
-  font-weight: bold;
   font-family: var(--font-family-h6);
   color: var(--h6-color);
 }
@@ -10668,7 +10515,7 @@ div.math.math-block mjx-math {
 
 /*bold code text except code language*/
 :not(pre)>code:not([class*='language-']) {
-  font-weight: 600;
+  font-weight: var(--font-weight-inline-code);
   padding: 2px 3px 1px;
   font-family: var(--font-family-inline-code) !important;
 }
@@ -10676,7 +10523,7 @@ div.math.math-block mjx-math {
 .cm-s-obsidian span.cm-inline-code {
   padding: 2px 0 1px;
   color: var(--text-color-code);
-  font-weight: 600;
+  font-weight: var(--font-weight-inline-code);
   font-family: var(--font-family-inline-code) !important;
   font-size: var(--font-size-code) !important;
 }
@@ -10707,11 +10554,11 @@ ul>li::marker,
   color: var(--list-format-ul);
 }
 
-/*
-div.HyperMD-list-line.cm-line:not(.HyperMD-table-row) {
-  word-break: break-all;
+
+.cm-s-obsidian .HyperMD-table-row.HyperMD-table-row.HyperMD-table-row {
+  min-width: min-content;
+  white-space: pre-wrap;
 }
-*/
 
 pre.HyperMD-list-line.HyperMD-list-line {
   text-align: start;
@@ -11130,6 +10977,7 @@ body.list-vertical-line-three:not(.default-icons) :is(.markdown-preview-view,.ma
 
 /********彩虹大纲线片段********/
 /* RAINBOW INDENT COLORS from https://gist.github.com/GitMurf/5122c0c8405ffa36a03049d9f4434bf4 */ 
+/*
 :root {
   --list-padding: 24px;
   --accent-1-rgb: 56,85,139;
@@ -11140,33 +10988,34 @@ body.list-vertical-line-three:not(.default-icons) :is(.markdown-preview-view,.ma
   --accent-6-rgb: 211,103,103;
   --accent-7-rgb: 0,171,132;
   --accent-8-rgb: 0,163,224;
-  /* default */
+  /* default 
       --font-use-default: var(--font-default);
       --font-size-use-default: var(--editor-font-size);
       --indent-use-default: 1.84ch;
   
-  /* wide */
+  /* wide 
       --font-use-wide: monospace;
       --font-size-use-wide: 12px;
       --indent-use-wide: 4.009ch;
   
-  /* custom */
+  /* custom 
       --font-use-custom: Arial;
       --font-size-use-custom: 13px;
       --indent-use-custom: 14.5px;
   
   /* SET FROM VARIABLES ABOVE UPDATING LAST WORD (e.g. ...-default) */
   /* Copy and replace from one of following: default, theme, wide, custom */
+  /*
       --rb-indent-font-family: var(--font-use-default);
       --rb-indent-font-size: var(--font-size-use-default);
       --rb-indent-width: var(--indent-use-default);
       --rb-left-offset: 2px;
-  /* ---------------------------------------------- */
       --rb-line-width: 2px;
       --rb-color-count: 8;
       --rb-indent-bg-size: calc(var(--rb-color-count) * var(--rb-indent-width)) 1px;
 }
-
+*/
+/*
 body.rainbow-lines .mod-cm6 .HyperMD-list-line .cm-hmd-list-indent .cm-indent::before {
   content: none;
 }
@@ -11266,6 +11115,7 @@ body.rainbow-lines .mod-cm6 .cm-contentContainer .cm-content[style*="tab-size: 8
 }
 
 /*rainbow-lines*/
+/*
 body.rainbow-lines-reading :is(ol,ul) :is(ol,ul) {
   position: relative;
 }
@@ -11308,6 +11158,7 @@ body.rainbow-lines-reading ol>li::marker {
 border-width:1.5px;;	
 } */
 
+/*
 body.rainbow-ordered-list .HyperMD-list-line-1 .cm-formatting-list {
   color: rgb(var(--accent-1-rgb)) !important;
 }
@@ -11464,8 +11315,8 @@ body.rainbow-lines .CodeMirror-foldgutter-open.CodeMirror-guttermarker-subtle::a
 	color: rgb(var(--accent-1-rgb)); 
 }
  
-/*预览模式*/ 
-/*无序列表 任务框*/
+/*预览模式
+/*无序列表 任务框
 body.rainbow-lines-reading ul li .task-list-item-checkbox {
   border-color: rgba(var(--accent-1-rgb),0.7);
 }
@@ -11491,7 +11342,7 @@ body.rainbow-checkbox  ul ul ul ul ul ul ul ul li .task-list-item-checkbox {
   border-color: rgba(var(--accent-7-rgb),0.7);
 }
 
-/*无序列表 大纲线*/
+/*无序列表 大纲线
 body.rainbow-lines-reading ul ul::before {
  border-color: rgba(var(--accent-1-rgb),0.7) !important;
 }
@@ -11520,7 +11371,7 @@ body.rainbow-lines-reading li ul ul ul ul ul ul ul ul ul::before {
   border-color: rgba(var(--accent-1-rgb),0.7) !important;
 }
 
-/*任务有序列表 大纲线*/
+/*任务有序列表 大纲线
 body.rainbow-lines-reading ol ol::before {
   border-color: rgba(var(--accent-1-rgb),0.7) !important;
 }
@@ -11549,8 +11400,7 @@ body.rainbow-lines-reading li ol ol ol ol ol ol ol ol::before {
   border-color: rgba(var(--accent-1-rgb),0.7) !important;
 }
 
-/*任务有序列表 选择框*/
-
+/*任务有序列表 选择框
 body.rainbow-checkbox :is(.markdown-preview-view,.markdown-rendered) li[data-task="x"] .task-list-item-checkbox:checked {
     background-color: rgb(var(--accent-1-rgb),0.7);
     }
@@ -11576,7 +11426,7 @@ body.rainbow-checkbox :is(.markdown-preview-view,.markdown-rendered) li li li li
   background-color: rgb(var(--accent-8-rgb),0.7)!important;
 }
 
-/*任务有序列表 选择框未选择*/
+/*任务有序列表 选择框未选择
 body.rainbow-checkbox :is(.markdown-preview-view,.markdown-rendered) li .task-list-item-checkbox {
   border-color: rgba(var(--accent-1-rgb),0.7) !important;
   }
@@ -11659,6 +11509,7 @@ body.rainbow-ordered-list :is(.markdown-preview-view,.markdown-rendered) ul>li u
 body.rainbow-ordered-list :is(.markdown-preview-view,.markdown-rendered) ol>li ol>li ol>li ol>li ol>li ol>li ol>li ol>li::marker {
   color: rgb(var(--accent-8-rgb));
 }
+*/
 
 /*===========*/
 :is(h1,h2,h3,h4,h5,h6,b,strong),
@@ -11724,10 +11575,7 @@ strong>em>.internal-link,
   text-decoration: underline !important;
 }
 
-.markdown-source-view.mod-cm5 span.cm-formatting.cm-formatting-strong.cm-strong {
-  opacity: 0.2;
-}
-
+.markdown-source-view.mod-cm5 span.cm-formatting.cm-formatting-strong.cm-strong,
 .markdown-source-view.mod-cm5 span.cm-formatting.cm-formatting-em.cm-em {
   opacity: 0.2;
 }
@@ -11779,11 +11627,7 @@ div.CodeMirror-activeline .CodeMirror-line span.cm-formatting-link.cm-strong.cm-
   color: var(--orange);
 }
 
-.theme-light div.CodeMirror-activeline .CodeMirror-line span.cm-formatting.cm-formatting-em.cm-em {
-  opacity: 1;
-  color: var(--orange);
-}
-
+.theme-light div.CodeMirror-activeline .CodeMirror-line span.cm-formatting.cm-formatting-em.cm-em,
 .theme-light div.CodeMirror-activeline .CodeMirror-line span.cm-formatting.cm-formatting-strong.cm-em.cm-strong {
   opacity: 1;
   color: var(--orange);
@@ -11802,14 +11646,11 @@ div.CodeMirror-activeline .CodeMirror-line span.cm-formatting-link.cm-strong.cm-
 /*smaller header title*/
 .view-header-title {
   font-size: var(--font-size-file-header-title);
-  font-weight: 600;
-  overflow: auto;
   padding: 0 6px 0 0;
   white-space: nowrap;
   top: 1px;
   border-top: 3px transparent;
   border-bottom: 3px transparent;
-  color: var(--text-muted);
   background-color: transparent;
   position: relative;
 }
@@ -11905,9 +11746,20 @@ body:not(.remove-heading-indicator) .callout-content :is(h1, h2, h3, h4, h5, h6)
 :is(.markdown-preview-section,.markdown-rendered) table:not(.dataview.table-view-table) {
   width: 100%;
   border-collapse: collapse;
+  overflow: auto;
+  margin: 20px auto;
+}
+
+:is(.markdown-preview-section,.markdown-rendered) table:not(.dataview.table-view-table):active,
+:is(.markdown-preview-section,.markdown-rendered) table:not(.dataview.table-view-table):hover {
   overflow: hidden;
-  margin-top: 20px;
   resize: both !important;
+}
+
+body .markdown-preview-view th,
+body .markdown-source-view.mod-cm6 .dataview.table-view-table thead.table-view-thead tr th,
+body .table-view-table>thead>tr>th {
+  background-image: none;
 }
 /*修复Itinerary插件显示问题*/
 :is(.markdown-preview-view,.markdown-rendered) :is(.markdown-preview-section,.markdown-rendered) .block-language-itinerary.fc table {
@@ -12028,6 +11880,19 @@ body:not(.no-wrapped-dvtable) .markdown-source-view.mod-cm6 .table-view-table>tb
   background-color: var(--table-hover-thead-color);
 }
 
+body:not(.remove-table-transition) :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tbody tr:nth-child(odd):hover,
+body:not(.remove-table-transition) :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tbody tr:hover{
+  background: var(--table-hover-raw-color);
+  transform: scale(1.02);
+  transition: transform 0.1s cubic-bezier(0.11, 0.33, 0.23, 0.33);
+}
+
+body:not(.remove-table-transition) :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view) tbody td:hover{
+  background: var(--table-hover-color);
+  transform: scale(1.02);
+  transition: transform 0.1s cubic-bezier(0.22, 0.66, 0.46, 0.66);
+}
+
 body.show-border-table :is(.markdown-preview-view,.markdown-rendered) :is(th,td) {
   border: 1px solid var(--table-border-color);
 }
@@ -12113,9 +11978,9 @@ body.table-style-three .markdown-source-view table tbody>tr {
 /*Full-width table dvtable callout backlinks layout*/
 /*modified from https://github.com/efemkay */
 :is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6 .cm-contentContainer.cm-contentContainer,
-:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks)  .markdown-source-view.mod-cm6 .cm-contentContainer.cm-contentContainer > div,
-:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks)  .markdown-source-view.mod-cm6 .cm-contentContainer.cm-contentContainer > div.cm-content,
-:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks)  .markdown-source-view.mod-cm6 .cm-contentContainer.cm-contentContainer > div.cm-content .cm-table-widge { 
+:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6 .cm-contentContainer.cm-contentContainer > div,
+:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6 .cm-contentContainer.cm-contentContainer > div.cm-content,
+:is(body.full-width-table,body.full-width-dvtable,body.full-width-callout,body.full-width-backlinks) .markdown-source-view.mod-cm6 .cm-contentContainer.cm-contentContainer > div.cm-content .cm-table-widge { 
   max-width: 100%; 
   width: 100%;
 }
@@ -12177,7 +12042,8 @@ div[class*="wide-"].markdown-source-view.mod-cm6 .cm-contentContainer.cm-content
 div[class*="wide-"].markdown-preview-view .markdown-preview-sizer.markdown-preview-sizer, 
 div[class*="wide-"].markdown-preview-view .markdown-preview-sizer.markdown-preview-sizer > div { 
   max-width: 100%; 
-  margin-inline: auto; width: 100%;
+  margin-inline: auto; 
+  width: 100%;
 } 
     
 /* === Wide Dataview, Table & Backlink === */
@@ -12312,8 +12178,20 @@ body.bt-status-off .status-bar {
   padding: 2px 8px 6px 3px;
 }
 body.bt-status-off .document-search-container {
-  width: 80%;
+  margin-bottom: 26px;
   background-color: var(--background-secondary-bg-4-bt);
+}
+
+body.bt-search-bar-top .document-search-container {
+  width: 60%;
+  top: 31px;
+  position: absolute;
+  resize: both !important;
+  overflow: hidden;
+}
+
+body.bt-search-bar-top :is(.markdown-preview-view,.markdown-rendered) {
+  padding-top: 35px;
 }
 
 .status-bar {
@@ -12549,6 +12427,11 @@ body.link-underline :is(.markdown-preview-view,.markdown-rendered) .internal-lin
   color: var(--text-color-code-normal);
   text-shadow: none;
   letter-spacing: calc(var(--letter-space-code) * 0.02em);
+}
+body.codebox-frosted-glass .cm-s-obsidian div.HyperMD-codeblock-bg,
+body.codebox-frosted-glass :not(pre)>code[class*='language-'],
+body.codebox-frosted-glass pre[class*='language-'] {
+  backdrop-filter: blur(calc(var(--blur-codebox-frosted-glass)*2px));
 }
 
 code[class*="language-"] {
@@ -12834,46 +12717,6 @@ body.whole-code-wrap pre[class*='language-'] {
   cursor: help !important;
 }
 
-pre.line-numbers {
-  position: relative !important;
-  padding-left: 3.8em !important;
-  counter-reset: linenumber !important;
-}
-
-pre.line-numbers>code {
-  position: relative !important;
-}
-
-.line-numbers .line-numbers-rows {
-  position: absolute !important;
-  pointer-events: none !important;
-  top: 0 !important;
-  font-size: 100% !important;
-  left: -3.8em !important;
-  width: 3em !important;
-  /* works for line-numbers below 1000 lines */
-  letter-spacing: -1px !important;
-  border-right: 0 !important;
-  -webkit-user-select: none !important;
-  -moz-user-select: none !important;
-  -ms-user-select: none !important;
-  user-select: none !important;
-}
-
-.line-numbers-rows>span {
-  pointer-events: none !important;
-  display: block !important;
-  counter-increment: linenumber !important;
-}
-
-.line-numbers-rows>span::before {
-  content: counter(linenumber) !important;
-  color: var(--syntax-gray-1) !important;
-  display: block !important;
-  padding-right: 0.8em !important;
-  text-align: right !important;
-}
-
 /*show language type in preview mode*/
 /*Thanks to elutao from https://snippets.cacher.io/snippet/018387c872dc39277996 */
 pre::before {
@@ -13135,19 +12978,18 @@ body.muted-activeline-bg .HyperMD-codeblock-bg.CodeMirror-activeline-background.
   border-color: transparent;
   border-image: initial;
   border-radius: 0;
-  padding: 1px 5px 0 16px;
-  color: var(--text-folder-file);
-  display: flex;
   align-items: baseline;
   flex-direction: row;
 }
 
 .nav-file-title {
   padding: 0 5px 1px 4px;
+  color: var(--text-folder-file);
 }
 
 .nav-folder-title {
   font-weight: 600;
+  padding: 1px 5px 0 16px;
   color: var(--text-normal);
 }
 
@@ -13176,7 +13018,7 @@ body:not(.default-icons) .nav-folder-collapse-indicator::after {
   position: absolute;
   content: "↓";
   left: -3px;
-  top: 1px;
+  top: 2px;
   font-size: 1em;
   font-family: 'Inter';
   font-weight: bold;
@@ -13192,12 +13034,12 @@ body:not(.default-icons) .nav-folder-collapse-indicator svg {
 }
 
 body:not(.unmuted-collapsed-folder) .nav-folder.is-collapsed .nav-folder-title-content:not(.is-being-renamed) {
-  opacity: 0.65;
+  opacity: 0.55;
 }
 
 body:not(.default-icons) .nav-folder.is-collapsed .nav-folder-collapse-indicator::after {
   transform: rotate(-90deg);
-  opacity: 0.65;
+  opacity: 0.55;
 }
 
 body:not(.default-icons) .is-mobile .nav-folder.is-collapsed {
@@ -13440,10 +13282,10 @@ body.default-icons .outline .tree-item-children {
 /* list collaspe icon */
 body:not(.default-icons) :is(.markdown-preview-view,.markdown-rendered) .list-collapse-indicator.collapse-indicator.collapse-icon::before {
   content: "↓";
-  font-size: 0.7em;
+  font-size: 0.85em;
   position: absolute;
   margin-left: -0.3rem;
-  margin-top: 0.4rem;
+  margin-top: 0.3em;
   font-weight: bold;
   font-family: 'Inter';
   color: var(--text-accent);
@@ -13463,12 +13305,6 @@ body:not(.default-icons) :is(.markdown-preview-view,.markdown-rendered) li.is-co
   transform: rotate(-90deg);
   opacity: 1;
 }
-
-/*
-ul.contains-task-list .list-collapse-indicator.collapse-indicator.collapse-icon::before {
-  margin-left: 30px;
-}
-*/
 
 .tree-item-flair {
   line-height: 17px;
@@ -13510,6 +13346,10 @@ ul.contains-task-list .list-collapse-indicator.collapse-indicator.collapse-icon:
 }
 
 /*setting panel*/
+.modal.mod-narrow .modal-content {
+  overflow: hidden;
+}
+
 .vertical-tab-nav-item {
   padding: 8px 6px 8px 24px;
 }
@@ -13521,7 +13361,7 @@ ul.contains-task-list .list-collapse-indicator.collapse-indicator.collapse-icon:
 }
 
 .modal.mod-settings .vertical-tab-content-container {
-  padding: 30px 0 0;
+  padding: 0;
 }
 
 .vertical-tab-content .setting-item {
@@ -13539,6 +13379,93 @@ ul.contains-task-list .list-collapse-indicator.collapse-indicator.collapse-icon:
 
 .dropdown {
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMTI4MC4wMDAwMDBwdCIgaGVpZ2h0PSI2NDAuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAxMjgwLjAwMDAwMCA2NDAuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+CjxtZXRhZGF0YT4KQ3JlYXRlZCBieSBwb3RyYWNlIDEuMTUsIHdyaXR0ZW4gYnkgUGV0ZXIgU2VsaW5nZXIgMjAwMS0yMDE3CjwvbWV0YWRhdGE+CjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLDY0MC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiMyMTk2ZjMiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMCA2MzkyIGMwIC00IDE0MzggLTE0NDUgMzE5NSAtMzIwMiBsMzE5NSAtMzE5NCAzMTk1IDMxOTQgYzE3NTcKMTc1NyAzMTk1IDMxOTggMzE5NSAzMjAyIDAgNSAtMjg3NSA4IC02MzkwIDggLTM1MTUgMCAtNjM5MCAtMyAtNjM5MCAtOHoiLz4KPC9nPgo8L3N2Zz4K);
+}
+
+/*translucent setting panel*/
+body.translucent-setting-panel .modal-bg {
+  background-color: var(--background-secondary-translucent-1);
+}
+
+body.transparent-setting-panel .modal.mod-settings .vertical-tab-content-container,
+body.transparent-setting-panel .horizontal-tab-content, 
+body.transparent-setting-panel .vertical-tab-content {
+  background-color: var(--background-secondary-translucent) !important;
+}
+
+body.transparent-setting-panel .modal-bg,
+body.transparent-setting-panel .modal.mod-settings {
+  background-color: var(--background-secondary-translucent) !important;
+  backdrop-filter: blur(0) !important;	
+}
+
+body:not(.setting-style-traditional) .prompt {
+  background-color: var(--bg-color-settings-4);
+  backdrop-filter: blur(3px);
+}
+
+body:not(.setting-style-traditional).theme-dark .prompt {
+  backdrop-filter: blur(8px);	
+}
+
+body:not(.setting-style-traditional) .vertical-tab-header-group-title {
+  color: var(--text-normal);
+  border-top: 1px dashed var(--text-muted);
+}
+
+body:not(.setting-style-traditional) .modal-bg {
+  background-color: var(--bg-color-settings-0);  
+  backdrop-filter: blur(5px);	
+}
+body:not(.setting-style-traditional) .modal.mod-settings {
+  background-color: var(--bg-color-settings-0-1);
+  box-shadow: 0 0 20px var(--bg-color-settings-1);
+}
+body:not(.setting-style-traditional) .modal.mod-settings {
+  border: none;
+}
+body:not(.setting-style-traditional) .vertical-tab-header {
+  background-color: var(--bg-color-settings-1);
+}
+
+body:not(.setting-style-traditional) .horizontal-tab-nav-item, 
+body:not(.setting-style-traditional) .vertical-tab-nav-item {
+  background-color: transparent;
+}
+
+body:not(.setting-style-traditional) .horizontal-tab-nav-item:hover, 
+body:not(.setting-style-traditional) .vertical-tab-nav-item:hover,
+body:not(.setting-style-traditional) .horizontal-tab-nav-item.is-active, 
+body:not(.setting-style-traditional) .vertical-tab-nav-item.is-active {
+  background-color: var(--bg-color-settings-2);
+}
+
+body:not(.setting-style-traditional) .horizontal-tab-content, 
+body:not(.setting-style-traditional) .vertical-tab-content {
+  background-color: var(--bg-color-settings-3);
+}
+
+body.translucent-setting-panel .vertical-tab-content {
+  background-color: var(--bg-color-settings-1);
+}
+
+body.transparent-setting-panel .modal,
+body.transparent-setting-panel .modal.mod-settings,
+body.transparent-setting-panel .vertical-tab-content {
+  background-color: transparent !important;
+}
+
+body.transparent-setting-panel .vertical-tab-header,
+body.transparent-setting-panel .horizontal-tab-nav-item, 
+body.transparent-setting-panel .vertical-tab-nav-item {
+  background-color: var(--background-secondary-translucent) !important;
+}
+
+.modal.mod-settings .vertical-tab-header {
+  padding: 0;
+}
+
+body:not(.setting-style-traditional) .vertical-tab-header-group-title {
+  border: none;
 }
 
 /* ======= graph view ==============*/
@@ -14754,15 +14681,19 @@ body.plugin-sliding-panes.theme-dark .workspace-split.mod-vertical>.workspace-le
   box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.3) !important;
 }
 
-body.plugin-sliding-panes .mod-root .workspace-leaf.mod-active .view-header {
-  background-color: var(--background-primary);
+body.plugin-sliding-panes.plugin-sliding-panes-rotate-header .mod-root .workspace-leaf.mod-active .view-header {
+  background-color: var(--bg-sliding-pane-header);
+  border-left: 3px solid var(--interactive-accent) !important;
+}
+
+body.plugin-sliding-panes.plugin-sliding-panes-rotate-header.toggle-acitive-border-right .mod-root .workspace-leaf.mod-active .view-header {
   border-right: 3px solid var(--interactive-accent) !important;
 }
 
-body.plugin-sliding-panes .view-header-title {
+body.plugin-sliding-panes.plugin-sliding-panes-rotate-header .view-header-title {
   font-size: var(--font-size-file-header-title-andy-plugin);
   letter-spacing: 0.7px;
-  line-height: 1.9;
+  line-height: 1.7;
   color: var(--text-muted);
 }
 
@@ -14776,36 +14707,42 @@ body.plugin-sliding-panes .mod-root .workspace-leaf.mod-active .view-header-titl
 }
 
 body.plugin-sliding-panes .view-actions {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 body.plugin-sliding-panes-rotate-header .workspace>.mod-root .view-header {
-  border-right: 1px solid var(--background-secondary-alt) !important;
-  border-left: 1px solid var(--background-secondary-alt) !important;
+  border-right: none !important;
+  border-left: none !important;
 }
 
 body.plugin-sliding-panes-rotate-header .workspace>.mod-root>.workspace-leaf>.workspace-leaf-content>.view-header .view-header-icon {
-  padding: 0px 0px 0px 4px !important;
+  padding: 0 0 0 4px !important;
 }
 
 body.plugin-sliding-panes-rotate-header .workspace>.mod-root>.workspace-leaf>.workspace-leaf-content>.view-header .view-actions {
-  padding: 0px 0px 5px 3px !important;
+  padding: 0 0 5px 2px !important;
 }
 
-body.plugin-sliding-panes:not(.transparent-panes) .workspace-split.mod-root .workspace-leaf:not(:first-of-type) .workspace-leaf-content {
-  background-color: var(--background-4-sliding-pane);
+body.plugin-sliding-panes:not(.transparent-panes) .workspace-split.mod-root .workspace-leaf .workspace-leaf-content {
+  backdrop-filter: blur(10px);
+  background-color: var(--bg-sliding-pane-leaf);
 }
 
 body.plugin-sliding-panes.transparent-panes .workspace-leaf.mod-am-left-of-active .workspace-leaf-content .view-content,
 body.plugin-sliding-panes.transparent-panes .workspace-leaf.mod-am-left-of-active .workspace-leaf-content .view-content *,
 body.plugin-sliding-panes.transparent-panes .workspace-leaf.mod-am-left-of-active .workspace-leaf-content .view-content *::before,
 body.plugin-sliding-panes.transparent-panes .workspace-leaf.mod-am-left-of-active .workspace-leaf-content .view-content *::-webkit-scrollbar-thumb,
-body.plugin-sliding-panes.transparent-panes .workspace-leaf.mod-am-left-of-active .workspace-leaf-content .view-content *::-webkit-scrollbar {
+body.plugin-sliding-panes.transparent-panes .workspace-leaf.mod-am-left-of-active .workspace-leaf-content .view-content *::-webkit-scrollbar,
+body.plugin-sliding-panes.transparent-panes .workspace-leaf.mod-am-left-of-active .workspace-leaf-content .view-content *::marker {
   color: transparent !important;
   background: none !important;
   background-color: transparent !important;
   border: none !important;
   -webkit-text-fill-color: transparent !important;
+}
+
+body.plugin-sliding-panes.transparent-panes-alt .workspace-split.mod-root .workspace-leaf:not(:first-of-type) .workspace-leaf-content {
+  background-color: transparent;
 }
 
 body.plugin-sliding-panes.transparent-panes .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle {
@@ -14888,7 +14825,7 @@ body.plugin-sliding-panes.theme-dark .workspace-split.mod-vertical>.workspace-le
 /*天*/
 #calendar-container td {
   width: 12.5%;
-  border-right: 0px solid var(--background-secondary-alt);
+  border-right: none;
   padding: 0 !important;
   line-height: 23px;
 }
@@ -14902,8 +14839,8 @@ body.plugin-sliding-panes.theme-dark .workspace-split.mod-vertical>.workspace-le
 }
 
 #calendar-container .day.has-note.active:not(.today) {
-  background-color: var(--theme-color-translucent-3) !important;
-  color: var(--text-accent) !important;
+  background-color: var(--theme-color-translucent-1) !important;
+  color: var(--text-normal) !important;
   font-weight: 700;
 }
 
@@ -14914,7 +14851,7 @@ body.plugin-sliding-panes.theme-dark .workspace-split.mod-vertical>.workspace-le
 #calendar-container .day:active,
 #calendar-container .active,
 #calendar-container .active.today {
-  background-color: var(--theme-color-translucent-3) !important;
+  background-color: var(--theme-color-translucent-1) !important;
   color: var(--text-accent) !important;
   font-weight: 700;
 }
@@ -14925,19 +14862,23 @@ body.plugin-sliding-panes.theme-dark .workspace-split.mod-vertical>.workspace-le
   font-weight: 700;
 }
 
-#calendar-container .active.today {
+body.toggle-calendar-shadow #calendar-container .active.today {
   box-shadow: 0 0 1px 2px var(--text-accent);
 }
 
-#calendar-container .today {
+body.toggle-calendar-shadow #calendar-container .today {
   box-shadow: 0 0 5px var(--text-accent);
+}
+
+#calendar-container .today {
+  font-weight: bolder;
 }
 
 /*“Today”*/
 #calendar-container .reset-button {
   font-size: 14px !important;
   margin: 0;
-  padding: 0px 0px 0px 0px;
+  padding: 0;
   cursor: pointer;
   line-height: 1.2;
   text-align: center;
@@ -14965,8 +14906,8 @@ body.plugin-sliding-panes.theme-dark .workspace-split.mod-vertical>.workspace-le
 }
 
 #calendar-container .dot-container {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*月份调整 month*/
@@ -15102,8 +15043,7 @@ button.copy-code-button:hover {
   background-color: var(--theme-color-translucent-1);
 }
 
-.obsidian-banner-wrapper.has-copy-button
-{
+.obsidian-banner-wrapper.has-copy-button {
   position:unset;
 }
 
@@ -15850,7 +15790,7 @@ body.style-options-for-kanban-plugin-dynamic-neon-three .kanban-plugin__lane-wra
   z-index: 1;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 0px;
+  border-radius: 0;
   color: black;
 }
 
@@ -16003,7 +15943,7 @@ aside>h2 {
   border: 1px solid;
   border-bottom: 1px solid !important;
   background-color: transparent;
-  padding: 0px 5px 0px 5px;
+  padding: 0 5px;
   max-width: 150px;
   color: #467cf0 !important;
   position: absolute;
@@ -16185,8 +16125,8 @@ aside>h2 {
 /* ======== tooltip ========= */
 .tooltip, 
 .tooltip.mod-right {
-  color:var(--white);
-  background-color:var(--interactive-accent);
+  color: var(--white);
+  background-color: var(--interactive-accent);
 }
 .tooltip .tooltip-arrow {
   border-bottom: 5px solid var(--interactive-accent);
@@ -16220,7 +16160,7 @@ section.footnotes ol>li:not(.task-list-item) {
 /* ================================== */
 /* =========== admonition =========== */
 /* ================================== */
-body.style-options-for-admonition-plugin .admonition  {	
+body.style-options-for-admonition-plugin .admonition {	
   break-inside: avoid;
 }
 
@@ -16229,21 +16169,20 @@ body.style-options-for-admonition-plugin .callout.admonition .admonition-content
 }
 
 .admonition.callout {
-  border-color: rgba(var(--callout-color),0.15) ;
+  border-color: rgba(var(--callout-color),0.15);
 }
 .callout-title.admonition-title {
-  background-color: rgba(var(--callout-color),0.15) ;
+  background-color: rgba(var(--callout-color),0.15);
 }
 
-
- .callout.admonition.admonition-plugin.is-collapsed {
+.callout.admonition.admonition-plugin.is-collapsed {
   overflow: hidden;
 }
 /* ad伪看板效果*/
 body.style-options-for-admonition-plugin .admonition-kanban {
   overflow: visible;
   background-color: rgba(255, 255, 255, 0) !important;
-  border-left: 0 !important;
+  border-left: none !important;
   margin: auto;
   box-shadow: none !important;
 }
@@ -16252,14 +16191,16 @@ body.style-options-for-admonition-plugin .admonition-kanban .admonition-content 
   margin: 0;
 }
 
-body.style-options-for-admonition-plugin .admonition-kanban .is-mobile ul{ display: flex; }
+body.style-options-for-admonition-plugin .admonition-kanban .is-mobile ul { 
+  display: flex; 
+}
 
 body.style-options-for-admonition-plugin .admonition-kanban ul {
   display: flex;
   margin: 0;
   flex-direction: row;
-  border: 0px solid var(--p-kanban-border-color);
-  padding: 0rem;
+  border: none;
+  padding: 0;
   border-radius: var(--radius-m);
   flex-wrap: wrap;
 }
@@ -16323,7 +16264,7 @@ body.style-options-for-admonition-plugin .admonition-kanban ul ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0rem;
+  padding: 0;
   margin-top: 0.5rem;
   border-radius: 0;
   border: 0;
@@ -16404,8 +16345,6 @@ body.style-options-for-admonition-plugin .admonition-kanban ul ul li.task-list-i
 
 /*blank ad分栏
 修改自 https://forum-zh.obsidian.md/t/topic/2081 */
-
-
 body.style-options-for-admonition-plugin .is-live-preview .admonition-col2  .callout-content.admonition-content>div:nth-child(2), 
 body.style-options-for-admonition-plugin .is-live-preview .admonition-col3  .callout-content.admonition-content>div:nth-child(2), 
 body.style-options-for-admonition-plugin .is-live-preview .admonition-col4  .callout-content.admonition-content>div:nth-child(2) {
@@ -16418,27 +16357,27 @@ body.style-options-for-admonition-plugin .admonition-col3 .admonition-title-icon
 body.style-options-for-admonition-plugin .admonition-col4 .admonition-title-icon {
   display: none;
 }
-body.style-options-for-admonition-plugin .is-live-preview  :is(.admonition-col2, .admonition-col3, .admonition-col4, .admonition-flex) .admonition-content  blockquote {
-padding:0;
-margin:0;
-line-height:1em;
-  }
-  body.style-options-for-admonition-plugin  :is(.admonition-col2, .admonition-col3, .admonition-col4, .admonition-flex) .admonition-content blockquote {
+body.style-options-for-admonition-plugin .is-live-preview  :is(.admonition-col2, .admonition-col3, .admonition-col4, .admonition-flex) .admonition-content blockquote {
+  padding: 0;
+  margin: 0;
+  line-height:1em;
+}
+body.style-options-for-admonition-plugin :is(.admonition-col2, .admonition-col3, .admonition-col4, .admonition-flex) .admonition-content blockquote {
   flex: 100%;
   border-left: none;
   padding-left: 0;
   padding-right: 0;
   margin-block-start: 0;
-  margin:0;
-  box-shadow:none;
+  margin: 0;
+  box-shadow: none;
   background-color: transparent;
   color: var(--text-muted);
 }
-body.style-options-for-admonition-plugin  :is(.admonition-col2, .admonition-col3, .admonition-col4, .admonition-flex) .admonition-content blockquote p::before {
+body.style-options-for-admonition-plugin :is(.admonition-col2, .admonition-col3, .admonition-col4, .admonition-flex) .admonition-content blockquote p::before {
   display: none;
 }
-body.style-options-for-admonition-plugin  :is(.admonition-col2, .admonition-col3, .admonition-col4, .admonition-flex) .admonition-content blockquote p {
-  margin:0;
+body.style-options-for-admonition-plugin :is(.admonition-col2, .admonition-col3, .admonition-col4, .admonition-flex) .admonition-content blockquote p {
+  margin: 0;
   overflow-wrap: anywhere;
 }
 
@@ -16473,22 +16412,22 @@ body.style-options-for-admonition-plugin .admonition-col2 .admonition	{
 }
 
 body.style-options-for-admonition-plugin .admonition-col2>.admonition-content-holder> .admonition-content {	
-  columns:150px 2;
-  -moz-columns:150px 2;
-  -webkit-columns:150px 2;
+  columns: 150px 2;
+  -moz-columns: 150px 2;
+  -webkit-columns: 150px 2;
   column-gap: 2vw;
-  overflow: visible ;
-  margin:0;
+  overflow: visible;
+  margin: 0;
   /*分栏的分割线
   column-rule: 1px solid #d4d2d2; */
 }
 body.style-options-for-admonition-plugin .callout.admonition-col2> .admonition-content {	
-  columns:150px 2;
-  -moz-columns:150px 2;
-  -webkit-columns:150px 2;
+  columns: 150px 2;
+  -moz-columns: 150px 2;
+  -webkit-columns: 150px 2;
   column-gap: 2vw;
-  overflow: visible ;
-  margin:0;
+  overflow: visible;
+  margin: 0;
   /*分栏的分割线
   column-rule: 1px solid #d4d2d2; */
 }
@@ -16498,7 +16437,7 @@ body.style-options-for-admonition-plugin .admonition-col2 .admonition-content ul
   
 }
 body.style-options-for-admonition-plugin :is(.markdown-preview-view,.markdown-rendered) .admonition-col2 .admonition-content :is(h3,h4) {	
-  margin-top: -0.001em!important;
+  margin-top: -0.001em !important;
 }
 body.style-options-for-admonition-plugin .admonition-kanban .admonition-col2 .admonition-content ol{	
   margin: 0;
@@ -16547,7 +16486,7 @@ body.style-options-for-admonition-plugin .admonition-col3 .admonition	{
 body.style-options-for-admonition-plugin .callout.admonition-col3>.admonition-content {	
   columns: 100px 3;
   -moz-columns: 100px 3;
-  -webkit-columns:100px 3;
+  -webkit-columns: 100px 3;
   column-gap: 1vw;
   overflow: visible;
   margin: 0;
@@ -16555,12 +16494,12 @@ body.style-options-for-admonition-plugin .callout.admonition-col3>.admonition-co
   column-rule: 1px solid #d4d2d2; 
 }
 body.style-options-for-admonition-plugin .admonition-col3>.admonition-content-holder>.admonition-content {	
-  columns:100px 3;
-  -moz-columns:100px 3;
-  -webkit-columns:100px 3;
+  columns: 100px 3;
+  -moz-columns: 100px 3;
+  -webkit-columns: 100px 3;
   column-gap: 1vw;
   overflow: visible ;
-  margin:0;
+  margin: 0;
   break-inside: avoid;
   column-rule: 1px solid #d4d2d2; 
 }
@@ -16569,11 +16508,11 @@ body.style-options-for-admonition-plugin .admonition-col3 .admonition-content ul
   margin-top: -0.25em;
 }
 body.style-options-for-admonition-plugin .admonition-kanban .admonition-col3 .admonition-content ul {	
-  margin:0;
+  margin: 0;
   break-inside: avoid;
 }
 body.style-options-for-admonition-plugin .admonition-kanban .admonition-col3 .admonition-content ol {	
-  margin:0;
+  margin: 0;
   break-inside: avoid;
 }
 body.style-options-for-admonition-plugin .admonition-col3 .admonition-content {	
@@ -16581,12 +16520,12 @@ body.style-options-for-admonition-plugin .admonition-col3 .admonition-content {
 }
 
 body.style-options-for-admonition-plugin .admonition-col3 >.admonition-content-holder {
-  margin-top:0!important;
-  margin-bottom:0!important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 body.style-options-for-admonition-plugin .admonition-col3 p{
   text-align: justify;
-  margin-top:0;
+  margin-top: 0;
   padding: 2px;
  /*  height:100%;
   overflow: auto; */
@@ -16607,25 +16546,25 @@ body.style-options-for-admonition-plugin .admonition-col4 {
   
 body.style-options-for-admonition-plugin .admonition-col4 .admonition	{
   overflow: visible;
-  margin:0;
+  margin: 0;
 }
 
 body.style-options-for-admonition-plugin .callout.admonition-col4 > .admonition-content {	
   column-count: 4;
   column-gap: 1vw;
   overflow: visible;
-  margin:0;
+  margin: 0;
   break-inside: avoid;
 }
 body.style-options-for-admonition-plugin .admonition-col4 > .admonition-content-holder>.admonition-content {	
   column-count: 4;
   column-gap: 1vw;
   overflow: visible;
-  margin:0;
+  margin: 0;
   break-inside: avoid;
 }
 body.style-options-for-admonition-plugin .admonition-col4 .admonition-content {	
-  margin:0;
+  margin: 0;
   break-inside: avoid;
 }
 
@@ -16634,11 +16573,11 @@ body.style-options-for-admonition-plugin .admonition-col4 .admonition-content ul
   margin-top: -0.25em;
 }
 body.style-options-for-admonition-plugin .admonition-kanban .admonition-col4 .admonition-content ul {	
-  margin:0;
+  margin: 0;
   break-inside: avoid;
 }
 body.style-options-for-admonition-plugin .admonition-kanban .admonition-col4 .admonition-content ol {	
-  margin:0;
+  margin: 0;
   break-inside: avoid;
 }
 body.style-options-for-admonition-plugin .admonition-col4 > .admonition-content {	
@@ -16646,12 +16585,12 @@ body.style-options-for-admonition-plugin .admonition-col4 > .admonition-content 
 }
 
 body.style-options-for-admonition-plugin .admonition-col4 > .admonition-content-holder {
-  margin-top:0!important;
-  margin-bottom:0!important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 body.style-options-for-admonition-plugin .admonition-col4 p {
   text-align: justify;
-  margin-top:0;
+  margin-top: 0;
   padding: 2px;
 }
 body.style-options-for-admonition-plugin .admonition-col4 p>img{
@@ -16677,12 +16616,12 @@ body.style-options-for-admonition-plugin .admonition-col4-parent .admonition-col
 /*自适应分栏*/
 body.style-options-for-admonition-plugin .admonition-flex {
   margin: auto;
-  box-shadow:none;
-  border-left:0px;
+  box-shadow: none;
+  border-left: none;
 }
 
 .is-live-preview .callout-content.admonition-content >p {
-  margin-top: 0 ; 
+  margin-top: 0; 
 }
 body.style-options-for-admonition-plugin .admonition-flex >.admonition-content-holder {
   margin-top: 0 !important;
@@ -16693,7 +16632,7 @@ body.style-options-for-admonition-plugin .admonition-flex .admonition-content {
   margin: 0px;
   display: flex;
   flex-wrap: wrap;
-  border:none; 
+  border: none; 
 }
 body.style-options-for-admonition-plugin .admonition-flex .admonition-content>div{
   flex: 1;
@@ -16711,22 +16650,22 @@ justify-content: space-around;
 body.style-options-for-admonition-plugin .admonition-table {
   overflow: visible;
   margin: auto;
-  box-shadow:none;
+  box-shadow: none;
 }
 body.style-options-for-admonition-plugin .admonition-table .admonition-content {
   width: calc(100% - 5px);
   margin: 0;
-  overflow-x: auto!important; 
+  overflow-x: auto !important; 
   white-space: nowrap;
 }
 
 /*blank ad框全透明隐藏*/
 body.style-options-for-admonition-plugin .admonition-blank {
   overflow: visible;
-  background-color: rgba(255, 255, 255, 0)!important;
-  border-left:0px!important;
+  background-color: rgba(255, 255, 255, 0) !important;
+  border-left: none !important;
   margin: auto;
-  box-shadow:none;
+  box-shadow: none;
 }
 body.style-options-for-admonition-plugin .admonition-blank .admonition-content {
   overflow: visible;
@@ -16779,7 +16718,7 @@ body.style-options-for-admonition-plugin :is(.admonition-def,.admonition-thm,.ad
 
 body.style-options-for-admonition-plugin :is(.admonition-def,.admonition-thm,.admonition-lem,.admonition-cor,.admonition-pro) *.admonition-title-content {
   color: white;
-  font-family:  "方正书宋_GBK", var(--font-text);
+  font-family: "方正书宋_GBK", var(--font-text);
   font-size: 1.1em;
 }
 
@@ -16791,7 +16730,7 @@ body.style-options-for-admonition-plugin :is(.admonition-def,.admonition-thm,.ad
 }
 
 body.style-options-for-admonition-plugin :is(.admonition-def,.admonition-thm,.admonition-lem,.admonition-cor,.admonition-pro) *.admonition-content-holder {
-  margin-top: -1em ;
+  margin-top: -1em;
   padding: 0;
 }
 
@@ -17061,15 +17000,7 @@ ul.dataview.dataview-ul.dataview-result-list-root-ul>li.dataview-result-list-li 
   margin: 0;
   padding-left: 0em;
 }
-/*
-ul.dataview.dataview-ul.dataview-result-list-root-ul>li.dataview-result-list-li::before {
-  content: "\ebcb";
-  font-family: boxicons;
-  font-size: 0.8em;
-  padding: 0 5px 0 0;
-  color: var(--list-ul-disc-color);
-}
-*/
+
 ul.dataview.dataview-ul.dataview-result-list-root-ul {
   list-style: none;
 }
@@ -17088,7 +17019,6 @@ body:is(.rainbow-lines-reading,.list-vertical-line-one,.list-vertical-line-two,.
 :is(.markdown-preview-view,.markdown-rendered) .dataview.inline-field-standalone-value {
   background-color:  transparent;
 }
-
 
 /* ================================== */
 /* ======= CodeMirror Options ======= */
@@ -17273,28 +17203,6 @@ span.cm-formatting.cm-formatting-highlight.cm-strong.cm-em.cm-highlight.hmd-hidd
 .setting-item.setting-item-heading.style-settings-heading[data-level="4"], 
 .style-settings-container[data-level="4"] {
   padding-left: 20px;
-}
-
-/*translucent setting panel*/
-body.translucent-setting-panel .modal.mod-settings .vertical-tab-content-container {
-  background-color: var(--background-secondary-translucent) !important;
-}
-
-body.translucent-setting-panel .modal-bg,
-body.translucent-setting-panel .vertical-tab-header {
-  background-color: var(--background-secondary-translucent) !important;
-}
-
-body.translucent-setting-panel .modal,
-body.translucent-setting-panel .modal.mod-settings,
-body.translucent-setting-panel .vertical-tab-content {
-  background-color: transparent !important;
-}
-
-body.translucent-setting-panel .vertical-tab-header,
-body.translucent-setting-panel .horizontal-tab-nav-item, 
-body.translucent-setting-panel .vertical-tab-nav-item {
-  background-color: var(--background-secondary-translucent) !important;
 }
 
 .setting-item-description,
@@ -17602,8 +17510,8 @@ div[data-type="memos_view"] .search-bar-container > .search-bar-inputer {
   border-bottom: 1px solid #ccc;
   border-radius: 0;
 }
-div.mod-right-split  div[data-type='memos_view'] .search-bar-container > .quickly-action-wrapper,
-div.mod-left-split  div[data-type='memos_view'] .search-bar-container > .quickly-action-wrapper {
+div.mod-right-split div[data-type='memos_view'] .search-bar-container > .quickly-action-wrapper,
+div.mod-left-split div[data-type='memos_view'] .search-bar-container > .quickly-action-wrapper {
   width:100%;
 }
 
@@ -17745,7 +17653,7 @@ img[alt$="inlR"]:not([class*="emoji"]) {
 :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view.mod-cm6.is-live-preview) .image-embed[src$="left"] {
   position: relative;
   float: left;
-  margin: 0.2rem 0.5rem;
+  margin: 0.5rem 1rem 0.5rem 0 !important;
   clear: both;
   display: table;
 }
@@ -17753,7 +17661,7 @@ img[alt$="inlR"]:not([class*="emoji"]) {
 :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view.mod-cm6.is-live-preview) .image-embed[src$="left"]::after {
   content: attr(alt);
   padding: 0 0.5rem;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 1rem;
   display: table-caption;
   caption-side: bottom;
   text-align: center;
@@ -17764,7 +17672,7 @@ img[alt$="inlR"]:not([class*="emoji"]) {
 .markdown-source-view.mod-cm6.is-live-preview .image-embed[src$="right"] {
   position: relative;
   float: right;
-  margin: 0.2rem 0.5rem;
+  margin: 0.5rem 0 0.5rem 1rem !important;
   clear: both;
   display: table;
 }
@@ -17772,7 +17680,7 @@ img[alt$="inlR"]:not([class*="emoji"]) {
 :is(.markdown-preview-view,.markdown-rendered,.markdown-source-view.mod-cm6.is-live-preview) .image-embed[src$="right"]::after {
   content: attr(alt);
   padding: 0 0.5rem;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 1rem;
   display: table-caption;
   caption-side: bottom;
   text-align: center;
@@ -18033,8 +17941,40 @@ body.style-options-for-buttons-plugin  button.g_yellow {
   color: #836f20;
   background: linear-gradient(135deg, #fcd539, #ffeb9b);
 }
+body.style-options-for-buttons-plugin.theme-dark  button.g_yellow {
+  color:  #e4cb58;
+  background: none;
+  border: 1px solid;
+}
+body.style-options-for-buttons-plugin.theme-dark  button.g_green {
+  color:  #19bc8b;
+  background: none;
+  border: 1px solid;
+}
+body.style-options-for-buttons-plugin.theme-dark  button.g_lightgreen {
+  color:  #8fc866;
+  background: none;
+  border: 1px solid;
+}
+body.style-options-for-buttons-plugin.theme-dark  button.g_purple {
+  color:  #ffa260;
+  background: none;
+  border: 1px solid;
+}
+body.style-options-for-buttons-plugin.theme-dark  button.g_blue {
+  color:  #739df9;
+  background: none;
+  border: 1px solid;
+}
+body.style-options-for-buttons-plugin.theme-dark .grad_button:hover { 
+  color: var(--text-accent)
+}
 
 button.tiny {
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1em;
   min-width:3.5em;
   cursor: pointer;
@@ -18045,7 +17985,7 @@ button.tiny {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 35px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 35px, rgba(0, 0, 0, 0.05) 0px 5px 5px;
 }
 button.tiny:hover {
   color: var(--text-on-accent);
@@ -18673,28 +18613,14 @@ body.fancy-cursor .cm-cursorLayer .cm-cursor {
   background: linear-gradient(to bottom left, var(--fancy-cursor-color-1) 0%, var(--fancy-cursor-color-2) 100%);
 }
 
-body.rainbow-cursor .markdown-source-view.mod-cm6 .cm-content {
-  animation: 6s infinite rainbow-cursor;
-}
-@keyframes rainbow-cursor {
-  0% { caret-color: var(--cursor-red);}
-  20% {caret-color:  var(--cursor-yellow);}
-  40% { caret-color:  var(--cursor-green);}
-  60% { caret-color:  var(--cursor-blue);}
-  80% { caret-color:  var(--cursor-violet);}
-  100% { caret-color: var(--cursor-red);}
-}
-
 .markdown-source-view.mod-cm6 .cm-content {
   caret-color: var(--cursor-color);
 }
 
 .workspace-ribbon.side-dock-ribbon.mod-left,
-.workspace-ribbon.side-dock-ribbon.mod-right {
-  background-color: var(--background-secondary-alt-bg-4-bt);
-}
-
-.nav-folder.mod-root>.nav-folder-title {
+.workspace-ribbon.side-dock-ribbon.mod-right,
+.nav-folder.mod-root>.nav-folder-title,
+.workspace-split.mod-root {
   background-color: var(--background-secondary-alt-bg-4-bt);
 }
 
@@ -18732,27 +18658,14 @@ body.asymmetric-split-left .workspace-split.mod-left-split .workspace-tab-header
   padding: 4px 0;
 }
 
-body.asymmetric-split-left .workspace-split.mod-left-split .workspace-tab-header-container {
-  border-bottom: 1px solid var(--background-modifier-border-asymm);
-}
-
-.workspace-split.mod-vertical>.workspace-leaf,
-.workspace-split.mod-root .workspace-split.mod-vertical .workspace-leaf-content,
-.workspace-split.mod-vertical>.workspace-split {
-  padding-right: 2px;
-}
-
 .workspace-split.mod-horizontal>*>.workspace-leaf-resize-handle {
   height: 2px;
 }
 
-.workspace-split.mod-left-split>.workspace-leaf-resize-handle,
-.workspace-split.mod-right-split>.workspace-leaf-resize-handle {
+.workspace-split.mod-right-split > .workspace-leaf-resize-handle,
+.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle, .workspace-split.mod-left-split > .workspace-leaf-resize-handle {
+  border: none;
   height: 100%;
-  width: 2px;
-}
-
-.workspace-split.mod-vertical>*>.workspace-leaf-resize-handle {
   width: 2px;
 }
 
@@ -18766,6 +18679,7 @@ body.asymmetric-split-left .workspace-split.mod-left-split .workspace-tab-header
   background-color: var(--background-modifier-border);
 }
 
+.workspace-split.mod-root,
 .workspace-tab-container-before.is-before-active .workspace-tab-header-inner,
 .workspace-tab-container-after.is-after-active .workspace-tab-header-inner,
 .workspace-tab-header.is-before-active .workspace-tab-header-inner,
@@ -18784,22 +18698,12 @@ body.asymmetric-split-left .workspace-split.mod-left-split .workspace-tab-header
   padding: 5px 0 0;
 }
 
-.workspace-split.mod-root {
-  background-color: var(--background-secondary-alt-bg-4-bt);
-}
-
 .workspace-tab-container-before.is-before-active,
 .workspace-tab-container-after.is-after-active,
 .workspace-tab-header.is-before-active,
-.workspace-tab-header.is-after-active {
-  background-color: var(--background-secondary-bg-4-bt);
-}
-
+.workspace-tab-header.is-after-active,
 .workspace-split.mod-right-split .workspace-tabs .workspace-leaf,
-.workspace-split.mod-left-split .workspace-tabs .workspace-leaf {
-  background-color: var(--background-secondary-bg-4-bt);
-}
-
+.workspace-split.mod-left-split .workspace-tabs .workspace-leaf,
 .workspace-tab-header.is-active {
   background-color: var(--background-secondary-bg-4-bt);
 }
@@ -19107,11 +19011,18 @@ body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-action svg.brok
   margin-right: 1px;
 }
 
-.menu {
+body:not(.setting-style-traditional) .menu {
   border: none;
+  backdrop-filter: blur(8px);
+  background-color: var(--bg-color-settings-6);
+  box-shadow: 0 0 8px var(--bg-color-settings-5);
 }
 
-body.toggle-bg-file-page.theme-dark .nav-files-container::before {
+.menu-item.selected:not(.is-disabled):not(.is-label) {
+  background-color: var(--bg-color-settings-5);
+}
+
+body.toggle-bg-file-page .nav-files-container::before {
   content: '';
   display: block;
   position: fixed;
@@ -19119,9 +19030,16 @@ body.toggle-bg-file-page.theme-dark .nav-files-container::before {
   right: 0;
   bottom: 0;
   left: 0;
-  opacity: 0.2;
   background: no-repeat center/cover var(--file-page-background-url-theme);
   z-index: -1;
+}
+
+body.toggle-bg-file-page.theme-dark .nav-files-container::before {
+  opacity: 0.2;
+}
+
+body.toggle-bg-file-page.theme-light .nav-files-container::before {
+  opacity: 0.25;
 }
 
 body.toggle-bg-file-page.file-page-bg-theme-dark-plant.theme-dark {
@@ -19133,6 +19051,9 @@ body.toggle-bg-file-page.file-page-bg-theme-dark-curves.theme-dark {
 body.toggle-bg-file-page.file-page-bg-theme-dark-sea.theme-dark {
   --file-page-background-url-theme: url(https://images.unsplash.com/photo-1612434995720-89c1537a3009?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170);
 }
+body.toggle-bg-file-page.file-page-bg-theme-dark-bulb.theme-dark {
+  --file-page-background-url-theme: url(https://images.unsplash.com/photo-1448745799564-e2c1ed534c94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
 body.toggle-bg-file-page.file-page-bg-theme-dark-random.theme-dark {
   --file-page-background-url-theme: url(https://source.unsplash.com/random?dark);
 }
@@ -19140,21 +19061,21 @@ body.toggle-bg-file-page.file-page-bg-theme-dark-custom.theme-dark {
   --file-page-background-url-theme: var(--background-file-page-theme-dark-custom);
 }
 
-/*
-body.toggle-bg-file-page.theme-light .nav-files-container::before {
-  content: '';
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0.25;
-  background: no-repeat center/cover url(https://images.unsplash.com/photo-1628882860274-0b9a99911691?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1199);
-  z-index: -1;
-  filter: blur(3px) hue-rotate(70deg);
+body.toggle-bg-file-page.file-page-bg-theme-light-curve.theme-light {
+  --file-page-background-url-theme: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
 }
-*/
+body.toggle-bg-file-page.file-page-bg-theme-light-wall.theme-light {
+  --file-page-background-url-theme: url(https://images.unsplash.com/photo-1617713964959-d9a36bbc7b52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+body.toggle-bg-file-page.file-page-bg-theme-light-brick.theme-light {
+  --file-page-background-url-theme: url(https://images.unsplash.com/photo-1515549832467-8783363e19b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80);
+}
+body.toggle-bg-file-page.file-page-bg-theme-light-cloud.theme-light {
+  --file-page-background-url-theme: url(https://images.unsplash.com/photo-1596367407372-96cb88503db6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+body.toggle-bg-file-page.file-page-bg-theme-light-random.theme-light {
+  --file-page-background-url-theme: url(https://source.unsplash.com/random?white);
+}
 
 /* Sea and sky for Blue Topaz */
 .workspace-split.mod-root .workspace-leaf:nth-child(n) .workspace-leaf-content[data-type="markdown"]::before {
@@ -20769,7 +20690,7 @@ body.background-settings-workplace-background-image.simple-titlebar .titlebar::b
 
 body.background-settings-workplace-background-image.theme-light {
   --background-primary-bg-4-bt: #ffffffb2;
-  --background-secondary-bg-4-bt: #ffffff83;
+  --background-secondary-bg-4-bt: #ffffff63;
   --background-secondary-alt-bg-4-bt: #ffffff69;
   --background-primary-alt-bg-4-bt: #ffffffbe;
   --background-code: #fafafa94;
@@ -21114,6 +21035,9 @@ body:not(.default-loading-page) .progress-bar-message:before {
   animation: shape 2.5s infinite alternate;
   visibility: visible !important;
   display: block;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 body:not(.default-loading-page).theme-light .progress-bar {
@@ -21121,13 +21045,13 @@ body:not(.default-loading-page).theme-light .progress-bar {
 }
 
 @keyframes shape {
-  0% {background-color: transparent; left: -50px; top: -50px; border-radius: 50%;}
-  10% {background-color: #53c7ff; left: -50px; top: -50px; border-radius: 50%;}
-  30% {background-color: #8fff7b; left: 110px; top: -50px; border-radius: 0;}
-  50% {background-color: #ffe468; left: 110px; top: 110px; border-radius: 50%;}
-  70% {background-color: #fe9289; left: -50px; top: 110px; border-radius: 0;}
-  90% {background-color: #53c7ff; left: -50px; top: -50px; border-radius: 50%;}
-  100% {background-color: transparent; left: -50px; top: -50px; border-radius: 50%;}
+  0% {background-color: transparent; transform: translate(-50px, -50px); border-radius: 50%;}
+  10% {background-color: #53c7ff; transform: translate(-50px, -50px); border-radius: 50%;}
+  30% {background-color: #8fff7b; transform: translate(110px, -50px); border-radius: 0;}
+  50% {background-color: #ffe468; transform: translate(110px, 110px); border-radius: 50%;}
+  70% {background-color: #fe9289; transform: translate(-50px, 110px); border-radius: 0;}
+  90% {background-color: #53c7ff; transform: translate(-50px, -50px); border-radius: 50%;}
+  100% {background-color: transparent; transform: translate(-50px, -50px); border-radius: 50%;}
 }
 
 /* the gif animation was created by @Jake Fleming https://dribbble.com/shots/9948351-kitty-wiggle */
@@ -21193,22 +21117,25 @@ body:not(.default-loading-page).loading-shape-with-custom-gif.loading-shape-with
 
 body:not(.default-loading-page).loading-shape-with-custom-gif.loading-shape-with-custom-high-contrast-bg.theme-dark .progress-bar-message::before {
   animation: shape-gif-dark 2.5s infinite alternate;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 @keyframes shape-gif {
-  0% {filter: hue-rotate(0deg); left: -80px; top: -80px; border-radius: 50%;}
-  25% {filter: hue-rotate(90deg); left: 80px; top: -80px; border-radius: 0;}
-  50% {filter: hue-rotate(180deg); left: 80px; top: 80px; border-radius: 50%;}
-  75% {filter: hue-rotate(270deg); left: -80px; top: 80px; border-radius: 0;}
-  100% {filter: hue-rotate(360deg); left: -80px; top: -80px; border-radius: 50%;}
+  0% {filter: hue-rotate(0deg); transform: translate(-80px, -80px); border-radius: 50%;}
+  25% {filter: hue-rotate(90deg); transform: translate(80px, -80px); border-radius: 0;}
+  50% {filter: hue-rotate(180deg); transform: translate(80px, 80px); border-radius: 50%;}
+  75% {filter: hue-rotate(270deg); transform: translate(-80px, 80px); border-radius: 0;}
+  100% {filter: hue-rotate(360deg); transform: translate(-80px, -80px); border-radius: 50%;}
 }
 
 @keyframes shape-gif-dark {
-  0% {filter: hue-rotate(0deg) invert(100%); left: -80px; top: -80px; border-radius: 50%;}
-  25% {filter: hue-rotate(90deg) invert(100%); left: 80px; top: -80px; border-radius: 0;}
-  50% {filter: hue-rotate(180deg) invert(100%); left: 80px; top: 80px; border-radius: 50%;}
-  75% {filter: hue-rotate(270deg) invert(100%); left: -80px; top: 80px; border-radius: 0;}
-  100% {filter: hue-rotate(360deg) invert(100%); left: -80px; top: -80px; border-radius: 50%;}
+  0% {filter: hue-rotate(0deg) invert(100%); transform: translate(-80px, -80px); border-radius: 50%;}
+  25% {filter: hue-rotate(90deg) invert(100%); transform: translate(80px, -80px); border-radius: 0;}
+  50% {filter: hue-rotate(180deg) invert(100%); transform: translate(80px, 80px); border-radius: 50%;}
+  75% {filter: hue-rotate(270deg) invert(100%); transform: translate(-80px, 80px); border-radius: 0;}
+  100% {filter: hue-rotate(360deg) invert(100%); transform: translate(-80px, -80px); border-radius: 50%;}
 }
 
 body:not(.default-loading-page).loading-add-icons .progress-bar-message {
@@ -21234,6 +21161,9 @@ body:not(.default-loading-page).loading-add-icons .progress-bar-message::after {
   content: var(--loading-text-after);
   animation: 2s infinite alternate;
   animation-name: gradientChange;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 @keyframes gradientChange { 
@@ -21261,6 +21191,9 @@ body:not(.default-loading-page).loading-custom-text.loading-text-typing-style .p
   border-right: 0.07em solid;
   animation: typing-style 3s steps(23, end),
     cursor-blink 0.3s step-end infinite alternate;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 @keyframes cursor-blink {
@@ -21274,6 +21207,9 @@ body:not(.default-loading-page).loading-custom-text.loading-text-typing-style .p
 
 body:not(.default-loading-page).loading-custom-text.loading-text-moving-style .progress-bar-message::before {
   animation: moving-style 3s ease-in-out infinite alternate;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 @keyframes moving-style {
@@ -21284,6 +21220,9 @@ body:not(.default-loading-page).loading-custom-text.loading-text-moving-style .p
 
 body:not(.default-loading-page).loading-custom-text.loading-text-shinning-style .progress-bar-message::before {
   animation: shinning-style 3s infinite;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 @keyframes shinning-style {
@@ -21294,6 +21233,9 @@ body:not(.default-loading-page).loading-custom-text.loading-text-shinning-style 
 
 body:not(.default-loading-page).loading-custom-text.loading-text-color-changing-style .progress-bar-message::before {
   animation: color-changing-style 3s infinite;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 @keyframes color-changing-style {
@@ -21309,6 +21251,9 @@ body:not(.default-loading-page).loading-custom-text.loading-text-typing-style.lo
     typing-style 3s steps(26, end),
     cursor-blink 0.3s step-end infinite alternate,
     moving-style 3s ease-in-out infinite alternate;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 body:not(.default-loading-page).loading-custom-text.loading-text-typing-style.loading-text-shinning-style .progress-bar-message::before {
@@ -21316,6 +21261,9 @@ body:not(.default-loading-page).loading-custom-text.loading-text-typing-style.lo
     typing-style 3s steps(26, end),
     cursor-blink 0.3s step-end infinite alternate,
     shinning-style 3s infinite;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 body:not(.default-loading-page).loading-custom-text.loading-text-typing-style.loading-text-color-changing-style .progress-bar-message::before {
@@ -21323,6 +21271,9 @@ body:not(.default-loading-page).loading-custom-text.loading-text-typing-style.lo
     color-changing-style 3s infinite, 
     typing-style 3s steps(26, end),
     cursor-blink 0.3s step-end infinite alternate;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 body:not(.default-loading-page).loading-custom-text.loading-text-typing-style.loading-text-moving-style.loading-text-shinning-style .progress-bar-message::before {
@@ -21331,6 +21282,9 @@ body:not(.default-loading-page).loading-custom-text.loading-text-typing-style.lo
     cursor-blink 0.3s step-end infinite alternate,
     moving-style 3s ease-in-out infinite alternate,
     shinning-style 3s infinite;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 body:not(.default-loading-page).loading-custom-text.loading-text-typing-style.loading-text-moving-style.loading-text-shinning-style.loading-text-color-changing-style .progress-bar-message::before {
@@ -21340,18 +21294,27 @@ body:not(.default-loading-page).loading-custom-text.loading-text-typing-style.lo
     moving-style 3s ease-in-out infinite alternate,
     shinning-style 3s infinite,
     color-changing-style 3s infinite;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 body:not(.default-loading-page).loading-custom-text.loading-text-moving-style.loading-text-shinning-style .progress-bar-message::before {
   animation: 
     moving-style 3s ease-in-out infinite alternate,
     shinning-style 3s infinite;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 body:not(.default-loading-page).loading-custom-text.loading-text-moving-style.loading-text-color-changing-style .progress-bar-message::before {
   animation: 
     moving-style 3s ease-in-out infinite alternate,
     color-changing-style 3s infinite;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 body:not(.default-loading-page).loading-custom-text.loading-text-moving-style.loading-text-shinning-style.loading-text-color-changing-style .progress-bar-message::before {
@@ -21359,12 +21322,625 @@ body:not(.default-loading-page).loading-custom-text.loading-text-moving-style.lo
     moving-style 3s ease-in-out infinite alternate,
     shinning-style 3s infinite,
     color-changing-style 3s infinite;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 body:not(.default-loading-page).loading-custom-text.loading-text-shinning-style.loading-text-color-changing-style .progress-bar-message::before {
   animation: 
     shinning-style 3s infinite,
     color-changing-style 3s infinite;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
+}
+
+/* the mario animation was created by @B.C.Rikko https://bcrikko.github.io/css-collection/other/mario/index.html */
+
+body:not(.default-loading-page).loading-page-style-mario .progress-bar-message:before {
+content: "";
+  position: relative;
+  visibility: visible !important;
+  display: block;
+  top: calc(var(--pixel) * -6);
+  left: calc(var(--pixel) * -6.5);
+  width: var(--pixel);
+  height: var(--pixel);
+  background: transparent;
+  animation: sprite 0.618s infinite, jump 0.618s infinite;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
+}
+
+@keyframes jump {
+  from, 25%, 75%, to {transform: translateY(0);}
+  50% {transform: translateY(calc(var(--pixel) * -8));}
+}
+
+@keyframes sprite {
+  from, 24%, 74%, to {
+    box-shadow:
+      /* r:1 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 1) 0 var(--c-1),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 1) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 1) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 1) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 1) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 13) calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 14) calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 15) calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 1) 0 transparent,
+      
+      /* r:2 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 2) 0 transparent,
+      
+      /* r:3 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 3) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 3) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 3) 0 var(--c-3),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 3) 0 var(--c-2),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 3) 0 var(--c-2),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 3) 0 var(--c-3),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 3) 0 var(--c-2),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 14) calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 15) calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 3) 0 transparent,
+      
+      /* r:4 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 4) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 4) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 4) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 4) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 4) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 4) 0 var(--c-2),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 4) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 4) 0 var(--c-2),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 4) 0 var(--c-2),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 4) 0 var(--c-2),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 4) 0 var(--c-3),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 4) 0 var(--c-2),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 4) 0 var(--c-2),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 4) 0 var(--c-2),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 4) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 4) 0 transparent,
+      
+      /* r:5 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 5) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 5) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 5) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 5) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 5) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 5) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 5) 0 var(--c-3),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 5) 0 var(--c-3),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 5) 0 transparent,
+      
+      /* r:6 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 6) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 6) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 6) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 6) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 6) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 6) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 6) 0 var(--c-2),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 6) 0 var(--c-2),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 6) 0 var(--c-2),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 6) 0 var(--c-2),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 6) 0 var(--c-3),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 6) 0 var(--c-3),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 6) 0 var(--c-3),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 6) 0 var(--c-3),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 6) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 6) 0 transparent,
+      
+      /* r:7 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 7) 0 var(--c-2),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 7) 0 var(--c-2),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 7) 0 var(--c-2),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 7) 0 var(--c-2),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 7) 0 var(--c-2),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 7) 0 var(--c-2),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 7) 0 var(--c-2),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 15) calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 7) 0 transparent,
+      
+      /* r:8 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 8) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 8) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 8) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 8) 0 var(--c-3),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 8) 0 var(--c-3),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 8) 0 var(--c-3),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 13) calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 14) calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 15) calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 8) 0 transparent,
+      
+      /* r:9 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 9) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 9) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 9) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 9) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 9) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 9) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 9) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 9) 0 transparent,
+      
+      /* r:10 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 10) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 10) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 10) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 10) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 10) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 10) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 10) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 10) 0 transparent,
+      
+      /* r:11 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 11) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 11) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 11) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 11) 0 var(--c-2),
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 11) 0 var(--c-2),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 11) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 11) 0 var(--c-1),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 11) 0 var(--c-2),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 11) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 11) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 11) 0 var(--c-2),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 11) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 11) 0 var(--c-3),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 11) 0 var(--c-2),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 11) 0 var(--c-2),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 11) 0 transparent,
+      
+      /* r:12 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 12) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 12) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 12) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 12) 0 var(--c-2),
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 12) 0 var(--c-2),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 12) 0 var(--c-2),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 12) 0 var(--c-1),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 12) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 12) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 12) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 12) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 12) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 12) 0 var(--c-2),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 12) 0 var(--c-2),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 12) 0 var(--c-2),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 12) 0 transparent,
+      
+      /* r:13 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 13) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 13) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 13) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 13) 0 var(--c-2),
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 13) 0 var(--c-2),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 13) 0 var(--c-2),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 13) 0 var(--c-2),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 13) 0 transparent,
+      
+      /* r:14 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 14) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 14) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 14) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 14) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 14) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 14) 0 transparent,
+      calc(var(--pixel) * 10) calc(var(--pixel) * 14) 0 transparent,
+      calc(var(--pixel) * 11) calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 14) 0 transparent,
+      calc(var(--pixel) * 15) calc(var(--pixel) * 14) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 14) 0 transparent,
+      
+      /* r:15 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 15) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 15) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 15) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 10) calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 11) calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 12) calc(var(--pixel) * 15) 0 var(--c-3),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 15) 0 var(--c-3),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 15) 0 var(--c-3),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 15) 0 transparent,
+
+      /* r:16 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 16) 0 var(--c-3),
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 16) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 16) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 16) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 10) calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 11) calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 12) calc(var(--pixel) * 16) 0 var(--c-3),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 16) 0 var(--c-3),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 16) 0 var(--c-3),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 16) 0 var(--c-3),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 16) 0 transparent;
+  }
+
+  25%, 75% {
+    box-shadow:
+      /* r:1 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 10) calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 11) calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 12) calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 13) calc(var(--pixel) * 1) 0 transparent,
+      calc(var(--pixel) * 14) calc(var(--pixel) * 1) 0 var(--c-2),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 1) 0 var(--c-2),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 1) 0 var(--c-2),
+
+      /* r:2 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 2) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 13) calc(var(--pixel) * 2) 0 transparent,
+      calc(var(--pixel) * 14) calc(var(--pixel) * 2) 0 var(--c-2),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 2) 0 var(--c-2),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 2) 0 var(--c-2),
+      
+      /* r:3 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 3) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 3) 0 var(--c-1),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 3) 0 var(--c-1),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 3) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 3) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 3) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 3) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 3) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 3) 0 var(--c-1),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 3) 0 var(--c-1),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 3) 0 var(--c-2),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 3) 0 var(--c-2),
+      
+      /* r:4 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 4) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 4) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 4) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 4) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 4) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 4) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 4) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 4) 0 var(--c-3),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 4) 0 var(--c-2),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 4) 0 var(--c-2),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 4) 0 var(--c-3),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 4) 0 var(--c-2),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 4) 0 transparent,
+      calc(var(--pixel) * 14) calc(var(--pixel) * 4) 0 var(--c-2),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 4) 0 var(--c-2),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 4) 0 var(--c-2),
+      
+      /* r:5 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 5) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 5) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 5) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 5) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 5) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 5) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 5) 0 var(--c-3),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 5) 0 var(--c-2),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 5) 0 var(--c-3),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 5) 0 var(--c-3),
+      
+      /* r:6 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 6) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 6) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 6) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 6) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 6) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 6) 0 var(--c-2),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 6) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 6) 0 var(--c-3),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 6) 0 var(--c-2),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 6) 0 var(--c-2),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 6) 0 var(--c-2),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 6) 0 var(--c-3),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 6) 0 var(--c-2),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 6) 0 var(--c-2),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 6) 0 var(--c-2),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 6) 0 var(--c-3),
+      
+      /* r:7 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 7) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 7) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 7) 0 var(--c-2),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 7) 0 var(--c-2),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 7) 0 var(--c-2),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 7) 0 var(--c-2),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 7) 0 var(--c-3),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 7) 0 var(--c-3),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 7) 0 var(--c-3),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 7) 0 var(--c-3),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 7) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 7) 0 transparent,
+      
+      /* r:8 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 8) 0 var(--c-2),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 8) 0 var(--c-2),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 8) 0 var(--c-2),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 8) 0 var(--c-2),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 8) 0 var(--c-2),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 8) 0 var(--c-2),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 8) 0 var(--c-2),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 15) calc(var(--pixel) * 8) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 8) 0 transparent,
+      
+      /* r:9 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 9) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 9) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 9) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 9) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 9) 0 var(--c-3),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 9) 0 transparent,
+      calc(var(--pixel) * 15) calc(var(--pixel) * 9) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 9) 0 transparent,
+      
+      /* r:10 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 10) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 10) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 10) 0 var(--c-3),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 10) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 10) 0 transparent,
+      calc(var(--pixel) * 14) calc(var(--pixel) * 10) 0 transparent,
+      calc(var(--pixel) * 15) calc(var(--pixel) * 10) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 10) 0 var(--c-3),
+      
+      /* r:11 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 11) 0 var(--c-2),
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 11) 0 var(--c-2),
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 11) 0 var(--c-3),
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 11) 0 var(--c-3),
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 11) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 11) 0 var(--c-3),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 11) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 11) 0 var(--c-3),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 11) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 11) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 11) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 11) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 11) 0 var(--c-1),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 11) 0 transparent,
+      calc(var(--pixel) * 15) calc(var(--pixel) * 11) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 11) 0 var(--c-3),
+      
+      /* r:12 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 12) 0 var(--c-2),
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 12) 0 var(--c-2),
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 12) 0 var(--c-2),
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 12) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 12) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 12) 0 var(--c-1),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 12) 0 var(--c-3),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 12) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 12) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 12) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 12) 0 var(--c-2),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 12) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 12) 0 var(--c-2),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 12) 0 var(--c-1),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 12) 0 var(--c-3),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 12) 0 var(--c-3),
+      
+      /* r:13 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 13) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 13) 0 var(--c-2),
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 13) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 13) 0 var(--c-3),
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 13) 0 transparent,
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 13) 0 var(--c-1),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 13) 0 var(--c-3),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 13) 0 var(--c-3),
+      
+      /* r:14 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 14) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 14) 0 transparent,
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 14) 0 var(--c-3),
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 14) 0 var(--c-3),
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 14) 0 var(--c-3),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 14) calc(var(--pixel) * 14) 0 var(--c-1),
+      calc(var(--pixel) * 15) calc(var(--pixel) * 14) 0 var(--c-3),
+      calc(var(--pixel) * 16) calc(var(--pixel) * 14) 0 var(--c-3),
+      
+      /* r:15 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 15) 0 var(--c-3),
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 15) 0 var(--c-3),
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 15) 0 var(--c-3),
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 15) 0 var(--c-1),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 15) 0 var(--c-1),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 15) 0 var(--c-1),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 15) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 15) 0 var(--c-1),
+      calc(var(--pixel) * 10) calc(var(--pixel) * 15) 0 var(--c-1),
+      calc(var(--pixel) * 11) calc(var(--pixel) * 15) 0 var(--c-1),
+      calc(var(--pixel) * 12) calc(var(--pixel) * 15) 0 var(--c-1),
+      calc(var(--pixel) * 13) calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 14) calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 15) calc(var(--pixel) * 15) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 15) 0 transparent,
+      
+      /* r:16 */ 
+      calc(var(--pixel) * 1)  calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 2)  calc(var(--pixel) * 16) 0 var(--c-3),
+      calc(var(--pixel) * 3)  calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 4)  calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 5)  calc(var(--pixel) * 16) 0 var(--c-1),
+      calc(var(--pixel) * 6)  calc(var(--pixel) * 16) 0 var(--c-1),
+      calc(var(--pixel) * 7)  calc(var(--pixel) * 16) 0 var(--c-1),
+      calc(var(--pixel) * 8)  calc(var(--pixel) * 16) 0 var(--c-1),
+      calc(var(--pixel) * 9)  calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 10) calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 11) calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 12) calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 13) calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 14) calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 15) calc(var(--pixel) * 16) 0 transparent,
+      calc(var(--pixel) * 16) calc(var(--pixel) * 16) 0 transparent;
+  }
 }
 
 /*加载画面的进度条框*/
@@ -21490,9 +22066,13 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
 /* ======= custom cssclass ======= */
 /* ========fullwidth  noyaml noscroll================ */
 /*主页预览宽度*/
-:is(.markdown-preview-view,.markdown-rendered).fullwidth.is-readable-line-width .markdown-preview-sizer, .markdown-source-view.is-readable-line-width.fullwidth .CodeMirror, .is-readable-line-width.fullwidth :is(.markdown-preview-section,.markdown-rendered), .is-readable-line-width.fullwidth :is(.markdown-preview-section,.markdown-rendered) > div, :is(.markdown-preview-view,.markdown-rendered).is-readable-line-width.fullwidth :is(.markdown-preview-section,.markdown-rendered) {
+:is(.markdown-preview-view,.markdown-rendered).fullwidth.is-readable-line-width .markdown-preview-sizer, 
+.markdown-source-view.is-readable-line-width.fullwidth .CodeMirror, 
+.is-readable-line-width.fullwidth :is(.markdown-preview-section,.markdown-rendered), 
+.is-readable-line-width.fullwidth :is(.markdown-preview-section,.markdown-rendered) > div, 
+:is(.markdown-preview-view,.markdown-rendered).is-readable-line-width.fullwidth :is(.markdown-preview-section,.markdown-rendered) {
   width: 100% !important;
-  max-width: 100%!important;
+  max-width: 100% !important;
   /* margin: 0 auto; */
 }
 /*隐藏backlinks区域*/
@@ -21607,6 +22187,19 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
   .print .markdown-preview-view .admonition-flex .admonition-content {
     display: flex !important;
   }
+
+  body.text-indentation-two-em  .print *:not(blockquote) > p {
+    text-indent: 2em;
+  }
+  body.text-indentation-two-em   .print *:not(blockquote) > p>br {
+    content: ' ';
+    white-space: pre;
+    line-height: calc((var(--paragraph-spacing) + 0.3)*1em);
+    display:unset;
+  }
+  body.text-indentation-two-em   .print *:not(blockquote) > p>br::after {
+    content: '\A         ';
+  }
 }
 
 /* ================================== */
@@ -21614,7 +22207,7 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
   max-width: 290px;
 }
 .community-theme-container .theme-list .community-theme.is-selected .community-theme-title::before {
-  content: "uid:20220608";
+  content: "uid:20220620";
   font-family: var(--font-family-inline-code);
   font-size: 12px;
   font-weight: normal;
@@ -21626,20 +22219,7 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
   left: 3px;
   border-radius: 5px;
 }
-.community-theme-container .theme-list .community-theme.is-selected .community-theme-title::after {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  width: 20px;
-  height: 23px;
-  content: "";
-  background: linear-gradient(to left, rgba(255, 255, 255, 0) 0,rgba(208, 232, 255, 0.1) 50%,rgba(122,255,255,0) 100%);
-  transform: skewX(-45deg);
-  animation: movin 1.2s linear infinite;
-}
-@keyframes movin {
-  100% {transform: translateX(350%);}
-}
+
 .community-theme-container .theme-list .community-theme.is-selected .clickable-icon:not([class*="u-muted"])::after {
   content: "Get Demo Vault";
   color: white;
@@ -21732,19 +22312,19 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
 
 @media (max-width: 450px) {
   :root{
-      --cards-width: 112.64px;
+    --cards-width: 112.64px;
   }
 }
 
 @media (max-width: 375px) {
   :root{
-      --cards-width: 102.4px;
+    --cards-width: 102.4px;
   }
 }
 
 @media (max-width: 350px) {
   :root{
-      --cards-width: 87.04px;
+    --cards-width: 87.04px;
   }
 }
 .callout.callout[data-callout*=cards] .callout-content {
@@ -21754,7 +22334,7 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
   position: absolute;
   width: var(--cards-width);
   margin-top: -10px;
-  margin-left:   calc(var(--cards-width) /2 * -1);
+  margin-left: calc(var(--cards-width) /2 * -1);
   overflow: hidden;
   height: 3px;
   background: #f0ec05; 
@@ -21815,20 +22395,20 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
 
 @media (max-width:1120px) {
   .callout.callout[data-callout*=cards] table.dataview>tbody>tr {
-    margin-left: 40px
+    margin-left: 40px;
   }
 }
 
 @media (max-width:960px) {
   .callout.callout[data-callout*=cards] table.dataview>tbody>tr {
-    margin-left: 30px
+    margin-left: 30px;
   }
 }
 
 @media (max-width:460px) {
   .callout.callout[data-callout*=cards] table.dataview>tbody>tr {
     margin-left: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
   }
 }
 
@@ -21850,7 +22430,7 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
   object-fit: cover;
 }
 .callout.callout[data-callout*=cards] table.dataview tbody>tr>td:before {
-  display:none;
+  display: none;
 }
 .callout.callout[data-callout*=cards] table.dataview tbody>tr>td:first-child:after {
   content: "";
@@ -21959,7 +22539,7 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
 }
 .callout.callout[data-callout*=cards] table.dataview thead>tr>th[sortable-style=sortable-asc],
 .callout.callout[data-callout*=cards] table.dataview thead>tr>th[sortable-style=sortable-desc] {
-  color: var(--text-normal)
+  color: var(--text-normal);
 }
 .callout.callout[data-callout*=cards] table.dataview thead>tr>th:hover {
   color: var(--text-normal);
@@ -21968,17 +22548,17 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
 
 /*全透明callout*/
 .callout.callout[data-callout*=blank] {
-  box-shadow:none;
+  box-shadow: none;
   max-width: 100%;
   background: transparent;
-  border: 0;
+  border: none;
   background-color: transparent !important;
   box-shadow: none !important;
   margin: 0;
 }
 
 .callout.callout[data-callout*=blank].is-collapsed .callout-fold {
-  border: 0;
+  border: none;
   padding: 5px 10px;
 }
 .callout.callout[data-callout*=blank] .callout-title, 
@@ -21989,7 +22569,7 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
   overflow: visible;
   margin: 0;
   padding: 0;
-  border: 0;
+  border: none;
 }
 
 /* ===段落自动缩进============ */
@@ -22001,6 +22581,8 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
 [data-callout*=indent]) .callout-content p br {
   content: '';
   white-space: pre;
+  line-height: calc((var(--paragraph-spacing) + 0.3)*1em);
+  display: unset;
 }
 .callout.callout:is([data-callout-metadata*="indent"], 
 [data-callout*=indent]) .callout-content>p {
@@ -22024,16 +22606,16 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
 /* ===隐藏边框============ */
 .callout.callout:is([data-callout-metadata*="noborder"], 
 [data-callout*=noborder]) {
-  border-left: 0;
+  border-left: none;
   background-color: transparent;
   box-shadow: none;
 }
 .callout.callout:is([data-callout-metadata*="noborder"], 
   [data-callout*=noborder]) .callout-content {
-  border-left: 0;
+  border-left: none;
   background-color: transparent;
   box-shadow: none;
-  border:none;
+  border: none;
 }
 
 /* ===banner============ */
@@ -22256,7 +22838,7 @@ body .popover.hover-popover:not(.is-loaded) :is(.markdown-preview-view,.markdown
   display: flex;
   flex-direction: row;
   border: 0px solid var(--p-kanban-border-color);
-  padding: 0rem;
+  padding: 0;
   border-radius: var(--radius-m);
   flex-wrap: wrap;
 }
@@ -22620,9 +23202,9 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
   opacity: 0.1;
   grid-row-end: 9;
   margin:auto;
-  border: 0px;
+  border: none;
   overflow: hidden;
-  border-radius:10px;
+  border-radius: 10px;
 }
 .callout.callout[data-callout="timeline"] .callout-content blockquote {
   display: block;
@@ -22643,12 +23225,8 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
 .callout.callout[data-callout="timeline"] .callout-content blockquote p::before {
   display: none;
 }
-.callout.callout[data-callout="timeline"] .callout-content blockquote {
-  padding-top: 1em;
-}
-.callout.callout[data-callout="timeline"] .callout-content blockquote + *:not(.callout) {
-  padding-top: 1em;
-}
+.callout.callout[data-callout="timeline"] .callout-content blockquote,
+.callout.callout[data-callout="timeline"] .callout-content blockquote + *:not(.callout),
 .callout.callout[data-callout="timeline"] .callout-content hr+ *:not(.callout) {
   padding-top: 1em;
 }
@@ -22657,7 +23235,7 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
   color: var(--text-on-accent);
   background-color: var(--interactive-accent);
   font-style: normal;
-  padding:6px;
+  padding: 6px;
   border-radius: 5px;
 }
 .callout.callout[data-callout="timeline"] .callout-content>*:not(blockquote):not(hr) {
@@ -22685,7 +23263,7 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
 }
 .is-live-preview .callout.callout:is([data-callout-metadata^='icon'],
 [data-callout='icon']) {
-  margin-top:-2em;
+  margin-top: -2em;
 }
 .callout.callout:is([data-callout-metadata^='icon'],
 [data-callout='icon']) .callout-title {
@@ -22698,7 +23276,7 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
 }
 .callout.callout:is([data-callout-metadata^='icon'],
 [data-callout='icon']) > .callout-content {
-  padding:0;
+  padding: 0;
 }
 .callout.callout:is([data-callout-metadata^='icon'],
 [data-callout='icon']) > .callout-content>svg {
@@ -22712,7 +23290,6 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
 
 /***Sticky notes  便签效果**/
 .callout[data-callout="stickies"] { 
-
   box-shadow:none;
   border-left:0px;
 }
@@ -22783,9 +23360,8 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
 }
 
 .callout[data-callout="stickies2"] { 
-
-  box-shadow:none;
-  border-left:0px;
+  box-shadow: none;
+  border-left: none;
 }
 .callout[data-callout="stickies2"] >.callout-title { 
   display: none;
@@ -22828,10 +23404,9 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
 }
 
 .callout[data-callout="stickies3"] { 
-
   box-shadow:none;
   border-left:0px;
-  margin: 20px auto 0 auto!important; 
+  margin: 20px auto 0 auto !important; 
 }
 .callout[data-callout="stickies3"] >.callout-title { 
   display: none;
@@ -22842,10 +23417,10 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
   width: max(180px, 30%);
   max-width: 235px;
 	min-height: 235px;
-	padding-top: 1.5em; 
-  font-family:  Arial;
-  margin-top:20px;
-  margin-right:  25px;
+	padding-top: 2.5em; 
+  font-family: Arial;
+  margin-top: 20px;
+  margin-right: 25px;
   position: relative;
   vertical-align: top;
   display: inline-block;
@@ -22898,6 +23473,32 @@ div.callout[data-callout="stickies3"] >.callout-content ul {
 .callout[data-callout="stickies3"] >.callout-content a::before {
 content: "";
 }
+
+.markdown-preview-view .callout[data-callout="stickies3"] >.callout-content span { 
+  font-size: smaller;
+}
+
+.markdown-preview-view .callout[data-callout="stickies3"] >.callout-content img { 
+ max-height: 205px;
+ margin-top: -2.5em;
+}
+.markdown-preview-view .callout[data-callout="stickies3"] >.callout-content  { 
+  font-size: smaller;
+}
+.theme-dark .markdown-preview-view .callout[data-callout="stickies3"] >.callout-content blockquote { 
+  color: var(--interactive-normal);
+}
+.theme-dark .markdown-preview-view .callout[data-callout="stickies3"] >.callout-content em { 
+  color: var(--interactive-accent);
+  -webkit-text-fill-color:unset;
+}
+.theme-dark .markdown-preview-view .callout[data-callout="stickies3"] >.callout-content strong { 
+  color: var(--interactive-accent)!important;
+}
+.markdown-preview-view .callout[data-callout="stickies3"] >.callout-content .block-language-dataviewjs p { 
+  max-height: 195px;
+}
+
 .callout:is([data-callout-metadata='yellow']) {
   background: #F7E999;
   -webkit-transform: rotate(2deg);
@@ -22941,4 +23542,8 @@ body.link-click .cm-s-obsidian span.cm-link {
 /*禁用实时预览点击标签跳转 需要跳转 点击#号即可*/
 body.tag-click .cm-line span.cm-hashtag:not(.cm-formatting) {
   pointer-events: none;
+}
+/*ob关闭按钮顺序调整*/
+body.reversal-titlebar .titlebar-button-container.mod-right {
+  direction: rtl;
 }

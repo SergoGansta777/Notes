@@ -4,7 +4,6 @@
   "things-style@@default-font-color": false,
   "things-style@@accent-h": 172,
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-topaz-nord",
-  "blue-topaz-theme@@translucent-setting-panel": false,
   "blue-topaz-theme@@background-settings-workplace-background-image": false,
   "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-white-and-black",
   "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-custom-option",
@@ -38,8 +37,6 @@
   "blue-topaz-theme@@h3-toggle-underline": false,
   "blue-topaz-theme@@text-indentation-two-em": false,
   "blue-topaz-theme@@toggle-bg-file-page": false,
-  "blue-topaz-theme@@rainbow-ordered-list": false,
-  "blue-topaz-theme@@rainbow-checkbox": true,
   "blue-topaz-theme@@list-style-change-options-edit": "rainbow-lines",
   "blue-topaz-theme@@folder-icons": false,
   "blue-topaz-theme@@remove-arrow": false,
@@ -51,5 +48,8 @@
   "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
   "blue-topaz-theme@@whole-code-wrap": true,
   "blue-topaz-theme@@full-width-callout": false,
-  "blue-topaz-theme@@style-options-for-kanban-plugin-dynamic": "style-options-for-kanban-plugin-dynamic-neon-two"
+  "blue-topaz-theme@@style-options-for-kanban-plugin-dynamic": "style-options-for-kanban-plugin-dynamic-neon-two",
+  "obsidian-california-coast-theme@@cc-transparent-popover": false,
+  "primary-ceciliamay@@scrollbar-style": "scrollbar__mac",
+  "blue-topaz-theme@@setting-etc-pane-style": "setting-style-traditional"
 }
