@@ -4,37 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "0e8661dcc0c8e182",
+        "id": "5fc69f6ace480c02",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
+            "file": "Base/StudyWork/EnglishLearning/Future Simple.md",
             "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "549904432c5cb6f1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
-            "mode": "preview",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "93952fba5981c56f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
-            "mode": "preview",
             "source": false
           }
         }
@@ -89,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -103,7 +78,7 @@
       {
         "id": "e0868fce32b966ef",
         "type": "tabs",
-        "dimension": 27.750730282375855,
+        "dimension": 27.75073028237585,
         "children": [
           {
             "id": "15083b7695660697",
@@ -130,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md"
+                "file": "Base/StudyWork/EnglishLearning/Future Simple.md"
               }
             }
           }
@@ -139,7 +114,7 @@
       {
         "id": "dfcfa533cb6c4818",
         "type": "tabs",
-        "dimension": 43.427458617332036,
+        "dimension": 38.266796494644595,
         "children": [
           {
             "id": "2658b122652e5c42",
@@ -147,7 +122,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
+                "file": "Base/StudyWork/EnglishLearning/Future Simple.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -198,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
+                "file": "Base/StudyWork/EnglishLearning/Future Simple.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -210,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
+                "file": "Base/StudyWork/EnglishLearning/Future Simple.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +201,7 @@
       {
         "id": "347690fde5347fc2",
         "type": "tabs",
-        "dimension": 28.821811100292113,
+        "dimension": 33.98247322297955,
         "children": [
           {
             "id": "4ce816f5cc5f8ed0",
@@ -259,17 +234,17 @@
     "direction": "horizontal",
     "width": 305.66668701171875
   },
-  "active": "0e8661dcc0c8e182",
+  "active": "5fc69f6ace480c02",
   "lastOpenFiles": [
-    "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md",
-    "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
-    "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
-    "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md",
-    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
-    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
-    "Base/Python/PEP8.md",
-    "Base/AlgorithmsAndProgramming/Алгоритмы.md",
-    "Base/NoteForLinux/Untitled Kanban.md",
-    "Base/NoteForLinux/Расширения.md"
+    "Base/StudyWork/EnglishLearning/Future Simple.md",
+    "Base/GitHub/GitHub.md",
+    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md",
+    "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
   ]
 }

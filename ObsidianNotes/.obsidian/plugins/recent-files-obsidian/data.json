@@ -1,8 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Алгоритм ообхода графа в глубину(DFS)",
-      "path": "Base/AlgorithmsAndProgramming/Алгоритм ообхода графа в глубину(DFS).md"
+      "basename": "Future Simple",
+      "path": "Base/StudyWork/EnglishLearning/Future Simple.md"
+    },
+    {
+      "basename": "GitHub",
+      "path": "Base/GitHub/GitHub.md"
+    },
+    {
+      "basename": "PhilosophyLectures",
+      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+    },
+    {
+      "basename": "Лекция 6, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
+    },
+    {
+      "basename": "Лекция 7, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
+    },
+    {
+      "basename": "Лекция 9, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
+    },
+    {
+      "basename": "Лекция 10, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
+    },
+    {
+      "basename": "Лекция 13, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
+    },
+    {
+      "basename": "Лекция 14, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
+    },
+    {
+      "basename": "Алгоритмирование,лабороторная 7",
+      "path": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
+    },
+    {
+      "basename": "Pasted image 20220327185856",
+      "path": "Base/Attachments/Pasted image 20220327185856.png"
+    },
+    {
+      "basename": "Pasted image 20220327184104",
+      "path": "Base/Attachments/Pasted image 20220327184104.png"
+    },
+    {
+      "basename": "56 Malenia, Blade of Miquella",
+      "path": "Base/Attachments/56 Malenia, Blade of Miquella.mp3"
+    },
+    {
+      "basename": "Вставка одновсвязного списка в другой",
+      "path": "Base/StudyWork/Codding/Csharp/Вставка одновсвязного списка в другой.md"
+    },
+    {
+      "basename": "Codding",
+      "path": "Base/StudyWork/Codding/Codding.md"
+    },
+    {
+      "basename": "EconomicsLectures",
+      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
+    },
+    {
+      "basename": "EnglishLearning",
+      "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
+    },
+    {
+      "basename": "Алгоритмирование и программирование",
+      "path": "Base/StudyWork/Codding/Алгоритмирование и программирование.md"
+    },
+    {
+      "basename": "StudyWork",
+      "path": "Base/StudyWork/StudyWork.md"
+    },
+    {
+      "basename": "Алгоритм обхода графа в глубину(DFS)",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md"
     },
     {
       "basename": "Алгоритм обхода графа в ширину(BFS)",
@@ -11,6 +87,10 @@
     {
       "basename": "Наибольшая возрастающая подпоследовательность",
       "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
+    },
+    {
+      "basename": "ObsidianNotes",
+      "path": "ObsidianNotes.md"
     },
     {
       "basename": "НОД(алгоритм Евклида)",
@@ -41,24 +121,8 @@
       "path": "Base/NoteForLinux/Расширения.md"
     },
     {
-      "basename": "Лекция 10, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
-    },
-    {
-      "basename": "Лекция 13, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
-    },
-    {
-      "basename": "Лекция 14, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
-    },
-    {
       "basename": "Лекция 12, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
-    },
-    {
-      "basename": "Лекция 6, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
     },
     {
       "basename": "Past Continuous",
@@ -85,40 +149,16 @@
       "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
     },
     {
-      "basename": "EnglishLearning",
-      "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
-    },
-    {
-      "basename": "StudyWork",
-      "path": "Base/StudyWork/StudyWork.md"
-    },
-    {
-      "basename": "Codding",
-      "path": "Base/StudyWork/Codding/Codding.md"
-    },
-    {
       "basename": "Csharp",
       "path": "Base/StudyWork/Codding/Csharp/Csharp.md"
-    },
-    {
-      "basename": "Алгоритмирование,лабороторная 7",
-      "path": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
     },
     {
       "basename": "C++",
       "path": "Base/StudyWork/Codding/C++/C++.md"
     },
     {
-      "basename": "Лекция 9, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
-    },
-    {
       "basename": "Лекция 8, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
-    },
-    {
-      "basename": "Лекция 7, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
     },
     {
       "basename": "Операционные среды, Лекция 7",
@@ -129,32 +169,12 @@
       "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
     },
     {
-      "basename": "GitHub",
-      "path": "Base/GitHub/GitHub.md"
-    },
-    {
-      "basename": "EconomicsLectures",
-      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
-    },
-    {
       "basename": "OsLectures",
       "path": "Base/StudyWork/OsLectures/OsLectures.md"
     },
     {
-      "basename": "PhilosophyLectures",
-      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
-    },
-    {
       "basename": "Base",
       "path": "Base/Base.md"
-    },
-    {
-      "basename": "ObsidianNotes",
-      "path": "ObsidianNotes.md"
-    },
-    {
-      "basename": "Алгоритмирование и программирование",
-      "path": "Base/StudyWork/Алгоритмирование и программирование.md"
     },
     {
       "basename": "Future Continuous",
@@ -179,26 +199,6 @@
     {
       "basename": "Экономика, Лекция 5",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md"
-    },
-    {
-      "basename": "Present Perfect",
-      "path": "Base/StudyWork/EnglishLearning/Present Perfect.md"
-    },
-    {
-      "basename": "2022-05-11",
-      "path": "2022-05-11.md"
-    },
-    {
-      "basename": "Экономика, Лекция 8",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
-    },
-    {
-      "basename": "Present Continuous",
-      "path": "Base/StudyWork/EnglishLearning/Present Continuous.md"
-    },
-    {
-      "basename": "Смена раскладки",
-      "path": "Base/NoteForLinux/Смена раскладки.md"
     }
   ],
   "omittedPaths": [],
