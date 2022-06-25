@@ -15,7 +15,10 @@
     "other": true,
     "advanced": false
   },
-  "icons": [],
+  "icons": [
+    "rpg",
+    "octicons"
+  ],
   "useFontAwesome": true,
   "rpgDownloadedOnce": false,
   "msDocConverted": false,

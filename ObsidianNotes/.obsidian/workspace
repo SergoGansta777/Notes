@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+            "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
             "mode": "preview",
             "source": false
           }
@@ -90,7 +90,7 @@
       {
         "id": "e0868fce32b966ef",
         "type": "tabs",
-        "dimension": 27.75073028237585,
+        "dimension": 23.624595469255663,
         "children": [
           {
             "id": "15083b7695660697",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
               }
             }
           }
@@ -126,7 +126,7 @@
       {
         "id": "dfcfa533cb6c4818",
         "type": "tabs",
-        "dimension": 38.266796494644595,
+        "dimension": 37.37864077669903,
         "children": [
           {
             "id": "2658b122652e5c42",
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -157,7 +157,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6723219786202426,
+                  "scale": 0.8735804647363199,
                   "close": true
                 }
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,13 +208,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "347690fde5347fc2",
         "type": "tabs",
-        "dimension": 33.98247322297955,
+        "dimension": 38.996763754045304,
         "children": [
           {
             "id": "4ce816f5cc5f8ed0",
@@ -253,7 +252,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -261,15 +260,15 @@
   },
   "active": "00e3319981be2516",
   "lastOpenFiles": [
+    "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
+    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
+    "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+    "Base/StudyWork/Codding/Алгоритмирование и программирование.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
-    "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md",
-    "Base/GitHub/GitHub.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/[Лекция 8, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
+    "Base/StudyWork/Codding/Codding.md",
+    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
+    "Base/AlgorithmsAndProgramming/Алгоритмы.md",
+    "Base/NoteForLinux/NoteForLinux.md"
   ]
 }

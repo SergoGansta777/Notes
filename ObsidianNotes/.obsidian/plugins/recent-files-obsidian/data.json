@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Алгоритм обхода графа в ширину(BFS)",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
+    },
+    {
       "basename": "AlgorithmsAndProgramming",
       "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
+      "basename": "Проверка числа на простоту",
+      "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
+    },
+    {
+      "basename": "Наибольшая возрастающая подпоследовательность",
+      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
+    },
+    {
+      "basename": "Алгоритмирование и программирование",
+      "path": "Base/StudyWork/Codding/Алгоритмирование и программирование.md"
     },
     {
       "basename": "Лекция 8, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
     },
     {
+      "basename": "Codding",
+      "path": "Base/StudyWork/Codding/Codding.md"
+    },
+    {
+      "basename": "PhilosophyLectures",
+      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+    },
+    {
+      "basename": "Алгоритмы",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
+    },
+    {
+      "basename": "NoteForLinux",
+      "path": "Base/NoteForLinux/NoteForLinux.md"
+    },
+    {
       "basename": "Алгоритм обхода графа в глубину(DFS)",
       "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md"
+    },
+    {
+      "basename": "Лекция 7, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
     },
     {
       "basename": "Лекция 11, Философия",
@@ -23,10 +59,6 @@
     {
       "basename": "GitHub",
       "path": "Base/GitHub/GitHub.md"
-    },
-    {
-      "basename": "Лекция 7, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
     },
     {
       "basename": "[Лекция 8, Философия",
@@ -43,10 +75,6 @@
     {
       "basename": "Лекция 12, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
-    },
-    {
-      "basename": "PhilosophyLectures",
-      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
     },
     {
       "basename": "Pasted image 20220327184104",
@@ -81,10 +109,6 @@
       "path": "Base/StudyWork/Codding/Csharp/Вставка одновсвязного списка в другой.md"
     },
     {
-      "basename": "Codding",
-      "path": "Base/StudyWork/Codding/Codding.md"
-    },
-    {
       "basename": "EconomicsLectures",
       "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
     },
@@ -93,20 +117,8 @@
       "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
     },
     {
-      "basename": "Алгоритмирование и программирование",
-      "path": "Base/StudyWork/Codding/Алгоритмирование и программирование.md"
-    },
-    {
       "basename": "StudyWork",
       "path": "Base/StudyWork/StudyWork.md"
-    },
-    {
-      "basename": "Алгоритм обхода графа в ширину(BFS)",
-      "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
-    },
-    {
-      "basename": "Наибольшая возрастающая подпоследовательность",
-      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
     },
     {
       "basename": "ObsidianNotes",
@@ -117,16 +129,8 @@
       "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
     },
     {
-      "basename": "Проверка числа на простоту",
-      "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
-    },
-    {
       "basename": "PEP8",
       "path": "Base/Python/PEP8.md"
-    },
-    {
-      "basename": "Алгоритмы",
-      "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
     },
     {
       "basename": "Untitled Kanban",
@@ -139,10 +143,6 @@
     {
       "basename": "Past Continuous",
       "path": "Base/StudyWork/EnglishLearning/Past Continuous.md"
-    },
-    {
-      "basename": "NoteForLinux",
-      "path": "Base/NoteForLinux/NoteForLinux.md"
     },
     {
       "basename": "Notes_for_Python",
