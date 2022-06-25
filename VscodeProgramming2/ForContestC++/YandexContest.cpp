@@ -192,20 +192,44 @@ void rotate(vector<int>& nums, int k) {
         }
         return result;
     }
+    string freqAlphabets(string s) {
+        unordered_map<string,char> alphabet;
+        char i, let;
+        string tmp = "", result = "";
+        for(i = 1, let = 'a'; i <= 9 && let <='i'; i++, let++)
+        {
+            alphabet.insert({to_string(i), let});
+        }
+        for(int j = 10, let = 'j'; i <= 26 && let <='z'; j++, let++)
+        {
+            tmp += to_string(j) + "#";
+            alphabet.insert({tmp, let});
+            tmp = "";
+        }
+        int len = s.length();
+        tmp = "";
+        for(int k = 0; k < len; k++)
+        {
+            tmp += s[k];
+            if(k + 2 < len)
+            {
+                if(s[k+2] == '#')
+                {
+                    tmp += s[k+1];
+                    tmp += s[k+2];
+                    k += 2;
+                    result += alphabet[tmp];
+                    tmp = "";
+                }
+            }else{
+                result += alphabet[tmp];
+                tmp = "";
+            }
+        }
+        return result;
+    }
 int main()
 {
-    // ListNode list1{1};
-    // ListNode list2{1};    
-    // for(int i = 0;i < count;i++)
-    // {
-    //     FillListNode(&list1);
-    // }
-    // for(int i = 0;i < count+2;i++)
-    // {
-    //     FillListNode(&list2);
-    // }
-    vector<int> test1 = {4,1, 2};
-    vector<int> test2 = {1,4,2,5,3};
-    lengthOfLongestSubstring("au");
-    return 0;
+    string test = "10#11#12";
+    freqAlphabets(test);
 }

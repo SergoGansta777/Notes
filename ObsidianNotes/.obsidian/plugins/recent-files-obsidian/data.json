@@ -1,52 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "Future Simple",
-      "path": "Base/StudyWork/EnglishLearning/Future Simple.md"
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
-      "basename": "GitHub",
-      "path": "Base/GitHub/GitHub.md"
+      "basename": "Лекция 8, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
     },
     {
-      "basename": "PhilosophyLectures",
-      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+      "basename": "Алгоритм обхода графа в глубину(DFS)",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md"
     },
     {
-      "basename": "Лекция 6, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
-    },
-    {
-      "basename": "Лекция 7, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
-    },
-    {
-      "basename": "Лекция 9, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
-    },
-    {
-      "basename": "Лекция 10, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
+      "basename": "Лекция 11, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 11, Философия.md"
     },
     {
       "basename": "Лекция 13, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
     },
     {
-      "basename": "Лекция 14, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
+      "basename": "GitHub",
+      "path": "Base/GitHub/GitHub.md"
+    },
+    {
+      "basename": "Лекция 7, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
+    },
+    {
+      "basename": "[Лекция 8, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/[Лекция 8, Философия.md"
+    },
+    {
+      "basename": "Лекция 6, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 6, Философия.md"
+    },
+    {
+      "basename": "Лекция 9, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 9, Философия.md"
+    },
+    {
+      "basename": "Лекция 12, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
+    },
+    {
+      "basename": "PhilosophyLectures",
+      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+    },
+    {
+      "basename": "Pasted image 20220327184104",
+      "path": "Base/Attachments/Pasted image 20220327184104.png"
     },
     {
       "basename": "Алгоритмирование,лабороторная 7",
       "path": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
     },
     {
-      "basename": "Pasted image 20220327185856",
-      "path": "Base/Attachments/Pasted image 20220327185856.png"
+      "basename": "Future Simple",
+      "path": "Base/StudyWork/EnglishLearning/Future Simple.md"
     },
     {
-      "basename": "Pasted image 20220327184104",
-      "path": "Base/Attachments/Pasted image 20220327184104.png"
+      "basename": "Лекция 10, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 10, Философия.md"
+    },
+    {
+      "basename": "Лекция 14, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 14, Философия.md"
+    },
+    {
+      "basename": "Pasted image 20220327185856",
+      "path": "Base/Attachments/Pasted image 20220327185856.png"
     },
     {
       "basename": "56 Malenia, Blade of Miquella",
@@ -77,10 +101,6 @@
       "path": "Base/StudyWork/StudyWork.md"
     },
     {
-      "basename": "Алгоритм обхода графа в глубину(DFS)",
-      "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md"
-    },
-    {
       "basename": "Алгоритм обхода графа в ширину(BFS)",
       "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
     },
@@ -101,10 +121,6 @@
       "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
     },
     {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
-    },
-    {
       "basename": "PEP8",
       "path": "Base/Python/PEP8.md"
     },
@@ -119,10 +135,6 @@
     {
       "basename": "Расширения",
       "path": "Base/NoteForLinux/Расширения.md"
-    },
-    {
-      "basename": "Лекция 12, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 12, Философия.md"
     },
     {
       "basename": "Past Continuous",
@@ -157,10 +169,6 @@
       "path": "Base/StudyWork/Codding/C++/C++.md"
     },
     {
-      "basename": "Лекция 8, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
-    },
-    {
       "basename": "Операционные среды, Лекция 7",
       "path": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Экономика, Лекция 6",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md"
-    },
-    {
-      "basename": "The Passive Voice",
-      "path": "Base/StudyWork/EnglishLearning/The Passive Voice.md"
-    },
-    {
-      "basename": "Экономика, Лекция 5",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md"
     }
   ],
   "omittedPaths": [],

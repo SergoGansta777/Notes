@@ -51,10 +51,10 @@
   "zoottelkeeper-obsidian-plugin",
   "folder-note-plugin",
   "obsidian-icons-plugin",
-  "typing-speed",
   "obsidian-contextual-typography",
   "obsidian-dynamic-toc",
   "obsidian-banners",
   "convert-url-to-iframe",
-  "obsidian-checklist-plugin"
+  "obsidian-checklist-plugin",
+  "obsidian-math-plus"
 ]
