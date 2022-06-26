@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Смена раскладки",
+      "path": "Base/NoteForLinux/Смена раскладки.md"
+    },
+    {
+      "basename": "NoteForLinux",
+      "path": "Base/NoteForLinux/NoteForLinux.md"
+    },
+    {
+      "basename": "Base",
+      "path": "Base/Base.md"
+    },
+    {
+      "basename": "OsLectures",
+      "path": "Base/StudyWork/OsLectures/OsLectures.md"
+    },
+    {
+      "basename": "Операционные среды, лекция 5",
+      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md"
+    },
+    {
+      "basename": "GitHub",
+      "path": "Base/GitHub/GitHub.md"
+    },
+    {
       "basename": "Алгоритм обхода графа в ширину(BFS)",
       "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
     },
     {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+      "basename": "Наибольшая возрастающая подпоследовательность",
+      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
     },
     {
       "basename": "Проверка числа на простоту",
       "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
     },
     {
-      "basename": "Наибольшая возрастающая подпоследовательность",
-      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
+      "basename": "НОД(алгоритм Евклида)",
+      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
+    },
+    {
+      "basename": "Алгоритм обхода графа в глубину(DFS)",
+      "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md"
     },
     {
       "basename": "Алгоритмирование и программирование",
@@ -37,14 +69,6 @@
       "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
     },
     {
-      "basename": "NoteForLinux",
-      "path": "Base/NoteForLinux/NoteForLinux.md"
-    },
-    {
-      "basename": "Алгоритм обхода графа в глубину(DFS)",
-      "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md"
-    },
-    {
       "basename": "Лекция 7, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 7, Философия.md"
     },
@@ -55,10 +79,6 @@
     {
       "basename": "Лекция 13, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
-    },
-    {
-      "basename": "GitHub",
-      "path": "Base/GitHub/GitHub.md"
     },
     {
       "basename": "[Лекция 8, Философия",
@@ -125,10 +145,6 @@
       "path": "ObsidianNotes.md"
     },
     {
-      "basename": "НОД(алгоритм Евклида)",
-      "path": "Base/AlgorithmsAndProgramming/НОД(алгоритм Евклида).md"
-    },
-    {
       "basename": "PEP8",
       "path": "Base/Python/PEP8.md"
     },
@@ -177,28 +193,12 @@
       "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
     },
     {
-      "basename": "OsLectures",
-      "path": "Base/StudyWork/OsLectures/OsLectures.md"
-    },
-    {
-      "basename": "Base",
-      "path": "Base/Base.md"
-    },
-    {
       "basename": "Future Continuous",
       "path": "Base/StudyWork/EnglishLearning/Future Continuous.md"
     },
     {
       "basename": "Pasted image 20220330093542",
       "path": "Base/StudyWork/EnglishLearning/Attachments/Pasted image 20220330093542.png"
-    },
-    {
-      "basename": "Past Simple",
-      "path": "Base/StudyWork/EnglishLearning/Past Simple.md"
-    },
-    {
-      "basename": "Экономика, Лекция 6",
-      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md"
     }
   ],
   "omittedPaths": [],

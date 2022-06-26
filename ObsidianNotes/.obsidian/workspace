@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+            "file": "Base/NoteForLinux/Смена раскладки.md",
             "mode": "preview",
             "source": false
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
+                "file": "Base/NoteForLinux/Смена раскладки.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+                "file": "Base/NoteForLinux/Смена раскладки.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -157,7 +157,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8735804647363199,
+                  "scale": 0.8062161964116191,
                   "close": true
                 }
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+                "file": "Base/NoteForLinux/Смена раскладки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+                "file": "Base/NoteForLinux/Смена раскладки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +252,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -260,15 +260,15 @@
   },
   "active": "00e3319981be2516",
   "lastOpenFiles": [
+    "Base/NoteForLinux/Смена раскладки.md",
+    "Base/NoteForLinux/NoteForLinux.md",
+    "Base/Base.md",
+    "Base/StudyWork/OsLectures/OsLectures.md",
+    "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
+    "Base/GitHub/GitHub.md",
     "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
-    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
-    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
     "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
-    "Base/StudyWork/Codding/Алгоритмирование и программирование.md",
-    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
-    "Base/StudyWork/Codding/Codding.md",
-    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
-    "Base/AlgorithmsAndProgramming/Алгоритмы.md",
-    "Base/NoteForLinux/NoteForLinux.md"
+    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
+    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
   ]
 }
