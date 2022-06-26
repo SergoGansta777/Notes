@@ -230,6 +230,10 @@ void rotate(vector<int>& nums, int k) {
     }
 int main()
 {
-    string test = "10#11#12";
-    freqAlphabets(test);
+    vector<int> test = {5, 2 ,3 , 1 ,4 ,6 ,3, -1, 2};
+    sort(test.begin(), test.end(), [] (int& a, int& b) {a*=a; b *=b; return a<b;});
+    for(auto num : test)
+    {
+        cout << num << endl;
+    }
 }
