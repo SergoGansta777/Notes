@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "PEP8",
+      "path": "Base/Python/PEP8.md"
+    },
+    {
+      "basename": "Заметки со степика",
+      "path": "Base/Python/Notes_for_Python/Заметки со степика.md"
+    },
+    {
+      "basename": "Python",
+      "path": "Base/Python/Python.md"
+    },
+    {
+      "basename": "Лекция 8, Философия",
+      "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
+    },
+    {
+      "basename": "Наибольшая возрастающая подпоследовательность",
+      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
+    },
+    {
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
       "basename": "Смена раскладки",
       "path": "Base/NoteForLinux/Смена раскладки.md"
     },
@@ -29,16 +53,8 @@
       "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
     },
     {
-      "basename": "Наибольшая возрастающая подпоследовательность",
-      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
-    },
-    {
       "basename": "Проверка числа на простоту",
       "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
-    },
-    {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
       "basename": "НОД(алгоритм Евклида)",
@@ -51,10 +67,6 @@
     {
       "basename": "Алгоритмирование и программирование",
       "path": "Base/StudyWork/Codding/Алгоритмирование и программирование.md"
-    },
-    {
-      "basename": "Лекция 8, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
     },
     {
       "basename": "Codding",
@@ -145,10 +157,6 @@
       "path": "ObsidianNotes.md"
     },
     {
-      "basename": "PEP8",
-      "path": "Base/Python/PEP8.md"
-    },
-    {
       "basename": "Untitled Kanban",
       "path": "Base/NoteForLinux/Untitled Kanban.md"
     },
@@ -163,14 +171,6 @@
     {
       "basename": "Notes_for_Python",
       "path": "Base/Python/Notes_for_Python/Notes_for_Python.md"
-    },
-    {
-      "basename": "Python",
-      "path": "Base/Python/Python.md"
-    },
-    {
-      "basename": "Заметки со степика",
-      "path": "Base/Python/Notes_for_Python/Заметки со степика.md"
     },
     {
       "basename": "Future Perfect",

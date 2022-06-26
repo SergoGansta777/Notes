@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/NoteForLinux/Смена раскладки.md",
+            "file": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
             "mode": "preview",
             "source": false
           }
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
+            "file": "Base/Python/PEP8.md",
             "mode": "preview",
             "source": false
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/NoteForLinux/Смена раскладки.md"
+                "file": "Base/Python/PEP8.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/NoteForLinux/Смена раскладки.md",
+                "file": "Base/Python/PEP8.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/NoteForLinux/Смена раскладки.md",
+                "file": "Base/Python/PEP8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/NoteForLinux/Смена раскладки.md",
+                "file": "Base/Python/PEP8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,23 +252,23 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 305.66668701171875
   },
-  "active": "00e3319981be2516",
+  "active": "24a7da0b572e85ba",
   "lastOpenFiles": [
+    "Base/Python/PEP8.md",
+    "Base/Python/Notes_for_Python/Заметки со степика.md",
+    "Base/Python/Python.md",
+    "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
+    "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
     "Base/NoteForLinux/Смена раскладки.md",
     "Base/NoteForLinux/NoteForLinux.md",
     "Base/Base.md",
-    "Base/StudyWork/OsLectures/OsLectures.md",
-    "Base/StudyWork/OsLectures/Операционные среды, лекция 5.md",
-    "Base/GitHub/GitHub.md",
-    "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
-    "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
-    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
-    "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    "Base/StudyWork/OsLectures/OsLectures.md"
   ]
 }
