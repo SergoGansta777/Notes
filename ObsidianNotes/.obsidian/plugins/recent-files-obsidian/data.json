@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "PEP8",
+      "path": "Base/Python/PEP8.md"
+    },
+    {
       "basename": "Заметки со степика",
       "path": "Base/Python/Notes_for_Python/Заметки со степика.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Наибольшая возрастающая подпоследовательность",
       "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
-    },
-    {
-      "basename": "PEP8",
-      "path": "Base/Python/PEP8.md"
     },
     {
       "basename": "Python",

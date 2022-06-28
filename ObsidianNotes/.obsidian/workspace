@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
+            "file": "Base/Python/PEP8.md",
             "mode": "preview",
             "source": false
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/Python/Notes_for_Python/Заметки со степика.md"
+                "file": "Base/Python/PEP8.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
+                "file": "Base/Python/PEP8.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
+                "file": "Base/Python/PEP8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
+                "file": "Base/Python/PEP8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,10 +260,10 @@
   },
   "active": "00e3319981be2516",
   "lastOpenFiles": [
+    "Base/Python/PEP8.md",
     "Base/Python/Notes_for_Python/Заметки со степика.md",
     "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md",
     "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
-    "Base/Python/PEP8.md",
     "Base/Python/Python.md",
     "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
