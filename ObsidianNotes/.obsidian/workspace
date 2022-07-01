@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md",
+            "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
             "mode": "preview",
             "source": false
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md"
+                "file": "Base/Python/Notes_for_Python/Заметки со степика.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md",
+                "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md",
+                "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md",
+                "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,6 +260,7 @@
   },
   "active": "00e3319981be2516",
   "lastOpenFiles": [
+    "Base/Python/Notes_for_Python/Заметки со степика.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md",
     "Base/StudyWork/EconomicsLectures/EconomicsLectures.md",
@@ -267,7 +268,6 @@
     "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md",
     "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
     "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md",
-    "Base/Python/Notes_for_Python/Заметки со степика.md",
     "Base/Python/Notes_for_Python/Notes_for_Python.md",
     "Base/Python/Python.md"
   ]
