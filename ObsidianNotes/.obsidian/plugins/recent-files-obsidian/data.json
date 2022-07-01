@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Экономика, Лекция 6",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md"
+    },
+    {
+      "basename": "Экономика, Лекция 8",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+    },
+    {
+      "basename": "EconomicsLectures",
+      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
+    },
+    {
+      "basename": "Операционные среды, лекция 6",
+      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
+    },
+    {
+      "basename": "Операционные среды, лекция 4.",
+      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 4..md"
+    },
+    {
+      "basename": "Наибольшая возрастающая подпоследовательность",
+      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
+    },
+    {
+      "basename": "AlgorithmsAndProgramming",
+      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
+    },
+    {
       "basename": "Заметки со степика",
       "path": "Base/Python/Notes_for_Python/Заметки со степика.md"
     },
@@ -21,16 +49,8 @@
       "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md"
     },
     {
-      "basename": "Наибольшая возрастающая подпоследовательность",
-      "path": "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md"
-    },
-    {
       "basename": "Лекция 8, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 8, Философия.md"
-    },
-    {
-      "basename": "AlgorithmsAndProgramming",
-      "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
     },
     {
       "basename": "Смена раскладки",
@@ -145,10 +165,6 @@
       "path": "Base/StudyWork/Codding/Csharp/Вставка одновсвязного списка в другой.md"
     },
     {
-      "basename": "EconomicsLectures",
-      "path": "Base/StudyWork/EconomicsLectures/EconomicsLectures.md"
-    },
-    {
       "basename": "EnglishLearning",
       "path": "Base/StudyWork/EnglishLearning/EnglishLearning.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "C++",
       "path": "Base/StudyWork/Codding/C++/C++.md"
-    },
-    {
-      "basename": "Операционные среды, Лекция 7",
-      "path": "Base/StudyWork/OsLectures/Операционные среды, Лекция 7.md"
-    },
-    {
-      "basename": "Операционные среды, лекция 6",
-      "path": "Base/StudyWork/OsLectures/Операционные среды, лекция 6.md"
-    },
-    {
-      "basename": "Future Continuous",
-      "path": "Base/StudyWork/EnglishLearning/Future Continuous.md"
-    },
-    {
-      "basename": "Pasted image 20220330093542",
-      "path": "Base/StudyWork/EnglishLearning/Attachments/Pasted image 20220330093542.png"
     }
   ],
   "omittedPaths": [],
