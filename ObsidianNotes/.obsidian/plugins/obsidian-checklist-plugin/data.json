@@ -9,6 +9,8 @@
   "sortDirectionSubGroups": "new->old",
   "includeFiles": "",
   "lookAndFeel": "classic",
-  "_collapsedSections": [],
+  "_collapsedSections": [
+    "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
+  ],
   "_hiddenTags": []
 }

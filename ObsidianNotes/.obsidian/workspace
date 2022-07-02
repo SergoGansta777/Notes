@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Base/Python/Notes_for_Python/Заметки со степика.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -208,7 +208,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "347690fde5347fc2",
