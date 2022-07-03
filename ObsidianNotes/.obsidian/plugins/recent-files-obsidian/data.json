@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Экономика, Лекция 5",
+      "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md"
+    },
+    {
+      "basename": "PhilosophyLectures",
+      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
+    },
+    {
+      "basename": "PEP8",
+      "path": "Base/Python/PEP8.md"
+    },
+    {
       "basename": "Заметки со степика",
       "path": "Base/Python/Notes_for_Python/Заметки со степика.md"
     },
@@ -39,10 +51,6 @@
     {
       "basename": "Python",
       "path": "Base/Python/Python.md"
-    },
-    {
-      "basename": "PEP8",
-      "path": "Base/Python/PEP8.md"
     },
     {
       "basename": "Алгоритм обхода графа в глубину(DFS)",
@@ -97,10 +105,6 @@
       "path": "Base/StudyWork/Codding/Codding.md"
     },
     {
-      "basename": "PhilosophyLectures",
-      "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
-    },
-    {
       "basename": "Алгоритмы",
       "path": "Base/AlgorithmsAndProgramming/Алгоритмы.md"
     },
@@ -115,10 +119,6 @@
     {
       "basename": "Лекция 13, Философия",
       "path": "Base/StudyWork/PhilosophyLectures/Лекция 13, Философия.md"
-    },
-    {
-      "basename": "[Лекция 8, Философия",
-      "path": "Base/StudyWork/PhilosophyLectures/[Лекция 8, Философия.md"
     },
     {
       "basename": "Лекция 6, Философия",
