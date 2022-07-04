@@ -5,6 +5,10 @@
       "path": "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md"
     },
     {
+      "basename": "C++",
+      "path": "Base/StudyWork/Codding/C++/C++.md"
+    },
+    {
       "basename": "Трюки и однострочники Python",
       "path": "Base/Python/Трюки и однострочники Python/Трюки и однострочники Python.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Past Continuous",
       "path": "Base/StudyWork/EnglishLearning/Past Continuous.md"
-    },
-    {
-      "basename": "Future Perfect",
-      "path": "Base/StudyWork/EnglishLearning/Future Perfect.md"
     }
   ],
   "omittedPaths": [],

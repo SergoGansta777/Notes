@@ -209,8 +209,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "347690fde5347fc2",
@@ -251,6 +250,7 @@
   "active": "24a7da0b572e85ba",
   "lastOpenFiles": [
     "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md",
+    "Base/StudyWork/Codding/C++/C++.md",
     "Base/Python/Трюки и однострочники Python/Трюки и однострочники Python.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md",
     "Base/Python/Python.md",
@@ -258,7 +258,6 @@
     "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
     "Base/Python/PEP8.md",
     "Base/StudyWork/PhilosophyLectures/[Лекция 8, Философия.md",
-    "Base/Python/Notes_for_Python/Заметки со степика.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
+    "Base/Python/Notes_for_Python/Заметки со степика.md"
   ]
 }
