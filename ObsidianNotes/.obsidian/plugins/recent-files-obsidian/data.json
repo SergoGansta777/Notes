@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "PEP8",
+      "path": "Base/Python/PEP8.md"
+    },
+    {
+      "basename": "Заметки со степика",
+      "path": "Base/Python/Notes_for_Python/Заметки со степика.md"
+    },
+    {
       "basename": "Трюки и однострочнки",
       "path": "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md"
+    },
+    {
+      "basename": "Notes_for_Python",
+      "path": "Base/Python/Notes_for_Python/Notes_for_Python.md"
     },
     {
       "basename": "C++",
@@ -29,14 +41,6 @@
       "path": "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
     },
     {
-      "basename": "PEP8",
-      "path": "Base/Python/PEP8.md"
-    },
-    {
-      "basename": "Заметки со степика",
-      "path": "Base/Python/Notes_for_Python/Заметки со степика.md"
-    },
-    {
       "basename": "Экономика, Лекция 8",
       "path": "Base/StudyWork/EconomicsLectures/Экономика, Лекция 8.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "AlgorithmsAndProgramming",
       "path": "Base/AlgorithmsAndProgramming/AlgorithmsAndProgramming.md"
-    },
-    {
-      "basename": "Notes_for_Python",
-      "path": "Base/Python/Notes_for_Python/Notes_for_Python.md"
     },
     {
       "basename": "Алгоритм обхода графа в глубину(DFS)",

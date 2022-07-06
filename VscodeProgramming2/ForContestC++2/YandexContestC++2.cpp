@@ -14,5 +14,6 @@ int main()
         n1 >>= 1;
     }
     cout << n2 + count;
+    
     return 0;
 }

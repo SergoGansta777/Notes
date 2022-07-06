@@ -9,10 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md",
+            "file": "Base/Python/PEP8.md",
             "mode": "preview",
             "source": false
           }
+        }
+      },
+      {
+        "id": "b29f7293491115c3",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
         }
       },
       {
@@ -21,7 +29,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md",
+            "file": "Base/Python/Notes_for_Python/Notes_for_Python.md",
             "mode": "preview",
             "source": false
           }
@@ -117,12 +125,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md"
+                "file": "Base/Python/PEP8.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "dfcfa533cb6c4818",
@@ -135,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md",
+                "file": "Base/Python/PEP8.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -186,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md",
+                "file": "Base/Python/PEP8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -198,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md",
+                "file": "Base/Python/PEP8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,17 +255,17 @@
     "direction": "horizontal",
     "width": 305.66668701171875
   },
-  "active": "77914cd0d8a14836",
+  "active": "24a7da0b572e85ba",
   "lastOpenFiles": [
+    "Base/Python/PEP8.md",
+    "Base/Python/Notes_for_Python/Заметки со степика.md",
     "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md",
+    "Base/Python/Notes_for_Python/Notes_for_Python.md",
     "Base/StudyWork/Codding/C++/C++.md",
     "Base/Python/Трюки и однострочники Python/Трюки и однострочники Python.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md",
     "Base/Python/Python.md",
     "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md",
-    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md",
-    "Base/Python/PEP8.md",
-    "Base/StudyWork/PhilosophyLectures/[Лекция 8, Философия.md",
-    "Base/Python/Notes_for_Python/Заметки со степика.md"
+    "Base/StudyWork/PhilosophyLectures/PhilosophyLectures.md"
   ]
 }
