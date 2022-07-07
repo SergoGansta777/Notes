@@ -5,16 +5,16 @@
       "path": "Base/Python/PEP8.md"
     },
     {
+      "basename": "Notes_for_Python",
+      "path": "Base/Python/Notes_for_Python/Notes_for_Python.md"
+    },
+    {
       "basename": "Заметки со степика",
       "path": "Base/Python/Notes_for_Python/Заметки со степика.md"
     },
     {
       "basename": "Трюки и однострочнки",
       "path": "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md"
-    },
-    {
-      "basename": "Notes_for_Python",
-      "path": "Base/Python/Notes_for_Python/Notes_for_Python.md"
     },
     {
       "basename": "C++",
