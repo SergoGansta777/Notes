@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "24a7da0b572e85ba",
+        "id": "77914cd0d8a14836",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/Python/PEP8.md",
+            "file": "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md",
             "mode": "preview",
             "source": false
           }
         }
       },
       {
-        "id": "77914cd0d8a14836",
+        "id": "2854aeffcc747fe9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+            "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md",
             "mode": "preview",
             "source": false
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md"
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
+                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,23 +241,23 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 305.66668701171875
   },
-  "active": "77914cd0d8a14836",
+  "active": "2854aeffcc747fe9",
   "lastOpenFiles": [
+    "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md",
     "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
-    "Base/Python/Notes_for_Python/Notes_for_Python.md",
-    "Base/Python/PEP8.md",
-    "Base/Python/Notes_for_Python/Заметки со степика.md",
+    "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md",
+    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
     "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md",
-    "Base/StudyWork/Codding/C++/C++.md",
+    "Base/AlgorithmsAndProgramming/Алгоритмы.md",
     "Base/Python/Трюки и однострочники Python/Трюки и однострочники Python.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 5.md",
-    "Base/Python/Python.md",
-    "Base/StudyWork/EconomicsLectures/Экономика, Лекция 6.md"
+    "Base/AlgorithmsAndProgramming/Наибольшая возрастающая подпоследовательность.md",
+    "Base/Python/PEP8.md",
+    "Base/Python/Notes_for_Python/Notes_for_Python.md"
   ]
 }
