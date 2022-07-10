@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Проверка числа на простоту",
+      "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
+    },
+    {
       "basename": "Алгоритм обхода графа в глубину(DFS)",
       "path": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Алгоритмирование,лабороторная 7",
       "path": "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md"
-    },
-    {
-      "basename": "Проверка числа на простоту",
-      "path": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
     },
     {
       "basename": "Трюки и однострочнки",

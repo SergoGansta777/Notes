@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md",
+            "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
             "mode": "preview",
             "source": false
           }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md"
+                "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md",
+                "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md",
+                "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md",
+                "file": "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -249,10 +249,10 @@
   },
   "active": "2854aeffcc747fe9",
   "lastOpenFiles": [
+    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
     "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в глубину(DFS).md",
     "Base/AlgorithmsAndProgramming/Алгоритм обхода графа в ширину(BFS).md",
     "Base/StudyWork/Codding/C++/Алгоритмирование,лабороторная 7.md",
-    "Base/AlgorithmsAndProgramming/Проверка числа на простоту.md",
     "Base/Python/Трюки и однострочники Python/Трюки и однострочнки.md",
     "Base/AlgorithmsAndProgramming/Алгоритмы.md",
     "Base/Python/Трюки и однострочники Python/Трюки и однострочники Python.md",
