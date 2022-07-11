@@ -2,20 +2,28 @@
 
 using namespace std;
 
+vector<int> z_function_trivial(string s)
+{
+    int n = (int)s.length();
+    vector<int> z(n, 0);
+    for(int i =1 ; i< n; i++)
+    {
+        while(i + z[i] < n and s[z[i]] == s[i + z[i]])
+        {
+            ++z[i];
+        }
+         
+    }
+    return z;
+}
+
 int main()
 {   
-    int n;
-    cin >> n;
-
-    for(int i = 0; i < n; i++)
-    {
-        int tmp;
-        cin >> tmp;
-        long long factorial = 1;
-        for(int j = 3; j <= 2 * tmp;j++)
-        {
-            factorial *= j;
-        }
-        cout << factorial % 1000000007 << endl;
+    string tmp;
+    getline(cin , tmp);
+    auto test = z_function_trivial(tmp);
+    for (auto n : test){
+        cout << n << " ";
     }
+        
 }
